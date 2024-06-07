@@ -37,7 +37,7 @@ e_satisfied(R, F, C) :- e_b_unk(R, F), boolean(F), rule(R), state_pair_class(C).
 
 %%%%%%%%%% C2.2 %%%%%%%%%%
 % Define compatibility of state pairs with rules, allowing S != S'
-%sat_pair(I, S, S', R) :- sat_rule(R, C), cover(I, S, S', C), nongoal(I, S), S != S'.
+sat_pair(I, S, S', R) :- sat_rule(R, C), cover(I, S, S', C), nongoal(I, S), S != S'.
 
 %%%%%%%%%% C3.1 %%%%%%%%%%
 { subgoal(I, S, T, R) : t_distance(I, S, T, D) } != 0 :- subgoal_distance(I, S, D, R).

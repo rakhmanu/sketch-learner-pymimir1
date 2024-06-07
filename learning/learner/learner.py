@@ -23,19 +23,6 @@ from .src.iteration_data.tuple_graph_equivalence_utils import compute_tuple_grap
 from collections import defaultdict
 from typing import Dict, List
 
-def verify_sketches(sketches_per_state, instance_datas, sketch, enable_dump_files):
-    unsolved_instance_ids = []
-    for instance_data in instance_datas:
-        for state_id in instance_data.state_space.get_states():
-            # Check if the current state has a corresponding sketch
-            if (instance_data.id, state_id) in sketches_per_state:
-                current_sketch = sketches_per_state[(instance_data.id, state_id)]
-                # Check if the current sketch matches the provided sketch
-                if current_sketch != sketch:
-                    # If not, mark the instance as unsolved
-                    unsolved_instance_ids.append(instance_data.id)
-                    break
-    return unsolved_instance_ids
 
 
 def count_sketches_per_state(sketch, instance_datas):
@@ -55,7 +42,6 @@ def sum_sketches_per_state(sketch, instance_datas):
             # Ensure that num_sketches is a list of sketches for each state
             total_sketches_per_state[state] += len(num_sketches)
     return total_sketches_per_state
-
 
 def learn_sketch_for_problem_class(
     domain_filepath: Path,
@@ -98,7 +84,8 @@ def learn_sketch_for_problem_class(
     # Generate data
     with change_dir("input"):
         logging.info(colored("Constructing InstanceDatas...", "blue", "on_grey"))
-        instance_datas, domain_data, num_states, num_partitions = compute_instance_datas(domain_filepath, instance_filepaths, disable_closed_Q, max_num_states_per_instance, max_time_per_instance, enable_dump_files)
+        instance_datas, domain_data, num_states, num_partitions = compute_instance_datas(
+            domain_filepath, instance_filepaths, disable_closed_Q, max_num_states_per_instance, max_time_per_instance, enable_dump_files)
         logging.info(colored("..done", "blue", "on_grey"))
 
         logging.info(colored("Initializing TupleGraphs...", "blue", "on_grey"))
@@ -118,145 +105,82 @@ def learn_sketch_for_problem_class(
         print(f"Total states: {total_states}")
 
     preprocessing_timer.stop()
+
     # Learn sketch
-    with change_dir("iterations"):
-        i = 0
-        with change_dir(str(i), enable=enable_dump_files):
-            #selected_instance_idxs = list(range(len(instance_datas)))
+    if encoding_type == EncodingType.EXPLICIT:
+        create_experiment_workspace(workspace)
+        sketches_per_state = defaultdict(list)
+        all_states = set()
+        for instance_data in instance_datas:
+            for state_id in instance_data.state_space.get_states():
+                all_states.add((instance_data.id, state_id))
+        all_states = all_states.copy()
+        preprocessing_timer.resume()
 
-            selected_instance_idxs = [0]
+        for instance_data in instance_datas:
+            name = instance_data.instance_filepath.stem
+            write_file(f"{name}.dot", instance_data.state_space.to_dot(1))
+            print("     ", end="")
+            print("id:", instance_data.id, "name:", name, "num_states:", len(instance_data.complete_state_space.get_states()), "num_state_equivalences:", len(instance_data.state_space.get_states()))
 
-            # Iterate over the indices of instance_datas
-            #for index in range(len(instance_datas)):
-                # Add the index to the list of selected instances
-                #selected_instance_idxs.append(index)
-            create_experiment_workspace(workspace)
-            sketches_per_state = defaultdict(list)
-            all_states = set()
-            for instance_data in instance_datas:
-                for state_id in instance_data.state_space.get_states():
-                    all_states.add((instance_data.id, state_id))
-            unsketched_states = all_states.copy()
-            used_sketches = set()
-            while True:
-                logging.info(colored(f"Iteration: {i}", "red", "on_grey"))
+        #################################################################################
+        sketches = set()
+        for instance_data in instance_datas:
+            logging.info(colored("Initializing DomainFeatureData...", "blue", "on_grey"))
+            domain_data.feature_pool = compute_feature_pool(
+                domain_data,
+                [instance_data],
+                disable_feature_generation,
+                concept_complexity_limit,
+                role_complexity_limit,
+                boolean_complexity_limit,
+                count_numerical_complexity_limit,
+                distance_numerical_complexity_limit,
+                feature_limit,
+                additional_booleans,
+                additional_numericals)
 
-                preprocessing_timer.resume()
-                selected_instance_datas: List[InstanceData] = [instance_datas[subproblem_idx] for subproblem_idx in selected_instance_idxs]
-                print("Selected instance datas", selected_instance_datas)
-                for instance_data in selected_instance_datas:
-                    name = instance_data.instance_filepath.stem
-                    write_file(f"{name}.dot", instance_data.state_space.to_dot(1))
-                    print("     ", end="")
-                    print("id:", instance_data.id, "name:", name, "num_states:", len(instance_data.complete_state_space.get_states()), "num_state_equivalences:", len(instance_data.state_space.get_states()))
+            if not domain_data.feature_pool.features:
+                raise RuntimeError("Feature pool is empty. Check the feature generation process")
+            logging.info(colored("..done", "blue", "on_grey"))
 
-                logging.info(colored("Initializing DomainFeatureData...", "blue", "on_grey"))
-                domain_data.feature_pool = compute_feature_pool(
-                    domain_data,
-                    selected_instance_datas,
-                    disable_feature_generation,
-                    concept_complexity_limit,
-                    role_complexity_limit,
-                    boolean_complexity_limit,
-                    count_numerical_complexity_limit,
-                    distance_numerical_complexity_limit,
-                    feature_limit,
-                    additional_booleans,
-                    additional_numericals)
-                
-                if not domain_data.feature_pool.features:
-                    raise RuntimeError("Feature pool is empty. Check the feature generation process")
+            logging.info(colored("Constructing PerStateFeatureValuations...", "blue", "on_grey"))
+            compute_per_state_feature_valuations( [instance_data], domain_data)
+            logging.info(colored("..done", "blue", "on_grey"))
+
+            logging.info(colored("Constructing StatePairEquivalenceDatas...", "blue", "on_grey"))
+            compute_state_pair_equivalences(domain_data,  [instance_data])
+            logging.info(colored("..done", "blue", "on_grey"))
+
+            logging.info(colored("Constructing TupleGraphEquivalences...", "blue", "on_grey"))
+            compute_tuple_graph_equivalences( [instance_data])
+            logging.info(colored("..done", "blue", "on_grey"))
+
+            logging.info(colored("Minimizing TupleGraphEquivalences...", "blue", "on_grey"))
+            minimize_tuple_graph_equivalences( [instance_data])
+            logging.info(colored("..done", "blue", "on_grey"))
+            preprocessing_timer.stop()
+            asp_timer.resume()
+            for state_id in instance_data.state_space.get_states():
+                asp_factory = ASPFactory(encoding_type, enable_goal_separating_features, max_num_rules)
+                facts = asp_factory.make_facts(domain_data,  [instance_data])
+                for fact in facts:
+                    print(fact)
+                logging.info(colored("Grounding Logic Program...", "blue", "on_grey"))
+                asp_factory.ground(facts)
                 logging.info(colored("..done", "blue", "on_grey"))
+                logging.info(colored("Solving Logic Program...", "blue", "on_grey"))
+                # Collect all solutions
+                solutions = list(asp_factory.solve_all())
 
-                logging.info(colored("Constructing PerStateFeatureValuations...", "blue", "on_grey"))
-                compute_per_state_feature_valuations(selected_instance_datas, domain_data)
-                logging.info(colored("..done", "blue", "on_grey"))
+                # Filter out None solutions
+                valid_solutions = [symbols for symbols, status in solutions if symbols is not None]
 
-                logging.info(colored("Constructing StatePairEquivalenceDatas...", "blue", "on_grey"))
-                compute_state_pair_equivalences(domain_data, selected_instance_datas)
-                logging.info(colored("..done", "blue", "on_grey"))
-
-                logging.info(colored("Constructing TupleGraphEquivalences...", "blue", "on_grey"))
-                compute_tuple_graph_equivalences(selected_instance_datas)
-                logging.info(colored("..done", "blue", "on_grey"))
-
-                logging.info(colored("Minimizing TupleGraphEquivalences...", "blue", "on_grey"))
-                minimize_tuple_graph_equivalences(selected_instance_datas)
-                logging.info(colored("..done", "blue", "on_grey"))
-                preprocessing_timer.stop()
-
-                asp_timer.resume()
-                if encoding_type == EncodingType.D2:
-                    d2_facts = set()
-                    symbols = None
-                    j = 0
-                    while True:
-                        asp_factory = ASPFactory(encoding_type, enable_goal_separating_features, max_num_rules)
-                        facts = asp_factory.make_facts(domain_data, selected_instance_datas)
-                        if j == 0:
-                            d2_facts.update(asp_factory.make_initial_d2_facts(selected_instance_datas))
-                            print("Number of initial D2 facts:", len(d2_facts))
-                        elif j > 0:
-                            unsatisfied_d2_facts = asp_factory.make_unsatisfied_d2_facts(domain_data, symbols)
-                            d2_facts.update(unsatisfied_d2_facts)
-                            print("Number of unsatisfied D2 facts:", len(unsatisfied_d2_facts))
-                        print("Number of D2 facts:", len(d2_facts), "of", len(domain_data.domain_state_pair_equivalence.rules) ** 2)
-                        facts.extend(list(d2_facts))
-
-                        logging.info(colored("Grounding Logic Program...", "blue", "on_grey"))
-                        asp_factory.ground(facts)
-                        logging.info(colored("..done", "blue", "on_grey"))
-
-                        logging.info(colored("Solving Logic Program...", "blue", "on_grey"))
-                        asp_factory.print_solve_all_output()
-                        symbols, returncode = asp_factory.solve()
-                        print("Symbols:", symbols)
-                        print("Return code:", returncode)
-                        logging.info(colored("..done", "blue", "on_grey"))
-
-                        if returncode == ClingoExitCode.UNSATISFIABLE:
-                            print(colored("UNSAT problem due to current D2-separation constraints for selected instances!", "red", "on_grey"))
-                            exit(ExitCode.UNSOLVABLE)
-                        elif returncode == ClingoExitCode.UNKNOWN:
-                            print(colored("ASP solving throws unknown error!", "red", "on_grey"))
-                            exit(ExitCode.UNKNOWN)
-                        elif returncode == ClingoExitCode.INTERRUPTED:
-                            print(colored("ASP solving interrupted!", "red", "on_grey"))
-                            exit(ExitCode.INTERRUPTED)
-
-                        asp_factory.print_statistics()
-                        dlplan_policy = D2sepDlplanPolicyFactory().make_dlplan_policy_from_answer_set(symbols, domain_data)
-                        sketch = Sketch(dlplan_policy, width)
-                        logging.info("Learned the following sketch:")
-                        sketch.print()
-                        
-                        # Store the sketch for each state
-                        for state in instance_data.state_space.get_states():
-                            sketches_per_state[state].append(Sketch(dlplan_policy, width))
-                        
-                        j += 1
-                elif encoding_type == EncodingType.EXPLICIT:
-                    asp_factory = ASPFactory(encoding_type, enable_goal_separating_features, max_num_rules)
-                    facts = asp_factory.make_facts(domain_data, selected_instance_datas)
-                    for fact in facts:
-                        print(fact)
-                    logging.info(colored("Grounding Logic Program...", "blue", "on_grey"))
-                    asp_factory.ground(facts)
-                    logging.info(colored("..done", "blue", "on_grey"))
-                    logging.info(colored("Solving Logic Program...", "blue", "on_grey"))
-                    asp_factory.print_solve_all_output()
-                    # Collect all solutions
-                    solutions = list(asp_factory.solve_all())
-                    
-                    # Filter out None solutions
-                    valid_solutions = [symbols for symbols, status in solutions if symbols is not None]
-
-                    for idx, (symbols, status) in enumerate(solutions):
-                        print(f"solution {idx + 1}:")
-                        #print(symbols)
-                        #print("status:", status)
-                    
-                    #print("all solutions:", valid_solutions)
+                for idx, symbols in enumerate(valid_solutions):
+                    print(f"solution {idx + 1}:")
+                    #print(symbols)
+                    #print("status:", status)
+                #print("all solutions:", valid_solutions)
 
                     if len(valid_solutions) == 0:
                         print(colored("UNSAT problem for selected instances", "red", "on_grey"))
@@ -265,85 +189,47 @@ def learn_sketch_for_problem_class(
                         print(colored("ASP solving returns a unique solution", "red", "on_grey"))
                     else:
                         print(colored(f"ASP solving returns {len(valid_solutions)}", "red", "on_grey"))
-                    
+
                     asp_factory.print_statistics()
-                    dlplan_policy = ExplicitDlplanPolicyFactory().make_dlplan_policy_from_answer_set(valid_solutions[0], domain_data)
+                    dlplan_policy = ExplicitDlplanPolicyFactory().make_dlplan_policy_from_answer_set(symbols, domain_data)
                     sketch = Sketch(dlplan_policy, width)
-
-                    if sketch in used_sketches:
-                        print(colored("duplicate sketch detected, retrying..", "red", "on_grey"))
-                        continue
-                    used_sketches.add(sketch)
-
+                    sketches.add(sketch)  # Use set's add method instead of append
                     logging.info("Learned the following sketch:")
-                    sketch.print()
+                    sketch.print()  # Print the individual sketch
 
-                    total_sketches = len(instance_datas)*len(selected_instance_idxs)
+        print(len(sketches))
+        if all(len(sketches) == total_sketches for sketches in sketches_per_state.values()):
+            # Terminate if states have all sketches
+            print(colored("All sketches generated for all states!", "red", "on_grey"))
 
-                    # Store the sketch for each state
-                    for instance_data in selected_instance_datas:
-                        for state_id in instance_data.state_space.get_states():
-                            if (instance_data.id, state_id) in unsketched_states:
-                                sketches_per_state[state_id].append(Sketch(dlplan_policy, width))
-                                unsketched_states.discard((instance_data.id, state_id))
-                    
-                    if all(len(sketch) == total_sketches for sketch in sketches_per_state.values()):
-                        # Terminate if states have all sketches
-                        print(colored("All sketches generated for all states!", "red", "on_grey"))
-                        break
-                else:
-                    raise RuntimeError("Unknown encoding type:", encoding_type)
+        total_timer.stop()
+        sketches_per_state = count_sketches_per_state(sketch, instance_datas)
+        total_sketches_per_state = sum_sketches_per_state(sketch, instance_datas)
+        print("Sketches per state:")
+        for state, state_sketches in sketches_per_state.items():
+            print(f"State {state}:")
+            for s in state_sketches:
+                s.print()
+        print_separation_line()
+        for feature in domain_data.feature_pool.features:
+            logging.info(f"Feature: {feature}")
 
-                unsolved_instance_ids = verify_sketches(selected_instance_datas, instance_datas, sketch, enable_dump_files)
-                verification_timer.stop()
+        for instance_data in instance_datas:
+            logging.info(f"Instance {instance_data.id} states:")
+            for state_id, state in instance_data.state_space.get_states().items():
+                logging.info(f"state {state_id}: {state}")
 
-                if not unsolved_instance_ids:
-                    print(colored("Sketch solves all instances!", "red", "on_grey"))
-                    break
-                else:
-                    # Update selected_instance_idxs based on unsolved states
-                    selected_instance_idxs = []
-                    for instance_id in unsolved_instance_ids:
-                        for state_id in instance_datas[instance_id].state_space.get_states():
-                            if (instance_id, state_id) in unsketched_states:
-                                selected_instance_idxs.append(instance_id)
-                                break
-                    print("Unsolved instance ids:", unsolved_instance_ids)
-                
+        # Output sketches per state
+        print_separation_line()
 
-                i += 1
-                
-    total_timer.stop()
-    sketches_per_state = count_sketches_per_state(sketch, instance_datas)
-    total_sketches_per_state = sum_sketches_per_state(sketch, instance_datas)
-   
-    for feature in domain_data.feature_pool.features:
-        logging.info(f"Feature: {feature}")
-
-    for instance_data in instance_datas:
-        logging.info(f"Instance {instance_data.id} states:") 
-        for state_id, state in instance_data.state_space.get_states().items():
-            logging.info(f"state {state_id}: {state}")   
-    # Output sketches per state
-    #print("Sketches per state:")
-    #for state, state_sketches in sketches_per_state.items():
-    #    print(f"State {state}:")
-    #    for s in state_sketches:
-    #        s.print()
-    print_separation_line()
-
-    #empty_sketches = asp_factory.has_empty_sketches(symbols)
-    #if empty_sketches:
-    #    print("There are empty sketches")
-    #else:
-    #    print("No empty sketches found")
-
-    print("Total sketches per state:")
-    for state, total_sketches in total_sketches_per_state.items():
-        print(f"State {state}: {total_sketches} sketches")
-    total_sketches = sum(total_sketches for total_sketches in total_sketches_per_state.values())
-    print("Total sketches:", total_sketches)
-    print(total_sketches_per_state.values())
+        print("Total sketches per state:")
+        for state, total_sketches in total_sketches_per_state.items():
+            print(f"State {state}: {total_sketches} sketches")
+        total_sketches = sum(total_sketches for total_sketches in total_sketches_per_state.values())
+        print("Total sketches:", total_sketches)
+        print(total_sketches_per_state.values())
+    else:
+        print("something else")
 
     # Output the result
     with change_dir("output"):
@@ -352,9 +238,9 @@ def learn_sketch_for_problem_class(
 
         learning_statistics = LearningStatistics(
             num_training_instances=len(instance_datas),
-            num_selected_training_instances=len(selected_instance_datas),
-            num_states_in_selected_training_instances=sum(len(instance_data.state_space.get_states()) for instance_data in selected_instance_datas),
-            num_states_in_complete_selected_training_instances=sum(len(instance_data.complete_state_space.get_states()) for instance_data in selected_instance_datas),
+            num_selected_training_instances=len(instance_datas),
+            num_states_in_selected_training_instances=sum(len(instance_data.state_space.get_states()) for instance_data in instance_datas),
+            num_states_in_complete_selected_training_instances=sum(len(instance_data.complete_state_space.get_states()) for instance_data in instance_datas),
             num_features_in_pool=len(domain_data.feature_pool.features))
         learning_statistics.print()
         print_separation_line()
@@ -376,14 +262,12 @@ def learn_sketch_for_problem_class(
                     file.write(str(sketch.dlplan_policy))
                     file.write("\n\n")
 
-
         print_separation_line()
 
         create_experiment_workspace(workspace / "output")
         write_file(f"sketch_{width}.txt", str(sketch.dlplan_policy))
         write_file(f"sketch_minimized_{width}.txt", str(sketch_minimized.dlplan_policy))
-        # Count sketches per state
-        #print("Sketches per state:", sketches_per_state)
+
         print_separation_line()
         print(f"Preprocessing time: {int(preprocessing_timer.get_elapsed_sec()) + 1} seconds.")
         print(f"ASP time: {int(asp_timer.get_elapsed_sec()) + 1} seconds.")

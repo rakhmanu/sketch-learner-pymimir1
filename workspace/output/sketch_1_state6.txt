@@ -1,0 +1,8 @@
+Sketches for State 6:
+Sketch 1:
+(:policy
+(:booleans )
+(:numericals )
+(:rule (:conditions ) (:effects ))
+)
+
