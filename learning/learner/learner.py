@@ -192,11 +192,12 @@ def learn_sketch_for_problem_class(
                     asp_factory.print_statistics()
                     dlplan_policy = ExplicitDlplanPolicyFactory().make_dlplan_policy_from_answer_set(symbols, domain_data)
                     sketch = Sketch(dlplan_policy, width)
-                    sketches.add(sketch)  # Use set's add method instead of append
+                    sketches.add(sketch)  
                     logging.info("Learned the following sketch:")
-                    sketch.print()  # Print the individual sketch
-
-        print(len(sketches))
+                    for sketch in sketches:
+                        sketch.print()  
+    
+        print("Total number of sketches:", len(sketches))
         if all(len(sketches) == total_sketches for sketches in sketches_per_state.values()):
             # Terminate if states have all sketches
             print(colored("All sketches generated for all states!", "red", "on_grey"))
@@ -204,11 +205,7 @@ def learn_sketch_for_problem_class(
         total_timer.stop()
         sketches_per_state = count_sketches_per_state(sketch, instance_datas)
         total_sketches_per_state = sum_sketches_per_state(sketch, instance_datas)
-        print("Sketches per state:")
-        for state, state_sketches in sketches_per_state.items():
-            print(f"State {state}:")
-            for s in state_sketches:
-                s.print()
+        
         print_separation_line()
         for feature in domain_data.feature_pool.features:
             logging.info(f"Feature: {feature}")
@@ -221,12 +218,10 @@ def learn_sketch_for_problem_class(
         # Output sketches per state
         print_separation_line()
 
-        print("Total sketches per state:")
+        #print("Total sketches per state:")
         for state, total_sketches in total_sketches_per_state.items():
             print(f"State {state}: {total_sketches} sketches")
         total_sketches = sum(total_sketches for total_sketches in total_sketches_per_state.values())
-        print("Total sketches:", total_sketches)
-        print(total_sketches_per_state.values())
     else:
         print("something else")
 
@@ -251,15 +246,6 @@ def learn_sketch_for_problem_class(
         print("Resulting minimized sketch:")
         sketch_minimized = Sketch(PolicyMinimizer().minimize(sketch.dlplan_policy, domain_data.policy_builder), sketch.width)
         sketch_minimized.print()
-
-        # Print all sketches per state
-        for state, num_sketches in sketches_per_state.items():
-            with open(f"sketch_1_state{state}.txt", "w") as file:
-                file.write(f"Sketches for State {state}:\n")
-                for idx, sketch in enumerate(num_sketches, start=1):
-                    file.write(f"Sketch {idx}:\n")
-                    file.write(str(sketch.dlplan_policy))
-                    file.write("\n\n")
 
         print_separation_line()
 
