@@ -2,7 +2,35 @@ Sketches for State 2:
 Sketch 1:
 (:policy
 (:booleans )
-(:numericals (f15 "n_count(c_bot)"))
-(:rule (:conditions (:c_n_gt f15)) (:effects (:e_n_inc f15)))
+(:numericals (f26 "n_count(c_bot)"))
+(:rule (:conditions (:c_n_gt f26)) (:effects (:e_n_bot f26)))
+)
+
+Sketch 2:
+(:policy
+(:booleans )
+(:numericals (f26 "n_count(c_bot)"))
+(:rule (:conditions (:c_n_gt f26)) (:effects (:e_n_bot f26)))
+)
+
+Sketch 3:
+(:policy
+(:booleans )
+(:numericals (f26 "n_count(c_bot)"))
+(:rule (:conditions (:c_n_gt f26)) (:effects (:e_n_bot f26)))
+)
+
+Sketch 4:
+(:policy
+(:booleans )
+(:numericals (f26 "n_count(c_bot)"))
+(:rule (:conditions (:c_n_gt f26)) (:effects (:e_n_bot f26)))
+)
+
+Sketch 5:
+(:policy
+(:booleans )
+(:numericals (f26 "n_count(c_bot)"))
+(:rule (:conditions (:c_n_gt f26)) (:effects (:e_n_bot f26)))
 )
 

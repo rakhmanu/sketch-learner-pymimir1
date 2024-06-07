@@ -1,5 +1,8 @@
+Sketches for State 592:
+Sketch 1:
 (:policy
 (:booleans )
 (:numericals (f26 "n_count(c_bot)"))
 (:rule (:conditions (:c_n_gt f26)) (:effects (:e_n_bot f26)))
 )
+
