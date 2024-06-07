@@ -178,9 +178,8 @@ def learn_sketch_for_problem_class(
 
                 for idx, symbols in enumerate(valid_solutions):
                     print(f"solution {idx + 1}:")
-                    #print(symbols)
-                    #print("status:", status)
-                #print("all solutions:", valid_solutions)
+                    print(symbols)
+                    print("all solutions:", valid_solutions)
 
                     if len(valid_solutions) == 0:
                         print(colored("UNSAT problem for selected instances", "red", "on_grey"))
