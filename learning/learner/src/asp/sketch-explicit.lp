@@ -100,4 +100,3 @@ order(I, S) :- r_reachable(I, S), order(I, S, S') : sat_pair(I, S, S', _), r_rea
 #show e_b_neg/2.
 #show e_b_bot/2.
 #show e_b_unk/2.
-

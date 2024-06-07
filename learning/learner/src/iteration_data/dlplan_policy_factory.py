@@ -42,7 +42,8 @@ class ExplicitDlplanPolicyFactory(DlplanPolicyFactory):
         """ """
         selected_features = set()
         for symbol in symbols:
-            if symbol.name == "select":
+            print(f"Symbol: {symbol}, Type: {type(symbol)}")  # Debugging line
+            if hasattr(symbol, 'name') and symbol.name == "select":
                 f_idx = symbol.arguments[0].number
                 selected_features.add(domain_data.feature_pool.features[f_idx].dlplan_feature)
         return selected_features
@@ -52,11 +53,11 @@ class ExplicitDlplanPolicyFactory(DlplanPolicyFactory):
         policy_builder = domain_data.policy_builder
         rules_dict = dict()
         for symbol in symbols:
-            if symbol.name == "rule":
+            if hasattr(symbol, 'name') and symbol.name == "rule":
                 r_idx = symbol.arguments[0].number
                 rules_dict[r_idx] = [set(), set()]  # conditions and effects
         for symbol in symbols:
-            if symbol.name in {"c_b_pos", "c_b_neg", "c_n_gt", "c_n_eq", "e_b_pos", "e_b_neg", "e_b_bot", "e_n_dec", "e_n_inc", "e_n_bot"}:
+            if hasattr(symbol, 'name') and symbol.name in {"c_b_pos", "c_b_neg", "c_n_gt", "c_n_eq", "e_b_pos", "e_b_neg", "e_b_bot", "e_n_dec", "e_n_inc", "e_n_bot"}:
                 r_idx = symbol.arguments[0].number
                 f_idx = symbol.arguments[1].number
                 feature = domain_data.feature_pool.features[f_idx].dlplan_feature
@@ -86,8 +87,7 @@ class ExplicitDlplanPolicyFactory(DlplanPolicyFactory):
         for _, (conditions, effects) in rules_dict.items():
             rules.add(policy_builder.make_rule(conditions, effects))
         return rules
-
-
+    
 class D2sepDlplanPolicyFactory(DlplanPolicyFactory):
     """
     Encoding where rules are implicit in the D2-separation.

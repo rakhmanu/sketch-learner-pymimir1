@@ -25,7 +25,7 @@ class ASPFactory:
         if encoding_type == EncodingType.EXPLICIT:
             add_arguments.extend(["--const", f"max_num_rules={max_num_rules}"])
 
-        self.ctl = Control(arguments=["--parallel-mode=32,split", "-n", "0"] + add_arguments)
+        self.ctl = Control(arguments=["--parallel-mode=32,split"] + add_arguments)
 
         # features
         self.ctl.add("boolean", ["b"], "boolean(b).")
@@ -61,7 +61,7 @@ class ASPFactory:
         if encoding_type == EncodingType.D2:
             self.ctl.load(str(LIST_DIR / "sketch-d2.lp"))
         elif encoding_type == EncodingType.EXPLICIT:
-            self.ctl.load(str(LIST_DIR / "sketch-explicit.lp"))
+            self.ctl.load(str(LIST_DIR / "sketch-explicit-single.lp"))
         else:
             raise RuntimeError("Unknown encoding type:", encoding_type)
 
@@ -352,7 +352,7 @@ class ASPFactory:
             for model in handle:
                 last_model = model
             if last_model is not None:
-                assert last_model.optimality_proven
+                #assert last_model.optimality_proven
                 return last_model.symbols(shown=True), ClingoExitCode.SATISFIABLE
             result = handle.get()
             if result.exhausted:
@@ -363,6 +363,57 @@ class ASPFactory:
                 return None, ClingoExitCode.UNKNOWN
             elif result.interrupted:
                 return None, ClingoExitCode.INTERRUPTED
+
+    def solve_all(self):
+        """ https://potassco.org/clingo/python-api/current/clingo/solving.html """
+        solutions = []
+        with self.ctl.solve(yield_=True) as handle:
+            solutions_found = False
+            for model in handle:
+                solutions.append((model.symbols(shown=True), ClingoExitCode.SATISFIABLE))
+                solutions_found = True
+            if not solutions_found:
+                solutions.append((None, ClingoExitCode.UNSATISFIABLE))
+            result = handle.get()
+            if result.exhausted:
+                solutions.append((None, ClingoExitCode.EXHAUSTED))
+            elif result.unknown:
+                solutions.append((None, ClingoExitCode.UNKNOWN))
+            elif result.interrupted:
+                solutions.append((None, ClingoExitCode.INTERRUPTED))
+            else:
+                solutions.append((None, ClingoExitCode.UNKNOWN))
+
+        # Log the solutions for debugging
+        print(f"Solutions found: {solutions}")
+        for solution in solutions:
+            yield solution
+
+    def has_empty_sketches(self, symbols):
+        for symbol in symbols:
+            try:
+                if symbol.name == "policy":
+                    booleans = symbol.arguments[0].arguments[0].arguments
+                    numericals = symbol.arguments[1].arguments[0].arguments
+                    rule_conditions = symbol.arguments[2].arguments[0].arguments
+                    rule_effects = symbol.arguments[2].arguments[1].arguments
+                    if not booleans and not numericals and not rule_conditions and not rule_effects:
+                        return True
+            except AttributeError:
+                pass
+        return False
+        
+    def print_solve_all_output(self):
+        """Prints the output of solve_all()"""
+        solve_result = self.solve_all()
+        if solve_result is None:
+            print("No solutions found.")
+            return
+        #for model, exit_code in solve_result:
+        #    if model is not None:
+        #        print("Model:", model)
+        #    print("Exit Code:", exit_code)
+
 
     def print_statistics(self):
         print("Clingo statistics:")

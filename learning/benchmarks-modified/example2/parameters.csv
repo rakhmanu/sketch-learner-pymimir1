@@ -1,6 +1,0 @@
-grid_row:4
-grid_col:2
-min_obs_n:1
-max_obs_n:2
-repeat_n:60
-pddl_file:instances/problem.pddl
