@@ -90,7 +90,6 @@ def learn_sketch_for_problem_class(
     # Learn sketch
     if encoding_type == EncodingType.EXPLICIT:
         create_experiment_workspace(workspace)
-        sketches_per_state = defaultdict(list)
         preprocessing_timer.resume()
 
         for instance_data in instance_datas:
@@ -101,6 +100,7 @@ def learn_sketch_for_problem_class(
 
         #################################################################################
         sketches = set()
+        sketches_per_state = defaultdict(list)
         for instance_data in instance_datas:
             logging.info(colored("Initializing DomainFeatureData...", "blue", "on_grey"))
             domain_data.feature_pool = compute_feature_pool(
@@ -177,17 +177,13 @@ def learn_sketch_for_problem_class(
                             file.write(str(sketch.dlplan_policy))  
                             file.write("\n\n")
                             print(colored(f"Sketch written to {file}", "green")) 
-    
+        for state_id, sketch in enumerate(sketches):
+            sketches_per_state[state_id].append(sketch) 
         print(colored("Total number of sketches:", "red"), len(sketches))
-        if all(len(sketches) == sketches for sketches in sketches_per_state.values()):
-            # Terminate if states have all sketches
-            print(colored("All sketches generated for all states!", "red", "on_grey"))
-         # Print the number of sketches per state
         print_separation_line()
-
+        # Print the number of sketches for each state
         for state_id, sketches in sketches_per_state.items():
-            print(colored(f"Number of sketches for state {state_id}: {len(sketches)}", "blue"))
-            
+            print(f"Number of sketches for state {state_id}: {len(sketches)}")
         print_separation_line()
         for feature in domain_data.feature_pool.features:
             logging.info(f"Feature: {feature}")
@@ -231,7 +227,6 @@ def learn_sketch_for_problem_class(
         write_file(f"sketch_{width}.txt", str(sketch.dlplan_policy))
         write_file(f"sketch_minimized_{width}.txt", str(sketch_minimized.dlplan_policy))
 
-        print_separation_line()
         print(f"Preprocessing time: {int(preprocessing_timer.get_elapsed_sec()) + 1} seconds.")
         print(f"ASP time: {int(asp_timer.get_elapsed_sec()) + 1} seconds.")
         print(f"Verification time: {int(verification_timer.get_elapsed_sec()) + 1} seconds.")
