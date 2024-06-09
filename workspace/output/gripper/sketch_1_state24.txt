@@ -1,0 +1,7 @@
+Sketches for State 24:
+(:policy
+(:booleans )
+(:numericals (f33 "n_count(c_and(c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0)),c_all(r_primitive(at,0,1),c_one_of(roomb))))") (f49 "n_concept_distance(c_primitive(ball,0),r_restrict(r_primitive(at_g,0,1),c_primitive(at-robby,0)),c_all(r_primitive(at,0,1),c_one_of(roomb)))"))
+(:rule (:conditions (:c_n_eq f33)) (:effects (:e_n_bot f33) (:e_n_bot f49)))
+)
+

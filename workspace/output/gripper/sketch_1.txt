@@ -1,7 +1,5 @@
-Sketches for State 1:
 (:policy
 (:booleans )
 (:numericals (f1 "n_count(c_bot)") (f48 "n_count(r_primitive(carry,0,1))"))
 (:rule (:conditions (:c_n_gt f1) (:c_n_eq f48)) (:effects ))
 )
-
