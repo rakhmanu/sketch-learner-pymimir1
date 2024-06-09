@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f28 "n_count(c_and(c_one_of(rooma),c_primitive(at-robby,0)))") (f30 "n_count(c_some(r_primitive(at,0,1),c_and(c_one_of(rooma),c_primitive(at-robby,0))))") (f29 "n_count(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_and(c_one_of(rooma),c_primitive(at-robby,0)))))"))
+(:rule (:conditions (:c_n_gt f29)) (:effects (:e_n_bot f28) (:e_n_bot f30) (:e_n_bot f29)))
+)

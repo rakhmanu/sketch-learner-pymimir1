@@ -24,25 +24,6 @@ from collections import defaultdict
 from typing import Dict, List
 
 
-
-def count_sketches_per_state(sketch, instance_datas):
-    sketches_per_state = defaultdict(list)  # Initialize as defaultdict of lists
-    for instance_data in instance_datas:
-        for state_idx in instance_data.state_space.get_states().keys():
-            # Append sketch to the list for the corresponding state
-            sketches_per_state[state_idx].append(sketch)
-    return sketches_per_state
-
-
-def sum_sketches_per_state(sketch, instance_datas):
-    total_sketches_per_state = defaultdict(int)  # Initialize as defaultdict of integers
-    for instance_data in instance_datas:
-        sketches_per_state = count_sketches_per_state(sketch, [instance_data])
-        for state, num_sketches in sketches_per_state.items():
-            # Ensure that num_sketches is a list of sketches for each state
-            total_sketches_per_state[state] += len(num_sketches)
-    return total_sketches_per_state
-
 def learn_sketch_for_problem_class(
     domain_filepath: Path,
     problems_directory: Path,
@@ -99,8 +80,8 @@ def learn_sketch_for_problem_class(
             instance_states = len(instance_data.state_space.get_states())
             total_states += instance_states
             # Print individual states here if needed
-            for state_id, state in instance_data.state_space.get_states().items():
-                print(f"State {state_id}: {state}")
+            #for state_id, state in instance_data.state_space.get_states().items():
+                #print(f"State {state_id}: {state}")
 
         print(f"Total states: {total_states}")
 
@@ -110,11 +91,6 @@ def learn_sketch_for_problem_class(
     if encoding_type == EncodingType.EXPLICIT:
         create_experiment_workspace(workspace)
         sketches_per_state = defaultdict(list)
-        all_states = set()
-        for instance_data in instance_datas:
-            for state_id in instance_data.state_space.get_states():
-                all_states.add((instance_data.id, state_id))
-        all_states = all_states.copy()
         preprocessing_timer.resume()
 
         for instance_data in instance_datas:
@@ -195,17 +171,23 @@ def learn_sketch_for_problem_class(
                     sketches.add(sketch)  
                     logging.info("Learned the following sketch:")
                     for sketch in sketches:
-                        sketch.print()  
+                        sketch.print()
+                        with open(f"sketch_1_state{state_id}.txt", "w") as file:
+                            file.write(f"Sketches for State {state_id}:\n")
+                            file.write(str(sketch.dlplan_policy))  
+                            file.write("\n\n")
+                            print(colored(f"Sketch written to {file}", "green")) 
     
-        print("Total number of sketches:", len(sketches))
-        if all(len(sketches) == total_sketches for sketches in sketches_per_state.values()):
+        print(colored("Total number of sketches:", "red"), len(sketches))
+        if all(len(sketches) == sketches for sketches in sketches_per_state.values()):
             # Terminate if states have all sketches
             print(colored("All sketches generated for all states!", "red", "on_grey"))
+         # Print the number of sketches per state
+        print_separation_line()
 
-        total_timer.stop()
-        sketches_per_state = count_sketches_per_state(sketch, instance_datas)
-        total_sketches_per_state = sum_sketches_per_state(sketch, instance_datas)
-        
+        for state_id, sketches in sketches_per_state.items():
+            print(colored(f"Number of sketches for state {state_id}: {len(sketches)}", "blue"))
+            
         print_separation_line()
         for feature in domain_data.feature_pool.features:
             logging.info(f"Feature: {feature}")
@@ -218,10 +200,6 @@ def learn_sketch_for_problem_class(
         # Output sketches per state
         print_separation_line()
 
-        #print("Total sketches per state:")
-        for state, total_sketches in total_sketches_per_state.items():
-            print(f"State {state}: {total_sketches} sketches")
-        total_sketches = sum(total_sketches for total_sketches in total_sketches_per_state.values())
     else:
         print("something else")
 
@@ -264,3 +242,7 @@ def learn_sketch_for_problem_class(
         print_separation_line()
 
         print(flush=True)
+
+
+
+
