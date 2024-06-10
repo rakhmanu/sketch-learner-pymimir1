@@ -1,0 +1,4038 @@
+digraph {
+rankdir="LR"
+s7849[label="(instance index=28, state index=7849, atoms={at(p2,c_0_0), at(p3,c_0_0), empty(t1), at(p1,c_0_0), at(t1,c_2_2)})"]
+s7157[label="(instance index=28, state index=7157, atoms={at(t1,c_1_2), at(p2,c_0_0), at(p3,c_0_0), empty(t1), at(p1,c_0_0)})"]
+s4160[label="(instance index=28, state index=4160, atoms={at(p2,c_0_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(t1,c_2_2)})"]
+s6299[label="(instance index=28, state index=6299, atoms={at(p2,c_0_0), at(p3,c_0_0), empty(t1), at(p1,c_0_0), at(t1,c_1_1)})"]
+s6298[label="(instance index=28, state index=6298, atoms={at(p2,c_0_0), at(p3,c_0_0), empty(t1), at(p1,c_0_0), at(t1,c_0_2)})"]
+s3158[label="(instance index=28, state index=3158, atoms={at(t1,c_1_2), at(p2,c_0_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1)})"]
+s5215[label="(instance index=28, state index=5215, atoms={at(p2,c_0_0), at(t1,c_0_1), at(p3,c_0_0), empty(t1), at(p1,c_0_0)})"]
+s3159[label="(instance index=28, state index=3159, atoms={at(t1,c_2_1), at(p2,c_0_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1)})"]
+s4161[label="(instance index=28, state index=4161, atoms={at(p2,c_0_0), at(t1,c_0_0), at(p3,c_0_0), empty(t1), at(p1,c_0_0)})"]
+s2339[label="(instance index=28, state index=2339, atoms={at(p2,c_0_0), at(t1,c_2_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1)})"]
+s3481[label="(instance index=28, state index=3481, atoms={at(p1,c_1_0), at(p2,c_0_1), at(p3,c_0_0), empty(t1), at(t1,c_2_2)})"]
+s2338[label="(instance index=28, state index=2338, atoms={at(p2,c_0_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(t1,c_1_1)})"]
+s3484[label="(instance index=28, state index=3484, atoms={at(p3,c_0_0), empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(t1,c_2_2)})"]
+s2330[label="(instance index=28, state index=2330, atoms={at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_1_0), at(t1,c_2_2)})"]
+s2337[label="(instance index=28, state index=2337, atoms={at(p2,c_0_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(t1,c_0_2)})"]
+s2351[label="(instance index=28, state index=2351, atoms={at(p2,c_0_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_2_2)})"]
+s2650[label="(instance index=28, state index=2650, atoms={at(t1,c_1_2), at(p3,c_0_0), empty(t1), at(p2,c_1_1), at(p1,c_0_0)})"]
+s1632[label="(instance index=28, state index=1632, atoms={at(t1,c_2_1), at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_1_0)})"]
+s1631[label="(instance index=28, state index=1631, atoms={at(t1,c_1_2), at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_1_0)})"]
+s1647[label="(instance index=28, state index=1647, atoms={at(t1,c_2_1), at(p2,c_0_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1636[label="(instance index=28, state index=1636, atoms={at(p2,c_0_0), at(p1,c_1_0), at(t1,c_0_1), at(p3,c_0_0), empty(t1)})"]
+s1646[label="(instance index=28, state index=1646, atoms={at(t1,c_1_2), at(p2,c_0_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1637[label="(instance index=28, state index=1637, atoms={at(p2,c_0_0), at(t1,c_1_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1)})"]
+s3160[label="(instance index=28, state index=3160, atoms={at(p2,c_0_0), at(t1,c_0_0), at(p3,c_0_0), carrying(t1,p1)})"]
+s2643[label="(instance index=28, state index=2643, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_0_1), at(p3,c_0_0), empty(t1)})"]
+s1902[label="(instance index=28, state index=1902, atoms={at(p3,c_0_0), empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(t1,c_0_2)})"]
+s1095[label="(instance index=28, state index=1095, atoms={at(p2,c_0_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_1_1)})"]
+s1096[label="(instance index=28, state index=1096, atoms={at(p2,c_0_0), at(t1,c_2_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s404[label="(instance index=28, state index=404, atoms={at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s840[label="(instance index=28, state index=840, atoms={at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_1), at(t1,c_2_2)})"]
+s1903[label="(instance index=28, state index=1903, atoms={at(p3,c_0_0), empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(t1,c_1_1)})"]
+s4175[label="(instance index=28, state index=4175, atoms={at(p2,c_0_0), at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(t1,c_2_2)})"]
+s1846[label="(instance index=28, state index=1846, atoms={at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_1_0), at(t1,c_2_2)})"]
+s2340[label="(instance index=28, state index=2340, atoms={at(p2,c_0_0), at(t1,c_1_0), at(p3,c_0_0), carrying(t1,p1)})"]
+s1094[label="(instance index=28, state index=1094, atoms={at(p2,c_0_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_0_2)})"]
+s1083[label="(instance index=28, state index=1083, atoms={at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(t1,c_1_1), at(p3,c_1_0)})"]
+s1895[label="(instance index=28, state index=1895, atoms={at(p1,c_1_0), at(p2,c_0_1), at(p3,c_0_0), empty(t1), at(t1,c_1_1)})"]
+s1127[label="(instance index=28, state index=1127, atoms={at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_0), at(t1,c_0_2)})"]
+s2053[label="(instance index=28, state index=2053, atoms={at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_2_2)})"]
+s1084[label="(instance index=28, state index=1084, atoms={at(p2,c_0_0), at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p3,c_1_0)})"]
+s1894[label="(instance index=28, state index=1894, atoms={at(p1,c_1_0), at(p2,c_0_1), at(p3,c_0_0), empty(t1), at(t1,c_0_2)})"]
+s1086[label="(instance index=28, state index=1086, atoms={at(p2,c_0_0), at(p1,c_1_0), at(t1,c_0_0), at(p3,c_0_0), empty(t1)})"]
+s1119[label="(instance index=28, state index=1119, atoms={at(p1,c_1_0), empty(t1), at(p3,c_1_0), at(p2,c_1_0), at(t1,c_0_2)})"]
+s1120[label="(instance index=28, state index=1120, atoms={at(p1,c_1_0), empty(t1), at(p3,c_1_0), at(t1,c_2_2), at(p2,c_1_0)})"]
+s694[label="(instance index=28, state index=694, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p3,c_0_0), empty(t1), at(p2,c_1_0)})"]
+s690[label="(instance index=28, state index=690, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p3,c_1_0), at(p2,c_1_0)})"]
+s689[label="(instance index=28, state index=689, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p3,c_1_0), at(p2,c_1_0)})"]
+s688[label="(instance index=28, state index=688, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p3,c_1_0), at(p2,c_1_0)})"]
+s673[label="(instance index=28, state index=673, atoms={at(p2,c_0_0), at(t1,c_1_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s239[label="(instance index=28, state index=239, atoms={at(t1,c_1_2), at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0)})"]
+s2652[label="(instance index=28, state index=2652, atoms={carrying(t1,p2), at(p3,c_0_0), at(p1,c_0_0), at(t1,c_1_1)})"]
+s240[label="(instance index=28, state index=240, atoms={at(t1,c_2_1), at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0)})"]
+s1318[label="(instance index=28, state index=1318, atoms={at(p1,c_1_0), at(p2,c_0_1), at(t1,c_0_1), at(p3,c_0_0), empty(t1)})"]
+s516[label="(instance index=28, state index=516, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_1)})"]
+s515[label="(instance index=28, state index=515, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_1)})"]
+s1284[label="(instance index=28, state index=1284, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_1_0)})"]
+s1283[label="(instance index=28, state index=1283, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_1_0)})"]
+s1423[label="(instance index=28, state index=1423, atoms={at(t1,c_2_1), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s667[label="(instance index=28, state index=667, atoms={at(p2,c_0_0), at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p3,c_1_0)})"]
+s5231[label="(instance index=28, state index=5231, atoms={at(t1,c_1_2), at(p2,c_0_0), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s668[label="(instance index=28, state index=668, atoms={at(p2,c_0_0), at(p1,c_1_0), at(t1,c_0_0), carrying(t1,p3)})"]
+s672[label="(instance index=28, state index=672, atoms={at(p2,c_0_0), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1648[label="(instance index=28, state index=1648, atoms={at(p2,c_0_0), at(t1,c_2_0), at(p1,c_0_0), carrying(t1,p3)})"]
+s3170[label="(instance index=28, state index=3170, atoms={at(t1,c_2_1), at(p2,c_0_0), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s1422[label="(instance index=28, state index=1422, atoms={at(t1,c_1_2), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1325[label="(instance index=28, state index=1325, atoms={at(t1,c_0_1), at(p3,c_0_0), empty(t1), at(p2,c_1_1), at(p1,c_0_0)})"]
+s853[label="(instance index=28, state index=853, atoms={at(p1,c_1_0), at(p3,c_0_1), empty(t1), at(p2,c_1_1), at(t1,c_2_2)})"]
+s302[label="(instance index=28, state index=302, atoms={at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_1), at(t1,c_0_2)})"]
+s1850[label="(instance index=28, state index=1850, atoms={at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_1_0), at(t1,c_2_2)})"]
+s291[label="(instance index=28, state index=291, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_0), at(t1,c_2_2)})"]
+s290[label="(instance index=28, state index=290, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_0), at(t1,c_0_2)})"]
+s809[label="(instance index=28, state index=809, atoms={at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(t1,c_1_1), at(p3,c_1_0)})"]
+s808[label="(instance index=28, state index=808, atoms={at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_1_0), at(t1,c_0_2)})"]
+s807[label="(instance index=28, state index=807, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_0_1), empty(t1), at(p3,c_1_0)})"]
+s148[label="(instance index=28, state index=148, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(t1,c_2_2), at(p2,c_1_0)})"]
+s147[label="(instance index=28, state index=147, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_0), at(t1,c_0_2)})"]
+s140[label="(instance index=28, state index=140, atoms={at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s139[label="(instance index=28, state index=139, atoms={at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s4173[label="(instance index=28, state index=4173, atoms={at(p2,c_0_0), at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(t1,c_1_1)})"]
+s845[label="(instance index=28, state index=845, atoms={at(t1,c_0_0), at(p3,c_0_0), empty(t1), at(p2,c_1_1), at(p1,c_0_0)})"]
+s911[label="(instance index=28, state index=911, atoms={at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_0_2)})"]
+s141[label="(instance index=28, state index=141, atoms={at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s1899[label="(instance index=28, state index=1899, atoms={at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_2), at(t1,c_2_2)})"]
+s1074[label="(instance index=28, state index=1074, atoms={at(t1,c_2_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s142[label="(instance index=28, state index=142, atoms={at(p2,c_0_0), at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0)})"]
+s841[label="(instance index=28, state index=841, atoms={at(p1,c_1_0), carrying(t1,p2), at(t1,c_0_1), at(p3,c_0_0)})"]
+s1109[label="(instance index=28, state index=1109, atoms={at(p1,c_2_0), at(p2,c_0_0), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s4174[label="(instance index=28, state index=4174, atoms={at(p2,c_0_0), at(t1,c_2_0), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s1066[label="(instance index=28, state index=1066, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_1_0)})"]
+s303[label="(instance index=28, state index=303, atoms={at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_1), at(t1,c_1_1)})"]
+s1068[label="(instance index=28, state index=1068, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_0_1), at(p3,c_0_0), empty(t1)})"]
+s1092[label="(instance index=28, state index=1092, atoms={at(p2,c_0_0), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(t1,c_2_2)})"]
+s415[label="(instance index=28, state index=415, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p3,c_1_0), at(p2,c_1_0)})"]
+s304[label="(instance index=28, state index=304, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_1)})"]
+s2055[label="(instance index=28, state index=2055, atoms={at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_2_2)})"]
+s2353[label="(instance index=28, state index=2353, atoms={at(t1,c_2_1), at(p2,c_0_0), at(p1,c_0_0), carrying(t1,p3)})"]
+s419[label="(instance index=28, state index=419, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p3,c_0_0), empty(t1), at(p2,c_1_0)})"]
+s417[label="(instance index=28, state index=417, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p3,c_1_0), at(p2,c_1_0)})"]
+s416[label="(instance index=28, state index=416, atoms={at(p1,c_1_0), empty(t1), at(t1,c_1_1), at(p3,c_1_0), at(p2,c_1_0)})"]
+s4418[label="(instance index=28, state index=4418, atoms={at(p2,c_2_1), at(p3,c_0_0), empty(t1), at(p1,c_0_0), at(t1,c_0_2)})"]
+s407[label="(instance index=28, state index=407, atoms={at(p2,c_0_0), at(t1,c_0_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s912[label="(instance index=28, state index=912, atoms={at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_1_1)})"]
+s332[label="(instance index=28, state index=332, atoms={empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_2_2)})"]
+s405[label="(instance index=28, state index=405, atoms={at(p2,c_0_0), at(t1,c_1_0), at(p1,c_1_0), carrying(t1,p3)})"]
+s1911[label="(instance index=28, state index=1911, atoms={at(p3,c_0_0), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(t1,c_2_2)})"]
+s659[label="(instance index=28, state index=659, atoms={at(t1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s655[label="(instance index=28, state index=655, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_0_1), carrying(t1,p3)})"]
+s654[label="(instance index=28, state index=654, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_1_0)})"]
+s522[label="(instance index=28, state index=522, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p3,c_0_1), empty(t1), at(p2,c_1_1)})"]
+s181[label="(instance index=28, state index=181, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p3,c_0_0), empty(t1), at(p2,c_1_1)})"]
+s1287[label="(instance index=28, state index=1287, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_1_0)})"]
+s176[label="(instance index=28, state index=176, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_0)})"]
+s175[label="(instance index=28, state index=175, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_0)})"]
+s174[label="(instance index=28, state index=174, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_1_0)})"]
+s495[label="(instance index=28, state index=495, atoms={at(p1,c_1_0), at(p2,c_0_1), at(t1,c_0_1), empty(t1), at(p3,c_1_0)})"]
+s248[label="(instance index=28, state index=248, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_1_0), carrying(t1,p3)})"]
+s81[label="(instance index=28, state index=81, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_0)})"]
+s80[label="(instance index=28, state index=80, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_0)})"]
+s79[label="(instance index=28, state index=79, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p2,c_1_0)})"]
+s75[label="(instance index=28, state index=75, atoms={at(p2,c_0_0), at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s1643[label="(instance index=28, state index=1643, atoms={at(t1,c_1_2), at(p2,c_0_0), at(p1,c_1_0), at(p3,c_2_1), empty(t1)})"]
+s2647[label="(instance index=28, state index=2647, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_2)})"]
+s518[label="(instance index=28, state index=518, atoms={at(t1,c_0_0), at(p3,c_0_0), at(p2,c_1_1), carrying(t1,p1)})"]
+s182[label="(instance index=28, state index=182, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_1)})"]
+s1425[label="(instance index=28, state index=1425, atoms={at(t1,c_1_2), at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s555[label="(instance index=28, state index=555, atoms={at(p2,c_0_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s242[label="(instance index=28, state index=242, atoms={at(p2,c_0_0), at(t1,c_0_0), at(p3,c_2_0), carrying(t1,p1)})"]
+s76[label="(instance index=28, state index=76, atoms={at(p2,c_0_0), at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0)})"]
+s198[label="(instance index=28, state index=198, atoms={at(t1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s197[label="(instance index=28, state index=197, atoms={at(t1,c_1_2), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1322[label="(instance index=28, state index=1322, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_2)})"]
+s1320[label="(instance index=28, state index=1320, atoms={at(p1,c_1_0), carrying(t1,p2), at(p3,c_0_0), at(t1,c_0_2)})"]
+s670[label="(instance index=28, state index=670, atoms={at(t1,c_2_1), at(p2,c_0_0), at(p1,c_1_0), at(p3,c_2_1), empty(t1)})"]
+s241[label="(instance index=28, state index=241, atoms={at(p2,c_0_0), at(t1,c_2_0), at(p1,c_1_0), carrying(t1,p3)})"]
+s517[label="(instance index=28, state index=517, atoms={at(p1,c_1_0), carrying(t1,p2), at(p3,c_0_0), at(t1,c_1_1)})"]
+s1286[label="(instance index=28, state index=1286, atoms={at(p1,c_1_0), at(p2,c_0_2), at(t1,c_0_1), empty(t1), at(p3,c_1_0)})"]
+s74[label="(instance index=28, state index=74, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s73[label="(instance index=28, state index=73, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s3388[label="(instance index=28, state index=3388, atoms={at(p2,c_2_1), at(t1,c_0_1), at(p3,c_0_0), empty(t1), at(p1,c_0_0)})"]
+s247[label="(instance index=28, state index=247, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p3,c_1_0), at(p2,c_1_0)})"]
+s3389[label="(instance index=28, state index=3389, atoms={at(t1,c_1_0), at(p2,c_2_1), at(p3,c_0_0), empty(t1), at(p1,c_0_0)})"]
+s682[label="(instance index=28, state index=682, atoms={at(p1,c_2_0), at(t1,c_2_1), at(p2,c_0_0), empty(t1), at(p3,c_2_0)})"]
+s1331[label="(instance index=28, state index=1331, atoms={at(t1,c_1_2), at(p3,c_0_0), empty(t1), at(p1,c_1_1), at(p2,c_1_1)})"]
+s1658[label="(instance index=28, state index=1658, atoms={at(p1,c_2_0), at(t1,c_1_2), at(p2,c_0_0), empty(t1), at(p3,c_2_0)})"]
+s1448[label="(instance index=28, state index=1448, atoms={at(t1,c_1_2), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s3171[label="(instance index=28, state index=3171, atoms={at(p2,c_0_0), at(p1,c_0_0), at(t1,c_2_2), carrying(t1,p3)})"]
+s2451[label="(instance index=28, state index=2451, atoms={at(p1,c_2_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0), at(t1,c_0_2)})"]
+s448[label="(instance index=28, state index=448, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0), at(t1,c_0_2)})"]
+s1108[label="(instance index=28, state index=1108, atoms={at(p1,c_2_0), at(p2,c_0_0), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s2054[label="(instance index=28, state index=2054, atoms={at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_1_1)})"]
+s110[label="(instance index=28, state index=110, atoms={empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_0_2)})"]
+s1909[label="(instance index=28, state index=1909, atoms={at(p3,c_0_0), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(t1,c_0_2)})"]
+s1897[label="(instance index=28, state index=1897, atoms={at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_2), at(t1,c_0_2)})"]
+s1080[label="(instance index=28, state index=1080, atoms={at(p1,c_2_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s933[label="(instance index=28, state index=933, atoms={at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_1_1)})"]
+s931[label="(instance index=28, state index=931, atoms={at(t1,c_0_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s1263[label="(instance index=28, state index=1263, atoms={at(p1,c_1_0), at(p2,c_2_1), at(p3,c_0_0), empty(t1), at(t1,c_0_2)})"]
+s397[label="(instance index=28, state index=397, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_0_1), carrying(t1,p3)})"]
+s314[label="(instance index=28, state index=314, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(t1,c_2_2), at(p3,c_1_1)})"]
+s307[label="(instance index=28, state index=307, atoms={at(p1,c_1_0), at(p3,c_0_1), empty(t1), at(p2,c_1_1), at(t1,c_0_2)})"]
+s102[label="(instance index=28, state index=102, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p3,c_0_0), empty(t1), at(p2,c_1_1)})"]
+s100[label="(instance index=28, state index=100, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_0)})"]
+s98[label="(instance index=28, state index=98, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p3,c_1_0)})"]
+s814[label="(instance index=28, state index=814, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_0), at(t1,c_2_2)})"]
+s812[label="(instance index=28, state index=812, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_0), at(t1,c_0_2)})"]
+s811[label="(instance index=28, state index=811, atoms={at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_1_0), at(t1,c_0_2)})"]
+s99[label="(instance index=28, state index=99, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(t1,c_1_1), at(p3,c_1_0)})"]
+s149[label="(instance index=28, state index=149, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_1_0), carrying(t1,p3)})"]
+s160[label="(instance index=28, state index=160, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0), at(t1,c_2_2)})"]
+s146[label="(instance index=28, state index=146, atoms={at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s42[label="(instance index=28, state index=42, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_0)})"]
+s40[label="(instance index=28, state index=40, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p3,c_2_0), at(p2,c_1_0)})"]
+s38[label="(instance index=28, state index=38, atoms={at(p2,c_0_0), at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p3,c_2_0)})"]
+s37[label="(instance index=28, state index=37, atoms={at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s36[label="(instance index=28, state index=36, atoms={at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s35[label="(instance index=28, state index=35, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s3[label="(instance index=28, state index=3, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s1[label="(instance index=28, state index=1, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s2574[label="(instance index=28, state index=2574, atoms={at(t1,c_0_0), at(p2,c_2_1), at(p3,c_0_0), empty(t1), at(p1,c_0_0)})"]
+s1898[label="(instance index=28, state index=1898, atoms={at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_2), at(t1,c_1_1)})"]
+s305[label="(instance index=28, state index=305, atoms={at(t1,c_1_0), at(p3,c_0_0), at(p2,c_1_1), carrying(t1,p1)})"]
+s917[label="(instance index=28, state index=917, atoms={empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(p2,c_1_2), at(t1,c_2_2)})"]
+s143[label="(instance index=28, state index=143, atoms={at(p2,c_0_0), at(t1,c_1_0), at(p3,c_2_0), carrying(t1,p1)})"]
+s111[label="(instance index=28, state index=111, atoms={empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_1_1)})"]
+s4176[label="(instance index=28, state index=4176, atoms={at(p2,c_0_0), empty(t1), at(p1,c_0_0), at(p3,c_2_2), at(t1,c_2_2)})"]
+s843[label="(instance index=28, state index=843, atoms={at(t1,c_1_2), at(p1,c_1_0), carrying(t1,p2), at(p3,c_0_0)})"]
+s292[label="(instance index=28, state index=292, atoms={at(p1,c_1_0), carrying(t1,p2), at(t1,c_0_1), at(p3,c_1_0)})"]
+s847[label="(instance index=28, state index=847, atoms={at(p3,c_0_0), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(t1,c_1_1)})"]
+s1168[label="(instance index=28, state index=1168, atoms={empty(t1), at(p3,c_2_0), at(p2,c_2_0), at(p1,c_0_0), at(t1,c_0_2)})"]
+s913[label="(instance index=28, state index=913, atoms={at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_0_2)})"]
+s2507[label="(instance index=28, state index=2507, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_2)})"]
+s412[label="(instance index=28, state index=412, atoms={at(p1,c_2_0), at(p2,c_0_0), at(t1,c_2_0), empty(t1), at(p3,c_2_0)})"]
+s932[label="(instance index=28, state index=932, atoms={at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_0_2)})"]
+s1072[label="(instance index=28, state index=1072, atoms={at(p1,c_1_0), at(p2,c_0_1), at(p3,c_2_1), empty(t1), at(t1,c_2_2)})"]
+s112[label="(instance index=28, state index=112, atoms={at(t1,c_2_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1090[label="(instance index=28, state index=1090, atoms={at(p2,c_0_0), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(t1,c_1_1)})"]
+s333[label="(instance index=28, state index=333, atoms={carrying(t1,p2), at(t1,c_0_1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s137[label="(instance index=28, state index=137, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s41[label="(instance index=28, state index=41, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(t1,c_1_1), at(p2,c_1_0)})"]
+s308[label="(instance index=28, state index=308, atoms={at(p1,c_1_0), at(p3,c_0_1), empty(t1), at(p2,c_1_1), at(t1,c_1_1)})"]
+s921[label="(instance index=28, state index=921, atoms={at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_2_2)})"]
+s306[label="(instance index=28, state index=306, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p3,c_0_1), empty(t1), at(p2,c_1_1)})"]
+s311[label="(instance index=28, state index=311, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_1), at(t1,c_0_2)})"]
+s1091[label="(instance index=28, state index=1091, atoms={at(p2,c_0_0), at(t1,c_2_0), at(p1,c_1_0), at(p3,c_2_1), empty(t1)})"]
+s406[label="(instance index=28, state index=406, atoms={at(t1,c_2_1), at(p2,c_0_0), at(p1,c_1_0), carrying(t1,p3)})"]
+s340[label="(instance index=28, state index=340, atoms={empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_2_2)})"]
+s927[label="(instance index=28, state index=927, atoms={at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(t1,c_2_2)})"]
+s399[label="(instance index=28, state index=399, atoms={at(t1,c_0_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1140[label="(instance index=28, state index=1140, atoms={at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_0), at(t1,c_0_2)})"]
+s425[label="(instance index=28, state index=425, atoms={at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(t1,c_2_2), at(p2,c_1_0)})"]
+s266[label="(instance index=28, state index=266, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s265[label="(instance index=28, state index=265, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s1566[label="(instance index=28, state index=1566, atoms={at(p1,c_2_0), at(t1,c_1_2), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s1424[label="(instance index=28, state index=1424, atoms={at(p2,c_0_2), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s58[label="(instance index=28, state index=58, atoms={at(t1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s57[label="(instance index=28, state index=57, atoms={at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1776[label="(instance index=28, state index=1776, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p3,c_0_0), empty(t1), at(p2,c_1_2)})"]
+s1289[label="(instance index=28, state index=1289, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_0)})"]
+s1288[label="(instance index=28, state index=1288, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p2,c_1_2), at(p3,c_1_0)})"]
+s246[label="(instance index=28, state index=246, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s567[label="(instance index=28, state index=567, atoms={at(p2,c_0_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s236[label="(instance index=28, state index=236, atoms={at(t1,c_0_0), at(p2,c_0_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s202[label="(instance index=28, state index=202, atoms={at(t1,c_1_2), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s1401[label="(instance index=28, state index=1401, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_0_1), at(p3,c_2_1), empty(t1)})"]
+s794[label="(instance index=28, state index=794, atoms={at(p1,c_1_0), at(p2,c_2_1), at(t1,c_0_1), at(p3,c_0_0), empty(t1)})"]
+s703[label="(instance index=28, state index=703, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_0)})"]
+s657[label="(instance index=28, state index=657, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_0_1), at(p3,c_2_1), empty(t1)})"]
+s524[label="(instance index=28, state index=524, atoms={at(p1,c_1_0), at(p3,c_0_1), carrying(t1,p2), at(t1,c_1_1)})"]
+s235[label="(instance index=28, state index=235, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_0_1), carrying(t1,p3)})"]
+s203[label="(instance index=28, state index=203, atoms={at(t1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s201[label="(instance index=28, state index=201, atoms={at(t1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s188[label="(instance index=28, state index=188, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_1)})"]
+s187[label="(instance index=28, state index=187, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_1)})"]
+s185[label="(instance index=28, state index=185, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_1_1)})"]
+s53[label="(instance index=28, state index=53, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_1_1), carrying(t1,p3)})"]
+s52[label="(instance index=28, state index=52, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_0)})"]
+s499[label="(instance index=28, state index=499, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_0)})"]
+s497[label="(instance index=28, state index=497, atoms={at(p1,c_1_0), carrying(t1,p2), at(p3,c_1_0), at(t1,c_0_2)})"]
+s250[label="(instance index=28, state index=250, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_0)})"]
+s177[label="(instance index=28, state index=177, atoms={at(p1,c_1_0), carrying(t1,p2), at(t1,c_1_1), at(p3,c_1_0)})"]
+s87[label="(instance index=28, state index=87, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s78[label="(instance index=28, state index=78, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s77[label="(instance index=28, state index=77, atoms={at(p1,c_1_0), at(p2,c_0_2), at(t1,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s22[label="(instance index=28, state index=22, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_0)})"]
+s20[label="(instance index=28, state index=20, atoms={at(p1,c_1_0), at(t1,c_0_0), carrying(t1,p2), at(p3,c_2_0)})"]
+s6[label="(instance index=28, state index=6, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s4[label="(instance index=28, state index=4, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s0[label="(instance index=28, state index=0, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s795[label="(instance index=28, state index=795, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_1), at(p3,c_0_0), empty(t1)})"]
+s1829[label="(instance index=28, state index=1829, atoms={at(t1,c_0_0), at(p2,c_2_1), at(p3,c_0_0), carrying(t1,p1)})"]
+s1777[label="(instance index=28, state index=1777, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p3,c_0_0), empty(t1), at(p2,c_1_2)})"]
+s200[label="(instance index=28, state index=200, atoms={at(t1,c_2_0), at(p2,c_1_1), at(p1,c_0_0), carrying(t1,p3)})"]
+s519[label="(instance index=28, state index=519, atoms={at(p3,c_0_0), at(p2,c_1_1), carrying(t1,p1), at(t1,c_1_1)})"]
+s561[label="(instance index=28, state index=561, atoms={at(t1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s244[label="(instance index=28, state index=244, atoms={at(p2,c_0_0), at(t1,c_2_0), at(p3,c_2_0), carrying(t1,p1)})"]
+s559[label="(instance index=28, state index=559, atoms={at(t1,c_1_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(p2,c_1_2)})"]
+s199[label="(instance index=28, state index=199, atoms={carrying(t1,p2), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_1_1)})"]
+s5232[label="(instance index=28, state index=5232, atoms={at(t1,c_1_2), at(p2,c_0_0), empty(t1), at(p1,c_0_0), at(p3,c_2_2)})"]
+s72[label="(instance index=28, state index=72, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s1428[label="(instance index=28, state index=1428, atoms={at(t1,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(p2,c_1_2)})"]
+s564[label="(instance index=28, state index=564, atoms={at(t1,c_2_1), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_0_0)})"]
+s557[label="(instance index=28, state index=557, atoms={carrying(t1,p2), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_0_2)})"]
+s1735[label="(instance index=28, state index=1735, atoms={at(p1,c_2_0), at(t1,c_1_2), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s681[label="(instance index=28, state index=681, atoms={at(p1,c_2_0), at(p2,c_0_0), at(t1,c_1_0), empty(t1), at(p3,c_2_0)})"]
+s82[label="(instance index=28, state index=82, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_1_0), carrying(t1,p3)})"]
+s702[label="(instance index=28, state index=702, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p2,c_1_0)})"]
+s664[label="(instance index=28, state index=664, atoms={at(p1,c_2_0), at(t1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s1329[label="(instance index=28, state index=1329, atoms={at(t1,c_0_1), at(p3,c_0_0), empty(t1), at(p1,c_1_1), at(p2,c_1_1)})"]
+s1734[label="(instance index=28, state index=1734, atoms={at(p1,c_2_0), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s671[label="(instance index=28, state index=671, atoms={at(p2,c_0_0), at(p1,c_1_0), at(t1,c_2_2), carrying(t1,p3)})"]
+s1439[label="(instance index=28, state index=1439, atoms={at(t1,c_1_2), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_0_0)})"]
+s665[label="(instance index=28, state index=665, atoms={at(p1,c_2_0), at(t1,c_2_1), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s183[label="(instance index=28, state index=183, atoms={at(p1,c_1_0), at(p3,c_0_1), at(t1,c_0_1), empty(t1), at(p2,c_1_1)})"]
+s19[label="(instance index=28, state index=19, atoms={at(p1,c_1_0), at(p2,c_0_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s727[label="(instance index=28, state index=727, atoms={at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p2,c_2_0), at(p1,c_0_0)})"]
+s1431[label="(instance index=28, state index=1431, atoms={at(t1,c_1_2), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s919[label="(instance index=28, state index=919, atoms={at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_1_1)})"]
+s1183[label="(instance index=28, state index=1183, atoms={at(p1,c_2_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0), at(t1,c_2_2)})"]
+s1182[label="(instance index=28, state index=1182, atoms={at(p1,c_2_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0), at(t1,c_1_1)})"]
+s1181[label="(instance index=28, state index=1181, atoms={at(p1,c_2_0), at(t1,c_0_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s158[label="(instance index=28, state index=158, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0), at(t1,c_1_1)})"]
+s382[label="(instance index=28, state index=382, atoms={at(p1,c_2_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s1027[label="(instance index=28, state index=1027, atoms={at(p1,c_2_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s1026[label="(instance index=28, state index=1026, atoms={at(p1,c_2_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s1025[label="(instance index=28, state index=1025, atoms={at(p1,c_2_0), at(t1,c_0_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s449[label="(instance index=28, state index=449, atoms={at(t1,c_0_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0), at(p1,c_0_0)})"]
+s916[label="(instance index=28, state index=916, atoms={empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(p2,c_1_2), at(t1,c_1_1)})"]
+s915[label="(instance index=28, state index=915, atoms={empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(p2,c_1_2), at(t1,c_0_2)})"]
+s145[label="(instance index=28, state index=145, atoms={at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s926[label="(instance index=28, state index=926, atoms={at(t1,c_2_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_0_0)})"]
+s134[label="(instance index=28, state index=134, atoms={at(p1,c_2_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s347[label="(instance index=28, state index=347, atoms={at(p1,c_0_2), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s345[label="(instance index=28, state index=345, atoms={at(t1,c_0_0), at(p1,c_0_2), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s118[label="(instance index=28, state index=118, atoms={empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s8[label="(instance index=28, state index=8, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s29[label="(instance index=28, state index=29, atoms={at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1959[label="(instance index=28, state index=1959, atoms={empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(t1,c_2_2), at(p3,c_1_1)})"]
+s1957[label="(instance index=28, state index=1957, atoms={empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_1_1), at(t1,c_0_2)})"]
+s1956[label="(instance index=28, state index=1956, atoms={at(t1,c_0_0), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_1_1)})"]
+s861[label="(instance index=28, state index=861, atoms={at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(p3,c_1_1)})"]
+s312[label="(instance index=28, state index=312, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_1)})"]
+s310[label="(instance index=28, state index=310, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p3,c_1_1)})"]
+s120[label="(instance index=28, state index=120, atoms={empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s117[label="(instance index=28, state index=117, atoms={at(t1,c_0_0), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s1071[label="(instance index=28, state index=1071, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_0_1), at(p3,c_2_1), empty(t1)})"]
+s813[label="(instance index=28, state index=813, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(t1,c_1_1), at(p3,c_1_0)})"]
+s403[label="(instance index=28, state index=403, atoms={at(p1,c_2_0), at(t1,c_2_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s341[label="(instance index=28, state index=341, atoms={carrying(t1,p2), at(t1,c_0_1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s1247[label="(instance index=28, state index=1247, atoms={at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_0_2)})"]
+s138[label="(instance index=28, state index=138, atoms={at(t1,c_1_0), at(p2,c_0_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s115[label="(instance index=28, state index=115, atoms={empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_1_1)})"]
+s940[label="(instance index=28, state index=940, atoms={empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(p2,c_1_2), at(t1,c_2_2)})"]
+s895[label="(instance index=28, state index=895, atoms={at(p1,c_1_0), at(p2,c_0_1), at(p3,c_2_1), empty(t1), at(t1,c_0_2)})"]
+s894[label="(instance index=28, state index=894, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_0_1), at(p3,c_2_1), empty(t1)})"]
+s487[label="(instance index=28, state index=487, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_1), at(p3,c_0_0), empty(t1)})"]
+s483[label="(instance index=28, state index=483, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_1), empty(t1), at(p3,c_1_0)})"]
+s423[label="(instance index=28, state index=423, atoms={at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(t1,c_1_1), at(p2,c_1_0)})"]
+s398[label="(instance index=28, state index=398, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_0_1), carrying(t1,p3)})"]
+s319[label="(instance index=28, state index=319, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_2), at(t1,c_0_2)})"]
+s309[label="(instance index=28, state index=309, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_0_2), at(t1,c_0_2)})"]
+s108[label="(instance index=28, state index=108, atoms={at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(t1,c_2_2)})"]
+s104[label="(instance index=28, state index=104, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(t1,c_1_1), at(p3,c_1_1)})"]
+s103[label="(instance index=28, state index=103, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p2,c_1_1), carrying(t1,p3)})"]
+s294[label="(instance index=28, state index=294, atoms={at(t1,c_1_2), at(p1,c_1_0), carrying(t1,p2), at(p3,c_1_0)})"]
+s150[label="(instance index=28, state index=150, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_1_0), carrying(t1,p3)})"]
+s51[label="(instance index=28, state index=51, atoms={at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s47[label="(instance index=28, state index=47, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2), at(t1,c_2_2)})"]
+s39[label="(instance index=28, state index=39, atoms={at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s12[label="(instance index=28, state index=12, atoms={at(t1,c_1_0), at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_0)})"]
+s2[label="(instance index=28, state index=2, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s114[label="(instance index=28, state index=114, atoms={empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_0_2)})"]
+s1223[label="(instance index=28, state index=1223, atoms={at(t1,c_2_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(p2,c_1_2)})"]
+s920[label="(instance index=28, state index=920, atoms={at(t1,c_2_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s925[label="(instance index=28, state index=925, atoms={at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(t1,c_1_1)})"]
+s157[label="(instance index=28, state index=157, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s1266[label="(instance index=28, state index=1266, atoms={at(t1,c_1_0), at(p2,c_2_1), at(p3,c_0_0), carrying(t1,p1)})"]
+s338[label="(instance index=28, state index=338, atoms={at(t1,c_2_1), at(p2,c_1_1), at(p1,c_0_0), carrying(t1,p3)})"]
+s336[label="(instance index=28, state index=336, atoms={at(t1,c_2_1), carrying(t1,p2), at(p3,c_2_0), at(p1,c_0_0)})"]
+s335[label="(instance index=28, state index=335, atoms={at(t1,c_1_2), carrying(t1,p2), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1093[label="(instance index=28, state index=1093, atoms={at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_2_2), at(t1,c_2_2)})"]
+s1114[label="(instance index=28, state index=1114, atoms={at(t1,c_0_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s2241[label="(instance index=28, state index=2241, atoms={at(p1,c_2_0), at(t1,c_0_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s2242[label="(instance index=28, state index=2242, atoms={at(p1,c_2_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s170[label="(instance index=28, state index=170, atoms={at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s323[label="(instance index=28, state index=323, atoms={at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(t1,c_0_2)})"]
+s27[label="(instance index=28, state index=27, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_1_1), carrying(t1,p3)})"]
+s113[label="(instance index=28, state index=113, atoms={at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s3781[label="(instance index=28, state index=3781, atoms={at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(p2,c_1_2), at(t1,c_2_2)})"]
+s1216[label="(instance index=28, state index=1216, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_0)})"]
+s2246[label="(instance index=28, state index=2246, atoms={at(p1,c_2_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s413[label="(instance index=28, state index=413, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s45[label="(instance index=28, state index=45, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2), at(t1,c_0_2)})"]
+s144[label="(instance index=28, state index=144, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s6321[label="(instance index=28, state index=6321, atoms={at(p2,c_0_0), empty(t1), at(p1,c_0_0), at(t1,c_1_1), at(p3,c_2_2)})"]
+s2075[label="(instance index=28, state index=2075, atoms={carrying(t1,p2), at(t1,c_0_1), at(p3,c_2_1), at(p1,c_0_0)})"]
+s944[label="(instance index=28, state index=944, atoms={at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_2_2)})"]
+s6320[label="(instance index=28, state index=6320, atoms={at(p2,c_0_0), empty(t1), at(p1,c_0_0), at(p3,c_2_2), at(t1,c_0_2)})"]
+s44[label="(instance index=28, state index=44, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s132[label="(instance index=28, state index=132, atoms={at(p1,c_2_0), at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s9[label="(instance index=28, state index=9, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s1218[label="(instance index=28, state index=1218, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p3,c_0_0), empty(t1), at(p2,c_1_2)})"]
+s3753[label="(instance index=28, state index=3753, atoms={at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(t1,c_2_2)})"]
+s321[label="(instance index=28, state index=321, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_2), at(t1,c_2_2)})"]
+s2243[label="(instance index=28, state index=2243, atoms={at(p1,c_2_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s1215[label="(instance index=28, state index=1215, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p2,c_1_2), at(p3,c_1_0)})"]
+s2010[label="(instance index=28, state index=2010, atoms={at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(t1,c_0_2)})"]
+s896[label="(instance index=28, state index=896, atoms={at(p1,c_1_0), at(p2,c_0_1), at(p3,c_2_1), empty(t1), at(t1,c_1_1)})"]
+s11[label="(instance index=28, state index=11, atoms={at(p1,c_1_0), carrying(t1,p2), at(t1,c_0_1), at(p3,c_2_0)})"]
+s424[label="(instance index=28, state index=424, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_0)})"]
+s96[label="(instance index=28, state index=96, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s94[label="(instance index=28, state index=94, atoms={at(p1,c_1_0), at(p2,c_2_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s1462[label="(instance index=28, state index=1462, atoms={at(t1,c_1_2), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s782[label="(instance index=28, state index=782, atoms={at(t1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s781[label="(instance index=28, state index=781, atoms={at(p2,c_2_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1574[label="(instance index=28, state index=1574, atoms={at(p1,c_2_0), at(t1,c_1_2), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s1573[label="(instance index=28, state index=1573, atoms={at(p1,c_2_0), at(p2,c_2_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s737[label="(instance index=28, state index=737, atoms={at(p1,c_2_0), at(t1,c_2_1), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s736[label="(instance index=28, state index=736, atoms={at(p1,c_2_0), at(t1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s86[label="(instance index=28, state index=86, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s228[label="(instance index=28, state index=228, atoms={at(p1,c_2_0), at(t1,c_1_2), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s227[label="(instance index=28, state index=227, atoms={at(p1,c_2_0), at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s1568[label="(instance index=28, state index=1568, atoms={at(p1,c_2_0), at(p2,c_0_2), at(t1,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s1569[label="(instance index=28, state index=1569, atoms={at(p1,c_2_0), at(t1,c_1_2), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s628[label="(instance index=28, state index=628, atoms={at(p1,c_2_0), at(p2,c_0_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s267[label="(instance index=28, state index=267, atoms={at(t1,c_0_0), at(p3,c_2_0), carrying(t1,p1), at(p2,c_2_0)})"]
+s1570[label="(instance index=28, state index=1570, atoms={at(p1,c_2_0), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s89[label="(instance index=28, state index=89, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s764[label="(instance index=28, state index=764, atoms={at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(p2,c_1_2)})"]
+s1673[label="(instance index=28, state index=1673, atoms={at(p1,c_2_0), at(t1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s245[label="(instance index=28, state index=245, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s685[label="(instance index=28, state index=685, atoms={at(t1,c_0_0), at(p2,c_0_2), at(p3,c_2_0), carrying(t1,p1)})"]
+s70[label="(instance index=28, state index=70, atoms={at(p1,c_2_0), at(t1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s69[label="(instance index=28, state index=69, atoms={at(p1,c_2_0), at(t1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s206[label="(instance index=28, state index=206, atoms={at(t1,c_1_2), at(p1,c_0_2), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s205[label="(instance index=28, state index=205, atoms={at(p1,c_0_2), at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s63[label="(instance index=28, state index=63, atoms={at(t1,c_1_2), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s61[label="(instance index=28, state index=61, atoms={at(t1,c_0_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s59[label="(instance index=28, state index=59, atoms={at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s5[label="(instance index=28, state index=5, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s16[label="(instance index=28, state index=16, atoms={at(t1,c_0_0), at(p2,c_1_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s1358[label="(instance index=28, state index=1358, atoms={at(t1,c_1_2), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_1_1)})"]
+s1356[label="(instance index=28, state index=1356, atoms={at(t1,c_0_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_1_1)})"]
+s186[label="(instance index=28, state index=186, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_1)})"]
+s64[label="(instance index=28, state index=64, atoms={at(t1,c_2_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s62[label="(instance index=28, state index=62, atoms={at(t1,c_1_0), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s1461[label="(instance index=28, state index=1461, atoms={at(t1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s1382[label="(instance index=28, state index=1382, atoms={at(p1,c_1_0), at(p2,c_0_1), at(t1,c_0_1), empty(t1), at(p3,c_1_2)})"]
+s540[label="(instance index=28, state index=540, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_2)})"]
+s538[label="(instance index=28, state index=538, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_1_2)})"]
+s759[label="(instance index=28, state index=759, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_0)})"]
+s91[label="(instance index=28, state index=91, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s569[label="(instance index=28, state index=569, atoms={carrying(t1,p2), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_0_2)})"]
+s238[label="(instance index=28, state index=238, atoms={at(t1,c_2_0), at(p2,c_0_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s204[label="(instance index=28, state index=204, atoms={carrying(t1,p2), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_1_1)})"]
+s1405[label="(instance index=28, state index=1405, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_0_2), at(p3,c_2_1), empty(t1)})"]
+s1404[label="(instance index=28, state index=1404, atoms={at(p1,c_1_0), at(p2,c_0_2), at(t1,c_0_1), at(p3,c_2_1), empty(t1)})"]
+s193[label="(instance index=28, state index=193, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s191[label="(instance index=28, state index=191, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s545[label="(instance index=28, state index=545, atoms={at(p1,c_1_0), at(p2,c_0_1), at(t1,c_0_1), at(p3,c_2_1), empty(t1)})"]
+s658[label="(instance index=28, state index=658, atoms={at(p1,c_1_0), at(p2,c_0_1), at(t1,c_2_2), carrying(t1,p3)})"]
+s190[label="(instance index=28, state index=190, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_2)})"]
+s184[label="(instance index=28, state index=184, atoms={at(p1,c_1_0), at(p2,c_1_1), carrying(t1,p3), at(t1,c_0_2)})"]
+s55[label="(instance index=28, state index=55, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s54[label="(instance index=28, state index=54, atoms={at(p1,c_1_0), at(p2,c_1_1), at(t1,c_1_1), carrying(t1,p3)})"]
+s251[label="(instance index=28, state index=251, atoms={at(p1,c_1_0), at(t1,c_2_2), at(p2,c_1_0), carrying(t1,p3)})"]
+s23[label="(instance index=28, state index=23, atoms={at(t1,c_2_0), at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_0)})"]
+s24[label="(instance index=28, state index=24, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s21[label="(instance index=28, state index=21, atoms={at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_0), at(t1,c_0_2)})"]
+s7[label="(instance index=28, state index=7, atoms={at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_0), at(t1,c_1_1)})"]
+s1781[label="(instance index=28, state index=1781, atoms={at(t1,c_2_0), at(p1,c_0_0), at(p2,c_1_2), carrying(t1,p3)})"]
+s1432[label="(instance index=28, state index=1432, atoms={at(t1,c_2_0), at(p2,c_2_1), at(p1,c_0_0), carrying(t1,p3)})"]
+s760[label="(instance index=28, state index=760, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_1_2), carrying(t1,p3)})"]
+s765[label="(instance index=28, state index=765, atoms={at(t1,c_1_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(p2,c_1_2)})"]
+s4806[label="(instance index=28, state index=4806, atoms={at(t1,c_1_2), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s1390[label="(instance index=28, state index=1390, atoms={at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_0_0)})"]
+s527[label="(instance index=28, state index=527, atoms={at(t1,c_0_0), at(p2,c_1_1), carrying(t1,p1), at(p3,c_1_1)})"]
+s1644[label="(instance index=28, state index=1644, atoms={at(t1,c_1_2), at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_2_2)})"]
+s572[label="(instance index=28, state index=572, atoms={at(t1,c_1_2), empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(p2,c_1_2)})"]
+s1645[label="(instance index=28, state index=1645, atoms={at(t1,c_2_1), at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_2_2)})"]
+s15[label="(instance index=28, state index=15, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_1_1), carrying(t1,p3)})"]
+s574[label="(instance index=28, state index=574, atoms={at(t1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s1440[label="(instance index=28, state index=1440, atoms={carrying(t1,p2), at(p3,c_2_1), at(p1,c_0_0), at(t1,c_1_1)})"]
+s5382[label="(instance index=28, state index=5382, atoms={at(t1,c_0_1), at(p2,c_2_2), at(p3,c_0_0), empty(t1), at(p1,c_0_0)})"]
+s26[label="(instance index=28, state index=26, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s2855[label="(instance index=28, state index=2855, atoms={at(t1,c_1_2), at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(p2,c_1_2)})"]
+s2835[label="(instance index=28, state index=2835, atoms={at(t1,c_2_1), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s285[label="(instance index=28, state index=285, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_1_0)})"]
+s286[label="(instance index=28, state index=286, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_1), carrying(t1,p3)})"]
+s1391[label="(instance index=28, state index=1391, atoms={at(t1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_0_0)})"]
+s560[label="(instance index=28, state index=560, atoms={carrying(t1,p2), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_2_2)})"]
+s1674[label="(instance index=28, state index=1674, atoms={at(p1,c_2_0), at(t1,c_2_1), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s565[label="(instance index=28, state index=565, atoms={at(p2,c_1_1), at(p1,c_0_0), at(t1,c_2_2), carrying(t1,p3)})"]
+s918[label="(instance index=28, state index=918, atoms={at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_2_2)})"]
+s46[label="(instance index=28, state index=46, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2), at(t1,c_1_1)})"]
+s1032[label="(instance index=28, state index=1032, atoms={at(p1,c_2_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2), at(t1,c_2_2)})"]
+s2077[label="(instance index=28, state index=2077, atoms={at(t1,c_1_2), carrying(t1,p2), at(p3,c_2_1), at(p1,c_0_0)})"]
+s414[label="(instance index=28, state index=414, atoms={at(t1,c_1_0), at(p2,c_0_2), at(p3,c_2_0), carrying(t1,p1)})"]
+s454[label="(instance index=28, state index=454, atoms={at(p1,c_2_0), at(t1,c_2_0), empty(t1), at(p3,c_2_0), at(p2,c_2_0)})"]
+s13[label="(instance index=28, state index=13, atoms={at(t1,c_1_2), at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_0)})"]
+s163[label="(instance index=28, state index=163, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s980[label="(instance index=28, state index=980, atoms={at(t1,c_0_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s107[label="(instance index=28, state index=107, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s28[label="(instance index=28, state index=28, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_1_1), carrying(t1,p3)})"]
+s383[label="(instance index=28, state index=383, atoms={at(p1,c_2_0), carrying(t1,p2), at(t1,c_0_1), at(p3,c_2_0)})"]
+s3780[label="(instance index=28, state index=3780, atoms={at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(p2,c_1_2), at(t1,c_1_1)})"]
+s1035[label="(instance index=28, state index=1035, atoms={at(p1,c_2_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s493[label="(instance index=28, state index=493, atoms={at(p1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(t1,c_2_2)})"]
+s1034[label="(instance index=28, state index=1034, atoms={at(p1,c_2_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s928[label="(instance index=28, state index=928, atoms={empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(p3,c_2_2), at(t1,c_2_2)})"]
+s1253[label="(instance index=28, state index=1253, atoms={at(p1,c_2_0), at(t1,c_0_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s164[label="(instance index=28, state index=164, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s127[label="(instance index=28, state index=127, atoms={empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_2_2)})"]
+s903[label="(instance index=28, state index=903, atoms={at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_2), at(t1,c_2_2)})"]
+s14[label="(instance index=28, state index=14, atoms={at(t1,c_2_1), at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_0)})"]
+s1278[label="(instance index=28, state index=1278, atoms={at(p1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(t1,c_0_2)})"]
+s169[label="(instance index=28, state index=169, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s375[label="(instance index=28, state index=375, atoms={at(p1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s2113[label="(instance index=28, state index=2113, atoms={at(p1,c_0_2), empty(t1), at(p3,c_2_0), at(p2,c_1_2), at(t1,c_2_2)})"]
+s1031[label="(instance index=28, state index=1031, atoms={at(p1,c_2_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2), at(t1,c_1_1)})"]
+s125[label="(instance index=28, state index=125, atoms={empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_0_2)})"]
+s2350[label="(instance index=28, state index=2350, atoms={at(p2,c_0_0), at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p3,c_2_2)})"]
+s172[label="(instance index=28, state index=172, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_1), carrying(t1,p3)})"]
+s365[label="(instance index=28, state index=365, atoms={at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s1118[label="(instance index=28, state index=1118, atoms={at(p1,c_2_0), at(t1,c_2_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s1030[label="(instance index=28, state index=1030, atoms={at(p1,c_2_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2), at(t1,c_0_2)})"]
+s883[label="(instance index=28, state index=883, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_2)})"]
+s3779[label="(instance index=28, state index=3779, atoms={at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(p2,c_1_2), at(t1,c_0_2)})"]
+s478[label="(instance index=28, state index=478, atoms={at(t1,c_0_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s374[label="(instance index=28, state index=374, atoms={at(p1,c_2_1), at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s346[label="(instance index=28, state index=346, atoms={at(p1,c_0_2), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s343[label="(instance index=28, state index=343, atoms={at(t1,c_1_2), carrying(t1,p2), at(p3,c_2_0), at(p1,c_0_1)})"]
+s939[label="(instance index=28, state index=939, atoms={empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(p2,c_1_2), at(t1,c_1_1)})"]
+s2349[label="(instance index=28, state index=2349, atoms={at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(t1,c_1_1), at(p3,c_2_2)})"]
+s131[label="(instance index=28, state index=131, atoms={at(p1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s2063[label="(instance index=28, state index=2063, atoms={at(t1,c_2_1), at(p2,c_2_1), at(p1,c_0_0), carrying(t1,p3)})"]
+s954[label="(instance index=28, state index=954, atoms={at(p3,c_2_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(t1,c_2_2)})"]
+s467[label="(instance index=28, state index=467, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_1_2), carrying(t1,p3)})"]
+s10[label="(instance index=28, state index=10, atoms={at(t1,c_1_0), at(p2,c_1_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s426[label="(instance index=28, state index=426, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_2), at(t1,c_2_2), at(p2,c_1_0)})"]
+s49[label="(instance index=28, state index=49, atoms={at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s889[label="(instance index=28, state index=889, atoms={at(t1,c_0_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_0_0)})"]
+s2166[label="(instance index=28, state index=2166, atoms={at(t1,c_0_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s4384[label="(instance index=28, state index=4384, atoms={at(t1,c_0_0), at(p2,c_2_2), at(p3,c_0_0), empty(t1), at(p1,c_0_0)})"]
+s313[label="(instance index=28, state index=313, atoms={at(t1,c_1_0), at(p2,c_1_1), carrying(t1,p1), at(p3,c_1_1)})"]
+s1141[label="(instance index=28, state index=1141, atoms={at(p1,c_1_0), empty(t1), at(p3,c_2_2), at(p2,c_1_0), at(t1,c_0_2)})"]
+s2348[label="(instance index=28, state index=2348, atoms={at(p2,c_0_0), at(p1,c_1_0), empty(t1), at(p3,c_2_2), at(t1,c_0_2)})"]
+s105[label="(instance index=28, state index=105, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_1_1), carrying(t1,p3)})"]
+s1073[label="(instance index=28, state index=1073, atoms={at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_2), at(t1,c_2_2)})"]
+s50[label="(instance index=28, state index=50, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s2214[label="(instance index=28, state index=2214, atoms={at(p1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s325[label="(instance index=28, state index=325, atoms={at(p1,c_1_0), carrying(t1,p2), at(t1,c_0_1), at(p3,c_2_1)})"]
+s106[label="(instance index=28, state index=106, atoms={at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(t1,c_1_1)})"]
+s2007[label="(instance index=28, state index=2007, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_2), at(t1,c_2_2)})"]
+s898[label="(instance index=28, state index=898, atoms={at(p1,c_1_0), at(p2,c_0_2), at(p3,c_2_1), empty(t1), at(t1,c_0_2)})"]
+s901[label="(instance index=28, state index=901, atoms={at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_2), at(t1,c_0_2)})"]
+s344[label="(instance index=28, state index=344, atoms={at(t1,c_2_1), carrying(t1,p2), at(p3,c_2_0), at(p1,c_0_1)})"]
+s885[label="(instance index=28, state index=885, atoms={at(p1,c_1_0), carrying(t1,p2), at(t1,c_0_1), at(p3,c_1_2)})"]
+s320[label="(instance index=28, state index=320, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(t1,c_1_1), at(p3,c_1_2)})"]
+s943[label="(instance index=28, state index=943, atoms={at(t1,c_2_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s2005[label="(instance index=28, state index=2005, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_2), at(t1,c_0_2)})"]
+s1228[label="(instance index=28, state index=1228, atoms={at(p1,c_2_0), at(t1,c_0_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s119[label="(instance index=28, state index=119, atoms={at(t1,c_2_0), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s4447[label="(instance index=28, state index=4447, atoms={at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(t1,c_0_2)})"]
+s863[label="(instance index=28, state index=863, atoms={empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(t1,c_1_1), at(p3,c_1_1)})"]
+s322[label="(instance index=28, state index=322, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s953[label="(instance index=28, state index=953, atoms={at(t1,c_2_0), at(p3,c_2_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1)})"]
+s30[label="(instance index=28, state index=30, atoms={at(t1,c_0_1), at(p2,c_1_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s31[label="(instance index=28, state index=31, atoms={empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s116[label="(instance index=28, state index=116, atoms={at(p1,c_0_2), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s34[label="(instance index=28, state index=34, atoms={at(p1,c_2_0), at(t1,c_2_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s882[label="(instance index=28, state index=882, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p3,c_1_2)})"]
+s2016[label="(instance index=28, state index=2016, atoms={at(p3,c_2_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(t1,c_0_2)})"]
+s2015[label="(instance index=28, state index=2015, atoms={at(t1,c_0_0), at(p3,c_2_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1)})"]
+s469[label="(instance index=28, state index=469, atoms={at(t1,c_0_0), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(p2,c_1_2)})"]
+s938[label="(instance index=28, state index=938, atoms={empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(p2,c_1_2), at(t1,c_0_2)})"]
+s1029[label="(instance index=28, state index=1029, atoms={at(p1,c_2_0), at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s133[label="(instance index=28, state index=133, atoms={at(p1,c_2_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s159[label="(instance index=28, state index=159, atoms={at(t1,c_1_0), at(p3,c_2_0), carrying(t1,p1), at(p2,c_2_0)})"]
+s942[label="(instance index=28, state index=942, atoms={at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_1_1)})"]
+s1002[label="(instance index=28, state index=1002, atoms={at(p1,c_2_1), at(t1,c_0_0), at(p2,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s2112[label="(instance index=28, state index=2112, atoms={at(p1,c_0_2), empty(t1), at(p3,c_2_0), at(p2,c_1_2), at(t1,c_1_1)})"]
+s1003[label="(instance index=28, state index=1003, atoms={at(p1,c_2_1), at(p2,c_0_1), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s3751[label="(instance index=28, state index=3751, atoms={at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(t1,c_1_1)})"]
+s3752[label="(instance index=28, state index=3752, atoms={at(t1,c_2_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s1540[label="(instance index=28, state index=1540, atoms={at(t1,c_1_2), at(p1,c_2_1), at(p2,c_0_2), empty(t1), at(p3,c_2_0)})"]
+s762[label="(instance index=28, state index=762, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_2)})"]
+s68[label="(instance index=28, state index=68, atoms={at(t1,c_2_1), at(p1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s704[label="(instance index=28, state index=704, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p3,c_2_2), at(p2,c_1_0)})"]
+s3409[label="(instance index=28, state index=3409, atoms={at(p2,c_2_1), at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s2772[label="(instance index=28, state index=2772, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_2)})"]
+s288[label="(instance index=28, state index=288, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1)})"]
+s17[label="(instance index=28, state index=17, atoms={at(p2,c_1_1), at(p3,c_2_0), carrying(t1,p1), at(t1,c_1_1)})"]
+s1396[label="(instance index=28, state index=1396, atoms={at(t1,c_1_2), at(p3,c_2_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1)})"]
+s222[label="(instance index=28, state index=222, atoms={at(p1,c_2_1), at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s1539[label="(instance index=28, state index=1539, atoms={at(p1,c_2_1), at(p2,c_0_2), at(t1,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s269[label="(instance index=28, state index=269, atoms={at(t1,c_2_0), at(p3,c_2_0), carrying(t1,p1), at(p2,c_2_0)})"]
+s705[label="(instance index=28, state index=705, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p3,c_2_2), at(p2,c_1_0)})"]
+s3410[label="(instance index=28, state index=3410, atoms={at(t1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s539[label="(instance index=28, state index=539, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_1_2)})"]
+s1698[label="(instance index=28, state index=1698, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p3,c_2_2), at(p2,c_1_0)})"]
+s18[label="(instance index=28, state index=18, atoms={at(t1,c_2_0), at(p2,c_1_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s2770[label="(instance index=28, state index=2770, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p2,c_1_2), at(p3,c_1_2)})"]
+s634[label="(instance index=28, state index=634, atoms={at(p1,c_2_0), at(t1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s577[label="(instance index=28, state index=577, atoms={at(p1,c_0_2), carrying(t1,p2), at(p3,c_2_0), at(t1,c_1_1)})"]
+s218[label="(instance index=28, state index=218, atoms={at(t1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s66[label="(instance index=28, state index=66, atoms={at(t1,c_1_2), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s60[label="(instance index=28, state index=60, atoms={at(p2,c_1_1), at(p3,c_2_0), carrying(t1,p1), at(t1,c_0_2)})"]
+s1409[label="(instance index=28, state index=1409, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p2,c_1_2)})"]
+s573[label="(instance index=28, state index=573, atoms={carrying(t1,p2), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_2_2)})"]
+s1519[label="(instance index=28, state index=1519, atoms={at(p2,c_2_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s1547[label="(instance index=28, state index=1547, atoms={at(p1,c_2_1), at(p2,c_2_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s2836[label="(instance index=28, state index=2836, atoms={at(p2,c_2_1), at(p1,c_0_0), at(t1,c_2_2), carrying(t1,p3)})"]
+s1549[label="(instance index=28, state index=1549, atoms={at(t1,c_1_2), at(p1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s1508[label="(instance index=28, state index=1508, atoms={at(p2,c_0_2), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s4754[label="(instance index=28, state index=4754, atoms={at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(p2,c_1_2)})"]
+s224[label="(instance index=28, state index=224, atoms={at(t1,c_1_2), at(p1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s223[label="(instance index=28, state index=223, atoms={at(p1,c_2_1), at(t1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s1802[label="(instance index=28, state index=1802, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_2), at(p3,c_0_0), empty(t1)})"]
+s1430[label="(instance index=28, state index=1430, atoms={at(t1,c_2_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s1441[label="(instance index=28, state index=1441, atoms={at(t1,c_1_2), empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(p3,c_2_2)})"]
+s25[label="(instance index=28, state index=25, atoms={at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_0), at(t1,c_2_2)})"]
+s1801[label="(instance index=28, state index=1801, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p2,c_2_2), at(p3,c_0_0), empty(t1)})"]
+s56[label="(instance index=28, state index=56, atoms={at(p1,c_1_0), at(p2,c_1_1), at(t1,c_2_2), carrying(t1,p3)})"]
+s1619[label="(instance index=28, state index=1619, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_2)})"]
+s97[label="(instance index=28, state index=97, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_2_1), carrying(t1,p3)})"]
+s194[label="(instance index=28, state index=194, atoms={at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_1), at(t1,c_1_1)})"]
+s547[label="(instance index=28, state index=547, atoms={at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_1), at(t1,c_0_2)})"]
+s550[label="(instance index=28, state index=550, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_2)})"]
+s541[label="(instance index=28, state index=541, atoms={at(p1,c_1_0), carrying(t1,p2), at(t1,c_1_1), at(p3,c_1_2)})"]
+s275[label="(instance index=28, state index=275, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_1_2), carrying(t1,p3)})"]
+s1384[label="(instance index=28, state index=1384, atoms={at(p1,c_1_0), carrying(t1,p2), at(p3,c_1_2), at(t1,c_0_2)})"]
+s1387[label="(instance index=28, state index=1387, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_2)})"]
+s207[label="(instance index=28, state index=207, atoms={at(t1,c_2_0), at(p1,c_1_1), at(p2,c_1_1), carrying(t1,p3)})"]
+s528[label="(instance index=28, state index=528, atoms={at(p2,c_1_1), carrying(t1,p1), at(t1,c_1_1), at(p3,c_1_1)})"]
+s580[label="(instance index=28, state index=580, atoms={at(t1,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1)})"]
+s542[label="(instance index=28, state index=542, atoms={at(t1,c_0_0), at(p3,c_2_1), at(p2,c_1_1), carrying(t1,p1)})"]
+s192[label="(instance index=28, state index=192, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s1394[label="(instance index=28, state index=1394, atoms={at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1)})"]
+s1395[label="(instance index=28, state index=1395, atoms={at(t1,c_1_0), at(p3,c_2_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1)})"]
+s217[label="(instance index=28, state index=217, atoms={at(t1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s687[label="(instance index=28, state index=687, atoms={at(t1,c_2_0), at(p2,c_0_2), at(p3,c_2_0), carrying(t1,p1)})"]
+s1470[label="(instance index=28, state index=1470, atoms={at(t1,c_1_2), at(p1,c_0_2), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s276[label="(instance index=28, state index=276, atoms={at(t1,c_0_0), at(p3,c_2_0), carrying(t1,p1), at(p2,c_1_2)})"]
+s603[label="(instance index=28, state index=603, atoms={at(p2,c_0_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s1514[label="(instance index=28, state index=1514, atoms={at(t1,c_0_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(p2,c_1_2)})"]
+s216[label="(instance index=28, state index=216, atoms={at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s90[label="(instance index=28, state index=90, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s770[label="(instance index=28, state index=770, atoms={at(p1,c_2_0), at(t1,c_1_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s229[label="(instance index=28, state index=229, atoms={at(p1,c_2_0), carrying(t1,p2), at(p3,c_2_0), at(t1,c_1_1)})"]
+s771[label="(instance index=28, state index=771, atoms={at(p1,c_2_0), at(t1,c_2_1), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s630[label="(instance index=28, state index=630, atoms={at(p1,c_2_0), carrying(t1,p2), at(p3,c_2_0), at(t1,c_0_2)})"]
+s632[label="(instance index=28, state index=632, atoms={at(p1,c_2_0), at(t1,c_1_2), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s282[label="(instance index=28, state index=282, atoms={at(t1,c_0_0), at(p2,c_2_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s615[label="(instance index=28, state index=615, atoms={at(p1,c_2_1), at(p2,c_0_1), at(t1,c_0_1), empty(t1), at(p3,c_2_0)})"]
+s95[label="(instance index=28, state index=95, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s787[label="(instance index=28, state index=787, atoms={at(p1,c_2_0), at(t1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s802[label="(instance index=28, state index=802, atoms={at(p1,c_1_0), at(p2,c_2_1), at(t1,c_0_1), at(p3,c_2_1), empty(t1)})"]
+s804[label="(instance index=28, state index=804, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1)})"]
+s1429[label="(instance index=28, state index=1429, atoms={at(t1,c_1_2), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s3357[label="(instance index=28, state index=3357, atoms={at(t1,c_0_0), at(p2,c_2_2), at(p3,c_0_0), carrying(t1,p1)})"]
+s1013[label="(instance index=28, state index=1013, atoms={at(p1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s491[label="(instance index=28, state index=491, atoms={at(p1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(t1,c_1_1)})"]
+s1277[label="(instance index=28, state index=1277, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1)})"]
+s1022[label="(instance index=28, state index=1022, atoms={at(p1,c_2_1), at(t1,c_2_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s2231[label="(instance index=28, state index=2231, atoms={at(p1,c_2_1), at(t1,c_0_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s468[label="(instance index=28, state index=468, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_1_2), carrying(t1,p3)})"]
+s1009[label="(instance index=28, state index=1009, atoms={at(p1,c_2_1), empty(t1), at(p3,c_2_0), at(p2,c_1_2), at(t1,c_0_2)})"]
+s385[label="(instance index=28, state index=385, atoms={at(p1,c_2_0), at(t1,c_1_2), carrying(t1,p2), at(p3,c_2_0)})"]
+s992[label="(instance index=28, state index=992, atoms={at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_1_1)})"]
+s1015[label="(instance index=28, state index=1015, atoms={at(p1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s1221[label="(instance index=28, state index=1221, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_2)})"]
+s492[label="(instance index=28, state index=492, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1)})"]
+s366[label="(instance index=28, state index=366, atoms={at(t1,c_2_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s2006[label="(instance index=28, state index=2006, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(t1,c_1_1), at(p3,c_1_2)})"]
+s165[label="(instance index=28, state index=165, atoms={at(t1,c_1_0), at(p3,c_2_0), carrying(t1,p1), at(p2,c_1_2)})"]
+s48[label="(instance index=28, state index=48, atoms={at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s1023[label="(instance index=28, state index=1023, atoms={at(p1,c_2_1), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(t1,c_2_2)})"]
+s482[label="(instance index=28, state index=482, atoms={at(p1,c_2_0), at(t1,c_2_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s2080[label="(instance index=28, state index=2080, atoms={empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(t1,c_1_1), at(p3,c_2_2)})"]
+s171[label="(instance index=28, state index=171, atoms={at(t1,c_1_0), at(p2,c_2_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s1236[label="(instance index=28, state index=1236, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_2), empty(t1), at(p3,c_1_0)})"]
+s473[label="(instance index=28, state index=473, atoms={at(p1,c_2_0), at(t1,c_2_0), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s2244[label="(instance index=28, state index=2244, atoms={at(p1,c_2_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s2059[label="(instance index=28, state index=2059, atoms={at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_0_2)})"]
+s2232[label="(instance index=28, state index=2232, atoms={at(p1,c_2_1), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(t1,c_0_2)})"]
+s126[label="(instance index=28, state index=126, atoms={empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_1_1)})"]
+s988[label="(instance index=28, state index=988, atoms={empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(p2,c_1_2), at(t1,c_0_2)})"]
+s166[label="(instance index=28, state index=166, atoms={at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s376[label="(instance index=28, state index=376, atoms={at(p1,c_2_1), carrying(t1,p2), at(t1,c_0_1), at(p3,c_2_0)})"]
+s129[label="(instance index=28, state index=129, atoms={at(p1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s2061[label="(instance index=28, state index=2061, atoms={at(t1,c_2_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s3754[label="(instance index=28, state index=3754, atoms={at(p2,c_2_1), empty(t1), at(p1,c_0_0), at(p3,c_2_2), at(t1,c_2_2)})"]
+s329[label="(instance index=28, state index=329, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_2), at(t1,c_0_2)})"]
+s109[label="(instance index=28, state index=109, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_2), at(t1,c_2_2)})"]
+s2044[label="(instance index=28, state index=2044, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_0_1), empty(t1), at(p3,c_2_2)})"]
+s3667[label="(instance index=28, state index=3667, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_2)})"]
+s2045[label="(instance index=28, state index=2045, atoms={at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(p3,c_2_2), at(t1,c_0_2)})"]
+s2046[label="(instance index=28, state index=2046, atoms={at(p1,c_1_0), at(p2,c_0_1), empty(t1), at(t1,c_1_1), at(p3,c_2_2)})"]
+s173[label="(instance index=28, state index=173, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_2_1), carrying(t1,p3)})"]
+s327[label="(instance index=28, state index=327, atoms={at(t1,c_1_2), at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_1)})"]
+s941[label="(instance index=28, state index=941, atoms={at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_2_2)})"]
+s2023[label="(instance index=28, state index=2023, atoms={at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_1_2), at(t1,c_2_2)})"]
+s887[label="(instance index=28, state index=887, atoms={at(t1,c_1_2), at(p1,c_1_0), carrying(t1,p2), at(p3,c_1_2)})"]
+s2079[label="(instance index=28, state index=2079, atoms={empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(p3,c_2_2), at(t1,c_0_2)})"]
+s349[label="(instance index=28, state index=349, atoms={at(t1,c_2_1), at(p1,c_1_1), at(p2,c_1_1), carrying(t1,p3)})"]
+s1142[label="(instance index=28, state index=1142, atoms={at(p1,c_1_0), empty(t1), at(t1,c_1_1), at(p3,c_2_2), at(p2,c_1_0)})"]
+s33[label="(instance index=28, state index=33, atoms={at(t1,c_2_1), at(p2,c_1_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s324[label="(instance index=28, state index=324, atoms={at(t1,c_1_0), at(p3,c_2_1), at(p2,c_1_1), carrying(t1,p1)})"]
+s884[label="(instance index=28, state index=884, atoms={at(t1,c_1_0), at(p2,c_1_1), carrying(t1,p1), at(p3,c_1_2)})"]
+s891[label="(instance index=28, state index=891, atoms={at(p3,c_2_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(t1,c_1_1)})"]
+s2021[label="(instance index=28, state index=2021, atoms={at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_1_2), at(t1,c_0_2)})"]
+s2060[label="(instance index=28, state index=2060, atoms={at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0), at(t1,c_1_1)})"]
+s948[label="(instance index=28, state index=948, atoms={at(t1,c_1_2), at(p1,c_0_2), carrying(t1,p2), at(p3,c_2_0)})"]
+s367[label="(instance index=28, state index=367, atoms={carrying(t1,p2), at(t1,c_0_1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s984[label="(instance index=28, state index=984, atoms={at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_0_2)})"]
+s989[label="(instance index=28, state index=989, atoms={empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(p2,c_1_2), at(t1,c_1_1)})"]
+s990[label="(instance index=28, state index=990, atoms={empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(p2,c_1_2), at(t1,c_2_2)})"]
+s994[label="(instance index=28, state index=994, atoms={at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_2_2)})"]
+s1006[label="(instance index=28, state index=1006, atoms={at(p1,c_2_1), at(p2,c_0_2), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s6082[label="(instance index=28, state index=6082, atoms={at(t1,c_0_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_1_2)})"]
+s1240[label="(instance index=28, state index=1240, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_2), at(p3,c_0_0), empty(t1)})"]
+s2179[label="(instance index=28, state index=2179, atoms={at(t1,c_0_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s902[label="(instance index=28, state index=902, atoms={at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_2), at(t1,c_1_1)})"]
+s2036[label="(instance index=28, state index=2036, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p3,c_2_1), empty(t1), at(p2,c_1_2)})"]
+s386[label="(instance index=28, state index=386, atoms={at(p1,c_2_0), at(t1,c_2_1), carrying(t1,p2), at(p3,c_2_0)})"]
+s3713[label="(instance index=28, state index=3713, atoms={at(t1,c_0_0), at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(p2,c_1_2)})"]
+s3687[label="(instance index=28, state index=3687, atoms={at(t1,c_0_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_1_2)})"]
+s2174[label="(instance index=28, state index=2174, atoms={at(t1,c_0_0), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(p2,c_1_2)})"]
+s2590[label="(instance index=28, state index=2590, atoms={at(t1,c_0_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s3666[label="(instance index=28, state index=3666, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p2,c_1_2), at(p3,c_1_2)})"]
+s2213[label="(instance index=28, state index=2213, atoms={at(p1,c_2_1), at(t1,c_0_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s6174[label="(instance index=28, state index=6174, atoms={at(p1,c_2_1), at(t1,c_0_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1)})"]
+s6175[label="(instance index=28, state index=6175, atoms={at(p1,c_2_1), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(t1,c_0_2)})"]
+s32[label="(instance index=28, state index=32, atoms={at(t1,c_1_2), at(p2,c_1_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s130[label="(instance index=28, state index=130, atoms={at(p1,c_2_1), at(t1,c_2_0), empty(t1), at(p2,c_1_1), at(p3,c_2_0)})"]
+s2538[label="(instance index=28, state index=2538, atoms={at(t1,c_1_0), at(p2,c_2_2), at(p3,c_0_0), carrying(t1,p1)})"]
+s1143[label="(instance index=28, state index=1143, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p3,c_2_2), at(p2,c_1_0)})"]
+s1471[label="(instance index=28, state index=1471, atoms={at(p1,c_0_2), carrying(t1,p2), at(p3,c_2_0), at(t1,c_2_2)})"]
+s543[label="(instance index=28, state index=543, atoms={at(p3,c_2_1), at(p2,c_1_1), carrying(t1,p1), at(t1,c_1_1)})"]
+s196[label="(instance index=28, state index=196, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_2)})"]
+s195[label="(instance index=28, state index=195, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_2)})"]
+s1459[label="(instance index=28, state index=1459, atoms={at(t1,c_1_2), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s2857[label="(instance index=28, state index=2857, atoms={carrying(t1,p2), at(p1,c_0_0), at(t1,c_1_1), at(p3,c_2_2)})"]
+s1548[label="(instance index=28, state index=1548, atoms={at(p1,c_2_1), at(t1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s2786[label="(instance index=28, state index=2786, atoms={at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_1_2)})"]
+s626[label="(instance index=28, state index=626, atoms={at(t1,c_2_1), at(p1,c_2_1), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s1790[label="(instance index=28, state index=1790, atoms={at(t1,c_0_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s67[label="(instance index=28, state index=67, atoms={at(p2,c_1_1), at(p3,c_2_0), carrying(t1,p1), at(t1,c_2_2)})"]
+s581[label="(instance index=28, state index=581, atoms={at(p1,c_1_1), at(p2,c_1_1), at(t1,c_2_2), carrying(t1,p3)})"]
+s1791[label="(instance index=28, state index=1791, atoms={at(t1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s289[label="(instance index=28, state index=289, atoms={at(p1,c_1_0), at(p2,c_2_1), at(t1,c_2_2), carrying(t1,p3)})"]
+s1398[label="(instance index=28, state index=1398, atoms={at(t1,c_1_2), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_1_2)})"]
+s5067[label="(instance index=28, state index=5067, atoms={at(p1,c_2_1), at(p2,c_2_1), at(t1,c_0_1), at(p3,c_2_1), empty(t1)})"]
+s225[label="(instance index=28, state index=225, atoms={at(p1,c_2_1), carrying(t1,p2), at(p3,c_2_0), at(t1,c_1_1)})"]
+s608[label="(instance index=28, state index=608, atoms={at(t1,c_1_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(p2,c_1_2)})"]
+s4800[label="(instance index=28, state index=4800, atoms={at(t1,c_2_1), at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s777[label="(instance index=28, state index=777, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_2), carrying(t1,p3)})"]
+s1562[label="(instance index=28, state index=1562, atoms={at(t1,c_1_2), at(p1,c_2_1), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s763[label="(instance index=28, state index=763, atoms={at(p1,c_1_0), at(p2,c_1_2), at(t1,c_2_2), carrying(t1,p3)})"]
+s92[label="(instance index=28, state index=92, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s610[label="(instance index=28, state index=610, atoms={at(t1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s93[label="(instance index=28, state index=93, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s2808[label="(instance index=28, state index=2808, atoms={at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(p3,c_2_2)})"]
+s776[label="(instance index=28, state index=776, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_1_0)})"]
+s622[label="(instance index=28, state index=622, atoms={at(t1,c_2_1), at(p1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s284[label="(instance index=28, state index=284, atoms={at(t1,c_2_0), at(p2,c_2_1), at(p3,c_2_0), carrying(t1,p1)})"]
+s226[label="(instance index=28, state index=226, atoms={at(p1,c_2_1), at(t1,c_2_0), at(p2,c_1_1), carrying(t1,p3)})"]
+s552[label="(instance index=28, state index=552, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p2,c_1_1), at(p3,c_2_2)})"]
+s605[label="(instance index=28, state index=605, atoms={carrying(t1,p2), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_0_2)})"]
+s602[label="(instance index=28, state index=602, atoms={at(t1,c_2_0), at(p2,c_1_1), at(p1,c_1_2), carrying(t1,p3)})"]
+s2820[label="(instance index=28, state index=2820, atoms={at(p1,c_1_0), at(p2,c_0_2), at(t1,c_0_1), empty(t1), at(p3,c_2_2)})"]
+s2832[label="(instance index=28, state index=2832, atoms={at(t1,c_2_0), at(p2,c_2_2), at(p1,c_0_0), carrying(t1,p3)})"]
+s1460[label="(instance index=28, state index=1460, atoms={at(t1,c_2_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_1)})"]
+s1415[label="(instance index=28, state index=1415, atoms={at(p1,c_1_0), at(p2,c_0_1), at(t1,c_0_1), empty(t1), at(p3,c_2_2)})"]
+s279[label="(instance index=28, state index=279, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s219[label="(instance index=28, state index=219, atoms={carrying(t1,p2), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_1_1)})"]
+s1571[label="(instance index=28, state index=1571, atoms={at(p1,c_2_0), at(t1,c_1_2), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s3047[label="(instance index=28, state index=3047, atoms={at(p1,c_2_0), at(t1,c_0_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s620[label="(instance index=28, state index=620, atoms={at(t1,c_1_2), at(p1,c_2_1), empty(t1), at(p3,c_2_0), at(p2,c_1_2)})"]
+s4807[label="(instance index=28, state index=4807, atoms={at(t1,c_1_2), at(p2,c_2_1), empty(t1), at(p1,c_0_0), at(p3,c_2_2)})"]
+s1561[label="(instance index=28, state index=1561, atoms={at(p1,c_2_1), at(t1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s4999[label="(instance index=28, state index=4999, atoms={at(t1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_1_2)})"]
+s617[label="(instance index=28, state index=617, atoms={at(p1,c_2_1), carrying(t1,p2), at(p3,c_2_0), at(t1,c_0_2)})"]
+s4998[label="(instance index=28, state index=4998, atoms={at(p2,c_2_1), at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p1,c_1_2)})"]
+s1520[label="(instance index=28, state index=1520, atoms={at(t1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s1410[label="(instance index=28, state index=1410, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p3,c_2_1), empty(t1), at(p2,c_1_2)})"]
+s2805[label="(instance index=28, state index=2805, atoms={at(t1,c_0_0), at(p3,c_2_1), carrying(t1,p1), at(p2,c_1_2)})"]
+s1515[label="(instance index=28, state index=1515, atoms={at(t1,c_1_0), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(p2,c_1_2)})"]
+s1516[label="(instance index=28, state index=1516, atoms={at(t1,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(p2,c_1_2)})"]
+s1841[label="(instance index=28, state index=1841, atoms={at(t1,c_0_0), at(p2,c_2_1), at(p3,c_2_1), carrying(t1,p1)})"]
+s2771[label="(instance index=28, state index=2771, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_1_2)})"]
+s803[label="(instance index=28, state index=803, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1)})"]
+s1560[label="(instance index=28, state index=1560, atoms={at(p1,c_2_1), at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p2,c_1_1)})"]
+s633[label="(instance index=28, state index=633, atoms={at(p1,c_2_0), carrying(t1,p2), at(p3,c_2_0), at(t1,c_2_2)})"]
+s5069[label="(instance index=28, state index=5069, atoms={at(t1,c_1_2), at(p1,c_2_1), at(p2,c_2_1), at(p3,c_2_1), empty(t1)})"]
+s278[label="(instance index=28, state index=278, atoms={at(t1,c_2_0), at(p3,c_2_0), carrying(t1,p1), at(p2,c_1_2)})"]
+s5068[label="(instance index=28, state index=5068, atoms={at(p1,c_2_1), at(t1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1)})"]
+s1021[label="(instance index=28, state index=1021, atoms={at(p1,c_2_1), at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(t1,c_1_1)})"]
+s1279[label="(instance index=28, state index=1279, atoms={at(t1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), carrying(t1,p1)})"]
+s4024[label="(instance index=28, state index=4024, atoms={at(p1,c_2_1), at(p3,c_2_1), empty(t1), at(p2,c_1_2), at(t1,c_0_2)})"]
+s2175[label="(instance index=28, state index=2175, atoms={at(t1,c_2_0), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(p2,c_1_2)})"]
+s2022[label="(instance index=28, state index=2022, atoms={at(p3,c_2_1), empty(t1), at(p2,c_1_1), at(p1,c_1_2), at(t1,c_1_1)})"]
+s5868[label="(instance index=28, state index=5868, atoms={at(t1,c_2_0), at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s993[label="(instance index=28, state index=993, atoms={at(t1,c_2_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s2210[label="(instance index=28, state index=2210, atoms={at(p1,c_2_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s2245[label="(instance index=28, state index=2245, atoms={at(p1,c_2_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s369[label="(instance index=28, state index=369, atoms={at(t1,c_1_2), carrying(t1,p2), at(p3,c_2_0), at(p1,c_1_2)})"]
+s167[label="(instance index=28, state index=167, atoms={at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s2114[label="(instance index=28, state index=2114, atoms={at(p1,c_0_2), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s1231[label="(instance index=28, state index=1231, atoms={at(t1,c_0_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_0)})"]
+s476[label="(instance index=28, state index=476, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_2), carrying(t1,p3)})"]
+s381[label="(instance index=28, state index=381, atoms={at(t1,c_2_1), at(p1,c_2_1), at(p2,c_1_1), carrying(t1,p3)})"]
+s995[label="(instance index=28, state index=995, atoms={at(t1,c_0_0), empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_0)})"]
+s3721[label="(instance index=28, state index=3721, atoms={at(t1,c_0_0), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_2)})"]
+s955[label="(instance index=28, state index=955, atoms={empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_2), at(t1,c_2_2)})"]
+s3989[label="(instance index=28, state index=3989, atoms={at(p1,c_2_1), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(t1,c_1_1)})"]
+s905[label="(instance index=28, state index=905, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p3,c_2_2)})"]
+s2039[label="(instance index=28, state index=2039, atoms={at(t1,c_0_0), empty(t1), at(p2,c_1_1), at(p1,c_0_0), at(p3,c_2_2)})"]
+s1222[label="(instance index=28, state index=1222, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_2_2), at(t1,c_2_2)})"]
+s168[label="(instance index=28, state index=168, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s370[label="(instance index=28, state index=370, atoms={at(t1,c_2_1), carrying(t1,p2), at(p3,c_2_0), at(p1,c_1_2)})"]
+s3939[label="(instance index=28, state index=3939, atoms={at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_1_2), at(t1,c_2_2)})"]
+s474[label="(instance index=28, state index=474, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s1033[label="(instance index=28, state index=1033, atoms={at(p1,c_2_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s3991[label="(instance index=28, state index=3991, atoms={at(p1,c_2_1), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(t1,c_2_2)})"]
+s2100[label="(instance index=28, state index=2100, atoms={at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_1_1)})"]
+s3938[label="(instance index=28, state index=3938, atoms={at(t1,c_2_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_1_2)})"]
+s3835[label="(instance index=28, state index=3835, atoms={at(p1,c_0_2), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s494[label="(instance index=28, state index=494, atoms={at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_2), at(t1,c_2_2)})"]
+s2233[label="(instance index=28, state index=2233, atoms={at(p1,c_2_1), carrying(t1,p2), at(t1,c_0_1), at(p3,c_2_1)})"]
+s3937[label="(instance index=28, state index=3937, atoms={at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_1_2), at(t1,c_1_1)})"]
+s2037[label="(instance index=28, state index=2037, atoms={at(t1,c_1_0), at(p3,c_2_1), carrying(t1,p1), at(p2,c_1_2)})"]
+s1280[label="(instance index=28, state index=1280, atoms={at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_2), at(t1,c_0_2)})"]
+s5876[label="(instance index=28, state index=5876, atoms={at(p2,c_2_1), empty(t1), at(p1,c_0_0), at(p3,c_2_2), at(t1,c_0_2)})"]
+s331[label="(instance index=28, state index=331, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_2)})"]
+s2123[label="(instance index=28, state index=2123, atoms={empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_2), at(t1,c_0_2)})"]
+s1014[label="(instance index=28, state index=1014, atoms={at(p1,c_2_1), at(t1,c_2_0), at(p2,c_2_1), empty(t1), at(p3,c_2_0)})"]
+s2526[label="(instance index=28, state index=2526, atoms={at(p1,c_2_0), at(t1,c_0_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s330[label="(instance index=28, state index=330, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(t1,c_1_1), at(p3,c_2_2)})"]
+s379[label="(instance index=28, state index=379, atoms={at(t1,c_2_1), at(p1,c_2_1), carrying(t1,p2), at(p3,c_2_0)})"]
+s3941[label="(instance index=28, state index=3941, atoms={at(t1,c_0_0), at(p2,c_0_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s378[label="(instance index=28, state index=378, atoms={at(t1,c_1_2), at(p1,c_2_1), carrying(t1,p2), at(p3,c_2_0)})"]
+s892[label="(instance index=28, state index=892, atoms={at(t1,c_1_2), at(p3,c_2_1), at(p2,c_1_1), carrying(t1,p1)})"]
+s128[label="(instance index=28, state index=128, atoms={empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s3747[label="(instance index=28, state index=3747, atoms={at(t1,c_2_1), at(p2,c_2_2), at(p1,c_0_0), carrying(t1,p3)})"]
+s3990[label="(instance index=28, state index=3990, atoms={at(p1,c_2_1), at(t1,c_2_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1)})"]
+s371[label="(instance index=28, state index=371, atoms={empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_0_2)})"]
+s2048[label="(instance index=28, state index=2048, atoms={at(p1,c_1_0), at(p2,c_0_2), empty(t1), at(p3,c_2_2), at(t1,c_0_2)})"]
+s2099[label="(instance index=28, state index=2099, atoms={at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_0_1), at(t1,c_0_2)})"]
+s2182[label="(instance index=28, state index=2182, atoms={at(t1,c_0_0), at(p2,c_0_1), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s5867[label="(instance index=28, state index=5867, atoms={at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_0_0), at(t1,c_1_1)})"]
+s907[label="(instance index=28, state index=907, atoms={at(p1,c_1_0), carrying(t1,p2), at(t1,c_0_1), at(p3,c_2_2)})"]
+s2051[label="(instance index=28, state index=2051, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_2_2), at(t1,c_0_2)})"]
+s1412[label="(instance index=28, state index=1412, atoms={at(t1,c_0_0), at(p2,c_1_1), carrying(t1,p1), at(p3,c_2_2)})"]
+s1563[label="(instance index=28, state index=1563, atoms={at(p1,c_2_1), carrying(t1,p2), at(p3,c_2_1), at(t1,c_1_1)})"]
+s2978[label="(instance index=28, state index=2978, atoms={at(t1,c_2_1), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_1_2)})"]
+s2825[label="(instance index=28, state index=2825, atoms={at(p1,c_1_0), at(t1,c_0_1), empty(t1), at(p2,c_1_2), at(p3,c_2_2)})"]
+s280[label="(instance index=28, state index=280, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s2898[label="(instance index=28, state index=2898, atoms={at(t1,c_1_2), at(p1,c_0_2), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s2983[label="(instance index=28, state index=2983, atoms={at(p2,c_0_2), at(t1,c_0_1), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s2991[label="(instance index=28, state index=2991, atoms={at(p2,c_2_1), at(t1,c_0_1), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s773[label="(instance index=28, state index=773, atoms={at(t1,c_0_0), at(p2,c_2_2), at(p3,c_2_0), carrying(t1,p1)})"]
+s627[label="(instance index=28, state index=627, atoms={at(p1,c_2_1), at(p2,c_1_1), at(t1,c_2_2), carrying(t1,p3)})"]
+s612[label="(instance index=28, state index=612, atoms={at(t1,c_1_0), empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_0)})"]
+s221[label="(instance index=28, state index=221, atoms={at(t1,c_2_1), empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_0)})"]
+s281[label="(instance index=28, state index=281, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_2_2), carrying(t1,p3)})"]
+s1550[label="(instance index=28, state index=1550, atoms={at(p1,c_2_1), at(t1,c_2_0), at(p2,c_2_1), carrying(t1,p3)})"]
+s779[label="(instance index=28, state index=779, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_2_2), at(p3,c_2_1), empty(t1)})"]
+s609[label="(instance index=28, state index=609, atoms={carrying(t1,p2), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_2_2)})"]
+s554[label="(instance index=28, state index=554, atoms={at(p1,c_1_0), carrying(t1,p2), at(t1,c_1_1), at(p3,c_2_2)})"]
+s1521[label="(instance index=28, state index=1521, atoms={at(t1,c_2_0), at(p2,c_2_1), at(p1,c_1_2), carrying(t1,p3)})"]
+s2812[label="(instance index=28, state index=2812, atoms={at(t1,c_0_1), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_2)})"]
+s3019[label="(instance index=28, state index=3019, atoms={at(t1,c_2_1), at(p1,c_2_1), at(p2,c_2_1), at(p3,c_2_1), empty(t1)})"]
+s5403[label="(instance index=28, state index=5403, atoms={at(t1,c_1_0), at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s220[label="(instance index=28, state index=220, atoms={at(t1,c_1_2), empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_0)})"]
+s611[label="(instance index=28, state index=611, atoms={at(t1,c_0_1), empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_0)})"]
+s1522[label="(instance index=28, state index=1522, atoms={at(p2,c_0_1), at(t1,c_0_1), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s2972[label="(instance index=28, state index=2972, atoms={at(t1,c_0_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s2788[label="(instance index=28, state index=2788, atoms={carrying(t1,p2), at(p3,c_2_1), at(p1,c_1_2), at(t1,c_1_1)})"]
+s1780[label="(instance index=28, state index=1780, atoms={at(t1,c_2_1), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_2_2)})"]
+s5402[label="(instance index=28, state index=5402, atoms={at(t1,c_0_1), at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s805[label="(instance index=28, state index=805, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_2_1), empty(t1), at(p3,c_2_2)})"]
+s621[label="(instance index=28, state index=621, atoms={at(p1,c_2_1), carrying(t1,p2), at(p3,c_2_0), at(t1,c_2_2)})"]
+s1417[label="(instance index=28, state index=1417, atoms={at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_2), at(t1,c_0_2)})"]
+s1808[label="(instance index=28, state index=1808, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p2,c_2_2), at(p3,c_2_1), empty(t1)})"]
+s1572[label="(instance index=28, state index=1572, atoms={at(p1,c_2_0), at(t1,c_2_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s3042[label="(instance index=28, state index=3042, atoms={at(t1,c_1_2), at(p1,c_2_1), at(p3,c_2_1), empty(t1), at(p2,c_1_2)})"]
+s1795[label="(instance index=28, state index=1795, atoms={at(p1,c_2_0), at(t1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s1420[label="(instance index=28, state index=1420, atoms={at(t1,c_1_2), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_2_2)})"]
+s4801[label="(instance index=28, state index=4801, atoms={at(p2,c_2_2), at(p1,c_0_0), at(t1,c_2_2), carrying(t1,p3)})"]
+s2971[label="(instance index=28, state index=2971, atoms={at(t1,c_2_0), at(p1,c_1_2), at(p2,c_1_2), carrying(t1,p3)})"]
+s1545[label="(instance index=28, state index=1545, atoms={at(t1,c_1_2), at(p1,c_2_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s553[label="(instance index=28, state index=553, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p2,c_1_1), at(p3,c_2_2)})"]
+s1476[label="(instance index=28, state index=1476, atoms={at(t1,c_1_2), empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(p3,c_2_2)})"]
+s475[label="(instance index=28, state index=475, atoms={at(t1,c_1_0), at(p2,c_2_2), at(p3,c_2_0), carrying(t1,p1)})"]
+s2176[label="(instance index=28, state index=2176, atoms={at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_0_2)})"]
+s2177[label="(instance index=28, state index=2177, atoms={at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_1_1)})"]
+s6176[label="(instance index=28, state index=6176, atoms={at(p1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_2), at(t1,c_0_2)})"]
+s7748[label="(instance index=28, state index=7748, atoms={at(t1,c_0_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_2_2)})"]
+s3950[label="(instance index=28, state index=3950, atoms={at(t1,c_0_0), at(p2,c_2_1), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s1245[label="(instance index=28, state index=1245, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_2_2), at(p3,c_2_1), empty(t1)})"]
+s2041[label="(instance index=28, state index=2041, atoms={empty(t1), at(p1,c_1_1), at(p2,c_1_1), at(t1,c_1_1), at(p3,c_2_2)})"]
+s2216[label="(instance index=28, state index=2216, atoms={at(t1,c_2_1), at(p1,c_2_1), at(p2,c_2_1), carrying(t1,p3)})"]
+s4399[label="(instance index=28, state index=4399, atoms={at(t1,c_0_0), at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_0_0)})"]
+s2181[label="(instance index=28, state index=2181, atoms={at(t1,c_2_1), at(p2,c_2_1), at(p1,c_1_2), carrying(t1,p3)})"]
+s2235[label="(instance index=28, state index=2235, atoms={at(t1,c_1_2), at(p1,c_2_1), carrying(t1,p2), at(p3,c_2_1)})"]
+s7713[label="(instance index=28, state index=7713, atoms={at(t1,c_0_0), at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_1_2)})"]
+s2192[label="(instance index=28, state index=2192, atoms={at(p2,c_2_1), empty(t1), at(p1,c_2_2), at(p3,c_2_0), at(t1,c_1_1)})"]
+s477[label="(instance index=28, state index=477, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_2_2), carrying(t1,p3)})"]
+s991[label="(instance index=28, state index=991, atoms={at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2), at(t1,c_2_2)})"]
+s373[label="(instance index=28, state index=373, atoms={at(t1,c_2_0), empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_0)})"]
+s1244[label="(instance index=28, state index=1244, atoms={at(p1,c_1_0), at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(t1,c_1_1)})"]
+s2186[label="(instance index=28, state index=2186, atoms={at(p2,c_0_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0), at(t1,c_0_2)})"]
+s1235[label="(instance index=28, state index=1235, atoms={at(p1,c_2_0), at(t1,c_2_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0)})"]
+s3929[label="(instance index=28, state index=3929, atoms={at(t1,c_0_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s2237[label="(instance index=28, state index=2237, atoms={at(p1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_2), at(t1,c_0_2)})"]
+s3964[label="(instance index=28, state index=3964, atoms={at(t1,c_0_0), at(p3,c_2_1), empty(t1), at(p1,c_2_2), at(p2,c_1_1)})"]
+s909[label="(instance index=28, state index=909, atoms={at(t1,c_1_2), at(p1,c_1_0), carrying(t1,p2), at(p3,c_2_2)})"]
+s1024[label="(instance index=28, state index=1024, atoms={at(p1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_2), at(t1,c_2_2)})"]
+s2200[label="(instance index=28, state index=2200, atoms={at(t1,c_2_0), at(p3,c_2_1), empty(t1), at(p1,c_2_2), at(p2,c_1_1)})"]
+s996[label="(instance index=28, state index=996, atoms={carrying(t1,p2), at(t1,c_0_1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s1012[label="(instance index=28, state index=1012, atoms={at(p1,c_2_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(t1,c_2_2)})"]
+s2511[label="(instance index=28, state index=2511, atoms={at(t1,c_2_0), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_2_2)})"]
+s2547[label="(instance index=28, state index=2547, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_2), at(p3,c_2_1), empty(t1)})"]
+s5869[label="(instance index=28, state index=5869, atoms={at(p2,c_2_2), empty(t1), at(p1,c_0_0), at(p3,c_2_2), at(t1,c_2_2)})"]
+s3737[label="(instance index=28, state index=3737, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p2,c_1_2), at(p3,c_2_2)})"]
+s372[label="(instance index=28, state index=372, atoms={empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_0), at(t1,c_1_1)})"]
+s2052[label="(instance index=28, state index=2052, atoms={at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(t1,c_1_1), at(p3,c_2_2)})"]
+s906[label="(instance index=28, state index=906, atoms={at(t1,c_1_0), at(p2,c_1_1), carrying(t1,p1), at(p3,c_2_2)})"]
+s2826[label="(instance index=28, state index=2826, atoms={at(t1,c_1_0), at(p1,c_1_0), empty(t1), at(p2,c_1_2), at(p3,c_2_2)})"]
+s7018[label="(instance index=28, state index=7018, atoms={at(t1,c_1_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_2_2)})"]
+s7017[label="(instance index=28, state index=7017, atoms={at(p2,c_2_1), at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p1,c_2_2)})"]
+s1564[label="(instance index=28, state index=1564, atoms={at(t1,c_1_2), at(p1,c_2_1), empty(t1), at(p2,c_1_1), at(p3,c_2_2)})"]
+s1524[label="(instance index=28, state index=1524, atoms={carrying(t1,p2), at(p1,c_2_2), at(p3,c_2_0), at(t1,c_0_2)})"]
+s1413[label="(instance index=28, state index=1413, atoms={at(p2,c_1_1), carrying(t1,p1), at(t1,c_1_1), at(p3,c_2_2)})"]
+s1517[label="(instance index=28, state index=1517, atoms={at(t1,c_1_2), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s3368[label="(instance index=28, state index=3368, atoms={at(t1,c_0_0), at(p2,c_2_2), at(p3,c_2_1), carrying(t1,p1)})"]
+s2992[label="(instance index=28, state index=2992, atoms={at(t1,c_1_0), at(p2,c_2_1), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s2973[label="(instance index=28, state index=2973, atoms={at(t1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s1518[label="(instance index=28, state index=1518, atoms={at(t1,c_2_1), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s6837[label="(instance index=28, state index=6837, atoms={at(t1,c_1_2), at(p2,c_2_2), empty(t1), at(p1,c_0_0), at(p3,c_2_2)})"]
+s614[label="(instance index=28, state index=614, atoms={at(t1,c_2_0), at(p1,c_2_2), at(p2,c_1_1), carrying(t1,p3)})"]
+s780[label="(instance index=28, state index=780, atoms={at(p1,c_1_0), at(p2,c_2_2), at(t1,c_2_2), carrying(t1,p3)})"]
+s613[label="(instance index=28, state index=613, atoms={carrying(t1,p2), at(p1,c_2_2), at(p3,c_2_0), at(t1,c_1_1)})"]
+s775[label="(instance index=28, state index=775, atoms={at(t1,c_2_0), at(p2,c_2_2), at(p3,c_2_0), carrying(t1,p1)})"]
+s1529[label="(instance index=28, state index=1529, atoms={at(t1,c_2_1), at(p2,c_2_1), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s3003[label="(instance index=28, state index=3003, atoms={at(t1,c_1_0), at(p3,c_2_1), empty(t1), at(p1,c_2_2), at(p2,c_1_1)})"]
+s3002[label="(instance index=28, state index=3002, atoms={at(t1,c_0_1), at(p3,c_2_1), empty(t1), at(p1,c_2_2), at(p2,c_1_1)})"]
+s1809[label="(instance index=28, state index=1809, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_2), at(p3,c_2_1), empty(t1)})"]
+s2979[label="(instance index=28, state index=2979, atoms={at(p2,c_2_1), at(p1,c_1_2), at(t1,c_2_2), carrying(t1,p3)})"]
+s5070[label="(instance index=28, state index=5070, atoms={at(t1,c_1_2), at(p1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_2)})"]
+s6983[label="(instance index=28, state index=6983, atoms={at(t1,c_0_1), at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_1_2)})"]
+s3020[label="(instance index=28, state index=3020, atoms={at(p1,c_2_1), at(p2,c_2_1), at(t1,c_2_2), carrying(t1,p3)})"]
+s1533[label="(instance index=28, state index=1533, atoms={at(t1,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_2_2), at(p2,c_1_1)})"]
+s6103[label="(instance index=28, state index=6103, atoms={at(t1,c_2_0), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_2_2)})"]
+s6102[label="(instance index=28, state index=6102, atoms={at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_2_2), at(t1,c_1_1)})"]
+s999[label="(instance index=28, state index=999, atoms={at(t1,c_2_1), carrying(t1,p2), at(p1,c_2_2), at(p3,c_2_0)})"]
+s6071[label="(instance index=28, state index=6071, atoms={at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_1_2), at(t1,c_1_1)})"]
+s1001[label="(instance index=28, state index=1001, atoms={at(t1,c_2_1), at(p1,c_2_2), at(p2,c_1_1), carrying(t1,p3)})"]
+s6072[label="(instance index=28, state index=6072, atoms={at(t1,c_2_0), at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_1_2)})"]
+s2199[label="(instance index=28, state index=2199, atoms={at(p3,c_2_1), empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(t1,c_1_1)})"]
+s998[label="(instance index=28, state index=998, atoms={at(t1,c_1_2), carrying(t1,p2), at(p1,c_2_2), at(p3,c_2_0)})"]
+s2549[label="(instance index=28, state index=2549, atoms={at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_2), at(t1,c_0_2)})"]
+s1246[label="(instance index=28, state index=1246, atoms={at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_2), at(t1,c_2_2)})"]
+s2548[label="(instance index=28, state index=2548, atoms={at(t1,c_1_0), at(p2,c_2_2), at(p3,c_2_1), carrying(t1,p1)})"]
+s2178[label="(instance index=28, state index=2178, atoms={at(t1,c_2_0), at(p2,c_2_2), empty(t1), at(p3,c_2_0), at(p1,c_1_2)})"]
+s3992[label="(instance index=28, state index=3992, atoms={at(p1,c_2_1), at(p2,c_2_1), empty(t1), at(p3,c_2_2), at(t1,c_2_2)})"]
+s2193[label="(instance index=28, state index=2193, atoms={at(t1,c_2_0), at(p2,c_2_1), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s3940[label="(instance index=28, state index=3940, atoms={at(p2,c_2_1), empty(t1), at(p1,c_1_2), at(p3,c_2_2), at(t1,c_2_2)})"]
+s3947[label="(instance index=28, state index=3947, atoms={at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0), at(t1,c_0_2)})"]
+s3738[label="(instance index=28, state index=3738, atoms={at(t1,c_1_0), carrying(t1,p1), at(p2,c_1_2), at(p3,c_2_2)})"]
+s7595[label="(instance index=28, state index=7595, atoms={at(p2,c_2_2), empty(t1), at(p1,c_0_0), at(p3,c_2_2), at(t1,c_0_2)})"]
+s7596[label="(instance index=28, state index=7596, atoms={at(p2,c_2_2), empty(t1), at(p1,c_0_0), at(t1,c_1_1), at(p3,c_2_2)})"]
+s5008[label="(instance index=28, state index=5008, atoms={at(t1,c_0_1), at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s1811[label="(instance index=28, state index=1811, atoms={at(t1,c_2_1), at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_2)})"]
+s7246[label="(instance index=28, state index=7246, atoms={at(t1,c_0_1), at(p2,c_2_2), empty(t1), at(p1,c_0_0), at(p3,c_2_2)})"]
+s5014[label="(instance index=28, state index=5014, atoms={at(t1,c_2_1), at(p2,c_2_1), at(p3,c_2_1), empty(t1), at(p1,c_2_2)})"]
+s3004[label="(instance index=28, state index=3004, atoms={carrying(t1,p2), at(p3,c_2_1), at(p1,c_2_2), at(t1,c_1_1)})"]
+s2974[label="(instance index=28, state index=2974, atoms={at(t1,c_2_0), at(p2,c_2_2), at(p1,c_1_2), carrying(t1,p3)})"]
+s1810[label="(instance index=28, state index=1810, atoms={at(t1,c_1_2), at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_2)})"]
+s1528[label="(instance index=28, state index=1528, atoms={carrying(t1,p2), at(p1,c_2_2), at(p3,c_2_0), at(t1,c_2_2)})"]
+s2993[label="(instance index=28, state index=2993, atoms={at(t1,c_2_0), at(p2,c_2_1), at(p1,c_2_2), carrying(t1,p3)})"]
+s3371[label="(instance index=28, state index=3371, atoms={at(p1,c_1_0), at(t1,c_0_1), at(p2,c_2_2), empty(t1), at(p3,c_2_2)})"]
+s4989[label="(instance index=28, state index=4989, atoms={at(t1,c_2_1), at(p2,c_2_2), at(p3,c_2_1), empty(t1), at(p1,c_1_2)})"]
+s2989[label="(instance index=28, state index=2989, atoms={at(t1,c_1_2), at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s1534[label="(instance index=28, state index=1534, atoms={at(p1,c_2_2), at(p2,c_1_1), at(t1,c_2_2), carrying(t1,p3)})"]
+s7716[label="(instance index=28, state index=7716, atoms={at(t1,c_2_0), at(p2,c_2_2), empty(t1), at(p1,c_1_2), at(p3,c_2_2)})"]
+s3952[label="(instance index=28, state index=3952, atoms={at(t1,c_2_1), at(p2,c_2_1), at(p1,c_2_2), carrying(t1,p3)})"]
+s3969[label="(instance index=28, state index=3969, atoms={empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_2), at(t1,c_0_2)})"]
+s2201[label="(instance index=28, state index=2201, atoms={empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_2), at(t1,c_2_2)})"]
+s2551[label="(instance index=28, state index=2551, atoms={at(t1,c_2_0), at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_2)})"]
+s6094[label="(instance index=28, state index=6094, atoms={at(t1,c_0_0), at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s4403[label="(instance index=28, state index=4403, atoms={at(p1,c_1_0), at(t1,c_0_0), at(p2,c_2_2), empty(t1), at(p3,c_2_2)})"]
+s3948[label="(instance index=28, state index=3948, atoms={at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0), at(t1,c_1_1)})"]
+s8477[label="(instance index=28, state index=8477, atoms={at(t1,c_0_0), at(p2,c_2_2), empty(t1), at(p1,c_1_2), at(p3,c_2_2)})"]
+s6466[label="(instance index=28, state index=6466, atoms={at(t1,c_0_0), at(p2,c_2_2), empty(t1), at(p1,c_0_0), at(p3,c_2_2)})"]
+s3931[label="(instance index=28, state index=3931, atoms={at(t1,c_2_1), at(p2,c_2_2), at(p1,c_1_2), carrying(t1,p3)})"]
+s6136[label="(instance index=28, state index=6136, atoms={at(t1,c_0_0), empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_2)})"]
+s2191[label="(instance index=28, state index=2191, atoms={at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0), at(t1,c_2_2)})"]
+s2550[label="(instance index=28, state index=2550, atoms={at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(t1,c_1_1), at(p3,c_2_2)})"]
+s4990[label="(instance index=28, state index=4990, atoms={at(p2,c_2_2), at(p1,c_1_2), at(t1,c_2_2), carrying(t1,p3)})"]
+s2990[label="(instance index=28, state index=2990, atoms={at(t1,c_2_1), at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s3372[label="(instance index=28, state index=3372, atoms={at(t1,c_1_0), at(p1,c_1_0), at(p2,c_2_2), empty(t1), at(p3,c_2_2)})"]
+s5408[label="(instance index=28, state index=5408, atoms={at(t1,c_0_0), at(p2,c_2_2), carrying(t1,p1), at(p3,c_2_2)})"]
+s8180[label="(instance index=28, state index=8180, atoms={at(t1,c_1_0), at(p2,c_2_2), empty(t1), at(p1,c_1_2), at(p3,c_2_2)})"]
+s8179[label="(instance index=28, state index=8179, atoms={at(t1,c_0_1), at(p2,c_2_2), empty(t1), at(p1,c_1_2), at(p3,c_2_2)})"]
+s5038[label="(instance index=28, state index=5038, atoms={at(t1,c_0_1), empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_2)})"]
+s5009[label="(instance index=28, state index=5009, atoms={at(t1,c_1_0), at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s6986[label="(instance index=28, state index=6986, atoms={at(t1,c_2_1), at(p2,c_2_2), empty(t1), at(p1,c_1_2), at(p3,c_2_2)})"]
+s3005[label="(instance index=28, state index=3005, atoms={at(t1,c_1_2), empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(p3,c_2_2)})"]
+s7714[label="(instance index=28, state index=7714, atoms={at(p2,c_2_2), empty(t1), at(p1,c_1_2), at(p3,c_2_2), at(t1,c_0_2)})"]
+s7715[label="(instance index=28, state index=7715, atoms={at(p2,c_2_2), empty(t1), at(p1,c_1_2), at(t1,c_1_1), at(p3,c_2_2)})"]
+s3949[label="(instance index=28, state index=3949, atoms={at(t1,c_2_0), at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_0)})"]
+s4404[label="(instance index=28, state index=4404, atoms={at(t1,c_1_0), at(p2,c_2_2), carrying(t1,p1), at(p3,c_2_2)})"]
+s3970[label="(instance index=28, state index=3970, atoms={empty(t1), at(p1,c_2_2), at(p2,c_1_1), at(t1,c_1_1), at(p3,c_2_2)})"]
+s6073[label="(instance index=28, state index=6073, atoms={at(p2,c_2_2), empty(t1), at(p1,c_1_2), at(p3,c_2_2), at(t1,c_2_2)})"]
+s5010[label="(instance index=28, state index=5010, atoms={at(t1,c_2_0), at(p2,c_2_2), at(p1,c_2_2), carrying(t1,p3)})"]
+s6985[label="(instance index=28, state index=6985, atoms={at(t1,c_1_2), at(p2,c_2_2), empty(t1), at(p1,c_1_2), at(p3,c_2_2)})"]
+s5040[label="(instance index=28, state index=5040, atoms={carrying(t1,p2), at(p1,c_2_2), at(t1,c_1_1), at(p3,c_2_2)})"]
+s6096[label="(instance index=28, state index=6096, atoms={at(t1,c_2_1), at(p2,c_2_2), at(p1,c_2_2), carrying(t1,p3)})"]
+s7009[label="(instance index=28, state index=7009, atoms={at(p2,c_2_2), at(p1,c_2_2), at(t1,c_2_2), carrying(t1,p3)})"]
+s8198[peripheries=2,label="(instance index=28, state index=8198, atoms={at(t1,c_1_2), at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_2)})"]
+s8628[peripheries=2,label="(instance index=28, state index=8628, atoms={at(t1,c_0_1), at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_2)})"]
+s8707[peripheries=2,label="(instance index=28, state index=8707, atoms={at(t1,c_0_0), at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_2)})"]
+s8490[peripheries=2,label="(instance index=28, state index=8490, atoms={at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_2), at(t1,c_0_2)})"]
+s7740[peripheries=2,label="(instance index=28, state index=7740, atoms={at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(p3,c_2_2), at(t1,c_2_2)})"]
+s8491[peripheries=2,label="(instance index=28, state index=8491, atoms={at(p2,c_2_2), empty(t1), at(p1,c_2_2), at(t1,c_1_1), at(p3,c_2_2)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s7157}
+{ rank = same; s4160,s6299,s6298}
+{ rank = same; s3158,s5215,s3159}
+{ rank = same; s4161,s2339,s3481,s2338,s3484,s2330,s2337,s2351}
+{ rank = same; s2650,s1632,s1631,s1647,s1636,s1646,s1637,s3160,s2643}
+{ rank = same; s1902,s1095,s1096,s404,s840,s1903,s4175,s1846,s2340,s1094,s1083,s1895,s1127,s2053,s1084,s1894,s1086,s1119,s1120}
+{ rank = same; s694,s690,s689,s688,s673,s239,s2652,s240,s1318,s516,s515,s1284,s1283,s1423,s667,s5231,s668,s672,s1648,s3170,s1422,s1325}
+{ rank = same; s853,s302,s1850,s291,s290,s809,s808,s807,s148,s147,s140,s139,s4173,s845,s911,s141,s1899,s1074,s142,s841,s1109,s4174,s1066,s303,s1068,s1092,s415,s304,s2055,s2353,s419,s417,s416,s4418,s407,s912,s332,s405,s1911}
+{ rank = same; s659,s655,s654,s522,s181,s1287,s176,s175,s174,s495,s248,s81,s80,s79,s75,s1643,s2647,s518,s182,s1425,s555,s242,s76,s198,s197,s1322,s1320,s670,s241,s517,s1286,s74,s73,s3388,s247,s3389,s682,s1331,s1658,s1448,s3171}
+{ rank = same; s2451,s448,s1108,s2054,s110,s1909,s1897,s1080,s933,s931,s1263,s397,s314,s307,s102,s100,s98,s814,s812,s811,s99,s149,s160,s146,s42,s40,s38,s37,s36,s35,s3,s1,s2574,s1898,s305,s917,s143,s111,s4176,s843,s292,s847,s1168,s913,s2507,s412,s932,s1072,s112,s1090,s333,s137,s41,s308,s921,s306,s311,s1091,s406,s340,s927,s399,s1140,s425}
+{ rank = same; s266,s265,s1566,s1424,s58,s57,s1776,s1289,s1288,s246,s567,s236,s202,s1401,s794,s703,s657,s524,s235,s203,s201,s188,s187,s185,s53,s52,s499,s497,s250,s177,s87,s78,s77,s22,s20,s6,s4,s0,s795,s1829,s1777,s200,s519,s561,s244,s559,s199,s5232,s72,s1428,s564,s557,s1735,s681,s82,s702,s664,s1329,s1734,s671,s1439,s665,s183,s19,s727,s1431}
+{ rank = same; s919,s1183,s1182,s1181,s158,s382,s1027,s1026,s1025,s449,s916,s915,s145,s926,s134,s347,s345,s118,s8,s29,s1959,s1957,s1956,s861,s312,s310,s120,s117,s1071,s813,s403,s341,s1247,s138,s115,s940,s895,s894,s487,s483,s423,s398,s319,s309,s108,s104,s103,s294,s150,s51,s47,s39,s12,s2,s114,s1223,s920,s925,s157,s1266,s338,s336,s335,s1093,s1114,s2241,s2242,s170,s323,s27,s113,s3781,s1216,s2246,s413,s45,s144,s6321,s2075,s944,s6320,s44,s132,s9,s1218,s3753,s321,s2243,s1215,s2010,s896,s11,s424}
+{ rank = same; s96,s94,s1462,s782,s781,s1574,s1573,s737,s736,s86,s228,s227,s1568,s1569,s628,s267,s1570,s89,s764,s1673,s245,s685,s70,s69,s206,s205,s63,s61,s59,s5,s16,s1358,s1356,s186,s64,s62,s1461,s1382,s540,s538,s759,s91,s569,s238,s204,s1405,s1404,s193,s191,s545,s658,s190,s184,s55,s54,s251,s23,s24,s21,s7,s1781,s1432,s760,s765,s4806,s1390,s527,s1644,s572,s1645,s15,s574,s1440,s5382,s26,s2855,s2835,s285,s286,s1391,s560,s1674,s565}
+{ rank = same; s918,s46,s1032,s2077,s414,s454,s13,s163,s980,s107,s28,s383,s3780,s1035,s493,s1034,s928,s1253,s164,s127,s903,s14,s1278,s169,s375,s2113,s1031,s125,s2350,s172,s365,s1118,s1030,s883,s3779,s478,s374,s346,s343,s939,s2349,s131,s2063,s954,s467,s10,s426,s49,s889,s2166,s4384,s313,s1141,s2348,s105,s1073,s50,s2214,s325,s106,s2007,s898,s901,s344,s885,s320,s943,s2005,s1228,s119,s4447,s863,s322,s953,s30,s31,s116,s34,s882,s2016,s2015,s469,s938,s1029,s133,s159,s942,s1002,s2112,s1003,s3751,s3752}
+{ rank = same; s1540,s762,s68,s704,s3409,s2772,s288,s17,s1396,s222,s1539,s269,s705,s3410,s539,s1698,s18,s2770,s634,s577,s218,s66,s60,s1409,s573,s1519,s1547,s2836,s1549,s1508,s4754,s224,s223,s1802,s1430,s1441,s25,s1801,s56,s1619,s97,s194,s547,s550,s541,s275,s1384,s1387,s207,s528,s580,s542,s192,s1394,s1395,s217,s687,s1470,s276,s603,s1514,s216,s90,s770,s229,s771,s630,s632,s282,s615,s95,s787,s802,s804,s1429,s3357}
+{ rank = same; s1013,s491,s1277,s1022,s2231,s468,s1009,s385,s992,s1015,s1221,s492,s366,s2006,s165,s48,s1023,s482,s2080,s171,s1236,s473,s2244,s2059,s2232,s126,s988,s166,s376,s129,s2061,s3754,s329,s109,s2044,s3667,s2045,s2046,s173,s327,s941,s2023,s887,s2079,s349,s1142,s33,s324,s884,s891,s2021,s2060,s948,s367,s984,s989,s990,s994,s1006,s6082,s1240,s2179,s902,s2036,s386,s3713,s3687,s2174,s2590,s3666,s2213,s6174,s6175,s32,s130,s2538,s1143}
+{ rank = same; s1471,s543,s196,s195,s1459,s2857,s1548,s2786,s626,s1790,s67,s581,s1791,s289,s1398,s5067,s225,s608,s4800,s777,s1562,s763,s92,s610,s93,s2808,s776,s622,s284,s226,s552,s605,s602,s2820,s2832,s1460,s1415,s279,s219,s1571,s3047,s620,s4807,s1561,s4999,s617,s4998,s1520,s1410,s2805,s1515,s1516,s1841,s2771,s803,s1560,s633,s5069,s278,s5068}
+{ rank = same; s1021,s1279,s4024,s2175,s2022,s5868,s993,s2210,s2245,s369,s167,s2114,s1231,s476,s381,s995,s3721,s955,s3989,s905,s2039,s1222,s168,s370,s3939,s474,s1033,s3991,s2100,s3938,s3835,s494,s2233,s3937,s2037,s1280,s5876,s331,s2123,s1014,s2526,s330,s379,s3941,s378,s892,s128,s3747,s3990,s371,s2048,s2099,s2182,s5867,s907,s2051}
+{ rank = same; s1412,s1563,s2978,s2825,s280,s2898,s2983,s2991,s773,s627,s612,s221,s281,s1550,s779,s609,s554,s1521,s2812,s3019,s5403,s220,s611,s1522,s2972,s2788,s1780,s5402,s805,s621,s1417,s1808,s1572,s3042,s1795,s1420,s4801,s2971,s1545,s553,s1476}
+{ rank = same; s475,s2176,s2177,s6176,s7748,s3950,s1245,s2041,s2216,s4399,s2181,s2235,s7713,s2192,s477,s991,s373,s1244,s2186,s1235,s3929,s2237,s3964,s909,s1024,s2200,s996,s1012,s2511,s2547,s5869,s3737,s372,s2052,s906}
+{ rank = same; s2826,s7018,s7017,s1564,s1524,s1413,s1517,s3368,s2992,s2973,s1518,s6837,s614,s780,s613,s775,s1529,s3003,s3002,s1809,s2979,s5070,s6983,s3020,s1533}
+{ rank = same; s6103,s6102,s999,s6071,s1001,s6072,s2199,s998,s2549,s1246,s2548,s2178,s3992,s2193,s3940,s3947,s3738,s7595,s7596}
+{ rank = same; s5008,s1811,s7246,s5014,s3004,s2974,s1810,s1528,s2993,s3371,s4989,s2989,s1534}
+{ rank = same; s7716,s3952,s3969,s2201,s2551,s6094,s4403,s3948,s8477,s6466,s3931,s6136,s2191,s2550}
+{ rank = same; s4990,s2990,s3372,s5408,s8180,s8179,s5038,s5009,s6986,s3005}
+{ rank = same; s7714,s7715,s3949,s4404,s3970,s6073}
+{ rank = same; s5010,s6985,s5040}
+{ rank = same; s6096}
+{ rank = same; s7009}
+{ rank = same; s8198,s8628,s8707,s8490,s7740,s8491}
+{
+s7849->s7157
+}
+{
+s7157->s6299
+s7157->s6298
+s7157->s7849
+}
+{
+s4160->s3159
+s4160->s3158
+s6299->s5215
+s6299->s7157
+s6298->s5215
+s6298->s7157
+}
+{
+s3158->s2338
+s3158->s2337
+s3158->s4160
+s5215->s6299
+s5215->s6298
+s5215->s4161
+s3159->s2338
+s3159->s2339
+s3159->s4160
+}
+{
+s4161->s5215
+s4161->s3160
+s2339->s3159
+s2339->s1637
+s3481->s2643
+s2338->s3159
+s2338->s3158
+s2338->s1637
+s2338->s1636
+s3484->s2650
+s2330->s1631
+s2330->s1632
+s2337->s3158
+s2337->s1636
+s2351->s1647
+s2351->s1646
+}
+{
+s2650->s1902
+s2650->s1903
+s2650->s3484
+s1632->s1084
+s1632->s1083
+s1632->s2330
+s1631->s1083
+s1631->s1127
+s1631->s2330
+s1647->s2351
+s1647->s1095
+s1647->s1096
+s1636->s2338
+s1636->s1086
+s1636->s2337
+s1646->s1095
+s1646->s1094
+s1646->s2351
+s1637->s1086
+s1637->s2340
+s1637->s2339
+s1637->s2338
+s3160->s2340
+s3160->s4161
+s2643->s1895
+s2643->s1894
+s2643->s3481
+}
+{
+s1902->s1325
+s1902->s2650
+s1095->s1646
+s1095->s673
+s1095->s1647
+s1095->s672
+s1096->s1647
+s1096->s673
+s1096->s1648
+s404->s239
+s404->s240
+s840->s516
+s840->s515
+s1903->s1325
+s1903->s2652
+s1903->s2650
+s4175->s5231
+s4175->s3170
+s1846->s1284
+s1846->s1283
+s2340->s1637
+s2340->s2652
+s2340->s3160
+s2340->s1648
+s1094->s1646
+s1094->s672
+s1083->s1631
+s1083->s694
+s1083->s667
+s1083->s1632
+s1895->s1318
+s1895->s2643
+s1127->s1631
+s1127->s694
+s2053->s1423
+s2053->s1422
+s1084->s667
+s1084->s1632
+s1894->s1318
+s1894->s2643
+s1086->s1637
+s1086->s668
+s1086->s1636
+s1119->s689
+s1119->s688
+s1120->s690
+s1120->s689
+}
+{
+s694->s1127
+s694->s419
+s694->s1083
+s690->s1120
+s690->s417
+s690->s416
+s689->s1119
+s689->s1120
+s689->s416
+s688->s415
+s688->s1119
+s688->s416
+s673->s407
+s673->s1095
+s673->s1096
+s239->s141
+s239->s404
+s239->s140
+s2652->s2340
+s2652->s1903
+s2652->s2353
+s240->s142
+s240->s141
+s240->s404
+s1318->s1895
+s1318->s1894
+s1318->s1068
+s1318->s841
+s516->s303
+s516->s840
+s516->s304
+s515->s302
+s515->s303
+s515->s840
+s1284->s1846
+s1284->s1066
+s1284->s809
+s1283->s809
+s1283->s1846
+s1283->s808
+s1423->s2053
+s1423->s1074
+s1423->s912
+s667->s405
+s667->s1084
+s667->s419
+s667->s1083
+s5231->s4173
+s5231->s4175
+s5231->s4418
+s668->s1086
+s668->s405
+s668->s841
+s672->s407
+s672->s1094
+s672->s1095
+s1648->s2340
+s1648->s2353
+s1648->s1096
+s3170->s4175
+s3170->s4174
+s3170->s4173
+s3170->s2353
+s1422->s911
+s1422->s2053
+s1422->s912
+s1325->s1903
+s1325->s1902
+s1325->s845
+}
+{
+s853->s522
+s302->s181
+s302->s515
+s1850->s1287
+s1850->s1448
+s291->s175
+s291->s176
+s290->s175
+s290->s174
+s809->s495
+s809->s654
+s809->s1284
+s809->s1283
+s808->s495
+s808->s1283
+s807->s495
+s807->s654
+s148->s81
+s148->s80
+s147->s79
+s147->s80
+s140->s239
+s140->s75
+s139->s74
+s139->s73
+s4173->s5231
+s4173->s3389
+s4173->s3388
+s4173->s3170
+s845->s518
+s845->s1325
+s911->s1422
+s911->s555
+s141->s239
+s141->s76
+s141->s75
+s141->s240
+s1899->s2647
+s1899->s1322
+s1074->s1423
+s1074->s659
+s1074->s1320
+s142->s76
+s142->s241
+s142->s240
+s841->s517
+s841->s1318
+s841->s668
+s841->s1320
+s1109->s1658
+s1109->s682
+s4174->s3389
+s4174->s3170
+s1066->s654
+s1066->s1284
+s303->s182
+s303->s517
+s303->s181
+s303->s516
+s303->s515
+s1068->s655
+s1068->s1318
+s1092->s670
+s1092->s1643
+s415->s247
+s415->s688
+s304->s182
+s304->s516
+s2055->s1425
+s2353->s2652
+s2353->s3171
+s2353->s3170
+s2353->s1648
+s419->s694
+s419->s667
+s419->s248
+s417->s247
+s417->s690
+s416->s247
+s416->s690
+s416->s689
+s416->s688
+s4418->s5231
+s4418->s3388
+s407->s242
+s407->s673
+s407->s672
+s912->s1423
+s912->s1422
+s912->s659
+s912->s555
+s332->s198
+s332->s197
+s405->s668
+s405->s517
+s405->s667
+s405->s241
+s1911->s1331
+}
+{
+s659->s399
+s659->s1074
+s659->s912
+s655->s397
+s655->s1068
+s654->s807
+s654->s397
+s654->s1066
+s654->s809
+s522->s308
+s522->s853
+s522->s307
+s181->s303
+s181->s102
+s181->s302
+s1287->s933
+s1287->s811
+s1287->s1850
+s176->s100
+s176->s291
+s176->s99
+s175->s290
+s175->s291
+s175->s99
+s174->s99
+s174->s98
+s174->s290
+s495->s807
+s495->s292
+s495->s809
+s495->s808
+s248->s292
+s248->s149
+s248->s419
+s81->s148
+s81->s42
+s81->s41
+s80->s148
+s80->s147
+s80->s41
+s79->s147
+s79->s41
+s79->s40
+s75->s141
+s75->s38
+s75->s140
+s1643->s1263
+s1643->s1092
+s1643->s1090
+s2647->s1899
+s2647->s2507
+s2647->s1898
+s518->s845
+s518->s305
+s182->s303
+s182->s102
+s182->s305
+s182->s304
+s1425->s2055
+s1425->s2054
+s1425->s913
+s555->s911
+s555->s333
+s555->s399
+s555->s912
+s242->s333
+s242->s143
+s242->s407
+s76->s142
+s76->s141
+s76->s143
+s76->s38
+s198->s111
+s198->s332
+s198->s112
+s197->s111
+s197->s110
+s197->s332
+s1322->s1899
+s1322->s1897
+s1322->s1898
+s1322->s843
+s1320->s843
+s1320->s1074
+s1320->s841
+s670->s1092
+s670->s406
+s670->s1091
+s670->s1090
+s241->s405
+s241->s142
+s241->s406
+s517->s405
+s517->s303
+s517->s843
+s517->s406
+s517->s841
+s1286->s933
+s1286->s931
+s1286->s811
+s74->s37
+s74->s139
+s74->s137
+s73->s36
+s73->s37
+s73->s139
+s3388->s2574
+s3388->s4173
+s3388->s4418
+s247->s415
+s247->s149
+s247->s417
+s247->s416
+s3389->s2574
+s3389->s4173
+s3389->s4174
+s682->s1109
+s682->s1108
+s682->s412
+s1331->s1911
+s1331->s847
+s1331->s1909
+s1658->s1109
+s1658->s1108
+s1658->s1168
+s1448->s933
+s1448->s932
+s1448->s1850
+s3171->s2353
+s3171->s4176
+}
+{
+s2451->s1735
+s2451->s1734
+s448->s266
+s448->s265
+s1108->s1658
+s1108->s727
+s1108->s682
+s1108->s681
+s2054->s1425
+s2054->s1424
+s110->s197
+s110->s57
+s1909->s1331
+s1909->s1329
+s1897->s1322
+s1897->s1776
+s1080->s1566
+s1080->s665
+s933->s1286
+s933->s567
+s933->s1287
+s933->s1448
+s931->s567
+s931->s1286
+s1263->s1643
+s1263->s794
+s397->s654
+s397->s524
+s397->s655
+s397->s235
+s314->s188
+s314->s187
+s307->s183
+s307->s522
+s102->s181
+s102->s182
+s102->s53
+s100->s52
+s100->s176
+s98->s174
+s98->s52
+s814->s499
+s814->s1289
+s812->s499
+s812->s1288
+s811->s1287
+s811->s1286
+s811->s497
+s99->s52
+s99->s177
+s99->s176
+s99->s175
+s99->s174
+s149->s247
+s149->s82
+s149->s177
+s149->s248
+s160->s87
+s160->s266
+s146->s246
+s146->s78
+s42->s22
+s42->s82
+s42->s81
+s40->s79
+s40->s22
+s38->s20
+s38->s76
+s38->s75
+s37->s19
+s37->s74
+s37->s73
+s37->s72
+s36->s19
+s36->s73
+s35->s19
+s35->s72
+s3->s6
+s3->s0
+s1->s4
+s1->s0
+s2574->s3388
+s2574->s1829
+s2574->s3389
+s1898->s2647
+s1898->s1322
+s1898->s1777
+s1898->s1776
+s305->s519
+s305->s518
+s305->s182
+s305->s200
+s917->s559
+s917->s1428
+s143->s199
+s143->s244
+s143->s76
+s143->s242
+s111->s199
+s111->s58
+s111->s198
+s111->s57
+s111->s197
+s4176->s3171
+s4176->s5232
+s843->s671
+s843->s517
+s843->s1322
+s843->s1320
+s292->s495
+s292->s177
+s292->s497
+s292->s248
+s847->s1331
+s847->s519
+s847->s1329
+s1168->s727
+s1168->s1658
+s913->s1425
+s913->s557
+s913->s1424
+s2507->s2647
+s2507->s1777
+s412->s244
+s412->s682
+s412->s681
+s932->s567
+s932->s1448
+s1072->s657
+s1072->s1401
+s112->s198
+s112->s58
+s112->s200
+s1090->s1643
+s1090->s794
+s1090->s670
+s1090->s795
+s333->s199
+s333->s555
+s333->s557
+s333->s242
+s137->s235
+s137->s74
+s137->s72
+s41->s79
+s41->s22
+s41->s81
+s41->s80
+s308->s524
+s308->s183
+s308->s522
+s921->s1431
+s921->s561
+s306->s183
+s311->s187
+s311->s185
+s1091->s670
+s1091->s795
+s406->s670
+s406->s517
+s406->s671
+s406->s241
+s340->s203
+s340->s202
+s927->s1439
+s927->s564
+s399->s236
+s399->s659
+s399->s555
+s1140->s703
+s1140->s702
+s425->s703
+s425->s250
+}
+{
+s266->s158
+s266->s160
+s266->s448
+s265->s158
+s265->s157
+s265->s448
+s1566->s1027
+s1566->s1026
+s1566->s1080
+s1424->s2054
+s1424->s1114
+s1424->s913
+s58->s111
+s58->s29
+s58->s112
+s57->s111
+s57->s110
+s57->s29
+s1776->s1218
+s1776->s1898
+s1776->s1897
+s1289->s813
+s1289->s814
+s1289->s1216
+s1288->s1215
+s1288->s813
+s1288->s812
+s246->s413
+s246->s146
+s246->s145
+s567->s933
+s567->s932
+s567->s341
+s567->s931
+s236->s341
+s236->s399
+s236->s138
+s202->s340
+s202->s115
+s202->s114
+s1401->s896
+s1401->s895
+s1401->s1072
+s794->s1263
+s794->s487
+s794->s1090
+s703->s423
+s703->s1140
+s703->s425
+s657->s398
+s657->s1071
+s657->s896
+s657->s1072
+s524->s397
+s524->s398
+s524->s308
+s235->s397
+s235->s398
+s235->s137
+s203->s309
+s203->s340
+s203->s115
+s201->s309
+s201->s115
+s201->s113
+s188->s312
+s188->s314
+s188->s104
+s187->s311
+s187->s314
+s187->s104
+s185->s310
+s185->s311
+s185->s104
+s53->s103
+s53->s102
+s53->s27
+s52->s100
+s52->s27
+s52->s98
+s52->s99
+s499->s813
+s499->s812
+s499->s814
+s499->s294
+s497->s294
+s497->s292
+s497->s811
+s250->s423
+s250->s150
+s250->s425
+s250->s424
+s177->s150
+s177->s292
+s177->s149
+s177->s294
+s177->s99
+s87->s158
+s87->s44
+s87->s160
+s78->s39
+s78->s146
+s78->s145
+s77->s145
+s77->s39
+s77->s144
+s22->s12
+s22->s42
+s22->s41
+s22->s40
+s20->s12
+s20->s38
+s20->s11
+s6->s2
+s6->s3
+s6->s9
+s4->s1
+s4->s2
+s4->s8
+s0->s3
+s0->s2
+s0->s1
+s795->s487
+s795->s1090
+s795->s1091
+s795->s1266
+s1829->s2075
+s1829->s2574
+s1829->s1266
+s1777->s2507
+s1777->s2075
+s1777->s1898
+s1777->s1218
+s200->s338
+s200->s305
+s200->s112
+s519->s847
+s519->s338
+s519->s305
+s561->s919
+s561->s920
+s561->s921
+s561->s336
+s244->s143
+s244->s412
+s244->s336
+s559->s917
+s559->s916
+s559->s335
+s559->s915
+s199->s335
+s199->s111
+s199->s336
+s199->s143
+s199->s333
+s5232->s6320
+s5232->s6321
+s5232->s4176
+s72->s35
+s72->s138
+s72->s37
+s72->s137
+s1428->s1223
+s1428->s917
+s1428->s916
+s564->s927
+s564->s926
+s564->s925
+s564->s338
+s557->s335
+s557->s333
+s557->s913
+s1735->s1183
+s1735->s1182
+s1735->s2451
+s681->s1108
+s681->s412
+s681->s449
+s82->s149
+s82->s150
+s82->s42
+s702->s423
+s702->s1140
+s702->s483
+s664->s1025
+s664->s403
+s664->s1027
+s1329->s861
+s1329->s847
+s1329->s1909
+s1734->s1181
+s1734->s1182
+s1734->s2451
+s671->s406
+s671->s1093
+s671->s843
+s1439->s925
+s1439->s927
+s1439->s2010
+s665->s403
+s665->s1027
+s665->s1080
+s183->s103
+s183->s308
+s183->s307
+s183->s306
+s19->s37
+s19->s36
+s19->s11
+s19->s35
+s727->s449
+s727->s1108
+s727->s1168
+s1431->s1247
+s1431->s921
+s1431->s919
+}
+{
+s919->s782
+s919->s1431
+s919->s781
+s919->s561
+s1183->s1735
+s1183->s737
+s1182->s1735
+s1182->s1734
+s1182->s737
+s1182->s736
+s1181->s1734
+s1181->s736
+s158->s87
+s158->s86
+s158->s266
+s158->s265
+s382->s228
+s382->s227
+s1027->s1566
+s1027->s628
+s1027->s665
+s1027->s664
+s1026->s1566
+s1026->s628
+s1025->s628
+s1025->s664
+s449->s727
+s449->s267
+s449->s681
+s916->s765
+s916->s559
+s916->s764
+s916->s1428
+s915->s559
+s915->s764
+s145->s246
+s145->s78
+s145->s77
+s145->s245
+s926->s1391
+s926->s564
+s134->s70
+s134->s228
+s347->s206
+s345->s205
+s118->s63
+s118->s61
+s8->s5
+s8->s4
+s29->s57
+s29->s58
+s29->s16
+s1959->s1358
+s1957->s1358
+s1957->s1356
+s1956->s1356
+s861->s527
+s861->s1329
+s312->s188
+s312->s186
+s310->s186
+s310->s185
+s120->s63
+s120->s64
+s117->s62
+s117->s61
+s1071->s1382
+s1071->s657
+s813->s759
+s813->s499
+s813->s1289
+s813->s1288
+s403->s665
+s403->s238
+s403->s664
+s341->s567
+s341->s236
+s341->s204
+s341->s569
+s1247->s1431
+s1247->s781
+s138->s238
+s138->s236
+s138->s204
+s138->s72
+s115->s59
+s115->s204
+s115->s203
+s115->s202
+s115->s201
+s940->s1405
+s940->s572
+s895->s545
+s895->s1401
+s894->s1382
+s894->s545
+s487->s286
+s487->s795
+s487->s794
+s483->s702
+s483->s285
+s423->s703
+s423->s702
+s423->s285
+s423->s250
+s398->s524
+s398->s235
+s398->s658
+s398->s657
+s319->s190
+s319->s538
+s309->s203
+s309->s201
+s309->s184
+s108->s55
+s108->s193
+s104->s188
+s104->s187
+s104->s186
+s104->s185
+s104->s54
+s103->s183
+s103->s53
+s103->s54
+s103->s184
+s294->s499
+s294->s251
+s294->s497
+s294->s177
+s150->s251
+s150->s250
+s150->s82
+s150->s177
+s51->s26
+s51->s96
+s47->s91
+s47->s24
+s39->s77
+s39->s78
+s39->s21
+s12->s23
+s12->s22
+s12->s7
+s12->s20
+s2->s7
+s2->s6
+s2->s4
+s2->s5
+s2->s0
+s114->s59
+s114->s202
+s1223->s765
+s1223->s1428
+s1223->s1781
+s920->s782
+s920->s561
+s920->s1432
+s925->s1439
+s925->s564
+s925->s1391
+s925->s1390
+s925->s1440
+s157->s86
+s157->s265
+s1266->s1829
+s1266->s1432
+s1266->s795
+s1266->s1440
+s338->s519
+s338->s564
+s338->s565
+s338->s200
+s336->s199
+s336->s244
+s336->s561
+s336->s560
+s335->s557
+s335->s559
+s335->s199
+s335->s560
+s1093->s671
+s1093->s1645
+s1093->s1644
+s1114->s685
+s1114->s1424
+s2241->s1673
+s2241->s1568
+s2242->s1674
+s2242->s1569
+s2242->s1673
+s2242->s1568
+s170->s94
+s170->s96
+s323->s191
+s323->s193
+s27->s15
+s27->s54
+s27->s53
+s27->s52
+s113->s59
+s113->s201
+s3781->s2855
+s1216->s759
+s1216->s1289
+s2246->s1574
+s2246->s1573
+s413->s246
+s413->s245
+s413->s569
+s45->s89
+s45->s24
+s144->s77
+s144->s245
+s6321->s5382
+s6321->s5232
+s2075->s1781
+s2075->s1829
+s2075->s1777
+s2075->s1440
+s944->s1462
+s944->s574
+s6320->s5382
+s6320->s5232
+s44->s87
+s44->s86
+s44->s23
+s132->s69
+s132->s227
+s9->s15
+s9->s6
+s9->s5
+s1218->s760
+s1218->s1777
+s1218->s1776
+s3753->s4806
+s3753->s2835
+s321->s190
+s321->s540
+s2243->s1674
+s2243->s1569
+s1215->s759
+s1215->s1288
+s2010->s1439
+s2010->s1390
+s896->s545
+s896->s1382
+s896->s657
+s896->s1401
+s11->s7
+s11->s21
+s11->s20
+s11->s19
+s424->s285
+s424->s250
+}
+{
+s96->s51
+s96->s170
+s96->s49
+s94->s170
+s94->s169
+s94->s49
+s1462->s942
+s1462->s1003
+s1462->s944
+s782->s919
+s782->s478
+s782->s920
+s781->s1247
+s781->s478
+s781->s919
+s1574->s1035
+s1574->s2246
+s1574->s1034
+s1573->s2246
+s1573->s1253
+s1573->s1034
+s737->s1183
+s737->s454
+s737->s1182
+s736->s1182
+s736->s1181
+s736->s454
+s86->s158
+s86->s157
+s86->s159
+s86->s44
+s228->s382
+s228->s133
+s228->s134
+s227->s382
+s227->s133
+s227->s132
+s1568->s2242
+s1568->s1029
+s1568->s2241
+s1569->s1029
+s1569->s2243
+s1569->s2242
+s628->s383
+s628->s1027
+s628->s1026
+s628->s1025
+s267->s383
+s267->s449
+s267->s159
+s1570->s1031
+s1570->s1030
+s1570->s1228
+s89->s45
+s89->s46
+s89->s163
+s764->s469
+s764->s916
+s764->s915
+s1673->s1118
+s1673->s2242
+s1673->s2241
+s245->s413
+s245->s145
+s245->s414
+s245->s144
+s685->s414
+s685->s1114
+s70->s134
+s70->s133
+s70->s34
+s69->s132
+s69->s133
+s69->s34
+s206->s116
+s206->s347
+s206->s346
+s205->s116
+s205->s346
+s205->s345
+s63->s31
+s63->s118
+s63->s120
+s61->s31
+s61->s118
+s61->s117
+s59->s30
+s59->s115
+s59->s114
+s59->s113
+s5->s10
+s5->s2
+s5->s9
+s5->s8
+s16->s30
+s16->s29
+s16->s10
+s1358->s1959
+s1358->s863
+s1358->s1957
+s1356->s863
+s1356->s1957
+s1356->s1956
+s186->s310
+s186->s312
+s186->s313
+s186->s104
+s64->s119
+s64->s31
+s64->s120
+s62->s119
+s62->s117
+s62->s31
+s1461->s943
+s1461->s942
+s1461->s1002
+s1382->s894
+s1382->s885
+s1382->s1071
+s1382->s896
+s540->s883
+s540->s321
+s540->s320
+s538->s319
+s538->s882
+s538->s320
+s759->s1215
+s759->s813
+s759->s467
+s759->s1216
+s91->s46
+s91->s47
+s91->s164
+s569->s343
+s569->s413
+s569->s341
+s238->s403
+s238->s138
+s238->s344
+s204->s344
+s204->s341
+s204->s115
+s204->s343
+s204->s138
+s1405->s939
+s1405->s940
+s1405->s898
+s1404->s980
+s1404->s939
+s1404->s898
+s193->s108
+s193->s323
+s193->s106
+s191->s323
+s191->s322
+s191->s106
+s545->s894
+s545->s895
+s545->s325
+s545->s896
+s658->s398
+s658->s1073
+s190->s319
+s190->s321
+s190->s105
+s190->s320
+s184->s103
+s184->s309
+s184->s105
+s55->s28
+s55->s108
+s55->s107
+s55->s106
+s54->s27
+s54->s105
+s54->s104
+s54->s28
+s54->s103
+s251->s150
+s251->s426
+s251->s294
+s23->s12
+s23->s14
+s23->s44
+s24->s47
+s24->s46
+s24->s13
+s24->s45
+s21->s39
+s21->s13
+s21->s11
+s7->s14
+s7->s13
+s7->s11
+s7->s12
+s7->s2
+s1781->s2077
+s1781->s1223
+s1781->s2075
+s1432->s1266
+s1432->s2063
+s1432->s920
+s760->s467
+s760->s885
+s760->s1218
+s765->s1223
+s765->s469
+s765->s916
+s4806->s3753
+s4806->s4447
+s4806->s3751
+s1390->s2010
+s1390->s925
+s1390->s889
+s527->s861
+s527->s313
+s1644->s1093
+s1644->s2349
+s1644->s2348
+s572->s940
+s572->s939
+s572->s343
+s572->s938
+s1645->s2349
+s1645->s2350
+s1645->s1093
+s15->s28
+s15->s27
+s15->s9
+s574->s943
+s574->s942
+s574->s344
+s574->s944
+s1440->s2077
+s1440->s1266
+s1440->s2063
+s1440->s2075
+s1440->s925
+s5382->s6320
+s5382->s6321
+s5382->s4384
+s26->s51
+s26->s50
+s26->s14
+s26->s49
+s2855->s3781
+s2855->s3780
+s2855->s3779
+s2855->s2077
+s2835->s2063
+s2835->s3753
+s2835->s3751
+s2835->s3752
+s285->s172
+s285->s423
+s285->s483
+s285->s424
+s286->s487
+s286->s325
+s286->s172
+s1391->s926
+s1391->s925
+s1391->s889
+s560->s335
+s560->s918
+s560->s336
+s1674->s1118
+s1674->s2243
+s1674->s2242
+s565->s338
+s565->s928
+}
+{
+s918->s1429
+s918->s1430
+s918->s560
+s46->s91
+s46->s90
+s46->s89
+s46->s24
+s1032->s771
+s1032->s632
+s2077->s1781
+s2077->s2836
+s2077->s2855
+s2077->s1440
+s414->s245
+s414->s685
+s414->s687
+s414->s577
+s454->s269
+s454->s737
+s454->s736
+s13->s7
+s13->s21
+s13->s25
+s13->s24
+s163->s90
+s163->s89
+s980->s1404
+s980->s603
+s107->s55
+s107->s192
+s28->s54
+s28->s55
+s28->s15
+s28->s56
+s383->s630
+s383->s229
+s383->s628
+s383->s267
+s3780->s2855
+s3780->s4754
+s1035->s1574
+s1035->s634
+s493->s804
+s493->s288
+s1034->s1573
+s1034->s787
+s1034->s1574
+s1034->s634
+s928->s565
+s928->s1441
+s1253->s1573
+s1253->s787
+s164->s91
+s164->s90
+s164->s275
+s127->s66
+s127->s218
+s903->s550
+s903->s762
+s14->s23
+s14->s7
+s14->s26
+s14->s25
+s1278->s804
+s1278->s802
+s169->s95
+s169->s94
+s375->s222
+s375->s224
+s2113->s1470
+s2113->s1540
+s1031->s771
+s1031->s1570
+s1031->s770
+s1031->s632
+s125->s66
+s125->s216
+s2350->s1645
+s2350->s1802
+s172->s286
+s172->s285
+s172->s194
+s172->s97
+s365->s217
+s365->s216
+s1118->s687
+s1118->s1674
+s1118->s1673
+s1030->s1570
+s1030->s632
+s883->s540
+s883->s539
+s3779->s2855
+s3779->s4754
+s478->s782
+s478->s781
+s478->s282
+s374->s223
+s374->s222
+s346->s206
+s346->s205
+s346->s577
+s343->s572
+s343->s573
+s343->s204
+s343->s569
+s939->s572
+s939->s1405
+s939->s1404
+s939->s603
+s2349->s1645
+s2349->s1644
+s2349->s1802
+s2349->s1801
+s131->s68
+s131->s224
+s2063->s2836
+s2063->s1440
+s2063->s2835
+s2063->s1432
+s954->s580
+s954->s1396
+s467->s759
+s467->s541
+s467->s275
+s467->s760
+s10->s5
+s10->s18
+s10->s17
+s10->s16
+s426->s705
+s426->s251
+s426->s704
+s49->s95
+s49->s94
+s49->s26
+s49->s96
+s889->s1391
+s889->s542
+s889->s1390
+s2166->s1508
+s2166->s1539
+s4384->s5382
+s4384->s3357
+s313->s527
+s313->s207
+s313->s186
+s313->s528
+s1141->s1698
+s1141->s704
+s2348->s1644
+s2348->s1801
+s105->s190
+s105->s184
+s105->s54
+s105->s56
+s1073->s1619
+s1073->s658
+s50->s95
+s50->s26
+s50->s97
+s2214->s1549
+s2214->s1547
+s325->s286
+s325->s547
+s325->s194
+s325->s545
+s106->s191
+s106->s55
+s106->s194
+s106->s193
+s106->s192
+s2007->s2772
+s2007->s1387
+s898->s1404
+s898->s1405
+s898->s547
+s901->s550
+s901->s1409
+s344->s238
+s344->s573
+s344->s204
+s344->s574
+s885->s1382
+s885->s541
+s885->s760
+s885->s1384
+s320->s541
+s320->s190
+s320->s540
+s320->s539
+s320->s538
+s943->s1461
+s943->s574
+s943->s1384
+s2005->s1387
+s2005->s2770
+s1228->s1570
+s1228->s770
+s119->s207
+s119->s62
+s119->s64
+s4447->s4806
+s4447->s3409
+s863->s1358
+s863->s1356
+s863->s528
+s322->s191
+s322->s192
+s953->s580
+s953->s1395
+s30->s60
+s30->s59
+s30->s17
+s30->s16
+s31->s63
+s31->s61
+s31->s62
+s31->s17
+s31->s64
+s116->s206
+s116->s205
+s116->s60
+s34->s70
+s34->s69
+s34->s18
+s882->s539
+s882->s538
+s2016->s1396
+s2016->s1394
+s2015->s1395
+s2015->s1394
+s469->s764
+s469->s765
+s469->s276
+s938->s572
+s938->s603
+s1029->s630
+s1029->s1569
+s1029->s1568
+s133->s70
+s133->s69
+s133->s229
+s133->s228
+s133->s227
+s159->s86
+s159->s267
+s159->s229
+s159->s269
+s942->s615
+s942->s1462
+s942->s1461
+s942->s574
+s1002->s615
+s1002->s1461
+s2112->s1470
+s2112->s1540
+s2112->s1508
+s2112->s1539
+s1003->s615
+s1003->s1462
+s3751->s4806
+s3751->s2835
+s3751->s3410
+s3751->s3409
+s3752->s2835
+s3752->s3410
+}
+{
+s1540->s1006
+s1540->s2113
+s1540->s2112
+s762->s902
+s762->s1221
+s762->s903
+s762->s468
+s68->s130
+s68->s131
+s68->s129
+s68->s33
+s704->s1142
+s704->s1141
+s704->s426
+s3409->s4447
+s3409->s2590
+s3409->s3751
+s2772->s2007
+s2772->s2006
+s2772->s3667
+s288->s173
+s288->s493
+s288->s492
+s288->s491
+s17->s31
+s17->s30
+s17->s10
+s17->s33
+s17->s32
+s1396->s891
+s1396->s954
+s1396->s2016
+s222->s374
+s222->s375
+s222->s129
+s1539->s1006
+s1539->s2166
+s1539->s2112
+s269->s159
+s269->s454
+s269->s386
+s705->s1142
+s705->s1143
+s705->s426
+s3410->s3751
+s3410->s2590
+s3410->s3752
+s539->s884
+s539->s883
+s539->s882
+s539->s320
+s1698->s1142
+s1698->s1141
+s1698->s1236
+s18->s10
+s18->s34
+s18->s33
+s2770->s2006
+s2770->s2005
+s2770->s3666
+s634->s1034
+s634->s386
+s634->s1035
+s634->s482
+s577->s414
+s577->s948
+s577->s346
+s218->s127
+s218->s126
+s218->s366
+s66->s126
+s66->s125
+s66->s127
+s66->s32
+s60->s30
+s60->s116
+s60->s32
+s1409->s901
+s1409->s902
+s1409->s2036
+s573->s343
+s573->s941
+s573->s344
+s1519->s2179
+s1519->s1009
+s1519->s992
+s1547->s2214
+s1547->s2213
+s1547->s1013
+s2836->s2063
+s2836->s2077
+s2836->s3754
+s1549->s1015
+s1549->s2214
+s1549->s1013
+s1508->s984
+s1508->s2166
+s1508->s2112
+s4754->s3780
+s4754->s3779
+s4754->s3713
+s224->s131
+s224->s375
+s224->s129
+s223->s374
+s223->s130
+s223->s129
+s1802->s2349
+s1802->s2538
+s1802->s2350
+s1802->s1240
+s1430->s918
+s1430->s2061
+s1430->s2060
+s1441->s2079
+s1441->s2080
+s1441->s928
+s25->s14
+s25->s13
+s25->s48
+s1801->s2349
+s1801->s2348
+s1801->s1240
+s56->s109
+s56->s28
+s56->s105
+s1619->s2046
+s1619->s2045
+s1619->s1073
+s97->s172
+s97->s173
+s97->s50
+s194->s173
+s194->s106
+s194->s172
+s194->s327
+s194->s325
+s547->s327
+s547->s325
+s547->s898
+s550->s903
+s550->s901
+s550->s327
+s550->s902
+s541->s468
+s541->s887
+s541->s467
+s541->s885
+s541->s320
+s275->s468
+s275->s467
+s275->s164
+s1384->s943
+s1384->s885
+s1384->s887
+s1387->s2006
+s1387->s2005
+s1387->s2007
+s1387->s887
+s207->s119
+s207->s349
+s207->s313
+s528->s863
+s528->s349
+s528->s313
+s580->s891
+s580->s349
+s580->s954
+s580->s953
+s542->s324
+s542->s889
+s542->s884
+s192->s324
+s192->s322
+s192->s107
+s192->s106
+s1394->s2015
+s1394->s891
+s1394->s2016
+s1395->s891
+s1395->s2015
+s1395->s953
+s217->s365
+s217->s126
+s217->s366
+s687->s1118
+s687->s948
+s687->s414
+s1470->s984
+s1470->s948
+s1470->s2113
+s1470->s2112
+s276->s367
+s276->s469
+s276->s165
+s603->s367
+s603->s980
+s603->s939
+s603->s938
+s1514->s2174
+s1514->s989
+s1514->s988
+s216->s126
+s216->s125
+s216->s365
+s90->s46
+s90->s165
+s90->s164
+s90->s163
+s770->s1228
+s770->s1031
+s770->s473
+s229->s383
+s229->s133
+s229->s386
+s229->s385
+s229->s159
+s771->s1031
+s771->s473
+s771->s1032
+s630->s383
+s630->s1029
+s630->s385
+s632->s1031
+s632->s1030
+s632->s385
+s632->s1032
+s282->s171
+s282->s478
+s282->s376
+s615->s1003
+s615->s942
+s615->s1002
+s615->s376
+s95->s171
+s95->s50
+s95->s169
+s95->s49
+s787->s1253
+s787->s482
+s787->s1034
+s802->s1278
+s802->s1277
+s802->s491
+s804->s1278
+s804->s493
+s804->s491
+s1429->s918
+s1429->s2060
+s1429->s2059
+s3357->s2538
+s3357->s4384
+}
+{
+s1013->s1549
+s1013->s1548
+s1013->s622
+s1013->s1547
+s491->s804
+s491->s802
+s491->s803
+s491->s288
+s1277->s803
+s1277->s802
+s1022->s626
+s1022->s1561
+s2231->s1561
+s2231->s1560
+s468->s763
+s468->s541
+s468->s275
+s468->s762
+s1009->s1519
+s1009->s620
+s385->s630
+s385->s229
+s385->s633
+s385->s632
+s992->s1519
+s992->s620
+s992->s610
+s992->s1520
+s1015->s622
+s1015->s1549
+s1221->s1410
+s1221->s762
+s492->s803
+s492->s288
+s366->s602
+s366->s218
+s366->s217
+s2006->s2771
+s2006->s2772
+s2006->s1387
+s2006->s2770
+s165->s278
+s165->s276
+s165->s219
+s165->s90
+s48->s93
+s48->s92
+s48->s25
+s1023->s626
+s1023->s1562
+s482->s284
+s482->s787
+s482->s634
+s2080->s1441
+s2080->s2857
+s2080->s2808
+s171->s284
+s171->s282
+s171->s95
+s171->s225
+s1236->s1698
+s1236->s776
+s473->s771
+s473->s278
+s473->s770
+s2244->s3047
+s2244->s1571
+s2059->s1790
+s2059->s1429
+s2232->s1562
+s2232->s1560
+s126->s219
+s126->s218
+s126->s217
+s126->s216
+s126->s66
+s988->s1514
+s988->s608
+s166->s279
+s166->s92
+s376->s615
+s376->s225
+s376->s282
+s376->s617
+s129->s222
+s129->s223
+s129->s68
+s129->s225
+s129->s224
+s2061->s1430
+s2061->s1791
+s2061->s2832
+s3754->s4807
+s3754->s2836
+s3754->s4800
+s329->s195
+s329->s552
+s109->s196
+s109->s195
+s109->s56
+s2044->s1415
+s3667->s2772
+s3667->s2771
+s2045->s1415
+s2045->s1619
+s2046->s1415
+s2046->s1619
+s173->s97
+s173->s194
+s173->s289
+s173->s288
+s327->s550
+s327->s547
+s327->s194
+s327->s289
+s941->s573
+s941->s1460
+s941->s1459
+s2023->s1398
+s887->s763
+s887->s541
+s887->s1387
+s887->s1384
+s2079->s1441
+s2079->s2808
+s349->s207
+s349->s581
+s349->s580
+s349->s528
+s1142->s704
+s1142->s1698
+s1142->s705
+s1142->s776
+s33->s68
+s33->s18
+s33->s67
+s33->s17
+s324->s543
+s324->s226
+s324->s542
+s324->s192
+s884->s543
+s884->s539
+s884->s542
+s884->s602
+s891->s543
+s891->s1396
+s891->s1394
+s891->s1395
+s891->s580
+s2021->s1398
+s2021->s2786
+s2060->s1791
+s2060->s1429
+s2060->s1790
+s2060->s1430
+s948->s1470
+s948->s1471
+s948->s687
+s948->s577
+s367->s605
+s367->s276
+s367->s219
+s367->s603
+s984->s1470
+s984->s605
+s984->s1508
+s989->s1516
+s989->s1515
+s989->s1514
+s989->s608
+s990->s1516
+s990->s608
+s994->s620
+s994->s610
+s1006->s1540
+s1006->s1539
+s1006->s617
+s6082->s4999
+s6082->s4998
+s1240->s777
+s1240->s1802
+s1240->s1801
+s2179->s1519
+s2179->s1520
+s902->s1410
+s902->s550
+s902->s762
+s902->s1409
+s2036->s1410
+s2036->s1409
+s386->s634
+s386->s229
+s386->s269
+s386->s633
+s3713->s2805
+s3713->s4754
+s3687->s2786
+s2174->s1515
+s2174->s1514
+s2590->s3410
+s2590->s1841
+s2590->s3409
+s3666->s2771
+s3666->s2770
+s2213->s1548
+s2213->s1547
+s6174->s5068
+s6174->s5067
+s6175->s5069
+s6175->s5067
+s32->s60
+s32->s66
+s32->s67
+s32->s17
+s130->s68
+s130->s223
+s130->s226
+s2538->s3357
+s2538->s1802
+s2538->s2857
+s2538->s2832
+s1143->s705
+s1143->s776
+}
+{
+s1471->s948
+s1471->s2114
+s543->s892
+s543->s381
+s543->s891
+s543->s884
+s543->s324
+s196->s109
+s196->s331
+s196->s330
+s195->s109
+s195->s330
+s195->s329
+s1459->s2100
+s1459->s941
+s1459->s2099
+s2857->s3747
+s2857->s2538
+s2857->s2080
+s1548->s1014
+s1548->s2213
+s1548->s1013
+s2786->s3687
+s2786->s2022
+s2786->s2021
+s626->s1023
+s626->s1022
+s626->s381
+s626->s1021
+s1790->s2060
+s1790->s1231
+s1790->s2059
+s67->s33
+s67->s128
+s67->s32
+s581->s349
+s581->s955
+s1791->s1231
+s1791->s2061
+s1791->s2060
+s289->s327
+s289->s494
+s289->s173
+s1398->s2023
+s1398->s2021
+s1398->s2022
+s1398->s892
+s5067->s6175
+s5067->s6174
+s5067->s3989
+s225->s378
+s225->s376
+s225->s171
+s225->s379
+s225->s129
+s608->s990
+s608->s988
+s608->s989
+s608->s369
+s4800->s5868
+s4800->s5867
+s4800->s3747
+s4800->s3754
+s777->s476
+s777->s907
+s777->s1240
+s1562->s1021
+s1562->s1023
+s1562->s2232
+s763->s887
+s763->s1222
+s763->s468
+s92->s167
+s92->s166
+s92->s48
+s610->s370
+s610->s994
+s610->s993
+s610->s992
+s93->s167
+s93->s48
+s93->s168
+s2808->s2039
+s2808->s2079
+s2808->s2080
+s776->s1143
+s776->s1142
+s776->s476
+s776->s1236
+s622->s1015
+s622->s1013
+s622->s1014
+s622->s379
+s284->s171
+s284->s482
+s284->s379
+s226->s381
+s226->s324
+s226->s130
+s552->s330
+s552->s905
+s552->s329
+s605->s367
+s605->s369
+s605->s984
+s602->s366
+s602->s892
+s602->s884
+s2820->s2182
+s2820->s2100
+s2820->s2048
+s2832->s2061
+s2832->s3747
+s2832->s2538
+s1460->s2100
+s1460->s941
+s1460->s2048
+s1415->s2046
+s1415->s2045
+s1415->s2044
+s1415->s907
+s279->s167
+s279->s166
+s279->s474
+s219->s126
+s219->s369
+s219->s367
+s219->s370
+s219->s165
+s1571->s2244
+s1571->s2245
+s1571->s1033
+s3047->s2245
+s3047->s2526
+s3047->s2244
+s620->s378
+s620->s994
+s620->s1009
+s620->s992
+s4807->s5876
+s4807->s5867
+s4807->s3754
+s1561->s2231
+s1561->s1022
+s1561->s1021
+s4999->s3938
+s4999->s6082
+s4999->s3937
+s617->s378
+s617->s1006
+s617->s376
+s4998->s6082
+s4998->s3937
+s4998->s4024
+s1520->s2179
+s1520->s993
+s1520->s992
+s1410->s1221
+s1410->s2036
+s1410->s902
+s1410->s2037
+s2805->s2037
+s2805->s3713
+s1515->s2175
+s1515->s2174
+s1515->s989
+s1516->s2175
+s1516->s990
+s1516->s989
+s1841->s1279
+s1841->s2590
+s1841->s2233
+s2771->s3667
+s2771->s2006
+s2771->s3666
+s2771->s2233
+s803->s1279
+s803->s1277
+s803->s492
+s803->s491
+s1560->s2231
+s1560->s1021
+s1560->s2232
+s633->s386
+s633->s385
+s633->s1033
+s5069->s3989
+s5069->s6175
+s5069->s3991
+s278->s165
+s278->s370
+s278->s473
+s5068->s3989
+s5068->s6174
+s5068->s3990
+}
+{
+s1021->s1563
+s1021->s1562
+s1021->s1560
+s1021->s1561
+s1021->s626
+s1279->s1550
+s1279->s1841
+s1279->s803
+s1279->s1563
+s4024->s4998
+s4024->s3042
+s2175->s2971
+s2175->s1516
+s2175->s1515
+s2022->s1398
+s2022->s2788
+s2022->s2786
+s5868->s5403
+s5868->s4800
+s993->s610
+s993->s1521
+s993->s1520
+s2210->s2991
+s2210->s1545
+s2245->s3047
+s2245->s1572
+s2245->s1795
+s2245->s1571
+s369->s605
+s369->s219
+s369->s609
+s369->s608
+s167->s279
+s167->s93
+s167->s92
+s167->s280
+s2114->s1471
+s2114->s2898
+s1231->s1791
+s1231->s1790
+s1231->s773
+s476->s777
+s476->s554
+s476->s281
+s476->s776
+s381->s543
+s381->s627
+s381->s626
+s381->s226
+s995->s612
+s995->s611
+s3721->s2812
+s955->s581
+s955->s1476
+s3989->s3019
+s3989->s5069
+s3989->s5068
+s3989->s5067
+s905->s553
+s905->s552
+s2039->s1412
+s2039->s2808
+s1222->s1780
+s1222->s1420
+s1222->s763
+s168->s93
+s168->s281
+s168->s280
+s370->s278
+s370->s610
+s370->s219
+s370->s609
+s3939->s3042
+s3939->s2978
+s474->s279
+s474->s280
+s1033->s1571
+s1033->s1572
+s1033->s633
+s3991->s5069
+s3991->s3019
+s2100->s2820
+s2100->s1460
+s2100->s1459
+s2100->s1522
+s3938->s4999
+s3938->s2978
+s3835->s2983
+s3835->s2898
+s494->s779
+s494->s805
+s494->s289
+s2233->s1563
+s2233->s2771
+s2233->s2971
+s2233->s1841
+s3937->s4999
+s3937->s3042
+s3937->s4998
+s3937->s2978
+s2037->s2788
+s2037->s2805
+s2037->s1410
+s2037->s1521
+s1280->s805
+s1280->s1808
+s5876->s4807
+s5876->s5402
+s331->s196
+s331->s553
+s2123->s2812
+s2123->s1476
+s1014->s1550
+s1014->s622
+s1014->s1548
+s2526->s3047
+s2526->s1795
+s330->s554
+s330->s553
+s330->s552
+s330->s196
+s330->s195
+s379->s622
+s379->s621
+s379->s284
+s379->s225
+s3941->s2983
+s378->s621
+s378->s620
+s378->s225
+s378->s617
+s892->s543
+s892->s1398
+s892->s627
+s892->s602
+s128->s221
+s128->s220
+s128->s67
+s3747->s4800
+s3747->s4801
+s3747->s2857
+s3747->s2832
+s3990->s5068
+s3990->s3019
+s371->s220
+s371->s611
+s2048->s2820
+s2048->s1460
+s2048->s1417
+s2099->s1459
+s2099->s1522
+s2182->s2820
+s2182->s1522
+s5867->s5403
+s5867->s4807
+s5867->s5402
+s5867->s4800
+s907->s1415
+s907->s554
+s907->s777
+s907->s1417
+s2051->s1420
+s2051->s2825
+}
+{
+s1412->s2039
+s1412->s906
+s1563->s1279
+s1563->s2235
+s1563->s2233
+s1563->s1021
+s1563->s2216
+s2978->s2181
+s2978->s3939
+s2978->s3938
+s2978->s3937
+s2825->s2052
+s2825->s2051
+s2825->s3737
+s280->s167
+s280->s475
+s280->s474
+s280->s168
+s2898->s3835
+s2898->s2186
+s2898->s2114
+s2983->s3835
+s2983->s3941
+s2983->s2186
+s2991->s3950
+s2991->s2210
+s2991->s2192
+s773->s996
+s773->s1231
+s773->s475
+s627->s381
+s627->s892
+s627->s1024
+s612->s373
+s612->s372
+s612->s995
+s221->s373
+s221->s372
+s221->s128
+s281->s476
+s281->s477
+s281->s168
+s1550->s1279
+s1550->s1014
+s1550->s2216
+s779->s1245
+s779->s494
+s779->s1244
+s779->s477
+s609->s991
+s609->s370
+s609->s369
+s554->s476
+s554->s909
+s554->s477
+s554->s907
+s554->s330
+s1521->s2181
+s1521->s2037
+s1521->s993
+s2812->s2123
+s2812->s3721
+s2812->s2041
+s3019->s3990
+s3019->s3989
+s3019->s3991
+s3019->s2216
+s5403->s4399
+s5403->s5868
+s5403->s5867
+s220->s372
+s220->s371
+s220->s128
+s611->s372
+s611->s995
+s611->s371
+s1522->s2182
+s1522->s996
+s1522->s2100
+s1522->s2099
+s2972->s3929
+s2972->s2177
+s2972->s2176
+s2788->s2022
+s2788->s2037
+s2788->s2181
+s1780->s1222
+s1780->s2511
+s1780->s2052
+s5402->s4399
+s5402->s5876
+s5402->s5867
+s805->s494
+s805->s1244
+s805->s1280
+s621->s1012
+s621->s379
+s621->s378
+s1417->s909
+s1417->s907
+s1417->s2048
+s1808->s2547
+s1808->s1244
+s1808->s1280
+s1572->s1235
+s1572->s2245
+s1572->s1033
+s3042->s2235
+s3042->s3937
+s3042->s3939
+s3042->s4024
+s1795->s2526
+s1795->s2245
+s1795->s1235
+s1420->s909
+s1420->s1222
+s1420->s2052
+s1420->s2051
+s4801->s5869
+s4801->s3747
+s2971->s2175
+s2971->s2235
+s2971->s2233
+s1545->s1012
+s1545->s2210
+s1545->s2192
+s553->s331
+s553->s906
+s553->s330
+s553->s905
+s1476->s2123
+s1476->s955
+s1476->s2041
+}
+{
+s475->s773
+s475->s613
+s475->s775
+s475->s280
+s2176->s1517
+s2176->s2972
+s2177->s1518
+s2177->s2973
+s2177->s2972
+s2177->s1517
+s6176->s5070
+s6176->s7017
+s7748->s7018
+s7748->s7017
+s3950->s2991
+s3950->s2992
+s1245->s779
+s1245->s1809
+s2041->s2812
+s2041->s1413
+s2041->s1476
+s2216->s1550
+s2216->s3020
+s2216->s1563
+s2216->s3019
+s4399->s5403
+s4399->s5402
+s4399->s3368
+s2181->s2979
+s2181->s2788
+s2181->s2978
+s2181->s1521
+s2235->s2971
+s2235->s3020
+s2235->s1563
+s2235->s3042
+s7713->s6983
+s2192->s2991
+s2192->s1529
+s2192->s1545
+s2192->s2992
+s477->s780
+s477->s779
+s477->s554
+s477->s281
+s991->s1517
+s991->s1518
+s991->s609
+s373->s614
+s373->s221
+s373->s612
+s1244->s805
+s1244->s779
+s1244->s1809
+s1244->s1808
+s2186->s2983
+s2186->s1524
+s2186->s2898
+s1235->s1572
+s1235->s775
+s1235->s1795
+s3929->s2973
+s3929->s2972
+s2237->s1564
+s2237->s3002
+s3964->s3003
+s3964->s3002
+s909->s1420
+s909->s780
+s909->s554
+s909->s1417
+s1024->s1564
+s1024->s1533
+s1024->s627
+s2200->s1533
+s2200->s3003
+s996->s1524
+s996->s773
+s996->s613
+s996->s1522
+s1012->s1529
+s1012->s621
+s1012->s1545
+s2511->s1780
+s2511->s2826
+s2547->s1809
+s2547->s1808
+s5869->s6837
+s5869->s4801
+s3737->s2826
+s3737->s2825
+s372->s220
+s372->s613
+s372->s612
+s372->s221
+s372->s611
+s2052->s2826
+s2052->s1780
+s2052->s1420
+s2052->s2825
+s906->s614
+s906->s1412
+s906->s1413
+s906->s553
+}
+{
+s2826->s2511
+s2826->s3738
+s2826->s2052
+s2826->s3737
+s7018->s6103
+s7018->s6102
+s7018->s7748
+s7017->s6102
+s7017->s7748
+s7017->s6176
+s1564->s2199
+s1564->s2237
+s1564->s1024
+s1524->s996
+s1524->s998
+s1524->s2186
+s1413->s1001
+s1413->s906
+s1413->s2041
+s1517->s998
+s1517->s2177
+s1517->s991
+s1517->s2176
+s3368->s4399
+s3368->s2548
+s3368->s3738
+s2992->s2193
+s2992->s3950
+s2992->s2192
+s2973->s2178
+s2973->s2177
+s2973->s3929
+s1518->s991
+s1518->s2178
+s1518->s2177
+s6837->s5869
+s6837->s7596
+s6837->s7595
+s614->s373
+s614->s906
+s614->s1001
+s780->s1246
+s780->s909
+s780->s477
+s613->s475
+s613->s372
+s613->s999
+s613->s998
+s613->s996
+s775->s999
+s775->s1235
+s775->s475
+s1529->s999
+s1529->s2193
+s1529->s1012
+s1529->s2192
+s3003->s2199
+s3003->s3964
+s3003->s2200
+s3002->s2199
+s3002->s2237
+s3002->s3964
+s1809->s2548
+s1809->s1245
+s1809->s1244
+s1809->s2547
+s2979->s2181
+s2979->s3940
+s5070->s6102
+s5070->s3992
+s5070->s6176
+s6983->s6071
+s6983->s7713
+s6983->s6072
+s3020->s2235
+s3020->s3992
+s3020->s2216
+s1533->s2200
+s1533->s1001
+s1533->s2199
+s1533->s1024
+}
+{
+s6103->s5014
+s6103->s7018
+s6102->s5014
+s6102->s5070
+s6102->s7018
+s6102->s7017
+s999->s775
+s999->s1529
+s999->s613
+s999->s1528
+s6071->s6983
+s6071->s4989
+s1001->s1413
+s1001->s1533
+s1001->s614
+s1001->s1534
+s6072->s6983
+s6072->s4989
+s2199->s1533
+s2199->s3003
+s2199->s3002
+s2199->s1564
+s2199->s3004
+s998->s1517
+s998->s1524
+s998->s613
+s998->s1528
+s2549->s3371
+s2549->s1810
+s1246->s780
+s1246->s1811
+s1246->s1810
+s2548->s1809
+s2548->s3004
+s2548->s2993
+s2548->s3368
+s2178->s2974
+s2178->s2973
+s2178->s1518
+s3992->s5070
+s3992->s3020
+s3992->s5014
+s2193->s1529
+s2193->s2993
+s2193->s2992
+s3940->s4989
+s3940->s2979
+s3947->s2989
+s3947->s5008
+s3738->s2974
+s3738->s3004
+s3738->s2826
+s3738->s3368
+s7595->s7246
+s7595->s6837
+s7596->s7246
+s7596->s6837
+}
+{
+s5008->s6094
+s5008->s3948
+s5008->s3947
+s1811->s2551
+s1811->s1246
+s1811->s2550
+s7246->s7596
+s7246->s7595
+s7246->s6466
+s5014->s6103
+s5014->s6102
+s5014->s3952
+s5014->s3992
+s3004->s3931
+s3004->s2199
+s3004->s3738
+s3004->s2548
+s3004->s3952
+s2974->s3931
+s2974->s2178
+s2974->s3738
+s1810->s1246
+s1810->s2549
+s1810->s2550
+s1528->s999
+s1528->s998
+s1528->s2191
+s2993->s2193
+s2993->s2548
+s2993->s3952
+s3371->s2550
+s3371->s2549
+s3371->s4403
+s4989->s3940
+s4989->s6071
+s4989->s3931
+s4989->s6072
+s2989->s2191
+s2989->s3948
+s2989->s3947
+s1534->s1001
+s1534->s2201
+}
+{
+s7716->s8180
+s7716->s6986
+s3952->s4990
+s3952->s3004
+s3952->s5014
+s3952->s2993
+s3969->s5038
+s3969->s3005
+s2201->s1534
+s2201->s3005
+s2551->s3372
+s2551->s1811
+s6094->s5009
+s6094->s5008
+s4403->s3372
+s4403->s3371
+s3948->s2990
+s3948->s2989
+s3948->s5009
+s3948->s5008
+s8477->s8180
+s8477->s8179
+s6466->s7246
+s6466->s5408
+s3931->s4990
+s3931->s4989
+s3931->s3004
+s3931->s2974
+s6136->s5038
+s2191->s2990
+s2191->s2989
+s2191->s1528
+s2550->s3372
+s2550->s1810
+s2550->s1811
+s2550->s3371
+}
+{
+s4990->s3931
+s4990->s6073
+s4990->s3952
+s2990->s2191
+s2990->s3949
+s2990->s3948
+s3372->s2551
+s3372->s2550
+s3372->s4404
+s3372->s4403
+s5408->s4404
+s5408->s6466
+s8180->s7716
+s8180->s8477
+s8180->s7715
+s8179->s8477
+s8179->s7715
+s8179->s7714
+s5038->s3969
+s5038->s3970
+s5038->s6136
+s5009->s6094
+s5009->s3949
+s5009->s3948
+s6986->s7716
+s6986->s7715
+s6986->s6073
+s3005->s3969
+s3005->s3970
+s3005->s2201
+}
+{
+s7714->s8179
+s7714->s6985
+s7715->s8179
+s7715->s6986
+s7715->s8180
+s7715->s6985
+s3949->s5010
+s3949->s2990
+s3949->s5009
+s4404->s3372
+s4404->s5408
+s4404->s5010
+s4404->s5040
+s3970->s5038
+s3970->s3005
+s3970->s5040
+s6073->s6986
+s6073->s4990
+s6073->s6985
+}
+{
+s5010->s3949
+s5010->s4404
+s5010->s6096
+s6985->s7715
+s6985->s7714
+s6985->s6073
+s6985->s6096
+s5040->s3970
+s5040->s4404
+s5040->s6096
+}
+{
+s6096->s7009
+s6096->s6985
+s6096->s5010
+s6096->s5040
+}
+{
+s7009->s7740
+s7009->s6096
+}
+{
+s8198->s8491
+s8198->s7740
+s8198->s8490
+s8628->s8490
+s8628->s8491
+s8628->s8707
+s8707->s8628
+s8490->s8198
+s8490->s8628
+s7740->s8198
+s7740->s7009
+s8491->s8198
+s8491->s8628
+}
+}

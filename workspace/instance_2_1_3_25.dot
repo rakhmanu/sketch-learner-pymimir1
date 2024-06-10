@@ -1,0 +1,85 @@
+digraph {
+rankdir="LR"
+s33[label="(instance index=15, state index=33, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p3,c_1_0), at(p2,c_1_0)})"]
+s30[label="(instance index=15, state index=30, atoms={at(p1,c_1_0), empty(t1), at(p3,c_1_0), at(t1,c_1_0), at(p2,c_1_0)})"]
+s26[label="(instance index=15, state index=26, atoms={at(p1,c_1_0), carrying(t1,p3), at(t1,c_1_0), at(p2,c_1_0)})"]
+s20[label="(instance index=15, state index=20, atoms={at(p1,c_1_0), at(t1,c_0_0), carrying(t1,p3), at(p2,c_1_0)})"]
+s14[label="(instance index=15, state index=14, atoms={at(p1,c_1_0), at(t1,c_0_0), empty(t1), at(p3,c_0_0), at(p2,c_1_0)})"]
+s9[label="(instance index=15, state index=9, atoms={at(p1,c_1_0), empty(t1), at(t1,c_1_0), at(p3,c_0_0), at(p2,c_1_0)})"]
+s6[label="(instance index=15, state index=6, atoms={at(t1,c_1_0), carrying(t1,p1), at(p3,c_0_0), at(p2,c_1_0)})"]
+s3[label="(instance index=15, state index=3, atoms={at(t1,c_0_0), carrying(t1,p1), at(p3,c_0_0), at(p2,c_1_0)})"]
+s1[label="(instance index=15, state index=1, atoms={at(t1,c_0_0), at(p1,c_0_0), empty(t1), at(p3,c_0_0), at(p2,c_1_0)})"]
+s0[label="(instance index=15, state index=0, atoms={at(p1,c_0_0), empty(t1), at(t1,c_1_0), at(p3,c_0_0), at(p2,c_1_0)})"]
+s2[label="(instance index=15, state index=2, atoms={at(p1,c_0_0), at(t1,c_1_0), carrying(t1,p2), at(p3,c_0_0)})"]
+s5[label="(instance index=15, state index=5, atoms={at(t1,c_0_0), at(p1,c_0_0), carrying(t1,p2), at(p3,c_0_0)})"]
+s11[peripheries=2,label="(instance index=15, state index=11, atoms={at(p1,c_0_0), empty(t1), at(t1,c_1_0), at(p2,c_0_0), at(p3,c_0_0)})"]
+s8[peripheries=2,label="(instance index=15, state index=8, atoms={at(t1,c_0_0), at(p1,c_0_0), empty(t1), at(p2,c_0_0), at(p3,c_0_0)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s30}
+{ rank = same; s26}
+{ rank = same; s20}
+{ rank = same; s14}
+{ rank = same; s9}
+{ rank = same; s6}
+{ rank = same; s3}
+{ rank = same; s1}
+{ rank = same; s0}
+{ rank = same; s2}
+{ rank = same; s5}
+{ rank = same; s11,s8}
+{
+s33->s30
+}
+{
+s30->s26
+s30->s33
+}
+{
+s26->s30
+s26->s20
+}
+{
+s20->s14
+s20->s26
+}
+{
+s14->s20
+s14->s9
+}
+{
+s9->s6
+s9->s14
+}
+{
+s6->s3
+s6->s9
+}
+{
+s3->s6
+s3->s1
+}
+{
+s1->s3
+s1->s0
+}
+{
+s0->s2
+s0->s1
+}
+{
+s2->s5
+s2->s0
+}
+{
+s5->s2
+s5->s8
+}
+{
+s11->s8
+s8->s5
+s8->s11
+}
+}

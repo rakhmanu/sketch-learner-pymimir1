@@ -1,0 +1,91 @@
+digraph {
+rankdir="LR"
+s3[label="(instance index=47, state index=3, atoms={at(t1,c_2_2), at(p1,c_0_0), empty(t1)})"]
+s0[label="(instance index=47, state index=0, atoms={at(t1,c_1_2), at(p1,c_0_0), empty(t1)})"]
+s45[label="(instance index=47, state index=45, atoms={at(t1,c_2_0), at(p1,c_0_1), empty(t1)})"]
+s2[label="(instance index=47, state index=2, atoms={at(t1,c_1_1), at(p1,c_0_0), empty(t1)})"]
+s1[label="(instance index=47, state index=1, atoms={at(p1,c_0_0), empty(t1), at(t1,c_0_2)})"]
+s28[label="(instance index=47, state index=28, atoms={at(p1,c_0_1), at(t1,c_1_0), empty(t1)})"]
+s4[label="(instance index=47, state index=4, atoms={at(p1,c_0_0), at(t1,c_0_1), empty(t1)})"]
+s30[label="(instance index=47, state index=30, atoms={at(t1,c_2_1), at(p1,c_0_1), empty(t1)})"]
+s7[label="(instance index=47, state index=7, atoms={at(p1,c_0_0), at(t1,c_0_0), empty(t1)})"]
+s19[label="(instance index=47, state index=19, atoms={at(p1,c_0_1), at(t1,c_1_1), empty(t1)})"]
+s17[label="(instance index=47, state index=17, atoms={at(p1,c_0_1), at(t1,c_0_0), empty(t1)})"]
+s9[label="(instance index=47, state index=9, atoms={carrying(t1,p1), at(t1,c_0_0)})"]
+s12[label="(instance index=47, state index=12, atoms={at(p1,c_0_1), at(t1,c_0_1), empty(t1)})"]
+s10[label="(instance index=47, state index=10, atoms={carrying(t1,p1), at(t1,c_0_1)})"]
+s14[label="(instance index=47, state index=14, atoms={at(t1,c_1_1), carrying(t1,p1)})"]
+s22[peripheries=2,label="(instance index=47, state index=22, atoms={at(t1,c_1_1), at(p1,c_1_1), empty(t1)})"]
+s35[peripheries=2,label="(instance index=47, state index=35, atoms={at(p1,c_1_1), at(t1,c_0_1), empty(t1)})"]
+s54[peripheries=2,label="(instance index=47, state index=54, atoms={at(p1,c_1_1), at(t1,c_0_0), empty(t1)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s0}
+{ rank = same; s45,s2,s1}
+{ rank = same; s28,s4,s30}
+{ rank = same; s7,s19,s17}
+{ rank = same; s9,s12}
+{ rank = same; s10}
+{ rank = same; s14}
+{ rank = same; s22,s35,s54}
+{
+s3->s0
+}
+{
+s0->s3
+s0->s2
+s0->s1
+}
+{
+s45->s30
+s45->s28
+s2->s4
+s2->s0
+s1->s4
+s1->s0
+}
+{
+s28->s45
+s28->s19
+s28->s17
+s4->s2
+s4->s7
+s4->s1
+s30->s45
+s30->s19
+}
+{
+s7->s4
+s7->s9
+s19->s28
+s19->s30
+s19->s12
+s17->s28
+s17->s12
+}
+{
+s9->s7
+s9->s10
+s12->s19
+s12->s10
+s12->s17
+}
+{
+s10->s14
+s10->s12
+s10->s9
+}
+{
+s14->s22
+s14->s10
+}
+{
+s22->s14
+s22->s35
+s35->s22
+s35->s54
+s54->s35
+}
+}
