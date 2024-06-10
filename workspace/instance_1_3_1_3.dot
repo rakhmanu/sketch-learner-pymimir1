@@ -1,17 +1,17 @@
 digraph {
 rankdir="LR"
-s3[label="(instance index=26, state index=3, atoms={at(t1,c_0_0), empty(t1), at(p1,c_0_2)})"]
-s1[label="(instance index=26, state index=1, atoms={empty(t1), at(p1,c_0_2), at(t1,c_0_1)})"]
-s8[label="(instance index=26, state index=8, atoms={at(p1,c_0_1), at(t1,c_0_2), empty(t1)})"]
-s7[label="(instance index=26, state index=7, atoms={at(p1,c_0_1), at(t1,c_0_0), empty(t1)})"]
-s0[label="(instance index=26, state index=0, atoms={at(t1,c_0_2), empty(t1), at(p1,c_0_2)})"]
-s5[label="(instance index=26, state index=5, atoms={at(p1,c_0_1), empty(t1), at(t1,c_0_1)})"]
+s3[label="(instance index=26, state index=3, atoms={at(p1,c_0_2), at(t1,c_0_0), empty(t1)})"]
+s1[label="(instance index=26, state index=1, atoms={at(p1,c_0_2), at(t1,c_0_1), empty(t1)})"]
+s8[label="(instance index=26, state index=8, atoms={at(t1,c_0_2), empty(t1), at(p1,c_0_1)})"]
+s7[label="(instance index=26, state index=7, atoms={at(t1,c_0_0), empty(t1), at(p1,c_0_1)})"]
+s0[label="(instance index=26, state index=0, atoms={at(p1,c_0_2), at(t1,c_0_2), empty(t1)})"]
+s5[label="(instance index=26, state index=5, atoms={at(t1,c_0_1), empty(t1), at(p1,c_0_1)})"]
 s2[label="(instance index=26, state index=2, atoms={at(t1,c_0_2), carrying(t1,p1)})"]
-s4[label="(instance index=26, state index=4, atoms={carrying(t1,p1), at(t1,c_0_1)})"]
-s6[label="(instance index=26, state index=6, atoms={carrying(t1,p1), at(t1,c_0_0)})"]
-s9[peripheries=2,label="(instance index=26, state index=9, atoms={at(p1,c_0_0), at(t1,c_0_0), empty(t1)})"]
-s10[peripheries=2,label="(instance index=26, state index=10, atoms={at(p1,c_0_0), empty(t1), at(t1,c_0_1)})"]
-s11[peripheries=2,label="(instance index=26, state index=11, atoms={at(t1,c_0_2), at(p1,c_0_0), empty(t1)})"]
+s4[label="(instance index=26, state index=4, atoms={at(t1,c_0_1), carrying(t1,p1)})"]
+s6[label="(instance index=26, state index=6, atoms={at(t1,c_0_0), carrying(t1,p1)})"]
+s9[peripheries=2,label="(instance index=26, state index=9, atoms={at(t1,c_0_0), empty(t1), at(p1,c_0_0)})"]
+s10[peripheries=2,label="(instance index=26, state index=10, atoms={at(t1,c_0_1), empty(t1), at(p1,c_0_0)})"]
+s11[peripheries=2,label="(instance index=26, state index=11, atoms={at(t1,c_0_2), empty(t1), at(p1,c_0_0)})"]
 Dangling [ label = "", style = invis ]
 { rank = same; Dangling }
 Dangling -> s0

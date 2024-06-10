@@ -1,7 +1,7 @@
 Sketches for State 17:
 (:policy
-(:booleans (f64 "b_empty(c_and(c_primitive(empty,0),c_some(r_primitive(at,0,1),c_all(r_inverse(r_primitive(at_g,0,1)),c_bot))))"))
-(:numericals (f48 "n_count(c_some(r_primitive(at_g,0,1),c_all(r_inverse(r_primitive(at,0,1)),c_equal(r_primitive(carrying,0,1),r_primitive(carrying_g,0,1)))))") (f16 "n_count(c_some(r_and(r_primitive(at,0,1),r_primitive(at_g,0,1)),c_some(r_inverse(r_primitive(at,0,1)),c_primitive(empty,0))))"))
-(:rule (:conditions (:c_n_eq f48) (:c_n_gt f16)) (:effects (:e_b_bot f64) (:e_n_bot f48) (:e_n_bot f16)))
+(:booleans (f23 "b_empty(c_some(r_primitive(at,0,1),c_all(r_inverse(r_primitive(at_g,0,1)),c_bot)))"))
+(:numericals (f17 "n_count(c_primitive(empty,0))"))
+(:rule (:conditions (:c_n_gt f17) (:c_b_pos f23)) (:effects (:e_n_inc f17) (:e_b_pos f23)))
 )
 
