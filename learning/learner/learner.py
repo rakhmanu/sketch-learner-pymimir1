@@ -185,7 +185,7 @@ def learn_sketch_for_problem_class(
         #for state_id, sketches in sketches_per_state.items():
             #print(f"Number of sketches for state {state_id}: {len(sketches)}")
         print_separation_line()
-        print(colored("Total number of sketches:", "red"), len(sketches))
+        print("Total number of sketches:", "red", len(sketches))
         for feature in domain_data.feature_pool.features:
             logging.info(f"Feature: {feature}")
 
