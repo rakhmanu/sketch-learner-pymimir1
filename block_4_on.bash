@@ -9,4 +9,4 @@
 
 
 
-python3 ~/sketch-learner/learning/main.py --domain_filepath ~/sketch-learner/learning/benchmarks/block_4_on/domain.pddl --problems_directory ~/sketch-learner/learning/benchmarks/block_4_on/instances --width 1 --workspace workspace
+python3 ~/sketch-learner/learning/main.py --domain_filepath ~/sketch-learner/learning/benchmarks/blocks_4_on/domain.pddl --problems_directory ~/sketch-learner/learning/benchmarks/blocks_4_on/instances --width 1 --workspace workspace
