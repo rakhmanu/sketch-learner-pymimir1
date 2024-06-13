@@ -1,0 +1,7 @@
+Sketches for State 246:
+(:policy
+(:booleans (f18 "b_empty(c_primitive(free,0))"))
+(:numericals (f15 "n_count(c_bot)"))
+(:rule (:conditions (:c_n_gt f15) (:c_b_pos f18)) (:effects (:e_n_dec f15) (:e_b_pos f18)))
+)
+

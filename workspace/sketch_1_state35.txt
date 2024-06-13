@@ -1,7 +1,7 @@
 Sketches for State 35:
 (:policy
 (:booleans )
-(:numericals (f107 "n_count(c_and(c_primitive(empty,0),c_some(r_primitive(at,0,1),c_all(r_inverse(r_primitive(at_g,0,1)),c_bot))))") (f80 "n_count(c_and(c_primitive(package,0),c_some(r_primitive(at,0,1),c_some(r_inverse(r_primitive(at,0,1)),c_primitive(empty,0)))))") (f53 "n_concept_distance(c_primitive(truck,0),r_primitive(carrying,0,1),c_all(r_primitive(at,0,1),c_all(r_inverse(r_primitive(at_g,0,1)),c_bot)))") (f111 "n_concept_distance(c_primitive(truck,0),r_primitive(carrying,0,1),c_all(r_primitive(at,0,1),c_some(r_inverse(r_primitive(at_g,0,1)),c_top)))"))
-(:rule (:conditions (:c_n_gt f107) (:c_n_eq f53) (:c_n_gt f111)) (:effects (:e_n_bot f107) (:e_n_bot f80) (:e_n_bot f53) (:e_n_bot f111)))
+(:numericals (f2 "n_count(c_bot)"))
+(:rule (:conditions (:c_n_gt f2)) (:effects ))
 )
 

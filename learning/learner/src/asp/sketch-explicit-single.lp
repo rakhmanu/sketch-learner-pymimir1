@@ -33,11 +33,11 @@ e_satisfied(R, F, C) :- e_n_unk(R, F), numerical(F), rule(R), state_pair_class(C
 e_satisfied(R, F, C) :- e_b_unk(R, F), boolean(F), rule(R), state_pair_class(C).
 
 %%%%%%%%%% C2.1 %%%%%%%%%%
-{ subgoal_distance(I, S, D, R) : t_distance(I, S, _, D) } != 0 :- sat_cond(I, S, R), initial(I, S), nongoal(I, S).
+{ subgoal_distance(I, S, D, R) : t_distance(I, S, _, D) } != 0 :- sat_cond(I, S, R), alive(I, S), nongoal(I, S).
 
 %%%%%%%%%% C2.2 %%%%%%%%%%
 % Define compatibility of state pairs with rules, allowing S != S'
-:- sat_rule(R, C), cover(I, S, S', C), nongoal(I, S), S != S'.
+:- sat_rule(R, C), cover(I, S, S', C), alive(I, S), nongoal(I, S), S != S'.
 
 
 %%%%%%%%%% C3.1 %%%%%%%%%%
@@ -49,7 +49,19 @@ e_satisfied(R, F, C) :- e_b_unk(R, F), boolean(F), rule(R), state_pair_class(C).
 
 %%%%%%%%%% C6.1 %%%%%%%%%%
 % (Optimal-width): Require solvable states S' closer than subgoal to not be assigned to any rule.
-:- D < D', r_distance(I, S, C, D), sat_rule(R, C), subgoal_distance(I, S, D', R), nongoal(I, S).
+%:- D < D', r_distance(I, S, C, D), sat_rule(R, C), subgoal_distance(I, S, D', R), nongoal(I, S).
+
+
+%%%%%%%%%% C6.2 %%%%%%%%%%
+% (Closest distance check): Ensure every subgoal tuple t' that s' achieves optimally is also a subgoal tuple for s
+:- r_distance(I, S, C, D), sat_rule(R, C), subgoal_distance(I, S, D, R), nongoal(I, S), 
+   t_distance(I, S', T, D'), D' <= D, subgoal(I, S, T, R),
+   not subgoal(I, S', T, R), sat_pair(I, S, S', R).
+
+% Ensure that s' optimally achieves t' is a subgoal
+subgoal(I, S', T, R) :- r_distance(I, S, C, D), sat_rule(R, C), subgoal_distance(I, S, D, R), nongoal(I, S), 
+                         t_distance(I, S', T, D'), D' <= D, subgoal(I, S, T, R), sat_pair(I, S, S', R).
+
 
 %%%%%%%%%% C7.1 %%%%%%%%%%
 % Define state pair equivalences that are compatible with rules.
