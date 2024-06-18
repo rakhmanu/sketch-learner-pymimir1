@@ -42,7 +42,7 @@ class ExplicitDlplanPolicyFactory(DlplanPolicyFactory):
         """ """
         selected_features = set()
         for symbol in symbols:
-            print(f"Symbol: {symbol}, Type: {type(symbol)}")  # Debugging line
+            #print(f"Symbol: {symbol}, Type: {type(symbol)}")  # Debugging line
             if hasattr(symbol, 'name') and symbol.name == "select":
                 f_idx = symbol.arguments[0].number
                 selected_features.add(domain_data.feature_pool.features[f_idx].dlplan_feature)

@@ -61,3 +61,5 @@ if __name__ == "__main__":
                                    args.additional_booleans,
                                    args.additional_numericals,
                                    args.enable_dump_files)
+
+# python3 learning/main.py --domain_filepath learning/benchmarks/blocks_4_on/domain.pddl --problems_directory learning/benchmarks/blocks_4_on/instances --width 1 --workspace workspace

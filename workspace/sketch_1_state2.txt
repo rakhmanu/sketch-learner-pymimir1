@@ -1,0 +1,7 @@
+Sketches for State 2:
+(:policy
+(:booleans )
+(:numericals (f3 "n_count(c_not(c_primitive(clear,0)))") (f10 "n_count(c_and(c_one_of(b2),c_and(c_primitive(clear,0),c_primitive(on-table,0))))"))
+(:rule (:conditions (:c_n_eq f3) (:c_n_gt f10)) (:effects (:e_n_bot f3) (:e_n_bot f10)))
+)
+

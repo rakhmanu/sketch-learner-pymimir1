@@ -32,10 +32,11 @@ e_satisfied(R, F, C) :- e_b_neg(R, F), feature_effect(C, F, "e_b_bot"), feature_
 e_satisfied(R, F, C) :- e_n_unk(R, F), numerical(F), rule(R), state_pair_class(C).
 e_satisfied(R, F, C) :- e_b_unk(R, F), boolean(F), rule(R), state_pair_class(C).
 
-{ alive_selected(I, S) } = 1 :- alive(I, S), nongoal(I, S).
+%{ alive_selected(I, S) } = 1 :- alive(I, S), nongoal(I, S).
 
 %%%%%%%%%% C2.1 %%%%%%%%%%
-{ subgoal_distance(I, S, D, R) : t_distance(I, S, _, D), D > 0 } != 0 :- sat_cond(I, S, R), alive_selected(I, S), nongoal(I, S).
+%{ subgoal_distance(I, S, D, R) : t_distance(I, S, _, D), D > 0 } != 0 :- sat_cond(I, S, R), alive_selected(I, S), nongoal(I, S).
+{ subgoal_distance(I, S, D, R) : t_distance(I, S, _, D), D > 0 } != 0 :- sat_cond(I, S, R), initial(I, S), nongoal(I, S).
 
 %%%%%%%%%% C3.1 %%%%%%%%%%
 { subgoal(I, S, T, R) : t_distance(I, S, T, D) } != 0 :- subgoal_distance(I, S, D, R).

@@ -135,39 +135,48 @@ def learn_sketch_for_problem_class(
             logging.info(colored("..done", "blue", "on_grey"))
             preprocessing_timer.stop()
             asp_timer.resume()
+            initial_s_idxs = instance_data.initial_s_idxs
 
-            asp_factory = ASPFactory(encoding_type, enable_goal_separating_features, max_num_rules)
-            facts = asp_factory.make_facts(domain_data,  [instance_data])
-            #for fact in facts:
-            #    print(fact)
-            logging.info(colored("Grounding Logic Program...", "blue", "on_grey"))
-            asp_factory.ground(facts)
-            logging.info(colored("..done", "blue", "on_grey"))
-            logging.info(colored("Solving Logic Program...", "blue", "on_grey"))
-            # Collect all solutions
-            solutions = list(asp_factory.solve_all())
-            asp_factory.print_statistics()
+            for state_id in instance_data.state_space.get_states():
+                print(f"Checking state_id: {state_id}")
+                try:
+                    instance_data = initial_s_idxs[state_id]
+                    # Continue with your code
+                except KeyError:
+                    print(f"KeyError: state_id {state_id} not found in initial_s_idxs")
 
-            # Filter out None solutions
-            valid_solutions = [symbols for symbols, status in solutions if symbols is not None]
+                asp_factory = ASPFactory(encoding_type, enable_goal_separating_features, max_num_rules)
+                facts = asp_factory.make_facts(domain_data,  [instance_data])
+                #for fact in facts:
+                #    print(fact)
+                logging.info(colored("Grounding Logic Program...", "blue", "on_grey"))
+                asp_factory.ground(facts)
+                logging.info(colored("..done", "blue", "on_grey"))
+                logging.info(colored("Solving Logic Program...", "blue", "on_grey"))
+                # Collect all solutions
+                solutions = list(asp_factory.solve_all())
+                asp_factory.print_statistics()
 
-            if len(valid_solutions) == 0:
-                print(colored("UNSAT problem for selected instances", "red", "on_grey"))
-                exit(ExitCode.UNSOLVABLE)
-            elif len(valid_solutions) == 1:
-                print(colored("ASP solving returns a unique solution", "red", "on_grey"))
-            else:
-                print(colored(f"ASP solving returns {len(valid_solutions)}", "red", "on_grey"))
-            #print("all solutions:", valid_solutions)
+                # Filter out None solutions
+                valid_solutions = [symbols for symbols, status in solutions if symbols is not None]
 
-            for idx, symbols in enumerate(valid_solutions):
-                # print(symbols)
-                print(f"solution {idx + 1}:")
+                if len(valid_solutions) == 0:
+                    print(colored("UNSAT problem for selected instances", "red", "on_grey"))
+                    exit(ExitCode.UNSOLVABLE)
+                elif len(valid_solutions) == 1:
+                    print(colored("ASP solving returns a unique solution", "red", "on_grey"))
+                else:
+                    print(colored(f"ASP solving returns {len(valid_solutions)}", "red", "on_grey"))
+                #print("all solutions:", valid_solutions)
 
-                dlplan_policy = ExplicitDlplanPolicyFactory().make_dlplan_policy_from_answer_set(symbols, domain_data)
-                sketch = Sketch(dlplan_policy, width)
-                print(str(sketch.dlplan_policy))
-                sketches.add(sketch)  
+                for idx, symbols in enumerate(valid_solutions):
+                    # print(symbols)
+                    print(f"solution {idx + 1}:")
+
+                    dlplan_policy = ExplicitDlplanPolicyFactory().make_dlplan_policy_from_answer_set(symbols, domain_data)
+                    sketch = Sketch(dlplan_policy, width)
+                    print(str(sketch.dlplan_policy))
+                    sketches.add(sketch)  
 
     else:
         raise Exception("No implementation for the given encoding type.")
@@ -187,6 +196,8 @@ def learn_sketch_for_problem_class(
         
         print_separation_line()
 
+
+
         print(f"Preprocessing time: {int(preprocessing_timer.get_elapsed_sec()) + 1} seconds.")
         print(f"ASP time: {int(asp_timer.get_elapsed_sec()) + 1} seconds.")
         print(f"Verification time: {int(verification_timer.get_elapsed_sec()) + 1} seconds.")
@@ -196,5 +207,5 @@ def learn_sketch_for_problem_class(
         print("Num states in training data after symmetry pruning:", num_partitions)
         print("Total number of sketches:", len(sketches))
         for sketch in sketches:
-            with open(f"sketch_{width}.txt", "w") as file:
+            with open(f"sketch_{width}_{state_id}.txt", "w") as file:
                 file.write(str(sketch.dlplan_policy))  

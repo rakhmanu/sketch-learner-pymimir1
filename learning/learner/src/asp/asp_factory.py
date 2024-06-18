@@ -385,7 +385,7 @@ class ASPFactory:
                 solutions.append((None, ClingoExitCode.UNKNOWN))
 
         # Log the solutions for debugging
-        print(f"Solutions found: {solutions}")
+        # print(f"Solutions found: {solutions}")
         for solution in solutions:
             yield solution
 

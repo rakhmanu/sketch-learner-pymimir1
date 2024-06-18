@@ -187,6 +187,8 @@ def learn_sketch_for_problem_class(
         
         print_separation_line()
 
+
+
         print(f"Preprocessing time: {int(preprocessing_timer.get_elapsed_sec()) + 1} seconds.")
         print(f"ASP time: {int(asp_timer.get_elapsed_sec()) + 1} seconds.")
         print(f"Verification time: {int(verification_timer.get_elapsed_sec()) + 1} seconds.")

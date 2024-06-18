@@ -1,0 +1,7 @@
+Sketches for State 3:
+(:policy
+(:booleans (f125 "b_nullary(arm-empty_g)"))
+(:numericals )
+(:rule (:conditions (:c_b_pos f125)) (:effects (:e_b_neg f125)))
+)
+
