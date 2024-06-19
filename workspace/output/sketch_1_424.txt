@@ -1,0 +1,5 @@
+(:policy
+(:booleans (f19 "b_empty(c_some(r_primitive(at,0,1),c_primitive(at-robby,0)))"))
+(:numericals )
+(:rule (:conditions (:c_b_pos f19)) (:effects (:e_b_bot f19)))
+)

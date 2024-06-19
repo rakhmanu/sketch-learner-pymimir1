@@ -1,0 +1,5 @@
+(:policy
+(:booleans (f22 "b_empty(r_primitive(carry,0,1))"))
+(:numericals )
+(:rule (:conditions ) (:effects (:e_b_neg f22)))
+)
