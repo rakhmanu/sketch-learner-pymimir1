@@ -46,7 +46,7 @@ e_satisfied(R, F, C) :- e_b_unk(R, F), boolean(F), rule(R), state_pair_class(C).
 :- not sat_rule(R, C), subgoal(I, S, T, R), contain(I, S, T, C).
 
 %%% Unsolvable states can be addressed with d_distance
-:- D <= D', subgoal_distance(I, S, D, R), d_distance(I, S', R, D'), alive(I, S), nongoal(I, S), sat_pair(I, S, S', R), solvable(I, S), unsolvable(I, S').   
+:- D <= D', subgoal_distance(I, S, D, R), d_distance(I, S, R, D'), alive(I, S), nongoal(I, S), sat_pair(I, S, S', R), solvable(I, S), unsolvable(I, S').   
 
 %%%%%%%%%% C6.1 %%%%%%%%%%
 % (Optimal-width): Require solvable states S' closer than subgoal to not be assigned to any rule.
