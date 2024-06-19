@@ -1,5 +1,5 @@
 (:policy
-(:booleans )
-(:numericals (f1 "n_count(c_primitive(at-goal,0))") (f3 "n_count(c_some(r_primitive(at,0,1),c_primitive(is-goal,0)))"))
-(:rule (:conditions (:c_n_eq f1) (:c_n_eq f3)) (:effects (:e_n_inc f3)))
+(:booleans (f31 "b_empty(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_and(c_one_of(rooma),c_not(c_primitive(at-robby,0))))))"))
+(:numericals (f36 "n_count(r_primitive(carry,0,1))"))
+(:rule (:conditions (:c_n_eq f36) (:c_b_neg f31)) (:effects (:e_n_bot f36) (:e_b_pos f31)))
 )

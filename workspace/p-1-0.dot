@@ -1,11 +1,11 @@
 digraph {
 rankdir="LR"
 s1[label="(instance index=1, state index=1, atoms={free(right), at-robby(roomb), free(left), at(ball1,rooma)})"]
-s0[label="(instance index=1, state index=0, atoms={free(right), free(left), at(ball1,rooma), at-robby(rooma)})"]
+s0[label="(instance index=1, state index=0, atoms={free(right), at-robby(rooma), free(left), at(ball1,rooma)})"]
 s2[label="(instance index=1, state index=2, atoms={free(right), carry(ball1,left), at-robby(rooma)})"]
 s4[label="(instance index=1, state index=4, atoms={free(right), at-robby(roomb), carry(ball1,left)})"]
-s6[peripheries=2,label="(instance index=1, state index=6, atoms={free(right), at-robby(roomb), free(left), at(ball1,roomb)})"]
-s7[peripheries=2,label="(instance index=1, state index=7, atoms={free(right), free(left), at-robby(rooma), at(ball1,roomb)})"]
+s6[peripheries=2,label="(instance index=1, state index=6, atoms={free(right), at-robby(roomb), at(ball1,roomb), free(left)})"]
+s7[peripheries=2,label="(instance index=1, state index=7, atoms={free(right), at-robby(rooma), at(ball1,roomb), free(left)})"]
 Dangling [ label = "", style = invis ]
 { rank = same; Dangling }
 Dangling -> s0

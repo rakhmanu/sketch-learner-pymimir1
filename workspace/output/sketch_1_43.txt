@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f103 "n_count(c_primitive(free,0))") (f17 "n_count(c_and(c_one_of(rooma),c_primitive(at-robby,0)))") (f41 "n_count(r_primitive(carry,0,1))"))
+(:rule (:conditions (:c_n_eq f103) (:c_n_eq f41)) (:effects (:e_n_bot f103) (:e_n_bot f17)))
+)
