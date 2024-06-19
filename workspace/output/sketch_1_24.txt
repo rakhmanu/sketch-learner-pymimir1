@@ -1,5 +1,5 @@
 (:policy
-(:booleans (f57 "b_empty(c_some(r_primitive(at,0,1),c_primitive(at-robby,0)))"))
-(:numericals (f63 "n_count(c_bot)"))
-(:rule (:conditions (:c_n_gt f63) (:c_b_pos f57)) (:effects (:e_b_neg f57)))
+(:booleans )
+(:numericals (f94 "n_count(c_primitive(free,0))") (f40 "n_count(r_primitive(carry,0,1))"))
+(:rule (:conditions (:c_n_gt f94) (:c_n_gt f40)) (:effects (:e_n_inc f94) (:e_n_dec f40)))
 )

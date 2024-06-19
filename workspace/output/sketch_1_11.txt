@@ -1,5 +1,5 @@
 (:policy
-(:booleans (f4 "b_empty(c_primitive(free,0))"))
-(:numericals (f103 "n_count(c_primitive(free,0))") (f17 "n_count(c_and(c_one_of(rooma),c_primitive(at-robby,0)))"))
-(:rule (:conditions (:c_b_neg f4) (:c_n_eq f103)) (:effects (:e_n_bot f103) (:e_n_bot f17)))
+(:booleans )
+(:numericals (f61 "n_concept_distance(c_primitive(ball,0),r_primitive(at,0,1),c_not(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_primitive(at-robby,0)))))") (f64 "n_concept_distance(c_primitive(ball,0),r_restrict(r_primitive(at_g,0,1),c_primitive(at-robby,0)),c_equal(r_primitive(at,0,1),r_primitive(at_g,0,1)))"))
+(:rule (:conditions (:c_n_gt f61) (:c_n_gt f64)) (:effects (:e_n_dec f64)))
 )

@@ -1,5 +1,5 @@
 (:policy
-(:booleans (f10 "b_empty(c_some(r_inverse(r_primitive(carry,0,1)),c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0))))"))
-(:numericals (f16 "n_count(c_and(c_one_of(rooma),c_primitive(at-robby,0)))") (f100 "n_count(c_and(c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0)),c_all(r_primitive(at,0,1),c_one_of(rooma))))") (f79 "n_count(c_and(c_equal(r_primitive(carry,0,1),r_primitive(carry_g,0,1)),c_not(c_all(r_primitive(at_g,0,1),c_primitive(at-robby,0)))))") (f26 "n_count(c_some(r_inverse(r_primitive(at,0,1)),c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0))))") (f49 "n_count(c_some(r_inverse(r_primitive(at_g,0,1)),c_all(r_primitive(at,0,1),c_and(c_one_of(rooma),c_primitive(at-robby,0)))))") (f29 "n_concept_distance(c_one_of(rooma),r_primitive(at,0,1),c_primitive(at-robby,0))"))
-(:rule (:conditions (:c_b_pos f10) (:c_n_gt f26) (:c_n_gt f29)) (:effects (:e_n_inc f16) (:e_n_dec f100) (:e_n_inc f79) (:e_b_bot f10) (:e_n_dec f26) (:e_n_inc f49) (:e_n_dec f29)))
+(:booleans (f106 "b_empty(c_primitive(free,0))"))
+(:numericals )
+(:rule (:conditions (:c_b_pos f106)) (:effects (:e_b_neg f106)))
 )
