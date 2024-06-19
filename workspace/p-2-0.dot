@@ -1,17 +1,17 @@
 digraph {
 rankdir="LR"
-s1[label="(instance index=4, state index=1, atoms={free(right), at(ball1,rooma), free(left), at-robby(roomb), at(ball2,rooma)})"]
-s6[label="(instance index=4, state index=6, atoms={free(right), carry(ball1,left), at-robby(roomb), at(ball2,rooma)})"]
-s0[label="(instance index=4, state index=0, atoms={free(right), at(ball1,rooma), at-robby(rooma), free(left), at(ball2,rooma)})"]
-s12[label="(instance index=4, state index=12, atoms={free(right), at(ball1,roomb), free(left), at-robby(roomb), at(ball2,rooma)})"]
-s2[label="(instance index=4, state index=2, atoms={free(right), at-robby(rooma), carry(ball1,left), at(ball2,rooma)})"]
-s16[label="(instance index=4, state index=16, atoms={free(right), at(ball1,roomb), at-robby(rooma), free(left), at(ball2,rooma)})"]
+s1[label="(instance index=4, state index=1, atoms={at-robby(roomb), free(left), at(ball2,rooma), free(right), at(ball1,rooma)})"]
+s6[label="(instance index=4, state index=6, atoms={at-robby(roomb), at(ball2,rooma), free(right), carry(ball1,left)})"]
+s0[label="(instance index=4, state index=0, atoms={free(left), at-robby(rooma), at(ball2,rooma), free(right), at(ball1,rooma)})"]
+s12[label="(instance index=4, state index=12, atoms={at-robby(roomb), free(left), at(ball1,roomb), at(ball2,rooma), free(right)})"]
+s2[label="(instance index=4, state index=2, atoms={at-robby(rooma), at(ball2,rooma), free(right), carry(ball1,left)})"]
+s16[label="(instance index=4, state index=16, atoms={free(left), at-robby(rooma), at(ball1,roomb), at(ball2,rooma), free(right)})"]
 s7[label="(instance index=4, state index=7, atoms={at-robby(rooma), carry(ball2,right), carry(ball1,left)})"]
-s22[label="(instance index=4, state index=22, atoms={free(right), at(ball1,roomb), at-robby(rooma), carry(ball2,left)})"]
-s13[label="(instance index=4, state index=13, atoms={carry(ball2,right), carry(ball1,left), at-robby(roomb)})"]
-s17[label="(instance index=4, state index=17, atoms={at(ball1,roomb), carry(ball2,right), free(left), at-robby(roomb)})"]
-s24[peripheries=2,label="(instance index=4, state index=24, atoms={free(right), at(ball1,roomb), free(left), at(ball2,roomb), at-robby(roomb)})"]
-s27[peripheries=2,label="(instance index=4, state index=27, atoms={free(right), at(ball1,roomb), at-robby(rooma), free(left), at(ball2,roomb)})"]
+s22[label="(instance index=4, state index=22, atoms={at-robby(rooma), at(ball1,roomb), free(right), carry(ball2,left)})"]
+s13[label="(instance index=4, state index=13, atoms={at-robby(roomb), carry(ball2,right), carry(ball1,left)})"]
+s17[label="(instance index=4, state index=17, atoms={at-robby(roomb), free(left), at(ball1,roomb), carry(ball2,right)})"]
+s24[peripheries=2,label="(instance index=4, state index=24, atoms={at-robby(roomb), free(left), at(ball2,roomb), at(ball1,roomb), free(right)})"]
+s27[peripheries=2,label="(instance index=4, state index=27, atoms={free(left), at(ball2,roomb), at-robby(rooma), at(ball1,roomb), free(right)})"]
 Dangling [ label = "", style = invis ]
 { rank = same; Dangling }
 Dangling -> s0

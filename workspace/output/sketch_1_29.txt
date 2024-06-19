@@ -1,0 +1,5 @@
+(:policy
+(:booleans (f24 "b_empty(c_not(c_all(r_restrict(r_primitive(at,0,1),c_primitive(is-nongoal,0)),c_primitive(is-goal,0))))"))
+(:numericals (f27 "n_count(c_not(c_all(r_restrict(r_primitive(at,0,1),c_primitive(is-nongoal,0)),c_primitive(is-goal,0))))"))
+(:rule (:conditions (:c_n_eq f27) (:c_b_neg f24)) (:effects (:e_n_inc f27) (:e_b_pos f24)))
+)

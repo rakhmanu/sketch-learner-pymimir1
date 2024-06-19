@@ -213,8 +213,8 @@ def learn_sketch_for_problem_class(
         else:
             print("No unsolvable states found in any solution.")
         for idx, sketch in enumerate(sketches):
-            with open(f"sketch_{width}_{idx}.txt", "w") as file:
-                file.write(str(sketch.dlplan_policy))
+    with open(f"sketch_{width}_{idx}.txt", "w") as file:
+        file.write(str(sketch.dlplan_policy))
  
 
 

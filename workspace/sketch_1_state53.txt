@@ -1,7 +1,0 @@
-Sketches for State 53:
-(:policy
-(:booleans (f0 "b_empty(c_not(c_all(r_restrict(r_primitive(at,0,1),c_primitive(is-nongoal,0)),c_primitive(is-goal,0))))"))
-(:numericals (f3 "n_count(c_primitive(at-goal,0))") (f15 "n_count(c_and(c_some(r_primitive(at,0,1),c_primitive(is-goal,0)),c_primitive(at-goal_g,0)))") (f1 "n_count(c_not(c_all(r_restrict(r_primitive(at,0,1),c_primitive(is-nongoal,0)),c_primitive(is-goal,0))))") (f12 "n_count(c_and(c_primitive(is-goal,0),c_all(r_inverse(r_primitive(at,0,1)),c_primitive(at-goal,0))))") (f2 "n_concept_distance(c_primitive(at-goal_g,0),r_primitive(at,0,1),c_all(r_primitive(at,0,1),c_primitive(is-goal,0)))"))
-(:rule (:conditions (:c_n_gt f3) (:c_n_gt f15) (:c_b_pos f0) (:c_n_eq f1) (:c_n_eq f12) (:c_n_eq f2)) (:effects (:e_n_dec f3) (:e_n_dec f15) (:e_b_neg f0) (:e_n_inc f1) (:e_n_inc f12) (:e_n_inc f2)))
-)
-

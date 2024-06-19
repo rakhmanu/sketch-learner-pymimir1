@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f26 "n_count(c_not(c_and(c_not(c_primitive(at-goal,0)),c_all(r_primitive(at,0,1),c_primitive(is-nongoal,0)))))"))
+(:rule (:conditions (:c_n_eq f26)) (:effects (:e_n_inc f26)))
+)
