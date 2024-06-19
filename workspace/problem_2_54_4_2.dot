@@ -1,0 +1,54 @@
+digraph {
+rankdir="LR"
+s5[label="(instance index=5, state index=5, atoms={clear(pos0), clear(pos5), clear(pos7), clear(pos1), clear(pos4), at(block01,pos6), at(robot,pos2), at(block01,pos3)})"]
+s4[label="(instance index=5, state index=4, atoms={clear(pos2), clear(pos5), clear(pos7), clear(pos1), clear(pos4), at(block01,pos6), at(robot,pos0), at(block01,pos3)})"]
+s2[label="(instance index=5, state index=2, atoms={clear(pos0), clear(pos2), clear(pos5), at(robot,pos4), clear(pos7), clear(pos1), at(block01,pos6), at(block01,pos3)})"]
+s1[label="(instance index=5, state index=1, atoms={clear(pos0), clear(pos2), clear(pos5), clear(pos7), at(robot,pos1), clear(pos4), at(block01,pos6), at(block01,pos3)})"]
+s0[label="(instance index=5, state index=0, atoms={clear(pos0), clear(pos2), clear(pos7), clear(pos1), clear(pos4), at(block01,pos6), at(robot,pos5), at(block01,pos3)})"]
+s3[peripheries=2,label="(instance index=5, state index=3, atoms={clear(pos0), at-goal(block01), clear(pos2), clear(pos5), at(block01,pos7), clear(pos1), clear(pos4), at(robot,pos6), at(block01,pos3)})"]
+s10[peripheries=2,label="(instance index=5, state index=10, atoms={at-goal(block01), clear(pos2), clear(pos5), at(block01,pos7), clear(pos1), clear(pos4), at(robot,pos0), clear(pos6), at(block01,pos3)})"]
+s6[peripheries=2,label="(instance index=5, state index=6, atoms={clear(pos0), at-goal(block01), clear(pos5), at(block01,pos7), clear(pos1), clear(pos4), clear(pos6), at(robot,pos2), at(block01,pos3)})"]
+s7[peripheries=2,label="(instance index=5, state index=7, atoms={clear(pos0), at-goal(block01), clear(pos2), at(block01,pos7), clear(pos1), clear(pos4), clear(pos6), at(robot,pos5), at(block01,pos3)})"]
+s8[peripheries=2,label="(instance index=5, state index=8, atoms={clear(pos0), at-goal(block01), clear(pos2), clear(pos5), at(robot,pos1), at(block01,pos7), clear(pos4), clear(pos6), at(block01,pos3)})"]
+s9[peripheries=2,label="(instance index=5, state index=9, atoms={clear(pos0), at-goal(block01), clear(pos2), clear(pos5), at(robot,pos4), at(block01,pos7), clear(pos1), clear(pos6), at(block01,pos3)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s2,s1}
+{ rank = same; s0}
+{ rank = same; s3,s10,s6,s7,s8,s9}
+{
+s5->s1
+s4->s2
+s4->s1
+}
+{
+s2->s4
+s2->s0
+s1->s5
+s1->s4
+s1->s0
+}
+{
+s0->s3
+s0->s2
+s0->s1
+}
+{
+s3->s7
+s3->s6
+s10->s9
+s10->s8
+s6->s3
+s6->s8
+s7->s3
+s7->s9
+s7->s8
+s8->s6
+s8->s7
+s8->s10
+s9->s7
+s9->s10
+}
+}

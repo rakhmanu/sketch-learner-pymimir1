@@ -1,0 +1,24 @@
+digraph {
+rankdir="LR"
+s0[label="(instance index=491, state index=0, atoms={at(block01,pos1), at(robot,pos2), clear(pos3), at(block01,pos5), clear(pos4), clear(pos0)})"]
+s1[peripheries=2,label="(instance index=491, state index=1, atoms={clear(pos3), at(robot,pos1), at(block01,pos5), clear(pos4), at(block01,pos0), clear(pos2), at-goal(block01)})"]
+s2[peripheries=2,label="(instance index=491, state index=2, atoms={at(robot,pos2), clear(pos3), at(block01,pos5), clear(pos4), at(block01,pos0), clear(pos1), at-goal(block01)})"]
+s3[peripheries=2,label="(instance index=491, state index=3, atoms={clear(pos3), at(block01,pos5), at(robot,pos4), at(block01,pos0), clear(pos1), clear(pos2), at-goal(block01)})"]
+s4[peripheries=2,label="(instance index=491, state index=4, atoms={at(block01,pos5), clear(pos4), at(block01,pos0), clear(pos1), at(robot,pos3), clear(pos2), at-goal(block01)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s1,s2,s3,s4}
+{
+s0->s1
+}
+{
+s1->s3
+s1->s2
+s2->s1
+s3->s4
+s3->s1
+s4->s3
+}
+}

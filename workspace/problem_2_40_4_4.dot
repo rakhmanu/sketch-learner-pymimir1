@@ -1,0 +1,855 @@
+digraph {
+rankdir="LR"
+s83[label="(instance index=11, state index=83, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s81[label="(instance index=11, state index=81, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), clear(pos2), at(robot,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s111[label="(instance index=11, state index=111, atoms={clear(pos14), clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s58[label="(instance index=11, state index=58, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s59[label="(instance index=11, state index=59, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), clear(pos8), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s139[label="(instance index=11, state index=139, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), at(block01,pos10), clear(pos15)})"]
+s84[label="(instance index=11, state index=84, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos4), clear(pos2), at(robot,pos9), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s14[label="(instance index=11, state index=14, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s95[label="(instance index=11, state index=95, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos9), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s94[label="(instance index=11, state index=94, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos9), clear(pos4), clear(pos2), at(robot,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s82[label="(instance index=11, state index=82, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15), at(robot,pos3)})"]
+s38[label="(instance index=11, state index=38, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s157[label="(instance index=11, state index=157, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(robot,pos3)})"]
+s202[label="(instance index=11, state index=202, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos8), clear(pos11), clear(pos1), clear(pos7), clear(pos12), clear(pos15), at(robot,pos3)})"]
+s16[label="(instance index=11, state index=16, atoms={clear(pos14), clear(pos5), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s112[label="(instance index=11, state index=112, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos13), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s7[label="(instance index=11, state index=7, atoms={clear(pos14), clear(pos5), at(block01,pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s6[label="(instance index=11, state index=6, atoms={clear(pos14), clear(pos5), clear(pos13), at(block01,pos6), at(robot,pos8), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s5[label="(instance index=11, state index=5, atoms={clear(pos14), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s169[label="(instance index=11, state index=169, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos9), clear(pos4), clear(pos2), at(robot,pos15), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12)})"]
+s129[label="(instance index=11, state index=129, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos9), at(robot,pos7), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s67[label="(instance index=11, state index=67, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s114[label="(instance index=11, state index=114, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), clear(pos2), at(robot,pos15), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos10)})"]
+s197[label="(instance index=11, state index=197, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos7), clear(pos4), clear(pos2), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), clear(pos12), clear(pos15)})"]
+s127[label="(instance index=11, state index=127, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), at(robot,pos2), clear(pos10), at(block01,pos9), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s195[label="(instance index=11, state index=195, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), clear(pos4), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s128[label="(instance index=11, state index=128, atoms={clear(pos14), clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s60[label="(instance index=11, state index=60, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos7), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s113[label="(instance index=11, state index=113, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), at(robot,pos10), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s61[label="(instance index=11, state index=61, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(block01,pos14), clear(pos4), at(robot,pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s185[label="(instance index=11, state index=185, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s186[label="(instance index=11, state index=186, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos8), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s143[label="(instance index=11, state index=143, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos10), at(block01,pos9), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s85[label="(instance index=11, state index=85, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s144[label="(instance index=11, state index=144, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12), clear(pos15)})"]
+s96[label="(instance index=11, state index=96, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos10), at(block01,pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s183[label="(instance index=11, state index=183, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos8), at(robot,pos1), clear(pos11), clear(pos3), clear(pos7), clear(pos12), clear(pos15)})"]
+s184[label="(instance index=11, state index=184, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s1[label="(instance index=11, state index=1, atoms={clear(pos14), clear(pos5), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos10), clear(pos4), clear(pos2), at(robot,pos9), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s3[label="(instance index=11, state index=3, atoms={clear(pos5), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12), clear(pos15)})"]
+s13[label="(instance index=11, state index=13, atoms={clear(pos14), clear(pos5), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s140[label="(instance index=11, state index=140, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12), at(block01,pos10), clear(pos15)})"]
+s98[label="(instance index=11, state index=98, atoms={clear(pos14), at(block01,pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s99[label="(instance index=11, state index=99, atoms={clear(pos14), at(block01,pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s158[label="(instance index=11, state index=158, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(robot,pos12), at(block01,pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s15[label="(instance index=11, state index=15, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s97[label="(instance index=11, state index=97, atoms={clear(pos14), clear(pos5), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos10), clear(pos4), clear(pos2), at(robot,pos9), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s142[label="(instance index=11, state index=142, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s141[label="(instance index=11, state index=141, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), clear(pos4), clear(pos2), at(robot,pos9), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s90[label="(instance index=11, state index=90, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s87[label="(instance index=11, state index=87, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos14), clear(pos4), clear(pos2), at(robot,pos9), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s86[label="(instance index=11, state index=86, atoms={at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos14), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s88[label="(instance index=11, state index=88, atoms={clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos14), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s69[label="(instance index=11, state index=69, atoms={clear(pos14), at(block01,pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s170[label="(instance index=11, state index=170, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos10), at(robot,pos13), at(block01,pos9), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s70[label="(instance index=11, state index=70, atoms={clear(pos14), at(block01,pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s115[label="(instance index=11, state index=115, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), at(block01,pos9), clear(pos4), at(robot,pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s171[label="(instance index=11, state index=171, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), clear(pos7), clear(pos12), clear(pos15)})"]
+s172[label="(instance index=11, state index=172, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), at(robot,pos10), clear(pos2), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s198[label="(instance index=11, state index=198, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos15), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12)})"]
+s0[label="(instance index=11, state index=0, atoms={clear(pos14), clear(pos5), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos9), clear(pos4), at(robot,pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s9[label="(instance index=11, state index=9, atoms={clear(pos14), clear(pos5), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos15), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12)})"]
+s68[label="(instance index=11, state index=68, atoms={clear(pos14), at(block01,pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos15), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12)})"]
+s25[label="(instance index=11, state index=25, atoms={clear(pos14), clear(pos5), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s196[label="(instance index=11, state index=196, atoms={clear(pos14), clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos15)})"]
+s28[label="(instance index=11, state index=28, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), at(robot,pos10), clear(pos2), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s27[label="(instance index=11, state index=27, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), clear(pos8), clear(pos12), clear(pos15)})"]
+s26[label="(instance index=11, state index=26, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), clear(pos4), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s132[label="(instance index=11, state index=132, atoms={clear(pos14), clear(pos5), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), at(robot,pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s131[label="(instance index=11, state index=131, atoms={clear(pos14), clear(pos5), at(robot,pos8), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s130[label="(instance index=11, state index=130, atoms={clear(pos14), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s167[label="(instance index=11, state index=167, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s168[label="(instance index=11, state index=168, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos15), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos11)})"]
+s166[label="(instance index=11, state index=166, atoms={clear(pos14), clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s123[label="(instance index=11, state index=123, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos3), clear(pos1), at(robot,pos5), clear(pos8), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s62[label="(instance index=11, state index=62, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos7), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s122[label="(instance index=11, state index=122, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), clear(pos4), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s119[label="(instance index=11, state index=119, atoms={clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos14), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s117[label="(instance index=11, state index=117, atoms={clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos14), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s120[label="(instance index=11, state index=120, atoms={clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), at(block01,pos14), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s118[label="(instance index=11, state index=118, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos14), at(robot,pos7), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s116[label="(instance index=11, state index=116, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), at(block01,pos14), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s121[label="(instance index=11, state index=121, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos14), clear(pos4), clear(pos2), at(robot,pos15), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12)})"]
+s2[label="(instance index=11, state index=2, atoms={clear(pos14), clear(pos5), clear(pos13), at(block01,pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s48[label="(instance index=11, state index=48, atoms={clear(pos14), at(block01,pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), clear(pos4), clear(pos2), at(robot,pos9), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s47[label="(instance index=11, state index=47, atoms={clear(pos14), at(block01,pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s145[label="(instance index=11, state index=145, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), clear(pos4), clear(pos2), at(robot,pos9), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s46[label="(instance index=11, state index=46, atoms={clear(pos14), at(block01,pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(robot,pos3)})"]
+s49[label="(instance index=11, state index=49, atoms={at(block01,pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12), clear(pos15)})"]
+s45[label="(instance index=11, state index=45, atoms={clear(pos14), at(block01,pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s17[label="(instance index=11, state index=17, atoms={clear(pos14), clear(pos5), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(robot,pos3)})"]
+s187[label="(instance index=11, state index=187, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), at(robot,pos14), clear(pos7), clear(pos12), clear(pos15)})"]
+s4[label="(instance index=11, state index=4, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos2), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s190[label="(instance index=11, state index=190, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos12), clear(pos4), clear(pos2), at(robot,pos9), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s203[label="(instance index=11, state index=203, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos12), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s44[label="(instance index=11, state index=44, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), clear(pos8), at(robot,pos14), clear(pos12), clear(pos15)})"]
+s43[label="(instance index=11, state index=43, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos7), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s42[label="(instance index=11, state index=42, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), clear(pos4), clear(pos2), at(robot,pos9), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s39[label="(instance index=11, state index=39, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos7), at(robot,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos12), clear(pos15)})"]
+s41[label="(instance index=11, state index=41, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s40[label="(instance index=11, state index=40, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos7), clear(pos11), clear(pos1), clear(pos8), clear(pos12), clear(pos15), at(robot,pos3)})"]
+s163[label="(instance index=11, state index=163, atoms={clear(pos14), clear(pos5), at(block01,pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s151[label="(instance index=11, state index=151, atoms={clear(pos5), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12), clear(pos15)})"]
+s161[label="(instance index=11, state index=161, atoms={clear(pos14), at(robot,pos6), clear(pos5), at(block01,pos13), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s162[label="(instance index=11, state index=162, atoms={clear(pos14), clear(pos5), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s160[label="(instance index=11, state index=160, atoms={clear(pos14), clear(pos5), at(robot,pos4), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s159[label="(instance index=11, state index=159, atoms={clear(pos14), clear(pos5), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s182[label="(instance index=11, state index=182, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), at(block01,pos11), clear(pos15)})"]
+s153[label="(instance index=11, state index=153, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s152[label="(instance index=11, state index=152, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos1), clear(pos3), clear(pos8), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15)})"]
+s91[label="(instance index=11, state index=91, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos3), clear(pos1), at(block01,pos15), clear(pos8), clear(pos7), clear(pos12)})"]
+s89[label="(instance index=11, state index=89, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos11), clear(pos15), at(robot,pos3)})"]
+s149[label="(instance index=11, state index=149, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), at(block01,pos14), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s148[label="(instance index=11, state index=148, atoms={clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos14), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s146[label="(instance index=11, state index=146, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos14), clear(pos4), clear(pos2), at(robot,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s150[label="(instance index=11, state index=150, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(block01,pos15), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12)})"]
+s147[label="(instance index=11, state index=147, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos14), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(robot,pos3)})"]
+s30[label="(instance index=11, state index=30, atoms={clear(pos14), at(block01,pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos7), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s29[label="(instance index=11, state index=29, atoms={clear(pos14), at(block01,pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s8[label="(instance index=11, state index=8, atoms={clear(pos14), clear(pos5), clear(pos13), at(block01,pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos7), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s173[label="(instance index=11, state index=173, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), clear(pos4), clear(pos2), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s31[label="(instance index=11, state index=31, atoms={clear(pos14), at(block01,pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), at(robot,pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s71[label="(instance index=11, state index=71, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos1), clear(pos11), clear(pos3), at(robot,pos5), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s12[label="(instance index=11, state index=12, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(block01,pos2), clear(pos4), at(robot,pos10), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s11[label="(instance index=11, state index=11, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos2), at(robot,pos7), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s10[label="(instance index=11, state index=10, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos2), clear(pos4), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s199[label="(instance index=11, state index=199, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), clear(pos8), clear(pos7), clear(pos15)})"]
+s176[label="(instance index=11, state index=176, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), at(block01,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s200[label="(instance index=11, state index=200, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(block01,pos12), clear(pos4), at(robot,pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s65[label="(instance index=11, state index=65, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos15), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12)})"]
+s64[label="(instance index=11, state index=64, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), clear(pos4), clear(pos2), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s66[label="(instance index=11, state index=66, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos7), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s63[label="(instance index=11, state index=63, atoms={clear(pos14), clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), clear(pos12), clear(pos15)})"]
+s175[label="(instance index=11, state index=175, atoms={clear(pos14), clear(pos5), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos15), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12)})"]
+s181[label="(instance index=11, state index=181, atoms={clear(pos14), clear(pos5), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos7), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos12), clear(pos15)})"]
+s180[label="(instance index=11, state index=180, atoms={clear(pos14), clear(pos5), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s125[label="(instance index=11, state index=125, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), at(robot,pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(block01,pos15), clear(pos8), clear(pos7), clear(pos12)})"]
+s124[label="(instance index=11, state index=124, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos7), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(block01,pos15), clear(pos8), clear(pos12)})"]
+s174[label="(instance index=11, state index=174, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(block01,pos15), clear(pos8), clear(pos7), clear(pos12)})"]
+s18[label="(instance index=11, state index=18, atoms={clear(pos14), at(block01,pos5), at(robot,pos6), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s188[label="(instance index=11, state index=188, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), clear(pos4), clear(pos2), at(block01,pos8), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos15)})"]
+s101[label="(instance index=11, state index=101, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), clear(pos4), clear(pos2), at(robot,pos9), at(block01,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s100[label="(instance index=11, state index=100, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), at(block01,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s57[label="(instance index=11, state index=57, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s23[label="(instance index=11, state index=23, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos2), clear(pos4), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s21[label="(instance index=11, state index=21, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), at(block01,pos2), clear(pos4), at(robot,pos9), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s24[label="(instance index=11, state index=24, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos2), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12), clear(pos15)})"]
+s22[label="(instance index=11, state index=22, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos2), clear(pos4), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(robot,pos3)})"]
+s20[label="(instance index=11, state index=20, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s19[label="(instance index=11, state index=19, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos2), clear(pos4), at(robot,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s205[label="(instance index=11, state index=205, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s204[label="(instance index=11, state index=204, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos12), clear(pos4), clear(pos2), at(robot,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos15)})"]
+s191[label="(instance index=11, state index=191, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), at(robot,pos14), clear(pos7), clear(pos15)})"]
+s206[label="(instance index=11, state index=206, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos12), clear(pos4), clear(pos2), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s92[label="(instance index=11, state index=92, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), clear(pos4), clear(pos2), at(block01,pos7), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos15)})"]
+s54[label="(instance index=11, state index=54, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s93[label="(instance index=11, state index=93, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s194[label="(instance index=11, state index=194, atoms={clear(pos14), clear(pos5), at(block01,pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(robot,pos3)})"]
+s155[label="(instance index=11, state index=155, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(block01,pos15), clear(pos8), clear(pos7), clear(pos12)})"]
+s156[label="(instance index=11, state index=156, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), clear(pos4), clear(pos2), at(robot,pos9), clear(pos11), clear(pos3), clear(pos1), at(block01,pos15), clear(pos8), clear(pos7), clear(pos12)})"]
+s154[label="(instance index=11, state index=154, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos1), at(block01,pos15), clear(pos8), clear(pos7), clear(pos12), at(robot,pos3)})"]
+s189[label="(instance index=11, state index=189, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(block01,pos15), clear(pos8), clear(pos7)})"]
+s32[peripheries=2,label="(instance index=11, state index=32, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), at-goal(block01), clear(pos8), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s50[peripheries=2,label="(instance index=11, state index=50, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), at(robot,pos1), clear(pos11), clear(pos3), at-goal(block01), clear(pos8), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s135[peripheries=2,label="(instance index=11, state index=135, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), at(robot,pos15), clear(pos11), clear(pos3), clear(pos1), at-goal(block01), clear(pos8), clear(pos7), clear(pos12), at(block01,pos4)})"]
+s76[peripheries=2,label="(instance index=11, state index=76, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at-goal(block01), clear(pos8), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s105[peripheries=2,label="(instance index=11, state index=105, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at-goal(block01), clear(pos8), clear(pos7), at(block01,pos4), clear(pos15)})"]
+s52[peripheries=2,label="(instance index=11, state index=52, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), clear(pos2), at(robot,pos9), clear(pos11), clear(pos3), clear(pos1), at-goal(block01), clear(pos8), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s104[peripheries=2,label="(instance index=11, state index=104, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at-goal(block01), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s75[peripheries=2,label="(instance index=11, state index=75, atoms={clear(pos14), clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at-goal(block01), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s102[peripheries=2,label="(instance index=11, state index=102, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos11), clear(pos1), at-goal(block01), clear(pos8), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15), at(robot,pos3)})"]
+s73[peripheries=2,label="(instance index=11, state index=73, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos7), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at-goal(block01), clear(pos8), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s72[peripheries=2,label="(instance index=11, state index=72, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), clear(pos11), clear(pos3), clear(pos1), at-goal(block01), clear(pos8), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s74[peripheries=2,label="(instance index=11, state index=74, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at-goal(block01), clear(pos8), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s103[peripheries=2,label="(instance index=11, state index=103, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos3), clear(pos1), at-goal(block01), clear(pos8), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s51[peripheries=2,label="(instance index=11, state index=51, atoms={clear(pos14), at(robot,pos6), clear(pos5), clear(pos13), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at-goal(block01), clear(pos8), clear(pos7), clear(pos12), at(block01,pos4), clear(pos15)})"]
+s134[label="(instance index=11, state index=134, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), clear(pos4), clear(pos2), at(block01,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s133[label="(instance index=11, state index=133, atoms={clear(pos14), clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos1), clear(pos11), clear(pos3), clear(pos7), clear(pos12), clear(pos15)})"]
+s80[label="(instance index=11, state index=80, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), at(robot,pos10), clear(pos2), at(block01,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s79[label="(instance index=11, state index=79, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos7), clear(pos4), clear(pos2), at(block01,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos12), clear(pos15)})"]
+s36[label="(instance index=11, state index=36, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), clear(pos4), at(block01,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s37[label="(instance index=11, state index=37, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos2), clear(pos4), at(robot,pos15), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12)})"]
+s34[label="(instance index=11, state index=34, atoms={clear(pos14), clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos2), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos7), clear(pos12), clear(pos15)})"]
+s35[label="(instance index=11, state index=35, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), at(block01,pos2), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s33[label="(instance index=11, state index=33, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), clear(pos4), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s207[label="(instance index=11, state index=207, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), at(block01,pos12), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s208[label="(instance index=11, state index=208, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos12), at(robot,pos7), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos15)})"]
+s201[label="(instance index=11, state index=201, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos12), clear(pos4), clear(pos2), at(robot,pos15), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7)})"]
+s77[label="(instance index=11, state index=77, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos1), at(robot,pos5), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s78[label="(instance index=11, state index=78, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos4), at(robot,pos10), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s126[label="(instance index=11, state index=126, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos15), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), at(block01,pos3)})"]
+s178[label="(instance index=11, state index=178, atoms={clear(pos14), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(robot,pos5), at(block01,pos15), clear(pos8), clear(pos7), clear(pos12)})"]
+s177[label="(instance index=11, state index=177, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), at(robot,pos2), clear(pos10), clear(pos4), clear(pos11), clear(pos3), clear(pos1), at(block01,pos15), clear(pos8), clear(pos7), clear(pos12)})"]
+s179[label="(instance index=11, state index=179, atoms={clear(pos14), clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(block01,pos15), clear(pos7), clear(pos12)})"]
+s110[label="(instance index=11, state index=110, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos1), clear(pos11), clear(pos3), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12), clear(pos15)})"]
+s164[label="(instance index=11, state index=164, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), clear(pos4), clear(pos2), at(block01,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos15)})"]
+s109[label="(instance index=11, state index=109, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(robot,pos11), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos1), clear(pos3), clear(pos8), clear(pos7), clear(pos12), clear(pos15)})"]
+s56[label="(instance index=11, state index=56, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(block01,pos1), clear(pos11), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(robot,pos3)})"]
+s55[label="(instance index=11, state index=55, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), at(block01,pos2), clear(pos4), clear(pos11), clear(pos3), clear(pos1), clear(pos8), clear(pos7), clear(pos15)})"]
+s53[label="(instance index=11, state index=53, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos1), clear(pos11), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s209[label="(instance index=11, state index=209, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(block01,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos15), at(robot,pos3)})"]
+s107[label="(instance index=11, state index=107, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos10), clear(pos4), clear(pos2), at(robot,pos9), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s106[label="(instance index=11, state index=106, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s108[label="(instance index=11, state index=108, atoms={clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), at(robot,pos14), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s193[label="(instance index=11, state index=193, atoms={clear(pos14), clear(pos5), at(robot,pos4), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos2), clear(pos11), clear(pos3), clear(pos1), at(block01,pos15), clear(pos8), clear(pos7), clear(pos12)})"]
+s192[label="(instance index=11, state index=192, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos1), clear(pos11), clear(pos3), at(block01,pos15), clear(pos8), clear(pos7), clear(pos12)})"]
+s138[label="(instance index=11, state index=138, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), at(robot,pos15), at(block01,pos1), clear(pos11), clear(pos3), clear(pos8), clear(pos7), clear(pos12)})"]
+s137[label="(instance index=11, state index=137, atoms={clear(pos14), clear(pos5), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos13), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s136[label="(instance index=11, state index=136, atoms={clear(pos14), clear(pos5), clear(pos13), at(robot,pos8), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos7), clear(pos12), clear(pos15), at(block01,pos3)})"]
+s165[label="(instance index=11, state index=165, atoms={clear(pos14), clear(pos5), clear(pos13), clear(pos6), at(block01,pos0), clear(pos9), clear(pos10), at(robot,pos12), clear(pos4), clear(pos2), clear(pos11), clear(pos1), clear(pos8), clear(pos7), clear(pos15), at(block01,pos3)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s111,s58,s59}
+{ rank = same; s139,s84,s14,s95,s94,s82,s38,s157,s202,s16}
+{ rank = same; s112,s7,s6,s5,s169,s129,s67,s114,s197,s127,s195,s128,s60,s113,s61}
+{ rank = same; s185,s186,s143,s85,s144,s96,s183,s184,s1,s3,s13,s140,s98,s99,s158,s15,s97,s142,s141,s90,s87,s86,s88}
+{ rank = same; s69,s170,s70,s115,s171,s172,s198,s0,s9,s68,s25,s196,s28,s27,s26,s132,s131,s130,s167,s168,s166,s123,s62,s122,s119,s117,s120,s118,s116,s121}
+{ rank = same; s2,s48,s47,s145,s46,s49,s45,s17,s187,s4,s190,s203,s44,s43,s42,s39,s41,s40,s163,s151,s161,s162,s160,s159,s182,s153,s152,s91,s89,s149,s148,s146,s150,s147}
+{ rank = same; s30,s29,s8,s173,s31,s71,s12,s11,s10,s199,s176,s200,s65,s64,s66,s63,s175,s181,s180,s125,s124,s174}
+{ rank = same; s18,s188,s101,s100,s57,s23,s21,s24,s22,s20,s19,s205,s204,s191,s206,s92,s54,s93,s194,s155,s156,s154,s189}
+{ rank = same; s32,s50,s135,s76,s105,s52,s104,s75,s102,s73,s72,s74,s103,s51,s134,s133,s80,s79,s36,s37,s34,s35,s33,s207,s208,s201,s77,s78,s126,s178,s177,s179}
+{ rank = same; s110,s164,s109,s56,s55,s53,s209,s107,s106,s108,s193,s192}
+{ rank = same; s138,s137,s136}
+{ rank = same; s165}
+{
+s83->s111
+s83->s59
+s81->s59
+s81->s58
+}
+{
+s111->s139
+s111->s84
+s111->s83
+s58->s38
+s58->s82
+s58->s81
+s59->s84
+s59->s38
+s59->s83
+s59->s81
+}
+{
+s139->s111
+s139->s112
+s84->s111
+s84->s59
+s84->s113
+s84->s112
+s14->s6
+s14->s5
+s95->s67
+s95->s128
+s94->s127
+s94->s67
+s82->s60
+s82->s58
+s38->s61
+s38->s60
+s38->s59
+s38->s58
+s157->s127
+s157->s129
+s202->s197
+s202->s195
+s16->s7
+s16->s6
+}
+{
+s112->s84
+s112->s140
+s112->s139
+s7->s3
+s7->s1
+s7->s16
+s6->s14
+s6->s1
+s6->s16
+s5->s15
+s5->s14
+s5->s13
+s5->s1
+s169->s143
+s169->s144
+s129->s143
+s129->s157
+s129->s96
+s67->s95
+s67->s94
+s67->s97
+s67->s96
+s114->s85
+s114->s140
+s197->s202
+s197->s186
+s197->s185
+s127->s94
+s127->s157
+s127->s96
+s195->s183
+s195->s202
+s195->s185
+s128->s95
+s128->s158
+s128->s84
+s60->s38
+s60->s85
+s60->s82
+s113->s142
+s113->s141
+s113->s90
+s61->s87
+s61->s86
+s61->s88
+}
+{
+s185->s197
+s185->s172
+s185->s195
+s185->s171
+s186->s198
+s186->s197
+s186->s172
+s143->s129
+s143->s115
+s143->s169
+s85->s115
+s85->s60
+s85->s114
+s144->s170
+s144->s115
+s144->s169
+s96->s115
+s96->s127
+s96->s67
+s96->s129
+s183->s171
+s183->s195
+s184->s196
+s184->s171
+s1->s7
+s1->s6
+s1->s5
+s1->s0
+s3->s7
+s3->s9
+s3->s0
+s13->s5
+s13->s25
+s140->s114
+s140->s0
+s140->s112
+s98->s5
+s98->s69
+s99->s70
+s99->s69
+s158->s170
+s158->s128
+s15->s28
+s15->s27
+s15->s26
+s97->s132
+s97->s131
+s97->s130
+s142->s167
+s142->s113
+s142->s168
+s141->s167
+s141->s166
+s141->s123
+s141->s113
+s90->s62
+s90->s122
+s90->s123
+s90->s113
+s87->s119
+s87->s61
+s87->s117
+s87->s120
+s86->s118
+s86->s61
+s86->s116
+s86->s117
+s88->s118
+s88->s61
+s88->s121
+}
+{
+s69->s98
+s69->s99
+s69->s48
+s170->s158
+s170->s48
+s170->s144
+s70->s49
+s70->s99
+s70->s48
+s115->s143
+s115->s144
+s115->s145
+s115->s96
+s171->s183
+s171->s145
+s171->s185
+s171->s184
+s172->s187
+s172->s186
+s172->s145
+s172->s185
+s198->s187
+s198->s186
+s0->s4
+s0->s3
+s0->s2
+s0->s1
+s9->s3
+s9->s2
+s68->s47
+s68->s49
+s25->s13
+s25->s38
+s25->s17
+s196->s190
+s196->s203
+s28->s15
+s28->s44
+s28->s43
+s28->s42
+s27->s15
+s27->s39
+s27->s42
+s27->s41
+s26->s15
+s26->s39
+s26->s40
+s132->s97
+s132->s163
+s132->s151
+s132->s161
+s131->s162
+s131->s97
+s131->s160
+s130->s159
+s130->s97
+s130->s161
+s130->s160
+s167->s142
+s167->s141
+s167->s182
+s168->s142
+s168->s43
+s166->s182
+s166->s141
+s166->s153
+s123->s141
+s123->s90
+s123->s153
+s123->s152
+s62->s91
+s62->s90
+s62->s89
+s122->s90
+s122->s89
+s122->s152
+s119->s87
+s119->s149
+s119->s148
+s117->s87
+s117->s148
+s117->s86
+s117->s146
+s120->s87
+s120->s150
+s120->s149
+s118->s86
+s118->s147
+s118->s88
+s116->s147
+s116->s86
+s116->s146
+s121->s151
+s121->s88
+}
+{
+s2->s9
+s2->s0
+s2->s8
+s48->s70
+s48->s69
+s48->s71
+s48->s31
+s47->s31
+s47->s30
+s47->s68
+s145->s173
+s145->s172
+s145->s171
+s46->s30
+s46->s29
+s49->s31
+s49->s70
+s49->s68
+s45->s29
+s45->s67
+s17->s25
+s17->s8
+s187->s198
+s187->s173
+s187->s172
+s4->s12
+s4->s11
+s4->s10
+s190->s199
+s190->s176
+s190->s196
+s190->s200
+s203->s199
+s203->s196
+s44->s65
+s44->s28
+s44->s64
+s43->s28
+s43->s66
+s43->s65
+s42->s63
+s42->s28
+s42->s27
+s42->s64
+s39->s27
+s39->s26
+s41->s63
+s41->s27
+s40->s62
+s40->s26
+s163->s175
+s163->s181
+s163->s132
+s151->s175
+s151->s132
+s151->s176
+s161->s181
+s161->s132
+s161->s180
+s161->s130
+s162->s131
+s162->s120
+s160->s131
+s160->s130
+s159->s180
+s159->s130
+s182->s167
+s182->s166
+s153->s166
+s153->s123
+s152->s123
+s152->s122
+s91->s125
+s91->s124
+s89->s62
+s89->s122
+s149->s119
+s149->s120
+s148->s119
+s148->s117
+s146->s117
+s146->s116
+s150->s174
+s150->s125
+s147->s118
+s147->s116
+}
+{
+s30->s47
+s30->s46
+s30->s18
+s29->s46
+s29->s45
+s29->s18
+s8->s18
+s8->s2
+s8->s17
+s173->s188
+s173->s187
+s173->s145
+s31->s47
+s31->s49
+s31->s18
+s31->s48
+s71->s101
+s71->s100
+s71->s57
+s12->s23
+s12->s21
+s12->s4
+s12->s24
+s11->s23
+s11->s22
+s11->s4
+s10->s21
+s10->s20
+s10->s19
+s10->s4
+s199->s190
+s199->s205
+s199->s204
+s199->s203
+s176->s191
+s176->s190
+s200->s191
+s200->s206
+s200->s205
+s200->s190
+s65->s44
+s65->s43
+s64->s44
+s64->s92
+s64->s42
+s66->s54
+s66->s93
+s63->s42
+s63->s92
+s63->s41
+s175->s151
+s175->s163
+s181->s163
+s181->s194
+s181->s161
+s180->s159
+s180->s194
+s180->s161
+s125->s150
+s125->s155
+s125->s91
+s125->s156
+s124->s155
+s124->s91
+s124->s154
+s174->s150
+s174->s189
+s174->s156
+}
+{
+s18->s31
+s18->s30
+s18->s29
+s18->s32
+s188->s173
+s188->s75
+s101->s71
+s101->s134
+s101->s133
+s101->s80
+s100->s71
+s100->s133
+s57->s79
+s57->s71
+s57->s36
+s57->s80
+s23->s37
+s23->s12
+s23->s11
+s21->s12
+s21->s34
+s21->s35
+s21->s10
+s24->s37
+s24->s12
+s24->s35
+s22->s36
+s22->s11
+s20->s34
+s20->s10
+s19->s10
+s19->s33
+s205->s199
+s205->s200
+s205->s207
+s205->s208
+s204->s199
+s204->s207
+s191->s201
+s191->s176
+s191->s200
+s206->s200
+s206->s201
+s206->s208
+s92->s63
+s92->s64
+s54->s77
+s54->s66
+s54->s78
+s54->s33
+s93->s126
+s93->s66
+s93->s78
+s194->s181
+s194->s180
+s155->s125
+s155->s124
+s155->s178
+s155->s177
+s156->s125
+s156->s174
+s156->s179
+s156->s178
+s154->s124
+s154->s177
+s189->s174
+s189->s179
+}
+{
+s32->s52
+s32->s51
+s32->s50
+s50->s32
+s50->s72
+s135->s103
+s135->s104
+s76->s52
+s76->s105
+s76->s104
+s105->s76
+s105->s75
+s52->s76
+s52->s75
+s52->s74
+s52->s32
+s104->s135
+s104->s76
+s104->s74
+s75->s52
+s75->s105
+s102->s73
+s102->s72
+s73->s103
+s73->s102
+s73->s51
+s72->s102
+s72->s51
+s72->s50
+s74->s103
+s74->s52
+s74->s51
+s74->s104
+s103->s135
+s103->s74
+s103->s73
+s51->s74
+s51->s73
+s51->s32
+s51->s72
+s134->s110
+s134->s101
+s134->s164
+s133->s101
+s133->s164
+s133->s100
+s80->s110
+s80->s109
+s80->s101
+s80->s57
+s79->s109
+s79->s57
+s79->s56
+s36->s57
+s36->s56
+s37->s23
+s37->s24
+s34->s55
+s34->s21
+s34->s20
+s35->s55
+s35->s21
+s35->s24
+s33->s54
+s33->s53
+s207->s205
+s207->s204
+s207->s209
+s208->s205
+s208->s206
+s208->s209
+s201->s191
+s201->s206
+s77->s54
+s77->s53
+s77->s107
+s77->s106
+s78->s54
+s78->s93
+s78->s108
+s78->s107
+s126->s93
+s126->s108
+s178->s156
+s178->s155
+s178->s193
+s178->s192
+s177->s155
+s177->s154
+s177->s192
+s179->s189
+s179->s156
+s179->s193
+}
+{
+s110->s138
+s110->s134
+s110->s80
+s164->s134
+s164->s133
+s109->s79
+s109->s138
+s109->s80
+s56->s79
+s56->s36
+s55->s35
+s55->s34
+s53->s77
+s53->s33
+s209->s207
+s209->s208
+s107->s78
+s107->s77
+s107->s137
+s107->s136
+s106->s77
+s106->s136
+s108->s78
+s108->s126
+s108->s137
+s193->s179
+s193->s178
+s192->s178
+s192->s177
+}
+{
+s138->s110
+s138->s109
+s137->s165
+s137->s108
+s137->s107
+s136->s165
+s136->s107
+s136->s106
+}
+{
+s165->s137
+s165->s136
+}
+}
