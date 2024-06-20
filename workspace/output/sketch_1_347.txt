@@ -1,5 +1,5 @@
 (:policy
-(:booleans )
-(:numericals (f84 "n_count(c_not(c_equal(r_primitive(at,0,1),r_primitive(at_g,0,1))))"))
-(:rule (:conditions (:c_n_gt f84)) (:effects (:e_n_inc f84)))
+(:booleans (f41 "b_empty(c_not(c_equal(r_primitive(at,0,1),r_primitive(at_g,0,1))))") (f19 "b_empty(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_one_of(roomb))))") (f30 "b_empty(c_some(r_primitive(at,0,1),c_and(c_one_of(roomb),c_primitive(at-robby,0))))") (f24 "b_empty(c_not(c_all(r_primitive(at,0,1),c_and(c_one_of(rooma),c_primitive(at-robby,0)))))") (f47 "b_empty(c_and(c_primitive(ball,0),c_not(c_some(r_primitive(at,0,1),c_primitive(at-robby,0)))))") (f46 "b_empty(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_and(c_one_of(rooma),c_primitive(at-robby,0)))))") (f77 "b_empty(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_and(c_one_of(roomb),c_not(c_primitive(at-robby,0))))))") (f78 "b_empty(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_and(c_one_of(rooma),c_not(c_primitive(at-robby,0))))))") (f33 "b_empty(c_and(c_primitive(ball,0),c_all(r_restrict(r_primitive(at,0,1),c_primitive(at-robby,0)),c_one_of(roomb))))") (f70 "b_empty(c_and(c_primitive(ball,0),c_all(r_restrict(r_primitive(at,0,1),c_one_of(rooma)),c_primitive(at-robby,0))))"))
+(:numericals (f75 "n_count(c_some(r_primitive(at,0,1),c_some(r_inverse(r_primitive(at_g,0,1)),c_some(r_primitive(at,0,1),c_one_of(rooma)))))"))
+(:rule (:conditions (:c_b_pos f41) (:c_b_neg f30) (:c_b_pos f19) (:c_b_pos f47) (:c_b_pos f24) (:c_b_pos f46) (:c_b_pos f78) (:c_b_pos f77) (:c_b_pos f70) (:c_b_pos f33) (:c_n_gt f75)) (:effects (:e_b_neg f41) (:e_b_neg f30) (:e_b_neg f19) (:e_b_neg f47) (:e_b_neg f24) (:e_b_neg f46) (:e_b_neg f78) (:e_b_neg f77) (:e_b_neg f70) (:e_b_neg f33)))
 )

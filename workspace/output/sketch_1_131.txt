@@ -1,5 +1,5 @@
 (:policy
-(:booleans )
-(:numericals )
-(:rule (:conditions ) (:effects ))
+(:booleans (f90 "b_empty(c_not(c_and(c_equal(r_primitive(carry,0,1),r_primitive(carry_g,0,1)),c_all(r_primitive(at_g,0,1),c_primitive(at-robby,0)))))"))
+(:numericals (f22 "n_count(c_and(c_equal(r_primitive(carry,0,1),r_primitive(carry_g,0,1)),c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0))))"))
+(:rule (:conditions (:c_n_eq f22) (:c_b_pos f90)) (:effects (:e_n_dec f22) (:e_b_pos f90)))
 )

@@ -1,5 +1,5 @@
 (:policy
-(:booleans )
-(:numericals (f91 "n_count(c_bot)") (f61 "n_count(c_primitive(free,0))"))
-(:rule (:conditions (:c_n_gt f91) (:c_n_eq f61)) (:effects (:e_n_inc f91) (:e_n_inc f61)))
+(:booleans (f9 "b_empty(c_some(r_primitive(at,0,1),c_one_of(rooma)))") (f10 "b_empty(c_not(c_all(r_primitive(at,0,1),c_primitive(at-robby,0))))") (f8 "b_empty(c_some(r_primitive(at,0,1),c_and(c_one_of(rooma),c_primitive(at-robby,0))))"))
+(:numericals )
+(:rule (:conditions (:c_b_pos f9) (:c_b_pos f10) (:c_b_pos f8)) (:effects (:e_b_neg f9) (:e_b_neg f10) (:e_b_neg f8)))
 )

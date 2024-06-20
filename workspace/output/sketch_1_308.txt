@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f94 "n_count(c_not(c_all(r_inverse(r_primitive(carry,0,1)),c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0)))))"))
-(:rule (:conditions (:c_n_gt f94)) (:effects (:e_n_dec f94)))
+(:numericals (f64 "n_concept_distance(c_one_of(rooma),r_primitive(at,0,1),c_primitive(at-robby,0))"))
+(:rule (:conditions (:c_n_gt f64)) (:effects (:e_n_dec f64)))
 )

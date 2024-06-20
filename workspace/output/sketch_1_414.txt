@@ -1,5 +1,5 @@
 (:policy
-(:booleans )
-(:numericals (f13 "n_concept_distance(c_one_of(rooma),r_primitive(at,0,1),c_primitive(at-robby,0))"))
-(:rule (:conditions (:c_n_gt f13)) (:effects (:e_n_dec f13)))
+(:booleans (f12 "b_empty(r_primitive(carry,0,1))"))
+(:numericals )
+(:rule (:conditions (:c_b_neg f12)) (:effects (:e_b_pos f12)))
 )
