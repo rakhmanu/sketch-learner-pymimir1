@@ -1,0 +1,183 @@
+digraph {
+rankdir="LR"
+s1[label="(instance index=3, state index=1, atoms={free(right), at(ball2,rooma), at(ball1,rooma), at(ball4,rooma), at(ball3,rooma), at-robby(roomb), free(left), at(ball5,rooma)})"]
+s0[label="(instance index=3, state index=0, atoms={at-robby(rooma), free(right), at(ball2,rooma), at(ball1,rooma), at(ball4,rooma), at(ball3,rooma), free(left), at(ball5,rooma)})"]
+s2[label="(instance index=3, state index=2, atoms={carry(ball1,left), at-robby(rooma), free(right), at(ball2,rooma), at(ball4,rooma), at(ball3,rooma), at(ball5,rooma)})"]
+s12[label="(instance index=3, state index=12, atoms={carry(ball1,left), free(right), at(ball2,rooma), at(ball4,rooma), at(ball3,rooma), at-robby(roomb), at(ball5,rooma)})"]
+s13[label="(instance index=3, state index=13, atoms={carry(ball1,left), at-robby(rooma), carry(ball2,right), at(ball4,rooma), at(ball3,rooma), at(ball5,rooma)})"]
+s43[label="(instance index=3, state index=43, atoms={carry(ball1,left), carry(ball2,right), at(ball4,rooma), at(ball3,rooma), at-robby(roomb), at(ball5,rooma)})"]
+s42[label="(instance index=3, state index=42, atoms={free(right), at(ball2,rooma), at(ball4,rooma), at(ball3,rooma), at-robby(roomb), free(left), at(ball5,rooma), at(ball1,roomb)})"]
+s68[label="(instance index=3, state index=68, atoms={carry(ball2,right), at(ball4,rooma), at(ball3,rooma), at-robby(roomb), free(left), at(ball5,rooma), at(ball1,roomb)})"]
+s67[label="(instance index=3, state index=67, atoms={at-robby(rooma), free(right), at(ball2,rooma), at(ball4,rooma), at(ball3,rooma), free(left), at(ball5,rooma), at(ball1,roomb)})"]
+s112[label="(instance index=3, state index=112, atoms={at-robby(rooma), free(right), carry(ball2,left), at(ball4,rooma), at(ball3,rooma), at(ball5,rooma), at(ball1,roomb)})"]
+s120[label="(instance index=3, state index=120, atoms={at(ball2,roomb), free(right), at(ball4,rooma), at(ball3,rooma), at-robby(roomb), free(left), at(ball5,rooma), at(ball1,roomb)})"]
+s174[label="(instance index=3, state index=174, atoms={at-robby(rooma), at(ball2,roomb), free(right), at(ball4,rooma), at(ball3,rooma), free(left), at(ball5,rooma), at(ball1,roomb)})"]
+s162[label="(instance index=3, state index=162, atoms={carry(ball3,right), at-robby(rooma), carry(ball2,left), at(ball4,rooma), at(ball5,rooma), at(ball1,roomb)})"]
+s232[label="(instance index=3, state index=232, atoms={carry(ball3,right), carry(ball2,left), at(ball4,rooma), at-robby(roomb), at(ball5,rooma), at(ball1,roomb)})"]
+s244[label="(instance index=3, state index=244, atoms={at-robby(rooma), at(ball2,roomb), free(right), at(ball4,rooma), carry(ball3,left), at(ball5,rooma), at(ball1,roomb)})"]
+s376[label="(instance index=3, state index=376, atoms={at-robby(rooma), at(ball2,roomb), carry(ball3,left), carry(ball4,right), at(ball5,rooma), at(ball1,roomb)})"]
+s352[label="(instance index=3, state index=352, atoms={carry(ball3,right), at(ball2,roomb), at(ball4,rooma), at-robby(roomb), free(left), at(ball5,rooma), at(ball1,roomb)})"]
+s478[label="(instance index=3, state index=478, atoms={at(ball2,roomb), at-robby(roomb), carry(ball3,left), carry(ball4,right), at(ball5,rooma), at(ball1,roomb)})"]
+s472[label="(instance index=3, state index=472, atoms={at(ball2,roomb), free(right), at(ball4,rooma), at-robby(roomb), at(ball3,roomb), free(left), at(ball5,rooma), at(ball1,roomb)})"]
+s548[label="(instance index=3, state index=548, atoms={at(ball2,roomb), at-robby(roomb), at(ball3,roomb), free(left), carry(ball4,right), at(ball5,rooma), at(ball1,roomb)})"]
+s542[label="(instance index=3, state index=542, atoms={at-robby(rooma), at(ball2,roomb), free(right), at(ball4,rooma), at(ball3,roomb), free(left), at(ball5,rooma), at(ball1,roomb)})"]
+s616[label="(instance index=3, state index=616, atoms={at(ball2,roomb), free(right), at(ball4,roomb), at-robby(roomb), at(ball3,roomb), free(left), at(ball5,rooma), at(ball1,roomb)})"]
+s592[label="(instance index=3, state index=592, atoms={at-robby(rooma), at(ball2,roomb), free(right), at(ball3,roomb), at(ball5,rooma), at(ball1,roomb), carry(ball4,left)})"]
+s637[label="(instance index=3, state index=637, atoms={carry(ball5,right), at-robby(rooma), at(ball2,roomb), at(ball3,roomb), at(ball1,roomb), carry(ball4,left)})"]
+s649[label="(instance index=3, state index=649, atoms={at-robby(rooma), at(ball2,roomb), free(right), at(ball4,roomb), at(ball3,roomb), free(left), at(ball5,rooma), at(ball1,roomb)})"]
+s674[label="(instance index=3, state index=674, atoms={at-robby(rooma), at(ball2,roomb), free(right), at(ball4,roomb), at(ball3,roomb), at(ball1,roomb), carry(ball5,left)})"]
+s662[label="(instance index=3, state index=662, atoms={carry(ball5,right), at(ball2,roomb), at-robby(roomb), at(ball3,roomb), at(ball1,roomb), carry(ball4,left)})"]
+s692[label="(instance index=3, state index=692, atoms={carry(ball5,right), at(ball2,roomb), at(ball4,roomb), at-robby(roomb), at(ball3,roomb), free(left), at(ball1,roomb)})"]
+s703[peripheries=2,label="(instance index=3, state index=703, atoms={at-robby(rooma), at(ball2,roomb), free(right), at(ball4,roomb), at(ball5,roomb), at(ball3,roomb), free(left), at(ball1,roomb)})"]
+s702[peripheries=2,label="(instance index=3, state index=702, atoms={at(ball2,roomb), free(right), at(ball4,roomb), at(ball5,roomb), at-robby(roomb), at(ball3,roomb), free(left), at(ball1,roomb)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s0}
+{ rank = same; s2}
+{ rank = same; s12,s13}
+{ rank = same; s43,s42}
+{ rank = same; s68,s67}
+{ rank = same; s112,s120}
+{ rank = same; s174,s162}
+{ rank = same; s232,s244}
+{ rank = same; s376,s352}
+{ rank = same; s478,s472}
+{ rank = same; s548,s542}
+{ rank = same; s616,s592}
+{ rank = same; s637,s649}
+{ rank = same; s674,s662}
+{ rank = same; s692}
+{ rank = same; s703,s702}
+{
+s1->s1
+s1->s0
+}
+{
+s0->s2
+s0->s1
+s0->s0
+}
+{
+s2->s13
+s2->s12
+s2->s2
+s2->s0
+}
+{
+s12->s42
+s12->s12
+s12->s2
+s13->s13
+s13->s43
+s13->s2
+}
+{
+s43->s68
+s43->s13
+s43->s43
+s42->s67
+s42->s12
+s42->s42
+}
+{
+s68->s120
+s68->s68
+s68->s43
+s68->s112
+s67->s42
+s67->s67
+s67->s112
+}
+{
+s112->s68
+s112->s67
+s112->s162
+s112->s112
+s120->s68
+s120->s174
+s120->s120
+}
+{
+s174->s244
+s174->s174
+s174->s120
+s162->s162
+s162->s232
+s162->s112
+}
+{
+s232->s162
+s232->s352
+s232->s232
+s244->s352
+s244->s174
+s244->s244
+s244->s376
+}
+{
+s376->s478
+s376->s244
+s376->s376
+s352->s244
+s352->s352
+s352->s232
+s352->s472
+}
+{
+s478->s548
+s478->s478
+s478->s376
+s472->s542
+s472->s352
+s472->s472
+}
+{
+s548->s616
+s548->s478
+s548->s548
+s548->s592
+s542->s542
+s542->s592
+s542->s472
+}
+{
+s616->s548
+s616->s649
+s616->s616
+s592->s548
+s592->s542
+s592->s637
+s592->s592
+}
+{
+s637->s662
+s637->s637
+s637->s592
+s649->s674
+s649->s649
+s649->s616
+}
+{
+s674->s692
+s674->s674
+s674->s649
+s662->s637
+s662->s662
+s662->s692
+}
+{
+s692->s662
+s692->s702
+s692->s692
+s692->s674
+}
+{
+s703->s703
+s703->s702
+s702->s703
+s702->s702
+s702->s692
+}
+}

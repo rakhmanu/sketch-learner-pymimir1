@@ -1,5 +1,5 @@
 (:policy
-(:booleans (f9 "b_empty(c_some(r_primitive(at,0,1),c_one_of(rooma)))"))
-(:numericals (f66 "n_count(r_primitive(carry,0,1))"))
-(:rule (:conditions (:c_n_gt f66) (:c_b_pos f9)) (:effects (:e_n_bot f66) (:e_b_neg f9)))
+(:booleans )
+(:numericals (f24 "n_concept_distance(c_primitive(is-agent,0),r_primitive(at,0,1),c_all(r_primitive(at,0,1),c_primitive(is-goal,0)))"))
+(:rule (:conditions (:c_n_eq f24)) (:effects (:e_n_inc f24)))
 )

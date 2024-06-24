@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f41 "n_count(c_primitive(free,0))"))
-(:rule (:conditions (:c_n_gt f41)) (:effects (:e_n_dec f41)))
+(:numericals (f93 "n_count(c_some(r_primitive(at,0,1),c_one_of(roomb)))"))
+(:rule (:conditions (:c_n_gt f93)) (:effects (:e_n_dec f93)))
 )

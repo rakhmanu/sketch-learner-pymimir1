@@ -1,5 +1,5 @@
 (:policy
-(:booleans (f82 "b_empty(c_primitive(free,0))"))
+(:booleans )
 (:numericals )
-(:rule (:conditions (:c_b_neg f82)) (:effects (:e_b_pos f82)))
+(:rule (:conditions ) (:effects ))
 )

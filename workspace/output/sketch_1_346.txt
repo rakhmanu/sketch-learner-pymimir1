@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f66 "n_count(r_primitive(carry,0,1))"))
-(:rule (:conditions (:c_n_eq f66)) (:effects (:e_n_inc f66)))
+(:numericals (f87 "n_count(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_one_of(roomb))))") (f53 "n_count(c_some(r_inverse(r_primitive(at,0,1)),c_all(r_restrict(r_primitive(at,0,1),c_one_of(rooma)),c_primitive(at-robby,0))))"))
+(:rule (:conditions (:c_n_gt f87) (:c_n_gt f53)) (:effects (:e_n_bot f87) (:e_n_inc f53)))
 )

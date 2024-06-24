@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f104 "n_count(c_some(r_primitive(at,0,1),c_one_of(rooma)))"))
-(:rule (:conditions (:c_n_eq f104)) (:effects (:e_n_inc f104)))
+(:numericals (f5 "n_concept_distance(c_primitive(is-goal,0),r_primitive(at,0,1),c_primitive(clear,0))"))
+(:rule (:conditions (:c_n_eq f5)) (:effects (:e_n_inc f5)))
 )

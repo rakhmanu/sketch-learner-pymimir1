@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f1 "n_count(c_and(c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0)),c_all(r_primitive(at,0,1),c_one_of(roomb))))") (f29 "n_concept_distance(c_primitive(ball,0),r_primitive(carry,0,1),c_equal(r_primitive(at,0,1),r_primitive(at_g,0,1)))"))
-(:rule (:conditions (:c_n_eq f1) (:c_n_eq f29)) (:effects (:e_n_inc f29)))
+(:numericals )
+(:rule (:conditions ) (:effects ))
 )
