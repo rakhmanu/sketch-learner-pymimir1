@@ -1,5 +1,5 @@
 (:policy
-(:booleans (f84 "b_empty(c_not(c_all(r_primitive(at,0,1),c_and(c_one_of(rooma),c_primitive(at-robby,0)))))"))
-(:numericals (f28 "n_count(c_and(c_one_of(rooma),c_and(c_primitive(at-robby,0),c_all(r_inverse(r_primitive(at,0,1)),c_one_of(rooma)))))"))
-(:rule (:conditions (:c_b_pos f84) (:c_n_gt f28)) (:effects (:e_b_pos f84)))
+(:booleans (f1 "b_empty(c_primitive(at-goal,0))"))
+(:numericals )
+(:rule (:conditions (:c_b_pos f1)) (:effects (:e_b_neg f1)))
 )

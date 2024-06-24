@@ -1,5 +1,5 @@
 (:policy
-(:booleans (f0 "b_empty(c_some(r_primitive(at,0,1),c_and(c_one_of(roomb),c_primitive(at-robby,0))))") (f25 "b_empty(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_one_of(roomb))))"))
-(:numericals )
-(:rule (:conditions (:c_b_neg f0) (:c_b_pos f25)) (:effects (:e_b_neg f0) (:e_b_neg f25)))
+(:booleans )
+(:numericals (f1 "n_count(c_primitive(at-goal,0))"))
+(:rule (:conditions (:c_n_gt f1)) (:effects (:e_n_dec f1)))
 )
