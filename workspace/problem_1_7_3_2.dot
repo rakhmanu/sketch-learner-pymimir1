@@ -1,0 +1,69 @@
+digraph {
+rankdir="LR"
+s9[label="(instance index=97, state index=9, atoms={at(robot,pos0), clear(pos4), at(block01,pos1), clear(pos2), clear(pos5), clear(pos3)})"]
+s6[label="(instance index=97, state index=6, atoms={clear(pos4), clear(pos0), at(block01,pos1), at(robot,pos3), clear(pos2), clear(pos5)})"]
+s10[label="(instance index=97, state index=10, atoms={clear(pos4), at(block01,pos2), clear(pos0), clear(pos5), at(robot,pos1), clear(pos3)})"]
+s3[label="(instance index=97, state index=3, atoms={at(robot,pos4), clear(pos0), at(block01,pos1), clear(pos2), clear(pos5), clear(pos3)})"]
+s12[label="(instance index=97, state index=12, atoms={at(robot,pos4), at(block01,pos2), clear(pos0), clear(pos1), clear(pos5), clear(pos3)})"]
+s11[label="(instance index=97, state index=11, atoms={at(robot,pos0), clear(pos4), at(block01,pos2), clear(pos1), clear(pos5), clear(pos3)})"]
+s1[label="(instance index=97, state index=1, atoms={clear(pos4), at(robot,pos5), clear(pos0), at(block01,pos1), clear(pos2), clear(pos3)})"]
+s14[label="(instance index=97, state index=14, atoms={clear(pos4), at(block01,pos2), at(robot,pos5), clear(pos0), clear(pos1), clear(pos3)})"]
+s13[label="(instance index=97, state index=13, atoms={clear(pos4), at(block01,pos2), clear(pos0), at(robot,pos3), clear(pos1), clear(pos5)})"]
+s0[label="(instance index=97, state index=0, atoms={clear(pos4), clear(pos0), at(block01,pos1), clear(pos5), at(robot,pos2), clear(pos3)})"]
+s2[peripheries=2,label="(instance index=97, state index=2, atoms={clear(pos4), at(block01,pos0), clear(pos2), at-goal(block01), clear(pos5), at(robot,pos1), clear(pos3)})"]
+s7[peripheries=2,label="(instance index=97, state index=7, atoms={clear(pos4), at(block01,pos0), at(robot,pos5), clear(pos1), clear(pos2), at-goal(block01), clear(pos3)})"]
+s4[peripheries=2,label="(instance index=97, state index=4, atoms={clear(pos4), at(block01,pos0), clear(pos1), at-goal(block01), clear(pos5), at(robot,pos2), clear(pos3)})"]
+s5[peripheries=2,label="(instance index=97, state index=5, atoms={at(robot,pos4), at(block01,pos0), clear(pos1), clear(pos2), at-goal(block01), clear(pos5), clear(pos3)})"]
+s8[peripheries=2,label="(instance index=97, state index=8, atoms={clear(pos4), at(block01,pos0), at(robot,pos3), clear(pos1), clear(pos2), at-goal(block01), clear(pos5)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s6,s10}
+{ rank = same; s3,s12,s11}
+{ rank = same; s1,s14,s13}
+{ rank = same; s0}
+{ rank = same; s2,s7,s4,s5,s8}
+{
+s9->s6
+s9->s10
+}
+{
+s6->s3
+s6->s9
+s10->s12
+s10->s11
+}
+{
+s3->s6
+s3->s1
+s12->s14
+s12->s13
+s12->s10
+s11->s13
+s11->s10
+}
+{
+s1->s3
+s1->s0
+s14->s12
+s13->s12
+s13->s11
+}
+{
+s0->s2
+s0->s1
+}
+{
+s2->s5
+s2->s4
+s7->s5
+s7->s4
+s4->s7
+s4->s2
+s5->s7
+s5->s2
+s5->s8
+s8->s5
+}
+}
