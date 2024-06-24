@@ -1,0 +1,5 @@
+(:policy
+(:booleans (f37 "b_empty(c_some(r_primitive(at,0,1),c_one_of(roomb)))") (f25 "b_empty(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_one_of(roomb))))") (f13 "b_empty(c_not(c_and(c_all(r_primitive(at,0,1),c_primitive(at-robby,0)),c_not(c_primitive(free,0)))))") (f104 "b_empty(c_and(c_primitive(ball,0),c_all(r_restrict(r_primitive(at,0,1),c_primitive(at-robby,0)),c_one_of(roomb))))"))
+(:numericals (f39 "n_count(c_some(r_inverse(r_primitive(at_g,0,1)),c_all(r_restrict(r_primitive(at,0,1),c_primitive(at-robby,0)),c_one_of(rooma))))"))
+(:rule (:conditions (:c_b_pos f37) (:c_b_pos f25) (:c_b_pos f13) (:c_b_pos f104) (:c_n_eq f39)) (:effects (:e_b_neg f37) (:e_b_neg f25) (:e_b_neg f13) (:e_b_neg f104)))
+)
