@@ -1,5 +1,0 @@
-(:policy
-(:booleans )
-(:numericals (f101 "n_count(c_not(c_and(c_not(c_primitive(free,0)),c_not(c_and(c_one_of(roomb),c_primitive(at-robby,0))))))"))
-(:rule (:conditions (:c_n_eq f101)) (:effects (:e_n_inc f101)))
-)

@@ -1,5 +1,0 @@
-(:policy
-(:booleans )
-(:numericals (f25 "n_count(c_and(c_one_of(rooma),c_primitive(at-robby,0)))"))
-(:rule (:conditions (:c_n_gt f25)) (:effects ))
-)

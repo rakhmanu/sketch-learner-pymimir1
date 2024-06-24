@@ -1,5 +1,0 @@
-(:policy
-(:booleans (f7 "b_empty(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_and(c_one_of(roomb),c_not(c_primitive(at-robby,0))))))"))
-(:numericals )
-(:rule (:conditions (:c_b_pos f7)) (:effects (:e_b_neg f7)))
-)

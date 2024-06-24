@@ -1,5 +1,0 @@
-(:policy
-(:booleans )
-(:numericals (f6 "n_count(r_primitive(carry,0,1))") (f115 "n_count(c_some(r_primitive(at,0,1),c_one_of(roomb)))"))
-(:rule (:conditions (:c_n_gt f6) (:c_n_eq f115)) (:effects (:e_n_dec f6) (:e_n_bot f115)))
-)

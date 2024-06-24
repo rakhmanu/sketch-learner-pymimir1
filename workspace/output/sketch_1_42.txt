@@ -1,5 +1,0 @@
-(:policy
-(:booleans )
-(:numericals (f4 "n_count(c_bot)"))
-(:rule (:conditions (:c_n_gt f4)) (:effects (:e_n_inc f4)))
-)
