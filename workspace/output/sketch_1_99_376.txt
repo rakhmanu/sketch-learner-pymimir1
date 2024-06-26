@@ -1,5 +1,0 @@
-(:policy
-(:booleans (f106 "b_empty(c_not(c_all(r_restrict(r_primitive(at,0,1),c_one_of(roomb)),c_primitive(at-robby,0))))") (f124 "b_empty(c_and(c_all(r_inverse(r_primitive(at,0,1)),c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0))),c_primitive(room,0)))"))
-(:numericals )
-(:rule (:conditions (:c_b_pos f106) (:c_b_neg f124)) (:effects (:e_b_neg f106) (:e_b_neg f124)))
-)

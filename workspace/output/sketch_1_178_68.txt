@@ -1,5 +1,0 @@
-(:policy
-(:booleans )
-(:numericals (f59 "n_concept_distance(c_one_of(rooma),r_primitive(at,0,1),c_and(c_primitive(at-robby,0),c_all(r_inverse(r_primitive(at,0,1)),c_one_of(rooma))))"))
-(:rule (:conditions (:c_n_eq f59)) (:effects (:e_n_inc f59)))
-)

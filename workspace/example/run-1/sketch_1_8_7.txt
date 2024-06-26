@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f2 "n_concept_distance(c_primitive(at-goal_g,0),r_primitive(at,0,1),c_and(c_not(c_primitive(at-goal,0)),c_all(r_primitive(at,0,1),c_primitive(is-goal,0))))"))
+(:rule (:conditions (:c_n_eq f2)) (:effects (:e_n_inc f2)))
+)

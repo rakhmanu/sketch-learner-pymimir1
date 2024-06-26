@@ -1,5 +1,0 @@
-(:policy
-(:booleans (f6 "b_empty(r_primitive(carry,0,1))"))
-(:numericals (f66 "n_count(c_bot)"))
-(:rule (:conditions (:c_n_gt f66) (:c_b_pos f6)) (:effects (:e_n_dec f66) (:e_b_neg f6)))
-)

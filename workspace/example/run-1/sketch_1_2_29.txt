@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals )
+(:rule (:conditions ) (:effects ))
+)

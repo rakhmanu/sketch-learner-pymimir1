@@ -1,5 +1,0 @@
-(:policy
-(:booleans )
-(:numericals (f99 "n_count(c_and(c_primitive(ball,0),c_all(r_primitive(at,0,1),c_one_of(roomb))))"))
-(:rule (:conditions (:c_n_eq f99)) (:effects (:e_n_dec f99)))
-)
