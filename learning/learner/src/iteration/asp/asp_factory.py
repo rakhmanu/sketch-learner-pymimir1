@@ -63,7 +63,7 @@ class ASPFactory:
         if encoding_type == EncodingType.D2:
             self.ctl.load(str(LIST_DIR / "sketch-d2.lp"))
         elif encoding_type == EncodingType.EXPLICIT:
-            self.ctl.load(str(LIST_DIR / "sketch-explicit.lp"))
+            self.ctl.load(str(LIST_DIR / "sketch-explicit-single.lp"))
         else:
             raise RuntimeError("Unknown encoding type:", encoding_type)
 
@@ -401,6 +401,42 @@ class ASPFactory:
                 return None, ClingoExitCode.UNKNOWN
             elif result.interrupted:
                 return None, ClingoExitCode.INTERRUPTED
+
+    def solve_all(self):
+        solutions = []
+        with self.ctl.solve(yield_=True) as handle:
+            solutions_found = False
+            for model in handle:
+                solutions.append((model.symbols(shown=True), ClingoExitCode.SATISFIABLE))
+                solutions_found = True
+            if not solutions_found:
+                solutions.append((None, ClingoExitCode.UNSATISFIABLE))
+            result = handle.get()
+            if result.exhausted:
+                solutions.append((None, ClingoExitCode.EXHAUSTED))
+            elif result.unknown:
+                solutions.append((None, ClingoExitCode.UNKNOWN))
+            elif result.interrupted:
+                solutions.append((None, ClingoExitCode.INTERRUPTED))
+            else:
+                solutions.append((None, ClingoExitCode.UNKNOWN))
+
+        # Log the solutions for debugging
+        # print(f"Solutions found: {solutions}")
+        for solution in solutions:
+            yield solution
+
+    def print_solve_all_output(self):
+        """Prints the output of solve_all()"""
+        solve_result = self.solve_all()
+        if solve_result is None:
+            print("No solutions found.")
+            return
+        #for model, exit_code in solve_result:
+        #    if model is not None:
+        #        print("Model:", model)
+        #    print("Exit Code:", exit_code)
+
 
     def print_statistics(self):
         print("Clingo statistics:")

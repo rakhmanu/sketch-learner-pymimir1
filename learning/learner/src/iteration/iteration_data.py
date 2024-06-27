@@ -26,3 +26,5 @@ class IterationData:
     gfa_state_id_to_state_pair_equivalence: Dict[int, StatePairEquivalence] = None
 
     gfa_state_id_to_tuple_graph_equivalence: Dict[int, TupleGraphEquivalence] = None
+
+    

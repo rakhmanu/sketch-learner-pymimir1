@@ -11,7 +11,7 @@ import dlplan.policy as dlplan_policy
 from .iteration_data import IterationData
 
 from ..preprocessing import PreprocessingData, InstanceData
-
+from learner.src.iteration.asp.asp_factory import ASPFactory
 
 class Sketch:
     def __init__(self, dlplan_policy: dlplan_policy.Policy, width: int):
@@ -109,6 +109,77 @@ class Sketch:
 
         return True, subgoal_states_per_r_reachable_state
 
+    def query_subgoal_distances(self, asp_factory: ASPFactory, instance_id: int, state_id: int) -> List[int]:
+        """
+        Query subgoal distances from the ASP program.
+        Returns a list of subgoal distances for the given instance_id and state_id.
+        """
+        query = f"subgoal_distance({instance_id}, {state_id}, D, R)."
+        solutions = list(asp_factory.solve_all(query))
+        subgoal_distances = []
+        for solution in solutions:
+            _, _, subgoal_distance, _ = solution.arguments
+            subgoal_distances.append(int(subgoal_distance.number))
+            print(subgoal_distances)
+        return subgoal_distances
+
+    def query_d_distances(self, asp_factory: ASPFactory, instance_id: int, state_id: int) -> List[int]:
+        """
+        Query d distances from the ASP program.
+        Returns a list of d distances for the given instance_id and state_id.
+        """
+        query = f"d_distance({instance_id}, {state_id}, C, D')."
+        solutions = list(asp_factory.solve_all(query))
+        d_distances = []
+        for solution in solutions:
+            _, _, _, d_distance = solution.arguments
+            d_distances.append(int(d_distance.number))
+            print(d_distances)
+        return d_distances
+
+    def verify_unsolvable_states_removed(self, instance_data: InstanceData, asp_factory: ASPFactory) -> bool:
+        """
+        Verifies that unsolvable states are removed from the solution.
+        Returns True if all unsolvable states are removed, False otherwise.
+        """
+        unsolvable_states = set()
+        for s_idx, state in instance_data.state_space.get_states().items():
+            if instance_data.is_deadend(s_idx) and not instance_data.is_goal(s_idx):
+                unsolvable_states.add(s_idx)
+        
+        queue = deque(instance_data.initial_s_idxs)
+        visited = set(queue)
+        while queue:
+            current_idx = queue.popleft()
+            if current_idx in unsolvable_states:
+                print(colored(f"Unsolvable state found during search: {current_idx}", "yellow"))
+                return False
+            current_state = instance_data.state_space.get_states()[current_idx]
+            successors = instance_data.get_successors(current_idx)
+            for successor_idx in successors:
+                if successor_idx not in visited:
+                    visited.add(successor_idx)
+                    queue.append(successor_idx)
+                    subgoal_distances = self.query_subgoal_distances(asp_factory, instance_data.id, successor_idx)
+                    if not subgoal_distances:
+                        print(colored(f"No subgoal_distance found for state ({instance_data.id}, {successor_idx}).", "red"))
+                        return False
+                    d_distances = self.query_d_distances(asp_factory, instance_data.id, successor_idx)
+                    if not d_distances:
+                        print(colored(f"No d_distance found for state ({instance_data.id}, {successor_idx}).", "red"))
+                        return False
+                    for subgoal_dist in subgoal_distances:
+                        for d_dist in d_distances:
+                            if subgoal_dist <= d_dist:
+                                print(f"Unsolvable state ({instance_data.id}, {successor_idx}) verified.")
+                                break
+                        else:
+                            print(f"Unsatisfactory d_distance for state ({instance_data.id}, {successor_idx}).")
+                    else:
+                        print(f"No subgoal_distance found for state ({instance_data.id}, {successor_idx}).")
+
+        return True
+
     def _verify_acyclicity(self, instance_data: InstanceData, r_compatible_successors: Dict[int, int]):
         """
         Returns True iff sketch is acyclic, i.e., no infinite trajectories s1,s2,... are possible.
@@ -196,10 +267,19 @@ class Sketch:
                 return False
         if not self._verify_acyclicity(instance_data, subgoal_states_per_r_reachable_state):
             return False
+        if not self.verify_unsolvable_states_removed(instance_data, asp_factory):
+            return False
         return True
 
-    def print(self):
+    def print(self, instance_data: InstanceData, asp_factory: ASPFactory):
         print(str(self.dlplan_policy))
-        print("Numer of sketch rules:", len(self.dlplan_policy.get_rules()))
+        print("Number of sketch rules:", len(self.dlplan_policy.get_rules()))
         print("Number of selected features:", len(self.dlplan_policy.get_booleans()) + len(self.dlplan_policy.get_numericals()))
-        print("Maximum complexity of selected feature:", max([0] + [boolean.get_element().compute_complexity() for boolean in self.dlplan_policy.get_booleans()] + [numerical.get_element().compute_complexity() for numerical in self.dlplan_policy.get_numericals()]))
+        print("Maximum complexity of selected feature:", max(
+            [0] + [boolean.get_element().compute_complexity() for boolean in self.dlplan_policy.get_booleans()] +
+            [numerical.get_element().compute_complexity() for numerical in self.dlplan_policy.get_numericals()]))
+
+        if self.verify_unsolvable_states_removed(instance_data, asp_factory):
+            print("Deadend states are removed")
+        else:
+            print("Failed to remove deadend states")

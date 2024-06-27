@@ -50,3 +50,10 @@ class InstanceData:
     @property
     def initial_gfa_state_idxs(self):
         return self._initial_gfa_state_idxs
+
+        
+    def get_successors(self, s_idx: int) -> List[int]:
+        if self.state_space and hasattr(self.state_space, 'successors_map'):
+            return self.state_space.successors_map.get(s_idx, [])
+        else:
+            return []
