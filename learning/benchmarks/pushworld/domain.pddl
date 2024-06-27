@@ -1,6 +1,6 @@
 (define
     (domain m2)
-    (:requirements :typing :strips :conditional-effects :negative-preconditions)
+    (:requirements :typing :strips :conditional-effects :existential-preconditions :negative-preconditions)
 
     (:types
         position - object

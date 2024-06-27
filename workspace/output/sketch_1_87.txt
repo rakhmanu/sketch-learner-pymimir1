@@ -1,0 +1,5 @@
+(:policy
+(:booleans (f4 "b_empty(c_primitive(at-goal,0))") (f3 "b_empty(c_and(c_primitive(is-nongoal,0),c_primitive(clear,0)))"))
+(:numericals (f7 "n_count(c_bot)") (f2 "n_count(c_primitive(at-goal,0))") (f0 "n_count(c_and(c_primitive(is-agent,0),c_some(r_primitive(at,0,1),c_primitive(is-nongoal,0))))") (f1 "n_concept_distance(c_primitive(is-goal,0),r_primitive(at,0,1),c_primitive(clear,0))") (f6 "n_concept_distance(c_primitive(is-agent,0),r_primitive(at,0,1),c_some(r_primitive(at,0,1),c_primitive(is-nongoal,0)))"))
+(:rule (:conditions (:c_n_gt f7) (:c_n_gt f2) (:c_b_neg f4) (:c_b_neg f3) (:c_n_eq f0) (:c_n_gt f1) (:c_n_gt f6)) (:effects (:e_n_inc f7) (:e_b_neg f4) (:e_n_dec f2) (:e_b_pos f3) (:e_n_dec f0) (:e_n_inc f1) (:e_n_inc f6)))
+)
