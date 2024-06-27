@@ -1,0 +1,5 @@
+(:policy
+(:booleans (f87 "b_empty(c_some(r_primitive(at,0,1),c_one_of(rooma)))"))
+(:numericals )
+(:rule (:conditions (:c_b_pos f87)) (:effects (:e_b_neg f87)))
+)

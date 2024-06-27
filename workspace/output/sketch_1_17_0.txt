@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f11 "n_count(c_bot)") (f47 "n_concept_distance(c_one_of(rooma),r_primitive(at,0,1),c_all(r_inverse(r_primitive(at,0,1)),c_one_of(rooma)))"))
+(:rule (:conditions (:c_n_gt f11) (:c_n_gt f47)) (:effects (:e_n_inc f11) (:e_n_bot f47)))
+)
