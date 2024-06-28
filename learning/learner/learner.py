@@ -89,10 +89,9 @@ def learn_sketch_for_problem_class(
         sketch_count_per_state = {}
         sketches_per_state = defaultdict(set)
         total_sketch_count = 0
-        instance_idx_map = {instance_data.idx: instance_data for instance_data in preprocessing_data.instance_datas}
-        iteration_data.instance_datas = [instance_idx_map[instance_data.idx] for instance_data in instance_datas]
+        for instance_data in preprocessing_data.instance_datas:
+            iteration_data.instance_datas = [instance_data]
         
-        for instance_data in iteration_data.instance_datas:
             write_file(f"{instance_data.idx}.dot", instance_data.dlplan_ss.to_dot(1))
             print("     ", end="")
             print("id:", instance_data.idx,
@@ -141,8 +140,15 @@ def learn_sketch_for_problem_class(
             logging.info(colored("..done", "blue", "on_grey"))
             preprocessing_timer.stop()
             asp_timer.resume()
-    
-            
+
+            #for gfa_state in iteration_data.gfa_states:
+                # preprocessing_data
+                # instance_data
+                # iteration_data
+                #gfa_state_idx = preprocessing_data.state_finder.get_gfa_state_idx_from_gfa_state(instance_data.idx, gfa_state)
+                #instance_data.initial_gfa_state_idxs = [gfa_state_idx]
+
+                #pass 
             asp_factory = ASPFactory(encoding_type, enable_goal_separating_features, max_num_rules)
             facts = asp_factory.make_facts(preprocessing_data, iteration_data)
             logging.info(colored("Grounding Logic Program...", "blue", "on_grey"))
@@ -205,6 +211,8 @@ def learn_sketch_for_problem_class(
             with open(file_name, "w") as file:
                 file.write(str(sketch.dlplan_policy))
                 #print(f"Successfully wrote {file_name}")
+
+        print(f"Number of states in training data:", len(preprocessing_data.gfa_states_by_id))
         
 
 
