@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f91 "n_count(r_primitive(carry,0,1))") (f37 "n_count(c_not(c_equal(r_primitive(at,0,1),r_primitive(at_g,0,1))))"))
+(:rule (:conditions (:c_n_eq f91) (:c_n_gt f37)) (:effects (:e_n_inc f91) (:e_n_bot f37)))
+)

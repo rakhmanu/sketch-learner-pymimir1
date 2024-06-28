@@ -1,29 +1,1453 @@
 digraph {
 rankdir="LR"
-s2[label="(instance index=3, state index=2, atoms={at(robot,pos0), clear(pos3), at(block01,pos2), clear(pos1)})"]
-s0[label="(instance index=3, state index=0, atoms={at(robot,pos0), at(block01,pos1), clear(pos2), clear(pos3)})"]
-s1[label="(instance index=3, state index=1, atoms={clear(pos3), at(robot,pos1), at(block01,pos2), clear(pos0)})"]
-s3[peripheries=2,label="(instance index=3, state index=3, atoms={at-goal(block01), clear(pos0), at(robot,pos2), at(block01,pos3), clear(pos1)})"]
-s4[peripheries=2,label="(instance index=3, state index=4, atoms={clear(pos2), at-goal(block01), at(robot,pos1), clear(pos0), at(block01,pos3)})"]
-s5[peripheries=2,label="(instance index=3, state index=5, atoms={at(robot,pos0), clear(pos2), at-goal(block01), at(block01,pos3), clear(pos1)})"]
+s1[label="(instance index=3, state index=1, atoms={free(left), free(right), at(ball1,rooma), at(ball2,rooma), at(ball3,rooma), at(ball4,rooma), at-robby(roomb)})"]
+s237[label="(instance index=3, state index=237, atoms={free(left), at(ball2,rooma), at(ball3,rooma), at(ball4,rooma), carry(ball1,right), at-robby(roomb)})"]
+s10[label="(instance index=3, state index=10, atoms={free(right), at(ball2,rooma), at(ball3,rooma), at(ball4,rooma), carry(ball1,left), at-robby(roomb)})"]
+s252[label="(instance index=3, state index=252, atoms={free(right), at(ball1,rooma), at(ball2,rooma), at(ball3,rooma), carry(ball4,left), at-robby(roomb)})"]
+s251[label="(instance index=3, state index=251, atoms={free(left), at(ball1,rooma), at(ball2,rooma), at(ball3,rooma), carry(ball4,right), at-robby(roomb)})"]
+s246[label="(instance index=3, state index=246, atoms={free(left), at(ball1,rooma), at(ball2,rooma), at(ball4,rooma), carry(ball3,right), at-robby(roomb)})"]
+s247[label="(instance index=3, state index=247, atoms={free(right), at(ball1,rooma), at(ball2,rooma), at(ball4,rooma), carry(ball3,left), at-robby(roomb)})"]
+s0[label="(instance index=3, state index=0, atoms={free(left), free(right), at(ball1,rooma), at(ball2,rooma), at(ball3,rooma), at(ball4,rooma), at-robby(rooma)})"]
+s255[label="(instance index=3, state index=255, atoms={free(right), at(ball1,rooma), at(ball3,rooma), at(ball4,rooma), carry(ball2,left), at-robby(roomb)})"]
+s254[label="(instance index=3, state index=254, atoms={free(left), at(ball1,rooma), at(ball3,rooma), at(ball4,rooma), carry(ball2,right), at-robby(roomb)})"]
+s8[label="(instance index=3, state index=8, atoms={free(left), at(ball2,rooma), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), carry(ball1,right)})"]
+s9[label="(instance index=3, state index=9, atoms={free(right), at(ball2,rooma), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), carry(ball1,left)})"]
+s236[label="(instance index=3, state index=236, atoms={free(left), free(right), at(ball2,rooma), at(ball3,rooma), at(ball4,rooma), at(ball1,roomb), at-robby(roomb)})"]
+s3[label="(instance index=3, state index=3, atoms={free(right), at(ball1,rooma), at(ball2,rooma), at(ball3,rooma), at-robby(rooma), carry(ball4,left)})"]
+s2[label="(instance index=3, state index=2, atoms={free(left), at(ball1,rooma), at(ball2,rooma), at(ball3,rooma), at-robby(rooma), carry(ball4,right)})"]
+s250[label="(instance index=3, state index=250, atoms={free(left), free(right), at(ball1,rooma), at(ball2,rooma), at(ball3,rooma), at(ball4,roomb), at-robby(roomb)})"]
+s245[label="(instance index=3, state index=245, atoms={free(left), free(right), at(ball1,rooma), at(ball2,rooma), at(ball4,rooma), at(ball3,roomb), at-robby(roomb)})"]
+s7[label="(instance index=3, state index=7, atoms={free(right), at(ball1,rooma), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), carry(ball2,left)})"]
+s4[label="(instance index=3, state index=4, atoms={free(left), at(ball1,rooma), at(ball2,rooma), at(ball4,rooma), at-robby(rooma), carry(ball3,right)})"]
+s6[label="(instance index=3, state index=6, atoms={free(left), at(ball1,rooma), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), carry(ball2,right)})"]
+s5[label="(instance index=3, state index=5, atoms={free(right), at(ball1,rooma), at(ball2,rooma), at(ball4,rooma), at-robby(rooma), carry(ball3,left)})"]
+s253[label="(instance index=3, state index=253, atoms={free(left), free(right), at(ball1,rooma), at(ball3,rooma), at(ball4,rooma), at(ball2,roomb), at-robby(roomb)})"]
+s24[label="(instance index=3, state index=24, atoms={at(ball3,rooma), at(ball4,rooma), at-robby(rooma), carry(ball2,left), carry(ball1,right)})"]
+s13[label="(instance index=3, state index=13, atoms={at(ball3,rooma), at(ball4,rooma), at-robby(rooma), carry(ball1,left), carry(ball2,right)})"]
+s207[label="(instance index=3, state index=207, atoms={at(ball2,rooma), at(ball4,rooma), at-robby(rooma), carry(ball3,left), carry(ball1,right)})"]
+s12[label="(instance index=3, state index=12, atoms={at(ball2,rooma), at(ball4,rooma), at-robby(rooma), carry(ball1,left), carry(ball3,right)})"]
+s234[label="(instance index=3, state index=234, atoms={at(ball2,rooma), at(ball3,rooma), at-robby(rooma), carry(ball4,left), carry(ball1,right)})"]
+s11[label="(instance index=3, state index=11, atoms={at(ball2,rooma), at(ball3,rooma), at-robby(rooma), carry(ball1,left), carry(ball4,right)})"]
+s157[label="(instance index=3, state index=157, atoms={free(left), free(right), at(ball2,rooma), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), at(ball1,roomb)})"]
+s75[label="(instance index=3, state index=75, atoms={at(ball1,rooma), at(ball2,rooma), at-robby(rooma), carry(ball3,left), carry(ball4,right)})"]
+s242[label="(instance index=3, state index=242, atoms={at(ball1,rooma), at(ball2,rooma), at-robby(rooma), carry(ball4,left), carry(ball3,right)})"]
+s48[label="(instance index=3, state index=48, atoms={at(ball1,rooma), at(ball3,rooma), at-robby(rooma), carry(ball4,left), carry(ball2,right)})"]
+s249[label="(instance index=3, state index=249, atoms={at(ball1,rooma), at(ball3,rooma), at-robby(rooma), carry(ball2,left), carry(ball4,right)})"]
+s51[label="(instance index=3, state index=51, atoms={free(left), free(right), at(ball1,rooma), at(ball2,rooma), at(ball3,rooma), at-robby(rooma), at(ball4,roomb)})"]
+s78[label="(instance index=3, state index=78, atoms={free(left), free(right), at(ball1,rooma), at(ball2,rooma), at(ball4,rooma), at-robby(rooma), at(ball3,roomb)})"]
+s102[label="(instance index=3, state index=102, atoms={at(ball1,rooma), at(ball4,rooma), at-robby(rooma), carry(ball2,left), carry(ball3,right)})"]
+s244[label="(instance index=3, state index=244, atoms={at(ball1,rooma), at(ball4,rooma), at-robby(rooma), carry(ball3,left), carry(ball2,right)})"]
+s25[label="(instance index=3, state index=25, atoms={free(left), free(right), at(ball1,rooma), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), at(ball2,roomb)})"]
+s22[label="(instance index=3, state index=22, atoms={free(left), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), at(ball2,roomb), carry(ball1,right)})"]
+s17[label="(instance index=3, state index=17, atoms={free(left), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), carry(ball2,right)})"]
+s23[label="(instance index=3, state index=23, atoms={at(ball3,rooma), at(ball4,rooma), carry(ball2,left), carry(ball1,right), at-robby(roomb)})"]
+s14[label="(instance index=3, state index=14, atoms={at(ball3,rooma), at(ball4,rooma), carry(ball1,left), carry(ball2,right), at-robby(roomb)})"]
+s206[label="(instance index=3, state index=206, atoms={at(ball2,rooma), at(ball4,rooma), carry(ball3,left), carry(ball1,right), at-robby(roomb)})"]
+s235[label="(instance index=3, state index=235, atoms={at(ball2,rooma), at(ball4,rooma), carry(ball1,left), carry(ball3,right), at-robby(roomb)})"]
+s233[label="(instance index=3, state index=233, atoms={at(ball2,rooma), at(ball3,rooma), carry(ball4,left), carry(ball1,right), at-robby(roomb)})"]
+s238[label="(instance index=3, state index=238, atoms={at(ball2,rooma), at(ball3,rooma), carry(ball1,left), carry(ball4,right), at-robby(roomb)})"]
+s160[label="(instance index=3, state index=160, atoms={free(right), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), carry(ball2,left)})"]
+s167[label="(instance index=3, state index=167, atoms={free(right), at(ball2,rooma), at(ball3,rooma), at-robby(rooma), at(ball1,roomb), carry(ball4,left)})"]
+s163[label="(instance index=3, state index=163, atoms={free(left), at(ball2,rooma), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), carry(ball3,right)})"]
+s155[label="(instance index=3, state index=155, atoms={free(left), at(ball2,rooma), at(ball3,rooma), at-robby(rooma), at(ball1,roomb), carry(ball4,right)})"]
+s154[label="(instance index=3, state index=154, atoms={free(right), at(ball2,rooma), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), carry(ball3,left)})"]
+s94[label="(instance index=3, state index=94, atoms={free(left), at(ball2,rooma), at(ball4,rooma), at-robby(rooma), at(ball3,roomb), carry(ball1,right)})"]
+s67[label="(instance index=3, state index=67, atoms={free(left), at(ball2,rooma), at(ball3,rooma), at-robby(rooma), at(ball4,roomb), carry(ball1,right)})"]
+s90[label="(instance index=3, state index=90, atoms={free(right), at(ball1,rooma), at(ball2,rooma), at-robby(rooma), at(ball3,roomb), carry(ball4,left)})"]
+s74[label="(instance index=3, state index=74, atoms={at(ball1,rooma), at(ball2,rooma), carry(ball3,left), carry(ball4,right), at-robby(roomb)})"]
+s71[label="(instance index=3, state index=71, atoms={free(right), at(ball1,rooma), at(ball2,rooma), at-robby(rooma), at(ball4,roomb), carry(ball3,left)})"]
+s241[label="(instance index=3, state index=241, atoms={at(ball1,rooma), at(ball2,rooma), carry(ball4,left), carry(ball3,right), at-robby(roomb)})"]
+s59[label="(instance index=3, state index=59, atoms={free(left), at(ball1,rooma), at(ball2,rooma), at-robby(rooma), at(ball4,roomb), carry(ball3,right)})"]
+s63[label="(instance index=3, state index=63, atoms={free(right), at(ball1,rooma), at(ball3,rooma), at-robby(rooma), at(ball4,roomb), carry(ball2,left)})"]
+s47[label="(instance index=3, state index=47, atoms={at(ball1,rooma), at(ball3,rooma), carry(ball4,left), carry(ball2,right), at-robby(roomb)})"]
+s44[label="(instance index=3, state index=44, atoms={free(right), at(ball1,rooma), at(ball3,rooma), at-robby(rooma), at(ball2,roomb), carry(ball4,left)})"]
+s248[label="(instance index=3, state index=248, atoms={at(ball1,rooma), at(ball3,rooma), carry(ball2,left), carry(ball4,right), at-robby(roomb)})"]
+s55[label="(instance index=3, state index=55, atoms={free(right), at(ball2,rooma), at(ball3,rooma), at-robby(rooma), at(ball4,roomb), carry(ball1,left)})"]
+s50[label="(instance index=3, state index=50, atoms={free(left), at(ball1,rooma), at(ball3,rooma), at-robby(rooma), at(ball4,roomb), carry(ball2,right)})"]
+s77[label="(instance index=3, state index=77, atoms={free(left), at(ball1,rooma), at(ball2,rooma), at-robby(rooma), at(ball3,roomb), carry(ball4,right)})"]
+s82[label="(instance index=3, state index=82, atoms={free(right), at(ball2,rooma), at(ball4,rooma), at-robby(rooma), at(ball3,roomb), carry(ball1,left)})"]
+s37[label="(instance index=3, state index=37, atoms={free(right), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), at(ball2,roomb), carry(ball1,left)})"]
+s98[label="(instance index=3, state index=98, atoms={free(right), at(ball1,rooma), at(ball4,rooma), at-robby(rooma), at(ball3,roomb), carry(ball2,left)})"]
+s86[label="(instance index=3, state index=86, atoms={free(left), at(ball1,rooma), at(ball4,rooma), at-robby(rooma), at(ball3,roomb), carry(ball2,right)})"]
+s101[label="(instance index=3, state index=101, atoms={at(ball1,rooma), at(ball4,rooma), carry(ball2,left), carry(ball3,right), at-robby(roomb)})"]
+s40[label="(instance index=3, state index=40, atoms={free(left), at(ball1,rooma), at(ball4,rooma), at-robby(rooma), at(ball2,roomb), carry(ball3,right)})"]
+s243[label="(instance index=3, state index=243, atoms={at(ball1,rooma), at(ball4,rooma), carry(ball3,left), carry(ball2,right), at-robby(roomb)})"]
+s29[label="(instance index=3, state index=29, atoms={free(right), at(ball1,rooma), at(ball4,rooma), at-robby(rooma), at(ball2,roomb), carry(ball3,left)})"]
+s33[label="(instance index=3, state index=33, atoms={free(left), at(ball1,rooma), at(ball3,rooma), at-robby(rooma), at(ball2,roomb), carry(ball4,right)})"]
+s169[label="(instance index=3, state index=169, atoms={at(ball3,rooma), at-robby(rooma), at(ball1,roomb), carry(ball4,left), carry(ball2,right)})"]
+s209[label="(instance index=3, state index=209, atoms={at(ball4,rooma), at-robby(rooma), at(ball1,roomb), carry(ball3,left), carry(ball2,right)})"]
+s95[label="(instance index=3, state index=95, atoms={free(left), at(ball2,rooma), at(ball4,rooma), at(ball3,roomb), carry(ball1,right), at-robby(roomb)})"]
+s205[label="(instance index=3, state index=205, atoms={free(right), at(ball2,rooma), at(ball4,rooma), at(ball1,roomb), carry(ball3,left), at-robby(roomb)})"]
+s164[label="(instance index=3, state index=164, atoms={free(left), at(ball2,rooma), at(ball4,rooma), at(ball1,roomb), carry(ball3,right), at-robby(roomb)})"]
+s83[label="(instance index=3, state index=83, atoms={free(right), at(ball2,rooma), at(ball4,rooma), at(ball3,roomb), carry(ball1,left), at-robby(roomb)})"]
+s161[label="(instance index=3, state index=161, atoms={at(ball4,rooma), at-robby(rooma), at(ball1,roomb), carry(ball2,left), carry(ball3,right)})"]
+s96[label="(instance index=3, state index=96, atoms={at(ball4,rooma), at-robby(rooma), at(ball3,roomb), carry(ball2,left), carry(ball1,right)})"]
+s168[label="(instance index=3, state index=168, atoms={free(right), at(ball2,rooma), at(ball3,rooma), at(ball1,roomb), carry(ball4,left), at-robby(roomb)})"]
+s68[label="(instance index=3, state index=68, atoms={free(left), at(ball2,rooma), at(ball3,rooma), at(ball4,roomb), carry(ball1,right), at-robby(roomb)})"]
+s156[label="(instance index=3, state index=156, atoms={free(left), at(ball2,rooma), at(ball3,rooma), at(ball1,roomb), carry(ball4,right), at-robby(roomb)})"]
+s56[label="(instance index=3, state index=56, atoms={free(right), at(ball2,rooma), at(ball3,rooma), at(ball4,roomb), carry(ball1,left), at-robby(roomb)})"]
+s65[label="(instance index=3, state index=65, atoms={at(ball3,rooma), at-robby(rooma), at(ball4,roomb), carry(ball2,left), carry(ball1,right)})"]
+s158[label="(instance index=3, state index=158, atoms={at(ball3,rooma), at-robby(rooma), at(ball1,roomb), carry(ball2,left), carry(ball4,right)})"]
+s165[label="(instance index=3, state index=165, atoms={at(ball2,rooma), at-robby(rooma), at(ball1,roomb), carry(ball4,left), carry(ball3,right)})"]
+s153[label="(instance index=3, state index=153, atoms={at(ball2,rooma), at-robby(rooma), at(ball1,roomb), carry(ball3,left), carry(ball4,right)})"]
+s92[label="(instance index=3, state index=92, atoms={at(ball2,rooma), at-robby(rooma), at(ball3,roomb), carry(ball4,left), carry(ball1,right)})"]
+s69[label="(instance index=3, state index=69, atoms={at(ball2,rooma), at-robby(rooma), at(ball4,roomb), carry(ball3,left), carry(ball1,right)})"]
+s52[label="(instance index=3, state index=52, atoms={at(ball1,rooma), at-robby(rooma), at(ball4,roomb), carry(ball3,left), carry(ball2,right)})"]
+s88[label="(instance index=3, state index=88, atoms={at(ball1,rooma), at-robby(rooma), at(ball3,roomb), carry(ball4,left), carry(ball2,right)})"]
+s80[label="(instance index=3, state index=80, atoms={at(ball2,rooma), at-robby(rooma), at(ball3,roomb), carry(ball1,left), carry(ball4,right)})"]
+s57[label="(instance index=3, state index=57, atoms={at(ball2,rooma), at-robby(rooma), at(ball4,roomb), carry(ball1,left), carry(ball3,right)})"]
+s91[label="(instance index=3, state index=91, atoms={free(right), at(ball1,rooma), at(ball2,rooma), at(ball3,roomb), carry(ball4,left), at-robby(roomb)})"]
+s76[label="(instance index=3, state index=76, atoms={free(left), at(ball1,rooma), at(ball2,rooma), at(ball3,roomb), carry(ball4,right), at-robby(roomb)})"]
+s72[label="(instance index=3, state index=72, atoms={free(right), at(ball1,rooma), at(ball2,rooma), at(ball4,roomb), carry(ball3,left), at-robby(roomb)})"]
+s60[label="(instance index=3, state index=60, atoms={free(left), at(ball1,rooma), at(ball2,rooma), at(ball4,roomb), carry(ball3,right), at-robby(roomb)})"]
+s61[label="(instance index=3, state index=61, atoms={at(ball1,rooma), at-robby(rooma), at(ball4,roomb), carry(ball2,left), carry(ball3,right)})"]
+s64[label="(instance index=3, state index=64, atoms={free(right), at(ball1,rooma), at(ball3,rooma), at(ball4,roomb), carry(ball2,left), at-robby(roomb)})"]
+s49[label="(instance index=3, state index=49, atoms={free(left), at(ball1,rooma), at(ball3,rooma), at(ball4,roomb), carry(ball2,right), at-robby(roomb)})"]
+s45[label="(instance index=3, state index=45, atoms={free(right), at(ball1,rooma), at(ball3,rooma), at(ball2,roomb), carry(ball4,left), at-robby(roomb)})"]
+s53[label="(instance index=3, state index=53, atoms={at(ball3,rooma), at-robby(rooma), at(ball4,roomb), carry(ball1,left), carry(ball2,right)})"]
+s79[label="(instance index=3, state index=79, atoms={at(ball1,rooma), at-robby(rooma), at(ball3,roomb), carry(ball2,left), carry(ball4,right)})"]
+s84[label="(instance index=3, state index=84, atoms={at(ball4,rooma), at-robby(rooma), at(ball3,roomb), carry(ball1,left), carry(ball2,right)})"]
+s38[label="(instance index=3, state index=38, atoms={at(ball4,rooma), at-robby(rooma), at(ball2,roomb), carry(ball1,left), carry(ball3,right)})"]
+s99[label="(instance index=3, state index=99, atoms={free(right), at(ball1,rooma), at(ball4,rooma), at(ball3,roomb), carry(ball2,left), at-robby(roomb)})"]
+s87[label="(instance index=3, state index=87, atoms={free(left), at(ball1,rooma), at(ball4,rooma), at(ball3,roomb), carry(ball2,right), at-robby(roomb)})"]
+s41[label="(instance index=3, state index=41, atoms={free(left), at(ball1,rooma), at(ball4,rooma), at(ball2,roomb), carry(ball3,right), at-robby(roomb)})"]
+s34[label="(instance index=3, state index=34, atoms={free(left), at(ball1,rooma), at(ball3,rooma), at(ball2,roomb), carry(ball4,right), at-robby(roomb)})"]
+s21[label="(instance index=3, state index=21, atoms={free(left), at(ball3,rooma), at(ball4,rooma), at(ball2,roomb), carry(ball1,right), at-robby(roomb)})"]
+s27[label="(instance index=3, state index=27, atoms={at(ball4,rooma), at-robby(rooma), at(ball2,roomb), carry(ball3,left), carry(ball1,right)})"]
+s16[label="(instance index=3, state index=16, atoms={free(left), at(ball3,rooma), at(ball4,rooma), at(ball1,roomb), carry(ball2,right), at-robby(roomb)})"]
+s42[label="(instance index=3, state index=42, atoms={at(ball1,rooma), at-robby(rooma), at(ball2,roomb), carry(ball4,left), carry(ball3,right)})"]
+s30[label="(instance index=3, state index=30, atoms={free(right), at(ball1,rooma), at(ball4,rooma), at(ball2,roomb), carry(ball3,left), at-robby(roomb)})"]
+s26[label="(instance index=3, state index=26, atoms={at(ball3,rooma), at-robby(rooma), at(ball2,roomb), carry(ball4,left), carry(ball1,right)})"]
+s15[label="(instance index=3, state index=15, atoms={free(right), at(ball3,rooma), at(ball4,rooma), at(ball2,roomb), carry(ball1,left), at-robby(roomb)})"]
+s20[label="(instance index=3, state index=20, atoms={free(right), at(ball3,rooma), at(ball4,rooma), at(ball1,roomb), carry(ball2,left), at-robby(roomb)})"]
+s35[label="(instance index=3, state index=35, atoms={at(ball3,rooma), at-robby(rooma), at(ball2,roomb), carry(ball1,left), carry(ball4,right)})"]
+s31[label="(instance index=3, state index=31, atoms={at(ball1,rooma), at-robby(rooma), at(ball2,roomb), carry(ball3,left), carry(ball4,right)})"]
+s170[label="(instance index=3, state index=170, atoms={at(ball3,rooma), at(ball1,roomb), carry(ball4,left), carry(ball2,right), at-robby(roomb)})"]
+s175[label="(instance index=3, state index=175, atoms={at(ball3,rooma), at(ball2,roomb), carry(ball4,left), carry(ball1,right), at-robby(roomb)})"]
+s208[label="(instance index=3, state index=208, atoms={at(ball4,rooma), at(ball1,roomb), carry(ball3,left), carry(ball2,right), at-robby(roomb)})"]
+s200[label="(instance index=3, state index=200, atoms={free(left), free(right), at(ball2,rooma), at(ball4,rooma), at(ball1,roomb), at(ball3,roomb), at-robby(roomb)})"]
+s162[label="(instance index=3, state index=162, atoms={at(ball4,rooma), at(ball1,roomb), carry(ball2,left), carry(ball3,right), at-robby(roomb)})"]
+s97[label="(instance index=3, state index=97, atoms={at(ball4,rooma), at(ball3,roomb), carry(ball2,left), carry(ball1,right), at-robby(roomb)})"]
+s231[label="(instance index=3, state index=231, atoms={free(left), free(right), at(ball2,rooma), at(ball3,rooma), at(ball1,roomb), at(ball4,roomb), at-robby(roomb)})"]
+s66[label="(instance index=3, state index=66, atoms={at(ball3,rooma), at(ball4,roomb), carry(ball2,left), carry(ball1,right), at-robby(roomb)})"]
+s159[label="(instance index=3, state index=159, atoms={at(ball3,rooma), at(ball1,roomb), carry(ball2,left), carry(ball4,right), at-robby(roomb)})"]
+s166[label="(instance index=3, state index=166, atoms={at(ball2,rooma), at(ball1,roomb), carry(ball4,left), carry(ball3,right), at-robby(roomb)})"]
+s152[label="(instance index=3, state index=152, atoms={at(ball2,rooma), at(ball1,roomb), carry(ball3,left), carry(ball4,right), at-robby(roomb)})"]
+s93[label="(instance index=3, state index=93, atoms={at(ball2,rooma), at(ball3,roomb), carry(ball4,left), carry(ball1,right), at-robby(roomb)})"]
+s70[label="(instance index=3, state index=70, atoms={at(ball2,rooma), at(ball4,roomb), carry(ball3,left), carry(ball1,right), at-robby(roomb)})"]
+s218[label="(instance index=3, state index=218, atoms={at(ball1,rooma), at(ball4,roomb), carry(ball3,left), carry(ball2,right), at-robby(roomb)})"]
+s89[label="(instance index=3, state index=89, atoms={at(ball1,rooma), at(ball3,roomb), carry(ball4,left), carry(ball2,right), at-robby(roomb)})"]
+s81[label="(instance index=3, state index=81, atoms={at(ball2,rooma), at(ball3,roomb), carry(ball1,left), carry(ball4,right), at-robby(roomb)})"]
+s58[label="(instance index=3, state index=58, atoms={at(ball2,rooma), at(ball4,roomb), carry(ball1,left), carry(ball3,right), at-robby(roomb)})"]
+s73[label="(instance index=3, state index=73, atoms={free(left), free(right), at(ball1,rooma), at(ball2,rooma), at(ball3,roomb), at(ball4,roomb), at-robby(roomb)})"]
+s62[label="(instance index=3, state index=62, atoms={at(ball1,rooma), at(ball4,roomb), carry(ball2,left), carry(ball3,right), at-robby(roomb)})"]
+s46[label="(instance index=3, state index=46, atoms={free(left), free(right), at(ball1,rooma), at(ball3,rooma), at(ball2,roomb), at(ball4,roomb), at-robby(roomb)})"]
+s36[label="(instance index=3, state index=36, atoms={at(ball3,rooma), at(ball2,roomb), carry(ball1,left), carry(ball4,right), at-robby(roomb)})"]
+s54[label="(instance index=3, state index=54, atoms={at(ball3,rooma), at(ball4,roomb), carry(ball1,left), carry(ball2,right), at-robby(roomb)})"]
+s224[label="(instance index=3, state index=224, atoms={at(ball1,rooma), at(ball3,roomb), carry(ball2,left), carry(ball4,right), at-robby(roomb)})"]
+s85[label="(instance index=3, state index=85, atoms={at(ball4,rooma), at(ball3,roomb), carry(ball1,left), carry(ball2,right), at-robby(roomb)})"]
+s39[label="(instance index=3, state index=39, atoms={at(ball4,rooma), at(ball2,roomb), carry(ball1,left), carry(ball3,right), at-robby(roomb)})"]
+s100[label="(instance index=3, state index=100, atoms={free(left), free(right), at(ball1,rooma), at(ball4,rooma), at(ball2,roomb), at(ball3,roomb), at-robby(roomb)})"]
+s18[label="(instance index=3, state index=18, atoms={free(left), free(right), at(ball3,rooma), at(ball4,rooma), at(ball1,roomb), at(ball2,roomb), at-robby(roomb)})"]
+s32[label="(instance index=3, state index=32, atoms={at(ball1,rooma), at(ball2,roomb), carry(ball3,left), carry(ball4,right), at-robby(roomb)})"]
+s28[label="(instance index=3, state index=28, atoms={at(ball4,rooma), at(ball2,roomb), carry(ball3,left), carry(ball1,right), at-robby(roomb)})"]
+s43[label="(instance index=3, state index=43, atoms={at(ball1,rooma), at(ball2,roomb), carry(ball4,left), carry(ball3,right), at-robby(roomb)})"]
+s197[label="(instance index=3, state index=197, atoms={free(left), at(ball4,rooma), at(ball2,roomb), at(ball3,roomb), carry(ball1,right), at-robby(roomb)})"]
+s193[label="(instance index=3, state index=193, atoms={free(left), at(ball4,rooma), at(ball1,roomb), at(ball2,roomb), carry(ball3,right), at-robby(roomb)})"]
+s195[label="(instance index=3, state index=195, atoms={free(left), at(ball4,rooma), at(ball1,roomb), at(ball3,roomb), carry(ball2,right), at-robby(roomb)})"]
+s171[label="(instance index=3, state index=171, atoms={free(left), at(ball3,rooma), at(ball1,roomb), at(ball4,roomb), carry(ball2,right), at-robby(roomb)})"]
+s172[label="(instance index=3, state index=172, atoms={free(right), at(ball3,rooma), at(ball1,roomb), at(ball2,roomb), carry(ball4,left), at-robby(roomb)})"]
+s176[label="(instance index=3, state index=176, atoms={free(left), at(ball3,rooma), at(ball2,roomb), at(ball4,roomb), carry(ball1,right), at-robby(roomb)})"]
+s213[label="(instance index=3, state index=213, atoms={free(left), at(ball3,rooma), at(ball1,roomb), at(ball2,roomb), carry(ball4,right), at-robby(roomb)})"]
+s194[label="(instance index=3, state index=194, atoms={free(right), at(ball4,rooma), at(ball1,roomb), at(ball2,roomb), carry(ball3,left), at-robby(roomb)})"]
+s199[label="(instance index=3, state index=199, atoms={free(left), free(right), at(ball2,rooma), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), at(ball3,roomb)})"]
+s196[label="(instance index=3, state index=196, atoms={free(right), at(ball4,rooma), at(ball1,roomb), at(ball3,roomb), carry(ball2,left), at-robby(roomb)})"]
+s149[label="(instance index=3, state index=149, atoms={free(right), at(ball2,rooma), at(ball1,roomb), at(ball4,roomb), carry(ball3,left), at-robby(roomb)})"]
+s148[label="(instance index=3, state index=148, atoms={free(left), at(ball2,rooma), at(ball1,roomb), at(ball4,roomb), carry(ball3,right), at-robby(roomb)})"]
+s147[label="(instance index=3, state index=147, atoms={free(right), at(ball2,rooma), at(ball1,roomb), at(ball3,roomb), carry(ball4,left), at-robby(roomb)})"]
+s146[label="(instance index=3, state index=146, atoms={free(left), at(ball2,rooma), at(ball1,roomb), at(ball3,roomb), carry(ball4,right), at-robby(roomb)})"]
+s139[label="(instance index=3, state index=139, atoms={free(left), at(ball1,rooma), at(ball3,roomb), at(ball4,roomb), carry(ball2,right), at-robby(roomb)})"]
+s150[label="(instance index=3, state index=150, atoms={free(right), at(ball2,rooma), at(ball3,roomb), at(ball4,roomb), carry(ball1,left), at-robby(roomb)})"]
+s140[label="(instance index=3, state index=140, atoms={free(left), free(right), at(ball1,rooma), at(ball2,rooma), at-robby(rooma), at(ball3,roomb), at(ball4,roomb)})"]
+s178[label="(instance index=3, state index=178, atoms={free(left), free(right), at(ball1,rooma), at(ball3,rooma), at-robby(rooma), at(ball2,roomb), at(ball4,roomb)})"]
+s182[label="(instance index=3, state index=182, atoms={free(right), at(ball3,rooma), at(ball2,roomb), at(ball4,roomb), carry(ball1,left), at-robby(roomb)})"]
+s108[label="(instance index=3, state index=108, atoms={free(right), at(ball4,rooma), at(ball2,roomb), at(ball3,roomb), carry(ball1,left), at-robby(roomb)})"]
+s103[label="(instance index=3, state index=103, atoms={free(left), free(right), at(ball1,rooma), at(ball4,rooma), at-robby(rooma), at(ball2,roomb), at(ball3,roomb)})"]
+s222[label="(instance index=3, state index=222, atoms={free(left), at(ball1,rooma), at(ball2,roomb), at(ball4,roomb), carry(ball3,right), at-robby(roomb)})"]
+s221[label="(instance index=3, state index=221, atoms={free(right), at(ball1,rooma), at(ball2,roomb), at(ball3,roomb), carry(ball4,left), at-robby(roomb)})"]
+s226[label="(instance index=3, state index=226, atoms={free(right), at(ball3,rooma), at(ball1,roomb), at(ball4,roomb), carry(ball2,left), at-robby(roomb)})"]
+s223[label="(instance index=3, state index=223, atoms={free(right), at(ball1,rooma), at(ball3,roomb), at(ball4,roomb), carry(ball2,left), at-robby(roomb)})"]
+s19[label="(instance index=3, state index=19, atoms={free(left), free(right), at(ball3,rooma), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), at(ball2,roomb)})"]
+s216[label="(instance index=3, state index=216, atoms={free(right), at(ball1,rooma), at(ball2,roomb), at(ball4,roomb), carry(ball3,left), at-robby(roomb)})"]
+s220[label="(instance index=3, state index=220, atoms={free(left), at(ball1,rooma), at(ball2,roomb), at(ball3,roomb), carry(ball4,right), at-robby(roomb)})"]
+s228[label="(instance index=3, state index=228, atoms={free(left), free(right), at(ball2,rooma), at(ball3,rooma), at-robby(rooma), at(ball1,roomb), at(ball4,roomb)})"]
+s143[label="(instance index=3, state index=143, atoms={free(left), at(ball2,rooma), at(ball3,roomb), at(ball4,roomb), carry(ball1,right), at-robby(roomb)})"]
+s173[label="(instance index=3, state index=173, atoms={free(right), at(ball3,rooma), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), carry(ball4,left)})"]
+s192[label="(instance index=3, state index=192, atoms={free(left), free(right), at(ball4,rooma), at(ball1,roomb), at(ball2,roomb), at(ball3,roomb), at-robby(roomb)})"]
+s106[label="(instance index=3, state index=106, atoms={free(left), at(ball4,rooma), at-robby(rooma), at(ball2,roomb), at(ball3,roomb), carry(ball1,right)})"]
+s203[label="(instance index=3, state index=203, atoms={free(left), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), at(ball3,roomb), carry(ball2,right)})"]
+s105[label="(instance index=3, state index=105, atoms={free(right), at(ball1,rooma), at-robby(rooma), at(ball2,roomb), at(ball3,roomb), carry(ball4,left)})"]
+s202[label="(instance index=3, state index=202, atoms={free(right), at(ball2,rooma), at-robby(rooma), at(ball1,roomb), at(ball3,roomb), carry(ball4,left)})"]
+s151[label="(instance index=3, state index=151, atoms={free(right), at(ball2,rooma), at-robby(rooma), at(ball1,roomb), at(ball4,roomb), carry(ball3,left)})"]
+s174[label="(instance index=3, state index=174, atoms={free(left), free(right), at(ball3,rooma), at(ball1,roomb), at(ball2,roomb), at(ball4,roomb), at-robby(roomb)})"]
+s180[label="(instance index=3, state index=180, atoms={free(right), at(ball1,rooma), at-robby(rooma), at(ball2,roomb), at(ball4,roomb), carry(ball3,left)})"]
+s177[label="(instance index=3, state index=177, atoms={free(left), at(ball3,rooma), at-robby(rooma), at(ball2,roomb), at(ball4,roomb), carry(ball1,right)})"]
+s141[label="(instance index=3, state index=141, atoms={free(right), at(ball1,rooma), at-robby(rooma), at(ball3,roomb), at(ball4,roomb), carry(ball2,left)})"]
+s198[label="(instance index=3, state index=198, atoms={free(right), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), at(ball3,roomb), carry(ball2,left)})"]
+s144[label="(instance index=3, state index=144, atoms={free(left), free(right), at(ball2,rooma), at(ball1,roomb), at(ball3,roomb), at(ball4,roomb), at-robby(roomb)})"]
+s138[label="(instance index=3, state index=138, atoms={free(left), at(ball1,rooma), at-robby(rooma), at(ball3,roomb), at(ball4,roomb), carry(ball2,right)})"]
+s137[label="(instance index=3, state index=137, atoms={free(right), at(ball2,rooma), at-robby(rooma), at(ball3,roomb), at(ball4,roomb), carry(ball1,left)})"]
+s179[label="(instance index=3, state index=179, atoms={free(left), at(ball1,rooma), at-robby(rooma), at(ball2,roomb), at(ball4,roomb), carry(ball3,right)})"]
+s181[label="(instance index=3, state index=181, atoms={free(right), at(ball3,rooma), at-robby(rooma), at(ball2,roomb), at(ball4,roomb), carry(ball1,left)})"]
+s201[label="(instance index=3, state index=201, atoms={free(left), at(ball2,rooma), at-robby(rooma), at(ball1,roomb), at(ball3,roomb), carry(ball4,right)})"]
+s104[label="(instance index=3, state index=104, atoms={free(left), at(ball1,rooma), at-robby(rooma), at(ball2,roomb), at(ball3,roomb), carry(ball4,right)})"]
+s107[label="(instance index=3, state index=107, atoms={free(right), at(ball4,rooma), at-robby(rooma), at(ball2,roomb), at(ball3,roomb), carry(ball1,left)})"]
+s214[label="(instance index=3, state index=214, atoms={free(left), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), carry(ball3,right)})"]
+s142[label="(instance index=3, state index=142, atoms={free(left), at(ball2,rooma), at-robby(rooma), at(ball3,roomb), at(ball4,roomb), carry(ball1,right)})"]
+s210[label="(instance index=3, state index=210, atoms={free(right), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), carry(ball3,left)})"]
+s227[label="(instance index=3, state index=227, atoms={free(right), at(ball3,rooma), at-robby(rooma), at(ball1,roomb), at(ball4,roomb), carry(ball2,left)})"]
+s212[label="(instance index=3, state index=212, atoms={free(left), at(ball3,rooma), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), carry(ball4,right)})"]
+s217[label="(instance index=3, state index=217, atoms={free(left), free(right), at(ball1,rooma), at(ball2,roomb), at(ball3,roomb), at(ball4,roomb), at-robby(roomb)})"]
+s232[label="(instance index=3, state index=232, atoms={free(left), at(ball3,rooma), at-robby(rooma), at(ball1,roomb), at(ball4,roomb), carry(ball2,right)})"]
+s230[label="(instance index=3, state index=230, atoms={free(left), at(ball2,rooma), at-robby(rooma), at(ball1,roomb), at(ball4,roomb), carry(ball3,right)})"]
+s204[label="(instance index=3, state index=204, atoms={at-robby(rooma), at(ball1,roomb), at(ball3,roomb), carry(ball4,left), carry(ball2,right)})"]
+s188[label="(instance index=3, state index=188, atoms={at-robby(rooma), at(ball1,roomb), at(ball2,roomb), carry(ball4,left), carry(ball3,right)})"]
+s191[label="(instance index=3, state index=191, atoms={free(left), free(right), at(ball4,rooma), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), at(ball3,roomb)})"]
+s127[label="(instance index=3, state index=127, atoms={at-robby(rooma), at(ball2,roomb), at(ball4,roomb), carry(ball3,left), carry(ball1,right)})"]
+s219[label="(instance index=3, state index=219, atoms={free(left), free(right), at(ball1,rooma), at-robby(rooma), at(ball2,roomb), at(ball3,roomb), at(ball4,roomb)})"]
+s122[label="(instance index=3, state index=122, atoms={at-robby(rooma), at(ball3,roomb), at(ball4,roomb), carry(ball2,left), carry(ball1,right)})"]
+s211[label="(instance index=3, state index=211, atoms={at-robby(rooma), at(ball1,roomb), at(ball2,roomb), carry(ball3,left), carry(ball4,right)})"]
+s117[label="(instance index=3, state index=117, atoms={at-robby(rooma), at(ball1,roomb), at(ball3,roomb), carry(ball2,left), carry(ball4,right)})"]
+s239[label="(instance index=3, state index=239, atoms={at-robby(rooma), at(ball2,roomb), at(ball3,roomb), carry(ball4,left), carry(ball1,right)})"]
+s145[label="(instance index=3, state index=145, atoms={free(left), free(right), at(ball2,rooma), at-robby(rooma), at(ball1,roomb), at(ball3,roomb), at(ball4,roomb)})"]
+s136[label="(instance index=3, state index=136, atoms={at-robby(rooma), at(ball3,roomb), at(ball4,roomb), carry(ball1,left), carry(ball2,right)})"]
+s183[label="(instance index=3, state index=183, atoms={at-robby(rooma), at(ball2,roomb), at(ball4,roomb), carry(ball1,left), carry(ball3,right)})"]
+s109[label="(instance index=3, state index=109, atoms={at-robby(rooma), at(ball2,roomb), at(ball3,roomb), carry(ball1,left), carry(ball4,right)})"]
+s215[label="(instance index=3, state index=215, atoms={free(left), free(right), at(ball3,rooma), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), at(ball4,roomb)})"]
+s229[label="(instance index=3, state index=229, atoms={at-robby(rooma), at(ball1,roomb), at(ball4,roomb), carry(ball2,left), carry(ball3,right)})"]
+s131[label="(instance index=3, state index=131, atoms={at-robby(rooma), at(ball1,roomb), at(ball4,roomb), carry(ball3,left), carry(ball2,right)})"]
+s186[label="(instance index=3, state index=186, atoms={free(left), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), at(ball4,roomb), carry(ball3,right)})"]
+s190[label="(instance index=3, state index=190, atoms={free(right), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), at(ball3,roomb), carry(ball4,left)})"]
+s187[label="(instance index=3, state index=187, atoms={at(ball1,roomb), at(ball2,roomb), carry(ball4,left), carry(ball3,right), at-robby(roomb)})"]
+s125[label="(instance index=3, state index=125, atoms={at(ball2,roomb), at(ball3,roomb), carry(ball4,left), carry(ball1,right), at-robby(roomb)})"]
+s124[label="(instance index=3, state index=124, atoms={free(left), at-robby(rooma), at(ball2,roomb), at(ball3,roomb), at(ball4,roomb), carry(ball1,right)})"]
+s113[label="(instance index=3, state index=113, atoms={free(left), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), at(ball3,roomb), carry(ball4,right)})"]
+s134[label="(instance index=3, state index=134, atoms={at(ball1,roomb), at(ball3,roomb), carry(ball4,left), carry(ball2,right), at-robby(roomb)})"]
+s130[label="(instance index=3, state index=130, atoms={at(ball1,roomb), at(ball4,roomb), carry(ball3,left), carry(ball2,right), at-robby(roomb)})"]
+s129[label="(instance index=3, state index=129, atoms={free(right), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), at(ball4,roomb), carry(ball3,left)})"]
+s126[label="(instance index=3, state index=126, atoms={at(ball2,roomb), at(ball4,roomb), carry(ball3,left), carry(ball1,right), at-robby(roomb)})"]
+s121[label="(instance index=3, state index=121, atoms={at(ball3,roomb), at(ball4,roomb), carry(ball2,left), carry(ball1,right), at-robby(roomb)})"]
+s119[label="(instance index=3, state index=119, atoms={free(right), at-robby(rooma), at(ball1,roomb), at(ball3,roomb), at(ball4,roomb), carry(ball2,left)})"]
+s115[label="(instance index=3, state index=115, atoms={at(ball1,roomb), at(ball2,roomb), carry(ball3,left), carry(ball4,right), at-robby(roomb)})"]
+s184[label="(instance index=3, state index=184, atoms={at(ball2,roomb), at(ball4,roomb), carry(ball1,left), carry(ball3,right), at-robby(roomb)})"]
+s120[label="(instance index=3, state index=120, atoms={at(ball1,roomb), at(ball4,roomb), carry(ball2,left), carry(ball3,right), at-robby(roomb)})"]
+s135[label="(instance index=3, state index=135, atoms={at(ball3,roomb), at(ball4,roomb), carry(ball1,left), carry(ball2,right), at-robby(roomb)})"]
+s133[label="(instance index=3, state index=133, atoms={free(left), at-robby(rooma), at(ball1,roomb), at(ball3,roomb), at(ball4,roomb), carry(ball2,right)})"]
+s225[label="(instance index=3, state index=225, atoms={free(right), at-robby(rooma), at(ball2,roomb), at(ball3,roomb), at(ball4,roomb), carry(ball1,left)})"]
+s110[label="(instance index=3, state index=110, atoms={at(ball2,roomb), at(ball3,roomb), carry(ball1,left), carry(ball4,right), at-robby(roomb)})"]
+s116[label="(instance index=3, state index=116, atoms={at(ball1,roomb), at(ball3,roomb), carry(ball2,left), carry(ball4,right), at-robby(roomb)})"]
+s118[label="(instance index=3, state index=118, atoms={free(right), at(ball1,roomb), at(ball3,roomb), at(ball4,roomb), carry(ball2,left), at-robby(roomb)})"]
+s189[label="(instance index=3, state index=189, atoms={free(right), at(ball1,roomb), at(ball2,roomb), at(ball3,roomb), carry(ball4,left), at-robby(roomb)})"]
+s123[label="(instance index=3, state index=123, atoms={free(left), at(ball2,roomb), at(ball3,roomb), at(ball4,roomb), carry(ball1,right), at-robby(roomb)})"]
+s132[label="(instance index=3, state index=132, atoms={free(left), at(ball1,roomb), at(ball3,roomb), at(ball4,roomb), carry(ball2,right), at-robby(roomb)})"]
+s112[label="(instance index=3, state index=112, atoms={free(left), at(ball1,roomb), at(ball2,roomb), at(ball3,roomb), carry(ball4,right), at-robby(roomb)})"]
+s128[label="(instance index=3, state index=128, atoms={free(right), at(ball1,roomb), at(ball2,roomb), at(ball4,roomb), carry(ball3,left), at-robby(roomb)})"]
+s111[label="(instance index=3, state index=111, atoms={free(right), at(ball2,roomb), at(ball3,roomb), at(ball4,roomb), carry(ball1,left), at-robby(roomb)})"]
+s185[label="(instance index=3, state index=185, atoms={free(left), at(ball1,roomb), at(ball2,roomb), at(ball4,roomb), carry(ball3,right), at-robby(roomb)})"]
+s114[peripheries=2,label="(instance index=3, state index=114, atoms={free(left), free(right), at(ball1,roomb), at(ball2,roomb), at(ball3,roomb), at(ball4,roomb), at-robby(roomb)})"]
+s240[peripheries=2,label="(instance index=3, state index=240, atoms={free(left), free(right), at-robby(rooma), at(ball1,roomb), at(ball2,roomb), at(ball3,roomb), at(ball4,roomb)})"]
 Dangling [ label = "", style = invis ]
 { rank = same; Dangling }
 Dangling -> s0
 { rank = same; s0}
-{ rank = same; s1}
-{ rank = same; s3,s4,s5}
+{ rank = same; s237,s10,s252,s251,s246,s247,s0,s255,s254}
+{ rank = same; s8,s9,s236,s3,s2,s250,s245,s7,s4,s6,s5,s253}
+{ rank = same; s24,s13,s207,s12,s234,s11,s157,s75,s242,s48,s249,s51,s78,s102,s244,s25}
+{ rank = same; s22,s17,s23,s14,s206,s235,s233,s238,s160,s167,s163,s155,s154,s94,s67,s90,s74,s71,s241,s59,s63,s47,s44,s248,s55,s50,s77,s82,s37,s98,s86,s101,s40,s243,s29,s33}
+{ rank = same; s169,s209,s95,s205,s164,s83,s161,s96,s168,s68,s156,s56,s65,s158,s165,s153,s92,s69,s52,s88,s80,s57,s91,s76,s72,s60,s61,s64,s49,s45,s53,s79,s84,s38,s99,s87,s41,s34,s21,s27,s16,s42,s30,s26,s15,s20,s35,s31}
+{ rank = same; s170,s175,s208,s200,s162,s97,s231,s66,s159,s166,s152,s93,s70,s218,s89,s81,s58,s73,s62,s46,s36,s54,s224,s85,s39,s100,s18,s32,s28,s43}
+{ rank = same; s197,s193,s195,s171,s172,s176,s213,s194,s199,s196,s149,s148,s147,s146,s139,s150,s140,s178,s182,s108,s103,s222,s221,s226,s223,s19,s216,s220,s228,s143}
+{ rank = same; s173,s192,s106,s203,s105,s202,s151,s174,s180,s177,s141,s198,s144,s138,s137,s179,s181,s201,s104,s107,s214,s142,s210,s227,s212,s217,s232,s230}
+{ rank = same; s204,s188,s191,s127,s219,s122,s211,s117,s239,s145,s136,s183,s109,s215,s229,s131}
+{ rank = same; s186,s190,s187,s125,s124,s113,s134,s130,s129,s126,s121,s119,s115,s184,s120,s135,s133,s225,s110,s116}
+{ rank = same; s118,s189,s123,s132,s112,s128,s111,s185}
+{ rank = same; s114,s240}
 {
-s2->s1
+s1->s1
+s1->s0
+}
+{
+s237->s237
+s237->s236
+s237->s8
+s10->s236
+s10->s10
+s10->s9
+s252->s252
+s252->s3
+s252->s250
+s251->s251
+s251->s2
+s251->s250
+s246->s246
+s246->s245
+s246->s4
+s247->s247
+s247->s5
+s247->s245
+s0->s9
+s0->s8
+s0->s7
+s0->s6
+s0->s5
+s0->s4
+s0->s3
+s0->s2
 s0->s1
+s0->s0
+s255->s7
+s255->s253
+s255->s255
+s254->s254
+s254->s6
+s254->s253
 }
 {
-s1->s3
-s1->s2
+s8->s207
+s8->s237
+s8->s24
+s8->s234
+s8->s8
+s8->s0
+s9->s13
+s9->s12
+s9->s11
+s9->s10
+s9->s9
+s9->s0
+s236->s236
+s236->s10
+s236->s157
+s236->s237
+s3->s242
+s3->s48
+s3->s234
+s3->s3
+s3->s252
+s3->s0
+s2->s251
+s2->s249
+s2->s11
+s2->s75
+s2->s2
+s2->s0
+s250->s252
+s250->s251
+s250->s51
+s250->s250
+s245->s246
+s245->s78
+s245->s245
+s245->s247
+s7->s255
+s7->s24
+s7->s249
+s7->s102
+s7->s7
+s7->s0
+s4->s246
+s4->s12
+s4->s242
+s4->s102
+s4->s4
+s4->s0
+s6->s254
+s6->s244
+s6->s48
+s6->s13
+s6->s6
+s6->s0
+s5->s247
+s5->s244
+s5->s207
+s5->s75
+s5->s5
+s5->s0
+s253->s255
+s253->s254
+s253->s253
+s253->s25
 }
 {
-s3->s4
-s4->s5
-s4->s3
-s5->s4
+s24->s23
+s24->s7
+s24->s8
+s24->s24
+s13->s6
+s13->s14
+s13->s13
+s13->s9
+s207->s207
+s207->s206
+s207->s5
+s207->s8
+s12->s4
+s12->s12
+s12->s235
+s12->s9
+s234->s3
+s234->s234
+s234->s233
+s234->s8
+s11->s11
+s11->s238
+s11->s2
+s11->s9
+s157->s157
+s157->s154
+s157->s17
+s157->s236
+s157->s167
+s157->s155
+s157->s163
+s157->s160
+s75->s5
+s75->s75
+s75->s74
+s75->s2
+s242->s4
+s242->s3
+s242->s242
+s242->s241
+s48->s6
+s48->s47
+s48->s3
+s48->s48
+s249->s7
+s249->s2
+s249->s249
+s249->s248
+s51->s250
+s51->s50
+s51->s63
+s51->s55
+s51->s71
+s51->s59
+s51->s51
+s51->s67
+s78->s94
+s78->s86
+s78->s78
+s78->s245
+s78->s77
+s78->s90
+s78->s82
+s78->s98
+s102->s7
+s102->s102
+s102->s101
+s102->s4
+s244->s6
+s244->s5
+s244->s244
+s244->s243
+s25->s22
+s25->s44
+s25->s40
+s25->s253
+s25->s29
+s25->s37
+s25->s25
+s25->s33
+}
+{
+s22->s25
+s22->s27
+s22->s22
+s22->s26
+s22->s21
+s17->s157
+s17->s17
+s17->s16
+s17->s209
+s17->s169
+s23->s23
+s23->s21
+s23->s20
+s23->s24
+s14->s15
+s14->s14
+s14->s13
+s14->s16
+s206->s206
+s206->s205
+s206->s207
+s206->s95
+s235->s235
+s235->s83
+s235->s12
+s235->s164
+s233->s234
+s233->s233
+s233->s68
+s233->s168
+s238->s238
+s238->s11
+s238->s156
+s238->s56
+s160->s158
+s160->s157
+s160->s161
+s160->s20
+s160->s160
+s167->s169
+s167->s168
+s167->s157
+s167->s167
+s167->s165
+s163->s157
+s163->s165
+s163->s164
+s163->s163
+s163->s161
+s155->s157
+s155->s156
+s155->s155
+s155->s158
+s155->s153
+s154->s157
+s154->s153
+s154->s154
+s154->s209
+s154->s205
+s94->s95
+s94->s94
+s94->s92
+s94->s78
+s94->s96
+s67->s51
+s67->s69
+s67->s68
+s67->s67
+s67->s65
+s90->s92
+s90->s91
+s90->s90
+s90->s88
+s90->s78
+s74->s75
+s74->s74
+s74->s76
+s74->s72
+s71->s52
+s71->s72
+s71->s51
+s71->s71
+s71->s69
+s241->s60
+s241->s91
+s241->s242
+s241->s241
+s59->s60
+s59->s59
+s59->s57
+s59->s61
+s59->s51
+s63->s63
+s63->s61
+s63->s51
+s63->s65
+s63->s64
+s47->s47
+s47->s45
+s47->s49
+s47->s48
+s44->s26
+s44->s25
+s44->s45
+s44->s44
+s44->s42
+s248->s34
+s248->s249
+s248->s64
+s248->s248
+s55->s57
+s55->s55
+s55->s53
+s55->s56
+s55->s51
+s50->s53
+s50->s52
+s50->s51
+s50->s50
+s50->s49
+s77->s80
+s77->s79
+s77->s78
+s77->s77
+s77->s76
+s82->s84
+s82->s82
+s82->s80
+s82->s83
+s82->s78
+s37->s38
+s37->s37
+s37->s25
+s37->s15
+s37->s35
+s98->s79
+s98->s99
+s98->s78
+s98->s98
+s98->s96
+s86->s87
+s86->s86
+s86->s84
+s86->s88
+s86->s78
+s101->s102
+s101->s99
+s101->s101
+s101->s41
+s40->s42
+s40->s41
+s40->s25
+s40->s40
+s40->s38
+s243->s30
+s243->s244
+s243->s87
+s243->s243
+s29->s31
+s29->s29
+s29->s27
+s29->s30
+s29->s25
+s33->s31
+s33->s25
+s33->s35
+s33->s34
+s33->s33
+}
+{
+s169->s167
+s169->s170
+s169->s17
+s169->s169
+s209->s154
+s209->s17
+s209->s209
+s209->s208
+s95->s95
+s95->s94
+s95->s206
+s95->s200
+s205->s205
+s205->s206
+s205->s154
+s205->s200
+s164->s235
+s164->s163
+s164->s164
+s164->s200
+s83->s235
+s83->s83
+s83->s82
+s83->s200
+s161->s163
+s161->s162
+s161->s161
+s161->s160
+s96->s94
+s96->s98
+s96->s97
+s96->s96
+s168->s167
+s168->s231
+s168->s233
+s168->s168
+s68->s68
+s68->s231
+s68->s67
+s68->s233
+s156->s238
+s156->s156
+s156->s231
+s156->s155
+s56->s238
+s56->s55
+s56->s231
+s56->s56
+s65->s63
+s65->s67
+s65->s66
+s65->s65
+s158->s158
+s158->s159
+s158->s155
+s158->s160
+s165->s166
+s165->s165
+s165->s167
+s165->s163
+s153->s155
+s153->s154
+s153->s153
+s153->s152
+s92->s93
+s92->s92
+s92->s94
+s92->s90
+s69->s70
+s69->s69
+s69->s71
+s69->s67
+s52->s71
+s52->s52
+s52->s50
+s52->s218
+s88->s86
+s88->s90
+s88->s89
+s88->s88
+s80->s82
+s80->s77
+s80->s81
+s80->s80
+s57->s55
+s57->s59
+s57->s58
+s57->s57
+s91->s91
+s91->s90
+s91->s241
+s91->s73
+s76->s76
+s76->s74
+s76->s77
+s76->s73
+s72->s71
+s72->s74
+s72->s73
+s72->s72
+s60->s60
+s60->s59
+s60->s241
+s60->s73
+s61->s62
+s61->s61
+s61->s63
+s61->s59
+s64->s63
+s64->s46
+s64->s248
+s64->s64
+s49->s47
+s49->s46
+s49->s50
+s49->s49
+s45->s47
+s45->s46
+s45->s45
+s45->s44
+s53->s55
+s53->s53
+s53->s54
+s53->s50
+s79->s79
+s79->s77
+s79->s98
+s79->s224
+s84->s85
+s84->s84
+s84->s86
+s84->s82
+s38->s39
+s38->s38
+s38->s37
+s38->s40
+s99->s101
+s99->s100
+s99->s99
+s99->s98
+s87->s86
+s87->s100
+s87->s87
+s87->s243
+s41->s101
+s41->s41
+s41->s100
+s41->s40
+s34->s46
+s34->s34
+s34->s33
+s34->s248
+s21->s23
+s21->s21
+s21->s22
+s21->s18
+s27->s22
+s27->s29
+s27->s28
+s27->s27
+s16->s14
+s16->s18
+s16->s17
+s16->s16
+s42->s43
+s42->s42
+s42->s44
+s42->s40
+s30->s30
+s30->s29
+s30->s100
+s30->s243
+s26->s175
+s26->s44
+s26->s22
+s26->s26
+s15->s15
+s15->s37
+s15->s14
+s15->s18
+s20->s23
+s20->s18
+s20->s20
+s20->s160
+s35->s36
+s35->s35
+s35->s37
+s35->s33
+s31->s31
+s31->s29
+s31->s33
+s31->s32
+}
+{
+s170->s172
+s170->s171
+s170->s170
+s170->s169
+s175->s175
+s175->s26
+s175->s172
+s175->s176
+s208->s195
+s208->s194
+s208->s209
+s208->s208
+s200->s83
+s200->s205
+s200->s95
+s200->s200
+s200->s199
+s200->s164
+s162->s196
+s162->s162
+s162->s193
+s162->s161
+s97->s197
+s97->s97
+s97->s196
+s97->s96
+s231->s156
+s231->s56
+s231->s168
+s231->s231
+s231->s68
+s231->s228
+s66->s226
+s66->s66
+s66->s65
+s66->s176
+s159->s159
+s159->s213
+s159->s158
+s159->s226
+s166->s166
+s166->s165
+s166->s148
+s166->s147
+s152->s146
+s152->s149
+s152->s153
+s152->s152
+s93->s93
+s93->s92
+s93->s143
+s93->s147
+s70->s143
+s70->s70
+s70->s69
+s70->s149
+s218->s139
+s218->s218
+s218->s52
+s218->s216
+s89->s139
+s89->s221
+s89->s89
+s89->s88
+s81->s150
+s81->s146
+s81->s81
+s81->s80
+s58->s148
+s58->s150
+s58->s58
+s58->s57
+s73->s60
+s73->s76
+s73->s91
+s73->s140
+s73->s73
+s73->s72
+s62->s223
+s62->s61
+s62->s62
+s62->s222
+s46->s49
+s46->s46
+s46->s178
+s46->s45
+s46->s34
+s46->s64
+s36->s182
+s36->s213
+s36->s36
+s36->s35
+s54->s53
+s54->s54
+s54->s182
+s54->s171
+s224->s79
+s224->s223
+s224->s220
+s224->s224
+s85->s85
+s85->s195
+s85->s84
+s85->s108
+s39->s39
+s39->s38
+s39->s108
+s39->s193
+s100->s87
+s100->s41
+s100->s103
+s100->s30
+s100->s100
+s100->s99
+s18->s21
+s18->s20
+s18->s19
+s18->s18
+s18->s16
+s18->s15
+s32->s31
+s32->s216
+s32->s220
+s32->s32
+s28->s197
+s28->s28
+s28->s27
+s28->s194
+s43->s221
+s43->s43
+s43->s222
+s43->s42
+}
+{
+s197->s28
+s197->s106
+s197->s197
+s197->s97
+s197->s192
+s193->s214
+s193->s39
+s193->s193
+s193->s162
+s193->s192
+s195->s208
+s195->s203
+s195->s85
+s195->s195
+s195->s192
+s171->s54
+s171->s174
+s171->s171
+s171->s170
+s171->s232
+s172->s174
+s172->s173
+s172->s172
+s172->s175
+s172->s170
+s176->s177
+s176->s175
+s176->s174
+s176->s176
+s176->s66
+s213->s213
+s213->s212
+s213->s159
+s213->s174
+s213->s36
+s194->s210
+s194->s28
+s194->s208
+s194->s194
+s194->s192
+s199->s203
+s199->s202
+s199->s201
+s199->s200
+s199->s199
+s199->s198
+s196->s198
+s196->s196
+s196->s162
+s196->s97
+s196->s192
+s149->s152
+s149->s151
+s149->s149
+s149->s144
+s149->s70
+s148->s58
+s148->s148
+s148->s144
+s148->s230
+s148->s166
+s147->s93
+s147->s144
+s147->s147
+s147->s202
+s147->s166
+s146->s152
+s146->s144
+s146->s146
+s146->s81
+s146->s201
+s139->s89
+s139->s139
+s139->s218
+s139->s138
+s139->s217
+s150->s58
+s150->s150
+s150->s81
+s150->s144
+s150->s137
+s140->s142
+s140->s141
+s140->s140
+s140->s137
+s140->s138
+s140->s73
+s178->s181
+s178->s180
+s178->s178
+s178->s177
+s178->s179
+s178->s46
+s182->s182
+s182->s54
+s182->s174
+s182->s181
+s182->s36
+s108->s85
+s108->s108
+s108->s39
+s108->s107
+s108->s192
+s103->s106
+s103->s105
+s103->s104
+s103->s103
+s103->s107
+s103->s100
+s222->s62
+s222->s222
+s222->s217
+s222->s179
+s222->s43
+s221->s221
+s221->s89
+s221->s43
+s221->s105
+s221->s217
+s226->s159
+s226->s174
+s226->s227
+s226->s66
+s226->s226
+s223->s223
+s223->s62
+s223->s217
+s223->s141
+s223->s224
+s19->s210
+s19->s212
+s19->s214
+s19->s18
+s19->s19
+s19->s173
+s216->s218
+s216->s216
+s216->s180
+s216->s217
+s216->s32
+s220->s220
+s220->s104
+s220->s224
+s220->s217
+s220->s32
+s228->s232
+s228->s231
+s228->s230
+s228->s151
+s228->s228
+s228->s227
+s143->s144
+s143->s93
+s143->s143
+s143->s142
+s143->s70
+}
+{
+s173->s173
+s173->s19
+s173->s172
+s173->s188
+s192->s191
+s192->s197
+s192->s108
+s192->s196
+s192->s195
+s192->s194
+s192->s193
+s192->s192
+s106->s197
+s106->s103
+s106->s239
+s106->s106
+s203->s204
+s203->s199
+s203->s195
+s203->s203
+s105->s103
+s105->s239
+s105->s221
+s105->s105
+s202->s204
+s202->s199
+s202->s147
+s202->s202
+s151->s149
+s151->s228
+s151->s151
+s151->s131
+s174->s215
+s174->s213
+s174->s176
+s174->s182
+s174->s174
+s174->s172
+s174->s171
+s174->s226
+s180->s127
+s180->s178
+s180->s180
+s180->s216
+s177->s127
+s177->s178
+s177->s177
+s177->s176
+s141->s223
+s141->s141
+s141->s140
+s141->s122
+s198->s199
+s198->s198
+s198->s117
+s198->s196
+s144->s150
+s144->s149
+s144->s148
+s144->s147
+s144->s146
+s144->s145
+s144->s144
+s144->s143
+s138->s139
+s138->s138
+s138->s140
+s138->s136
+s137->s150
+s137->s137
+s137->s140
+s137->s136
+s179->s183
+s179->s179
+s179->s222
+s179->s178
+s181->s183
+s181->s181
+s181->s182
+s181->s178
+s201->s199
+s201->s146
+s201->s117
+s201->s201
+s104->s103
+s104->s109
+s104->s220
+s104->s104
+s107->s109
+s107->s108
+s107->s103
+s107->s107
+s214->s214
+s214->s188
+s214->s19
+s214->s193
+s142->s143
+s142->s140
+s142->s142
+s142->s122
+s210->s211
+s210->s19
+s210->s210
+s210->s194
+s227->s229
+s227->s228
+s227->s227
+s227->s226
+s212->s213
+s212->s212
+s212->s211
+s212->s19
+s217->s223
+s217->s222
+s217->s221
+s217->s220
+s217->s217
+s217->s216
+s217->s219
+s217->s139
+s232->s131
+s232->s171
+s232->s228
+s232->s232
+s230->s230
+s230->s228
+s230->s148
+s230->s229
+}
+{
+s204->s204
+s204->s203
+s204->s134
+s204->s202
+s188->s214
+s188->s173
+s188->s188
+s188->s187
+s191->s191
+s191->s190
+s191->s113
+s191->s192
+s127->s127
+s127->s126
+s127->s180
+s127->s177
+s219->s124
+s219->s219
+s219->s225
+s219->s217
+s122->s142
+s122->s122
+s122->s141
+s122->s121
+s211->s212
+s211->s210
+s211->s211
+s211->s115
+s117->s198
+s117->s116
+s117->s117
+s117->s201
+s239->s239
+s239->s106
+s239->s125
+s239->s105
+s145->s119
+s145->s133
+s145->s145
+s145->s144
+s136->s135
+s136->s138
+s136->s137
+s136->s136
+s183->s181
+s183->s183
+s183->s179
+s183->s184
+s109->s110
+s109->s109
+s109->s107
+s109->s104
+s215->s215
+s215->s174
+s215->s186
+s215->s129
+s229->s230
+s229->s229
+s229->s227
+s229->s120
+s131->s151
+s131->s131
+s131->s130
+s131->s232
+}
+{
+s186->s186
+s186->s215
+s186->s185
+s190->s191
+s190->s190
+s190->s189
+s187->s188
+s187->s187
+s187->s189
+s187->s185
+s125->s125
+s125->s189
+s125->s239
+s125->s123
+s124->s124
+s124->s219
+s124->s123
+s113->s191
+s113->s113
+s113->s112
+s134->s134
+s134->s189
+s134->s204
+s134->s132
+s130->s131
+s130->s130
+s130->s132
+s130->s128
+s129->s129
+s129->s215
+s129->s128
+s126->s126
+s126->s127
+s126->s123
+s126->s128
+s121->s123
+s121->s118
+s121->s122
+s121->s121
+s119->s119
+s119->s118
+s119->s145
+s115->s128
+s115->s112
+s115->s211
+s115->s115
+s184->s183
+s184->s111
+s184->s185
+s184->s184
+s120->s118
+s120->s229
+s120->s185
+s120->s120
+s135->s135
+s135->s111
+s135->s132
+s135->s136
+s133->s132
+s133->s133
+s133->s145
+s225->s111
+s225->s219
+s225->s225
+s110->s111
+s110->s110
+s110->s109
+s110->s112
+s116->s118
+s116->s117
+s116->s116
+s116->s112
+}
+{
+s118->s120
+s118->s119
+s118->s118
+s118->s116
+s118->s121
+s118->s114
+s189->s189
+s189->s187
+s189->s125
+s189->s114
+s189->s190
+s189->s134
+s123->s126
+s123->s125
+s123->s124
+s123->s123
+s123->s121
+s123->s114
+s132->s114
+s132->s135
+s132->s134
+s132->s133
+s132->s132
+s132->s130
+s112->s116
+s112->s115
+s112->s114
+s112->s113
+s112->s112
+s112->s110
+s128->s126
+s128->s130
+s128->s115
+s128->s129
+s128->s114
+s128->s128
+s111->s111
+s111->s110
+s111->s184
+s111->s114
+s111->s135
+s111->s225
+s185->s187
+s185->s186
+s185->s185
+s185->s120
+s185->s184
+s185->s114
+}
+{
+s114->s118
+s114->s114
+s114->s189
+s114->s123
+s114->s112
+s114->s185
+s114->s240
+s114->s111
+s114->s132
+s114->s128
+s240->s114
+s240->s240
 }
 }

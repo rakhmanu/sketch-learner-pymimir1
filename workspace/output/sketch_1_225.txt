@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f123 "n_count(c_and(c_all(r_inverse(r_primitive(at,0,1)),c_one_of(rooma)),c_primitive(room,0)))"))
+(:rule (:conditions (:c_n_eq f123)) (:effects (:e_n_inc f123)))
+)

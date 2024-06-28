@@ -1,0 +1,5 @@
+(:policy
+(:booleans (f17 "b_empty(c_not(c_all(r_primitive(at,0,1),c_and(c_one_of(roomb),c_primitive(at-robby,0)))))") (f32 "b_empty(c_and(c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0)),c_all(r_primitive(at,0,1),c_one_of(rooma))))"))
+(:numericals )
+(:rule (:conditions (:c_b_neg f32)) (:effects (:e_b_pos f17) (:e_b_pos f32)))
+)

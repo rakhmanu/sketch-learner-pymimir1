@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f6 "n_count(c_and(c_primitive(ball,0),c_all(r_restrict(r_primitive(at,0,1),c_primitive(at-robby,0)),c_one_of(rooma))))") (f71 "n_count(c_some(r_inverse(r_primitive(at_g,0,1)),c_all(r_restrict(r_primitive(at,0,1),c_one_of(roomb)),c_primitive(at-robby,0))))") (f103 "n_count(c_some(r_inverse(r_primitive(at_g,0,1)),c_all(r_restrict(r_primitive(at,0,1),c_one_of(rooma)),c_primitive(at-robby,0))))"))
+(:rule (:conditions (:c_n_gt f6) (:c_n_gt f71) (:c_n_gt f103)) (:effects (:e_n_inc f6) (:e_n_bot f71)))
+)

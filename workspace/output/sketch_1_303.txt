@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f18 "n_count(c_some(r_inverse(r_primitive(at,0,1)),c_top))"))
+(:rule (:conditions (:c_n_gt f18)) (:effects (:e_n_dec f18)))
+)

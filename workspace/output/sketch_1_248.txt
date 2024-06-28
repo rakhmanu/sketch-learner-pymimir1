@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f21 "n_count(c_bot)"))
+(:rule (:conditions (:c_n_gt f21)) (:effects (:e_n_dec f21)))
+)

@@ -91,7 +91,6 @@ def learn_sketch_for_problem_class(
         total_sketch_count = 0
         for instance_data in preprocessing_data.instance_datas:
             iteration_data.instance_datas = [instance_data]
-        
             write_file(f"{instance_data.idx}.dot", instance_data.dlplan_ss.to_dot(1))
             print("     ", end="")
             print("id:", instance_data.idx,
@@ -141,46 +140,44 @@ def learn_sketch_for_problem_class(
             preprocessing_timer.stop()
             asp_timer.resume()
 
-            #for gfa_state in iteration_data.gfa_states:
+            for gfa_state in iteration_data.gfa_states:
                 # preprocessing_data
                 # instance_data
                 # iteration_data
-                #gfa_state_idx = preprocessing_data.state_finder.get_gfa_state_idx_from_gfa_state(instance_data.idx, gfa_state)
-                #instance_data.initial_gfa_state_idxs = [gfa_state_idx]
+                gfa_state_idx = preprocessing_data.state_finder.get_gfa_state_idx_from_gfa_state(instance_data.idx, gfa_state)
+                instance_data.initial_gfa_state_idxs = [gfa_state_idx]
+                asp_factory = ASPFactory(encoding_type, enable_goal_separating_features, max_num_rules)
+                facts = asp_factory.make_facts(preprocessing_data, iteration_data)
+                logging.info(colored("Grounding Logic Program...", "blue", "on_grey"))
+                asp_factory.ground(facts)
+                logging.info(colored("..done", "blue", "on_grey"))
+                logging.info(colored("Solving Logic Program...", "blue", "on_grey"))
+                solutions = list(asp_factory.solve_all())
+                asp_factory.print_statistics()
 
-                #pass 
-            asp_factory = ASPFactory(encoding_type, enable_goal_separating_features, max_num_rules)
-            facts = asp_factory.make_facts(preprocessing_data, iteration_data)
-            logging.info(colored("Grounding Logic Program...", "blue", "on_grey"))
-            asp_factory.ground(facts)
-            logging.info(colored("..done", "blue", "on_grey"))
-            logging.info(colored("Solving Logic Program...", "blue", "on_grey"))
-            solutions = list(asp_factory.solve_all())
-            asp_factory.print_statistics()
+                valid_solutions = [symbols for symbols, status in solutions if symbols is not None]
+                if len(valid_solutions) == 0:
+                    print(colored("UNSAT problem for selected instances", "red", "on_grey"))
+                    exit(ExitCode.UNSOLVABLE)
+                elif len(valid_solutions) == 1:
+                    print(colored("ASP solving returns a unique solution", "red", "on_grey"))
+                else:
+                    print(colored(f"ASP solving returns {len(valid_solutions)}", "red", "on_grey"))
 
-            valid_solutions = [symbols for symbols, status in solutions if symbols is not None]
-            if len(valid_solutions) == 0:
-                print(colored("UNSAT problem for selected instances", "red", "on_grey"))
-                exit(ExitCode.UNSOLVABLE)
-            elif len(valid_solutions) == 1:
-                print(colored("ASP solving returns a unique solution", "red", "on_grey"))
-            else:
-                print(colored(f"ASP solving returns {len(valid_solutions)}", "red", "on_grey"))
-
-            for idx, symbols in enumerate(valid_solutions):
-                #for symbol in symbols:
-                #    print(symbol)
-                print(f"Solution {idx + 1}:")
-                dlplan_policy = ExplicitDlplanPolicyFactory().make_dlplan_policy_from_answer_set(symbols, preprocessing_data, iteration_data)
-                sketch = Sketch(dlplan_policy, width)
-                sketches.add(sketch)
-                total_sketch_count += 1
-                for idx, sketch in enumerate(sketches):
-                    print(f"Sketch {idx + 1}:")
-                    print(str(sketch.dlplan_policy))
-                    print()  
-                #for feature in iteration_data.feature_pool:
-                    #print(feature)
+                for idx, symbols in enumerate(valid_solutions):
+                    #for symbol in symbols:
+                    #    print(symbol)
+                    print(f"Solution {idx + 1}:")
+                    dlplan_policy = ExplicitDlplanPolicyFactory().make_dlplan_policy_from_answer_set(symbols, preprocessing_data, iteration_data)
+                    sketch = Sketch(dlplan_policy, width)
+                    sketches.add(sketch)
+                    total_sketch_count += 1
+                    for idx, sketch in enumerate(sketches):
+                        print(f"Sketch {idx + 1}:")
+                        print(str(sketch.dlplan_policy))
+                        print()  
+                    #for feature in iteration_data.feature_pool:
+                        #print(feature)
     else:
         raise Exception("No implementation for the given encoding type.")
 

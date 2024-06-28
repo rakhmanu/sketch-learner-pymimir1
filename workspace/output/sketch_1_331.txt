@@ -1,0 +1,5 @@
+(:policy
+(:booleans (f85 "b_empty(c_primitive(free,0))"))
+(:numericals (f8 "n_count(c_not(c_all(r_restrict(r_primitive(at,0,1),c_one_of(rooma)),c_primitive(at-robby,0))))"))
+(:rule (:conditions ) (:effects (:e_b_neg f85) (:e_n_bot f8)))
+)
