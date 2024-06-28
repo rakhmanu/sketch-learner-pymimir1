@@ -175,7 +175,19 @@ def learn_sketch_for_problem_class(
                     for idx, sketch in enumerate(sketches):
                         print(f"Sketch {idx + 1}:")
                         print(str(sketch.dlplan_policy))
-                        print()  
+                        print() 
+                    #for gfa_state in gfa_states:
+                        #state_idx = preprocessing_data.state_finder.get_ss_state_idx(gfa_state)
+                        #if state_idx not in sketches_per_state:
+                        #    sketches_per_state[state_idx] = set()
+                        #if sketch not in sketches_per_state[state_idx]:
+                        #    sketches.add(sketch)
+                        #    if state_idx not in sketch_count_per_state:
+                        #        sketch_count_per_state[state_idx] += 1
+                        #for state_id in unsolvable_states_from_solution(symbols):
+                        #    unsolvable_states.add(state_id)
+
+
                     #for feature in iteration_data.feature_pool:
                         #print(feature)
     else:
@@ -210,7 +222,35 @@ def learn_sketch_for_problem_class(
                 #print(f"Successfully wrote {file_name}")
 
         print(f"Number of states in training data:", len(preprocessing_data.gfa_states_by_id))
+
+        '''
+          if unsolvable_states:
+            print("Total num of unsolved states:", len(unsolvable_states) )
+        sketches = {sketch for sketches in sketches_per_state.values() for sketch in sketches}
+
+        if not sketches:
+            print("No sketch found to write")
+        for state_idx in instance_data.state_space.get_states().keys():
+            if state_idx not in sketches_per_state:
+                print(f"No sketches found for state_idx {state_idx}")
+                continue           
+            for idx, sketch in enumerate(sketches_per_state[state_idx]):
+                try:
+                    file_name = f"sketch_{width}_{idx}_{state_idx}.txt"
+                    with open(file_name, "w") as file:
+                        file.write(str(sketch.dlplan_policy))
+                    print(f"Successfully wrote {file_name}")
+                except Exception as e:
+                    print(f"Failed to write sketch for state_idx {state_idx} and sketch index {idx}: {e}")
+
+        all_deadend_states_removed = all(sketch.verify_unsolvable_states_removed(instance_data, asp_factory) for sketches in sketches_per_state.values() for sketch in sketches)
+        if all_deadend_states_removed:
+            print("Deadend states are removed")
+        else:
+            print("Failed to remove deadend states")
+
+
         
-
-
+        '''
+      
       

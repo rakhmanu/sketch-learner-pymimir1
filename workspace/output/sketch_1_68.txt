@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f81 "n_count(c_some(r_primitive(at,0,1),c_some(r_inverse(r_primitive(at_g,0,1)),c_some(r_primitive(at,0,1),c_one_of(rooma)))))"))
-(:rule (:conditions (:c_n_eq f81)) (:effects (:e_n_inc f81)))
+(:numericals )
+(:rule (:conditions ) (:effects ))
 )
