@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f67 "n_count(c_some(r_primitive(at,0,1),c_one_of(rooma)))"))
-(:rule (:conditions (:c_n_eq f67)) (:effects (:e_n_bot f67)))
+(:numericals )
+(:rule (:conditions ) (:effects ))
 )

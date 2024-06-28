@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f40 "n_count(c_primitive(free,0))"))
-(:rule (:conditions (:c_n_gt f40)) (:effects (:e_n_inc f40)))
+(:numericals (f10 "n_count(c_and(c_primitive(is-goal,0),c_primitive(clear,0)))"))
+(:rule (:conditions (:c_n_gt f10)) (:effects (:e_n_dec f10)))
 )

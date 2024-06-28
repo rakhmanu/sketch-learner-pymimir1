@@ -1,5 +1,5 @@
 (:policy
-(:booleans (f77 "b_empty(c_and(c_all(r_inverse(r_primitive(carry,0,1)),c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0))),c_primitive(gripper,0)))"))
-(:numericals )
-(:rule (:conditions (:c_b_neg f77)) (:effects (:e_b_pos f77)))
+(:booleans )
+(:numericals (f0 "n_count(c_primitive(at-goal,0))"))
+(:rule (:conditions (:c_n_gt f0)) (:effects (:e_n_dec f0)))
 )

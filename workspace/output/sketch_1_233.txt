@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f11 "n_count(c_some(r_inverse(r_primitive(at_g,0,1)),c_all(r_primitive(at,0,1),c_one_of(roomb))))"))
-(:rule (:conditions (:c_n_eq f11)) (:effects (:e_n_inc f11)))
+(:numericals (f5 "n_count(c_and(c_primitive(is-goal,0),c_primitive(clear,0)))"))
+(:rule (:conditions (:c_n_gt f5)) (:effects (:e_n_dec f5)))
 )

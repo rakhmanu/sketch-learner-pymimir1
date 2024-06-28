@@ -1,0 +1,42 @@
+digraph {
+rankdir="LR"
+s0[peripheries=2,label="(instance index=76, state index=0, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f1-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-1f)})"]
+s1[peripheries=2,label="(instance index=76, state index=1, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f1-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-1f)})"]
+s2[peripheries=2,label="(instance index=76, state index=2, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f1-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-2f)})"]
+s3[peripheries=2,label="(instance index=76, state index=3, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f1-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-0f)})"]
+s4[peripheries=2,label="(instance index=76, state index=4, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f1-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-1f)})"]
+s5[peripheries=2,label="(instance index=76, state index=5, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f1-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-2f)})"]
+s6[peripheries=2,label="(instance index=76, state index=6, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f1-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-0f)})"]
+s7[peripheries=2,label="(instance index=76, state index=7, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f1-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-0f)})"]
+s8[peripheries=2,label="(instance index=76, state index=8, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f1-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-2f)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{
+s0->s4
+s0->s3
+s0->s2
+s0->s1
+s1->s7
+s1->s0
+s1->s8
+s2->s0
+s2->s5
+s2->s8
+s3->s7
+s3->s6
+s3->s0
+s4->s5
+s4->s6
+s4->s0
+s5->s4
+s5->s2
+s6->s4
+s6->s3
+s7->s3
+s7->s1
+s8->s2
+s8->s1
+}
+}

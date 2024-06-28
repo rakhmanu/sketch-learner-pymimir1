@@ -1,0 +1,66 @@
+digraph {
+rankdir="LR"
+s13[label="(instance index=92, state index=13, atoms={arm-empty(), open(f0-0f), open(f2-0f), at(key0-0,f0-0f), open(f1-0f), at-robot(f2-0f)})"]
+s0[label="(instance index=92, state index=0, atoms={arm-empty(), open(f0-0f), open(f2-0f), locked(f1-0f), at(key0-0,f0-0f), at-robot(f0-0f)})"]
+s12[label="(instance index=92, state index=12, atoms={arm-empty(), open(f0-0f), open(f2-0f), at(key0-0,f0-0f), open(f1-0f), at-robot(f1-0f)})"]
+s1[label="(instance index=92, state index=1, atoms={open(f0-0f), open(f2-0f), locked(f1-0f), at-robot(f0-0f), holding(key0-0)})"]
+s3[label="(instance index=92, state index=3, atoms={arm-empty(), open(f0-0f), open(f2-0f), at(key0-0,f0-0f), at-robot(f0-0f), open(f1-0f)})"]
+s10[label="(instance index=92, state index=10, atoms={arm-empty(), open(f0-0f), open(f2-0f), open(f1-0f), at(key0-0,f1-0f), at-robot(f2-0f)})"]
+s11[label="(instance index=92, state index=11, atoms={arm-empty(), open(f0-0f), open(f2-0f), at-robot(f0-0f), open(f1-0f), at(key0-0,f1-0f)})"]
+s2[label="(instance index=92, state index=2, atoms={open(f0-0f), open(f2-0f), at-robot(f0-0f), holding(key0-0), open(f1-0f)})"]
+s5[label="(instance index=92, state index=5, atoms={arm-empty(), open(f0-0f), open(f2-0f), open(f1-0f), at-robot(f1-0f), at(key0-0,f1-0f)})"]
+s4[label="(instance index=92, state index=4, atoms={open(f0-0f), open(f2-0f), holding(key0-0), open(f1-0f), at-robot(f1-0f)})"]
+s6[label="(instance index=92, state index=6, atoms={open(f0-0f), open(f2-0f), holding(key0-0), open(f1-0f), at-robot(f2-0f)})"]
+s7[peripheries=2,label="(instance index=92, state index=7, atoms={at(key0-0,f2-0f), arm-empty(), open(f0-0f), open(f2-0f), open(f1-0f), at-robot(f2-0f)})"]
+s9[peripheries=2,label="(instance index=92, state index=9, atoms={at(key0-0,f2-0f), arm-empty(), open(f0-0f), open(f2-0f), at-robot(f0-0f), open(f1-0f)})"]
+s8[peripheries=2,label="(instance index=92, state index=8, atoms={at(key0-0,f2-0f), arm-empty(), open(f0-0f), open(f2-0f), open(f1-0f), at-robot(f1-0f)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s0,s12}
+{ rank = same; s1,s3,s10,s11}
+{ rank = same; s2,s5}
+{ rank = same; s4}
+{ rank = same; s6}
+{ rank = same; s7,s9,s8}
+{
+s13->s12
+}
+{
+s0->s1
+s12->s13
+s12->s3
+}
+{
+s1->s2
+s1->s0
+s3->s12
+s3->s2
+s10->s5
+s11->s5
+}
+{
+s2->s4
+s2->s3
+s5->s11
+s5->s4
+s5->s10
+}
+{
+s4->s6
+s4->s5
+s4->s2
+}
+{
+s6->s7
+s6->s4
+}
+{
+s7->s6
+s7->s8
+s9->s8
+s8->s7
+s8->s9
+}
+}
