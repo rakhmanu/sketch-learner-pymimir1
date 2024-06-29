@@ -250,6 +250,7 @@ class Sketch:
 
     def solves(self,
                preprocessing_data: PreprocessingData,
+               asp_factory: ASPFactory,
                iteration_data: IterationData,
                instance_data: InstanceData,
                enable_goal_separating_features: bool):

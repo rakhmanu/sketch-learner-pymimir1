@@ -1,11 +1,11 @@
 digraph {
 rankdir="LR"
-s2[label="(instance index=3, state index=2, atoms={at(robot,pos0), clear(pos3), at(block01,pos2), clear(pos1)})"]
-s0[label="(instance index=3, state index=0, atoms={at(robot,pos0), at(block01,pos1), clear(pos2), clear(pos3)})"]
+s2[label="(instance index=3, state index=2, atoms={clear(pos3), at(robot,pos0), at(block01,pos2), clear(pos1)})"]
+s0[label="(instance index=3, state index=0, atoms={clear(pos3), clear(pos2), at(block01,pos1), at(robot,pos0)})"]
 s1[label="(instance index=3, state index=1, atoms={clear(pos3), at(robot,pos1), at(block01,pos2), clear(pos0)})"]
 s3[peripheries=2,label="(instance index=3, state index=3, atoms={at-goal(block01), clear(pos0), at(robot,pos2), at(block01,pos3), clear(pos1)})"]
 s4[peripheries=2,label="(instance index=3, state index=4, atoms={clear(pos2), at-goal(block01), at(robot,pos1), clear(pos0), at(block01,pos3)})"]
-s5[peripheries=2,label="(instance index=3, state index=5, atoms={at(robot,pos0), clear(pos2), at-goal(block01), at(block01,pos3), clear(pos1)})"]
+s5[peripheries=2,label="(instance index=3, state index=5, atoms={clear(pos2), at(robot,pos0), at-goal(block01), at(block01,pos3), clear(pos1)})"]
 Dangling [ label = "", style = invis ]
 { rank = same; Dangling }
 Dangling -> s0

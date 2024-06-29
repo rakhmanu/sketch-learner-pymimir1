@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f0 "n_count(c_primitive(at-goal,0))") (f5 "n_concept_distance(c_primitive(is-agent,0),r_primitive(at,0,1),c_some(r_primitive(at,0,1),c_primitive(is-nongoal,0)))"))
-(:rule (:conditions (:c_n_eq f0) (:c_n_gt f5)) (:effects (:e_n_bot f0) (:e_n_dec f5)))
+(:numericals )
+(:rule (:conditions ) (:effects ))
 )

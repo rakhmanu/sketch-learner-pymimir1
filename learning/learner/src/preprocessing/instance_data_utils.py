@@ -83,7 +83,6 @@ def create_dlplan_statespace(
     dlplan_state_space = dlplan_statespace.StateSpace(instance_info, dlplan_states, mimir_state_space.get_initial_state(), forward_successors, mimir_state_space.get_goal_states())
     return dlplan_state_space
 
-
 def compute_instance_datas(domain_filepath: Path,
                            instance_filepaths: List[Path],
                            disable_closed_Q: bool,
@@ -95,6 +94,11 @@ def compute_instance_datas(domain_filepath: Path,
     with change_dir("state_spaces", enable=enable_dump_files):
         # 1. Create mimir StateSpace and GlobalFaithfulAbstraction
         logging.info("Constructing GlobalFaithfulAbstractions...")
+        logging.debug(f"domain_filepath: {domain_filepath}, type: {type(domain_filepath)}")
+        logging.debug(f"instance_filepaths: {instance_filepaths}, type: {type(instance_filepaths)}")
+        logging.debug(f"max_num_states_per_instance: {max_num_states_per_instance}, type: {type(max_num_states_per_instance)}")
+        logging.debug(f"max_time_per_instance: {max_time_per_instance}, type: {type(max_time_per_instance)}")
+
         abstractions = mm.GlobalFaithfulAbstraction.create(str(domain_filepath), [str(p) for p in instance_filepaths], False, True, True, True, max_num_states_per_instance, max_time_per_instance)
         logging.info("...done")
         if len(abstractions) == 0:
@@ -149,3 +153,7 @@ def compute_instance_datas(domain_filepath: Path,
             gfa_states_by_id[gfa_state.get_id()] = gfa_state
 
     return domain_data, instance_datas, gfa_states_by_id
+
+
+
+
