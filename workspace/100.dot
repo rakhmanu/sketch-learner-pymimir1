@@ -1,0 +1,131 @@
+digraph {
+rankdir="LR"
+s28[label="(instance index=100, state index=28, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at-robot(f1-1f), at(key0-0,f0-0f)})"]
+s19[label="(instance index=100, state index=19, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at(key0-0,f0-1f), open(f1-0f), at-robot(f1-0f)})"]
+s31[label="(instance index=100, state index=31, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at-robot(f0-0f), at(key0-0,f1-1f)})"]
+s0[label="(instance index=100, state index=0, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at(key0-0,f0-1f), at-robot(f1-1f)})"]
+s2[label="(instance index=100, state index=2, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at(key0-0,f0-1f), at-robot(f0-0f)})"]
+s1[label="(instance index=100, state index=1, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at(key0-0,f0-1f), at-robot(f0-1f)})"]
+s30[label="(instance index=100, state index=30, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at-robot(f0-1f), at(key0-0,f1-1f)})"]
+s17[label="(instance index=100, state index=17, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at(key0-0,f0-1f), at-robot(f1-1f), open(f1-0f)})"]
+s18[label="(instance index=100, state index=18, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at(key0-0,f0-1f), at-robot(f0-0f), open(f1-0f)})"]
+s16[label="(instance index=100, state index=16, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f0-0f), at(key0-0,f1-1f), open(f1-0f)})"]
+s27[label="(instance index=100, state index=27, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at-robot(f0-1f), at(key0-0,f0-0f)})"]
+s26[label="(instance index=100, state index=26, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f1-1f), at(key0-0,f0-0f), open(f1-0f)})"]
+s3[label="(instance index=100, state index=3, atoms={open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at-robot(f0-1f), holding(key0-0)})"]
+s29[label="(instance index=100, state index=29, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at-robot(f1-1f), at(key0-0,f1-1f)})"]
+s11[label="(instance index=100, state index=11, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at(key0-0,f0-1f), at-robot(f0-1f), open(f1-0f)})"]
+s14[label="(instance index=100, state index=14, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at(key0-0,f1-1f), open(f1-0f), at-robot(f1-0f)})"]
+s15[label="(instance index=100, state index=15, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f0-1f), at(key0-0,f1-1f), open(f1-0f)})"]
+s6[label="(instance index=100, state index=6, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at-robot(f0-0f), at(key0-0,f0-0f)})"]
+s24[label="(instance index=100, state index=24, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at(key0-0,f0-0f), open(f1-0f), at-robot(f1-0f)})"]
+s25[label="(instance index=100, state index=25, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f0-1f), at(key0-0,f0-0f), open(f1-0f)})"]
+s5[label="(instance index=100, state index=5, atoms={open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), holding(key0-0), at-robot(f0-0f)})"]
+s13[label="(instance index=100, state index=13, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f1-1f), at(key0-0,f1-1f), open(f1-0f)})"]
+s4[label="(instance index=100, state index=4, atoms={open(f0-0f), open(f0-1f), open(f1-1f), locked(f1-0f), at-robot(f1-1f), holding(key0-0)})"]
+s8[label="(instance index=100, state index=8, atoms={arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f0-0f), at(key0-0,f0-0f), open(f1-0f)})"]
+s10[label="(instance index=100, state index=10, atoms={open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f0-1f), holding(key0-0), open(f1-0f)})"]
+s12[label="(instance index=100, state index=12, atoms={open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f1-1f), holding(key0-0), open(f1-0f)})"]
+s7[label="(instance index=100, state index=7, atoms={open(f0-0f), open(f0-1f), open(f1-1f), holding(key0-0), at-robot(f0-0f), open(f1-0f)})"]
+s9[label="(instance index=100, state index=9, atoms={open(f0-0f), open(f0-1f), open(f1-1f), holding(key0-0), open(f1-0f), at-robot(f1-0f)})"]
+s20[peripheries=2,label="(instance index=100, state index=20, atoms={at(key0-0,f1-0f), arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), open(f1-0f), at-robot(f1-0f)})"]
+s21[peripheries=2,label="(instance index=100, state index=21, atoms={at(key0-0,f1-0f), arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f1-1f), open(f1-0f)})"]
+s22[peripheries=2,label="(instance index=100, state index=22, atoms={at(key0-0,f1-0f), arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f0-0f), open(f1-0f)})"]
+s23[peripheries=2,label="(instance index=100, state index=23, atoms={at(key0-0,f1-0f), arm-empty(), open(f0-0f), open(f0-1f), open(f1-1f), at-robot(f0-1f), open(f1-0f)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s1,s30,s17,s18,s16,s27,s26}
+{ rank = same; s3,s29,s11,s14,s15,s6,s24,s25}
+{ rank = same; s5,s13,s4,s8,s10}
+{ rank = same; s12,s7}
+{ rank = same; s9}
+{ rank = same; s20,s21,s22,s23}
+{
+s28->s27
+s19->s18
+s19->s17
+s31->s30
+s0->s1
+s2->s1
+}
+{
+s1->s2
+s1->s3
+s1->s0
+s30->s31
+s30->s29
+s17->s19
+s17->s11
+s18->s19
+s18->s11
+s16->s15
+s16->s14
+s27->s6
+s27->s28
+s26->s25
+s26->s24
+}
+{
+s3->s5
+s3->s4
+s3->s1
+s29->s30
+s29->s4
+s11->s10
+s11->s18
+s11->s17
+s14->s13
+s14->s16
+s15->s13
+s15->s16
+s6->s5
+s6->s27
+s24->s26
+s24->s8
+s25->s26
+s25->s8
+}
+{
+s5->s7
+s5->s6
+s5->s3
+s13->s14
+s13->s15
+s13->s12
+s4->s29
+s4->s12
+s4->s3
+s8->s7
+s8->s25
+s8->s24
+s10->s7
+s10->s12
+s10->s11
+}
+{
+s12->s13
+s12->s10
+s12->s9
+s7->s10
+s7->s9
+s7->s8
+}
+{
+s9->s7
+s9->s12
+s9->s20
+}
+{
+s20->s22
+s20->s21
+s20->s9
+s21->s23
+s21->s20
+s22->s23
+s22->s20
+s23->s22
+s23->s21
+}
+}

@@ -1,0 +1,57 @@
+digraph {
+rankdir="LR"
+s14[label="(instance index=18, state index=14, atoms={visited(loc-x0-y1), visited(loc-x0-y2), at-robot(loc-x0-y2), visited(loc-x0-y0)})"]
+s3[label="(instance index=18, state index=3, atoms={visited(loc-x0-y1), visited(loc-x0-y2), at-robot(loc-x0-y2)})"]
+s0[label="(instance index=18, state index=0, atoms={visited(loc-x0-y2), at-robot(loc-x0-y2)})"]
+s1[label="(instance index=18, state index=1, atoms={visited(loc-x0-y1), visited(loc-x0-y2), at-robot(loc-x0-y1)})"]
+s4[label="(instance index=18, state index=4, atoms={visited(loc-x0-y1), visited(loc-x0-y2), at-robot(loc-x0-y1), visited(loc-x0-y0)})"]
+s2[label="(instance index=18, state index=2, atoms={visited(loc-x0-y1), visited(loc-x0-y2), at-robot(loc-x0-y0), visited(loc-x0-y0)})"]
+s13[peripheries=2,label="(instance index=18, state index=13, atoms={visited(loc-x0-y1), visited(loc-x0-y2), visited(loc-x1-y0), at-robot(loc-x0-y2), visited(loc-x0-y0)})"]
+s12[peripheries=2,label="(instance index=18, state index=12, atoms={visited(loc-x0-y1), visited(loc-x0-y2), visited(loc-x1-y0), at-robot(loc-x0-y1), visited(loc-x0-y0)})"]
+s11[peripheries=2,label="(instance index=18, state index=11, atoms={visited(loc-x0-y1), visited(loc-x0-y2), visited(loc-x1-y0), at-robot(loc-x0-y2), visited(loc-x0-y0), visited(loc-x2-y0)})"]
+s10[peripheries=2,label="(instance index=18, state index=10, atoms={visited(loc-x0-y1), visited(loc-x0-y2), visited(loc-x1-y0), at-robot(loc-x0-y1), visited(loc-x0-y0), visited(loc-x2-y0)})"]
+s9[peripheries=2,label="(instance index=18, state index=9, atoms={visited(loc-x0-y1), visited(loc-x0-y2), visited(loc-x1-y0), at-robot(loc-x0-y0), visited(loc-x0-y0), visited(loc-x2-y0)})"]
+s8[peripheries=2,label="(instance index=18, state index=8, atoms={visited(loc-x0-y1), visited(loc-x0-y2), visited(loc-x1-y0), visited(loc-x0-y0), at-robot(loc-x1-y0), visited(loc-x2-y0)})"]
+s7[peripheries=2,label="(instance index=18, state index=7, atoms={visited(loc-x0-y1), visited(loc-x0-y2), visited(loc-x1-y0), visited(loc-x0-y0), at-robot(loc-x2-y0), visited(loc-x2-y0)})"]
+s6[peripheries=2,label="(instance index=18, state index=6, atoms={visited(loc-x0-y1), visited(loc-x0-y2), visited(loc-x1-y0), at-robot(loc-x0-y0), visited(loc-x0-y0)})"]
+s5[peripheries=2,label="(instance index=18, state index=5, atoms={visited(loc-x0-y1), visited(loc-x0-y2), visited(loc-x1-y0), visited(loc-x0-y0), at-robot(loc-x1-y0)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{ rank = same; s1,s4}
+{ rank = same; s2}
+{ rank = same; s13,s12,s11,s10,s9,s8,s7,s6,s5}
+{
+s14->s4
+s3->s1
+s0->s1
+}
+{
+s1->s3
+s1->s2
+s4->s14
+s4->s2
+}
+{
+s2->s5
+s2->s4
+}
+{
+s13->s12
+s12->s6
+s12->s13
+s11->s10
+s10->s11
+s10->s9
+s9->s10
+s9->s8
+s8->s7
+s8->s9
+s7->s8
+s6->s5
+s6->s12
+s5->s7
+s5->s6
+}
+}

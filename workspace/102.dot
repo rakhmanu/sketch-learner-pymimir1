@@ -1,0 +1,593 @@
+digraph {
+rankdir="LR"
+s0[peripheries=2,label="(instance index=102, state index=0, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-1f), at-robot(f0-0f)})"]
+s1[peripheries=2,label="(instance index=102, state index=1, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-1f), at-robot(f1-0f)})"]
+s2[peripheries=2,label="(instance index=102, state index=2, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-1f), at-robot(f0-1f)})"]
+s3[peripheries=2,label="(instance index=102, state index=3, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-1f), at-robot(f0-2f)})"]
+s4[peripheries=2,label="(instance index=102, state index=4, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-1f), holding(key0-0)})"]
+s5[peripheries=2,label="(instance index=102, state index=5, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-1f), holding(key0-0), open(f1-1f)})"]
+s6[peripheries=2,label="(instance index=102, state index=6, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), holding(key0-0), at-robot(f0-2f)})"]
+s7[peripheries=2,label="(instance index=102, state index=7, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-0f), holding(key0-0)})"]
+s8[peripheries=2,label="(instance index=102, state index=8, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-0f), at(key0-0,f0-0f)})"]
+s9[peripheries=2,label="(instance index=102, state index=9, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-0f), holding(key0-0)})"]
+s10[peripheries=2,label="(instance index=102, state index=10, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-0f), at(key0-0,f1-0f)})"]
+s11[peripheries=2,label="(instance index=102, state index=11, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-0f), holding(key0-0), open(f1-1f)})"]
+s12[peripheries=2,label="(instance index=102, state index=12, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), holding(key0-0), at-robot(f2-0f)})"]
+s13[peripheries=2,label="(instance index=102, state index=13, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-0f), at(key0-0,f2-0f)})"]
+s14[peripheries=2,label="(instance index=102, state index=14, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), holding(key0-0), at-robot(f2-1f)})"]
+s15[peripheries=2,label="(instance index=102, state index=15, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-1f), at(key0-0,f2-1f)})"]
+s16[peripheries=2,label="(instance index=102, state index=16, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), holding(key0-0), at-robot(f2-1f), open(f1-1f)})"]
+s17[peripheries=2,label="(instance index=102, state index=17, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), holding(key0-0), at-robot(f2-2f)})"]
+s18[peripheries=2,label="(instance index=102, state index=18, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-2f), at(key0-0,f2-2f)})"]
+s19[peripheries=2,label="(instance index=102, state index=19, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), holding(key0-0), at-robot(f1-2f)})"]
+s20[peripheries=2,label="(instance index=102, state index=20, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-2f), at(key0-0,f1-2f)})"]
+s21[peripheries=2,label="(instance index=102, state index=21, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), holding(key0-0), at-robot(f1-2f), open(f1-1f)})"]
+s22[peripheries=2,label="(instance index=102, state index=22, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-2f), open(f1-1f), at(key0-0,f1-2f)})"]
+s23[peripheries=2,label="(instance index=102, state index=23, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), holding(key0-0), open(f1-1f), at-robot(f2-2f)})"]
+s24[peripheries=2,label="(instance index=102, state index=24, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), holding(key0-0), open(f1-1f), at-robot(f1-1f)})"]
+s25[peripheries=2,label="(instance index=102, state index=25, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), holding(key0-0), at-robot(f0-2f), open(f1-1f)})"]
+s26[peripheries=2,label="(instance index=102, state index=26, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-2f), at(key0-0,f0-2f), open(f1-1f)})"]
+s27[peripheries=2,label="(instance index=102, state index=27, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-2f), at-robot(f1-2f), open(f1-1f)})"]
+s28[peripheries=2,label="(instance index=102, state index=28, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-1f), at(key0-0,f0-2f), open(f1-1f)})"]
+s29[peripheries=2,label="(instance index=102, state index=29, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-2f), open(f1-1f), at-robot(f1-1f)})"]
+s30[peripheries=2,label="(instance index=102, state index=30, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-0f), at(key0-0,f0-2f), open(f1-1f)})"]
+s31[peripheries=2,label="(instance index=102, state index=31, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-0f), at(key0-0,f0-2f), open(f1-1f)})"]
+s32[peripheries=2,label="(instance index=102, state index=32, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-0f), at(key0-0,f0-2f), open(f1-1f)})"]
+s33[peripheries=2,label="(instance index=102, state index=33, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-2f), at-robot(f2-1f), open(f1-1f)})"]
+s34[peripheries=2,label="(instance index=102, state index=34, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-2f), open(f1-1f), at-robot(f2-2f)})"]
+s103[peripheries=2,label="(instance index=102, state index=103, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-0f), at(key0-0,f2-0f)})"]
+s104[peripheries=2,label="(instance index=102, state index=104, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-1f), at(key0-0,f2-0f)})"]
+s105[peripheries=2,label="(instance index=102, state index=105, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-2f), at(key0-0,f2-0f)})"]
+s106[peripheries=2,label="(instance index=102, state index=106, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f2-0f), at-robot(f1-2f)})"]
+s107[peripheries=2,label="(instance index=102, state index=107, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f2-0f), at-robot(f2-2f)})"]
+s108[peripheries=2,label="(instance index=102, state index=108, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-0f), at(key0-0,f1-0f), open(f1-1f)})"]
+s109[peripheries=2,label="(instance index=102, state index=109, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-0f), holding(key0-0), open(f1-1f)})"]
+s110[peripheries=2,label="(instance index=102, state index=110, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-0f), at(key0-0,f0-0f), open(f1-1f)})"]
+s111[peripheries=2,label="(instance index=102, state index=111, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-0f), at(key0-0,f0-0f), open(f1-1f)})"]
+s112[peripheries=2,label="(instance index=102, state index=112, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-1f), at(key0-0,f0-0f), open(f1-1f)})"]
+s113[peripheries=2,label="(instance index=102, state index=113, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-0f), open(f1-1f), at-robot(f1-1f)})"]
+s114[peripheries=2,label="(instance index=102, state index=114, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-2f), at(key0-0,f0-0f), open(f1-1f)})"]
+s115[peripheries=2,label="(instance index=102, state index=115, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-0f), at-robot(f1-2f), open(f1-1f)})"]
+s116[peripheries=2,label="(instance index=102, state index=116, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-0f), open(f1-1f), at-robot(f2-2f)})"]
+s117[peripheries=2,label="(instance index=102, state index=117, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-0f), at-robot(f2-1f), open(f1-1f)})"]
+s118[peripheries=2,label="(instance index=102, state index=118, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-0f), at(key0-0,f0-0f), open(f1-1f)})"]
+s119[peripheries=2,label="(instance index=102, state index=119, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-0f), at(key0-0,f1-0f), open(f1-1f)})"]
+s120[peripheries=2,label="(instance index=102, state index=120, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f1-0f), open(f1-1f), at-robot(f1-1f)})"]
+s121[peripheries=2,label="(instance index=102, state index=121, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-0f), at(key0-0,f1-0f), open(f1-1f)})"]
+s122[peripheries=2,label="(instance index=102, state index=122, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-1f), at(key0-0,f1-0f), open(f1-1f)})"]
+s123[peripheries=2,label="(instance index=102, state index=123, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-2f), at(key0-0,f1-0f), open(f1-1f)})"]
+s124[peripheries=2,label="(instance index=102, state index=124, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f1-0f), at-robot(f1-2f), open(f1-1f)})"]
+s125[peripheries=2,label="(instance index=102, state index=125, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f1-0f), open(f1-1f), at-robot(f2-2f)})"]
+s126[peripheries=2,label="(instance index=102, state index=126, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f1-0f), at-robot(f2-1f), open(f1-1f)})"]
+s127[peripheries=2,label="(instance index=102, state index=127, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-0f), at(key0-0,f1-0f)})"]
+s128[peripheries=2,label="(instance index=102, state index=128, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-0f), at(key0-0,f1-0f)})"]
+s129[peripheries=2,label="(instance index=102, state index=129, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-1f), at(key0-0,f1-0f)})"]
+s130[peripheries=2,label="(instance index=102, state index=130, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-2f), at(key0-0,f1-0f)})"]
+s131[peripheries=2,label="(instance index=102, state index=131, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f1-0f), at-robot(f1-2f)})"]
+s132[peripheries=2,label="(instance index=102, state index=132, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f1-0f), at-robot(f2-2f)})"]
+s149[peripheries=2,label="(instance index=102, state index=149, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-1f), at-robot(f0-1f), open(f1-1f)})"]
+s150[peripheries=2,label="(instance index=102, state index=150, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-1f), open(f1-1f), at-robot(f1-1f)})"]
+s151[peripheries=2,label="(instance index=102, state index=151, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-1f), at-robot(f0-2f), open(f1-1f)})"]
+s152[peripheries=2,label="(instance index=102, state index=152, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-1f), at-robot(f0-0f), open(f1-1f)})"]
+s153[peripheries=2,label="(instance index=102, state index=153, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-1f), at-robot(f1-0f), open(f1-1f)})"]
+s154[peripheries=2,label="(instance index=102, state index=154, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-1f), at-robot(f2-0f), open(f1-1f)})"]
+s155[peripheries=2,label="(instance index=102, state index=155, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-1f), at-robot(f2-1f), open(f1-1f)})"]
+s156[peripheries=2,label="(instance index=102, state index=156, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-1f), open(f1-1f), at-robot(f2-2f)})"]
+s157[peripheries=2,label="(instance index=102, state index=157, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f0-1f), at-robot(f1-2f), open(f1-1f)})"]
+s158[peripheries=2,label="(instance index=102, state index=158, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-1f), at-robot(f1-2f)})"]
+s159[peripheries=2,label="(instance index=102, state index=159, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-1f), at-robot(f2-2f)})"]
+s160[peripheries=2,label="(instance index=102, state index=160, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-1f), at-robot(f2-1f)})"]
+s161[peripheries=2,label="(instance index=102, state index=161, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-1f), at-robot(f2-0f)})"]
+s148[peripheries=2,label="(instance index=102, state index=148, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-2f), at-robot(f2-2f)})"]
+s147[peripheries=2,label="(instance index=102, state index=147, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-2f), at-robot(f2-1f)})"]
+s146[peripheries=2,label="(instance index=102, state index=146, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-0f), at(key0-0,f0-2f)})"]
+s145[peripheries=2,label="(instance index=102, state index=145, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-0f), at(key0-0,f0-2f)})"]
+s144[peripheries=2,label="(instance index=102, state index=144, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-0f), at(key0-0,f0-2f)})"]
+s143[peripheries=2,label="(instance index=102, state index=143, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-1f), at(key0-0,f0-2f)})"]
+s142[peripheries=2,label="(instance index=102, state index=142, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-2f), at-robot(f1-2f)})"]
+s141[peripheries=2,label="(instance index=102, state index=141, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-2f), at(key0-0,f0-2f)})"]
+s140[peripheries=2,label="(instance index=102, state index=140, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-0f), at(key0-0,f0-0f)})"]
+s139[peripheries=2,label="(instance index=102, state index=139, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-0f), at-robot(f2-1f)})"]
+s138[peripheries=2,label="(instance index=102, state index=138, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-0f), at-robot(f2-2f)})"]
+s137[peripheries=2,label="(instance index=102, state index=137, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f0-0f), at-robot(f1-2f)})"]
+s136[peripheries=2,label="(instance index=102, state index=136, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-2f), at(key0-0,f0-0f)})"]
+s135[peripheries=2,label="(instance index=102, state index=135, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-1f), at(key0-0,f0-0f)})"]
+s134[peripheries=2,label="(instance index=102, state index=134, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-0f), at(key0-0,f0-0f)})"]
+s133[peripheries=2,label="(instance index=102, state index=133, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f1-0f), at-robot(f2-1f)})"]
+s102[peripheries=2,label="(instance index=102, state index=102, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-0f), at(key0-0,f2-0f)})"]
+s101[peripheries=2,label="(instance index=102, state index=101, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f2-0f), at-robot(f2-1f)})"]
+s100[peripheries=2,label="(instance index=102, state index=100, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-2f), at(key0-0,f2-1f)})"]
+s99[peripheries=2,label="(instance index=102, state index=99, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-2f), at(key0-0,f2-1f)})"]
+s98[peripheries=2,label="(instance index=102, state index=98, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-1f), at(key0-0,f2-1f)})"]
+s97[peripheries=2,label="(instance index=102, state index=97, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-0f), at(key0-0,f2-1f)})"]
+s96[peripheries=2,label="(instance index=102, state index=96, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-0f), at(key0-0,f2-1f)})"]
+s95[peripheries=2,label="(instance index=102, state index=95, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-0f), at(key0-0,f2-1f)})"]
+s94[peripheries=2,label="(instance index=102, state index=94, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f2-1f), at-robot(f2-2f)})"]
+s93[peripheries=2,label="(instance index=102, state index=93, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-0f), open(f1-1f), at(key0-0,f2-1f)})"]
+s92[peripheries=2,label="(instance index=102, state index=92, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-2f), open(f1-1f), at(key0-0,f2-1f)})"]
+s91[peripheries=2,label="(instance index=102, state index=91, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-1f), open(f1-1f), at(key0-0,f2-1f)})"]
+s90[peripheries=2,label="(instance index=102, state index=90, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-0f), open(f1-1f), at(key0-0,f2-1f)})"]
+s89[peripheries=2,label="(instance index=102, state index=89, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-2f), open(f1-1f), at(key0-0,f2-1f)})"]
+s88[peripheries=2,label="(instance index=102, state index=88, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), open(f1-1f), at(key0-0,f2-1f), at-robot(f1-1f)})"]
+s87[peripheries=2,label="(instance index=102, state index=87, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-0f), open(f1-1f), at(key0-0,f2-1f)})"]
+s86[peripheries=2,label="(instance index=102, state index=86, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), open(f1-1f), at(key0-0,f2-1f), at-robot(f2-2f)})"]
+s85[peripheries=2,label="(instance index=102, state index=85, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f2-0f), open(f1-1f), at-robot(f2-2f)})"]
+s84[peripheries=2,label="(instance index=102, state index=84, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f2-0f), at-robot(f1-2f), open(f1-1f)})"]
+s83[peripheries=2,label="(instance index=102, state index=83, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-2f), at(key0-0,f2-0f), open(f1-1f)})"]
+s82[peripheries=2,label="(instance index=102, state index=82, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-1f), at(key0-0,f2-0f), open(f1-1f)})"]
+s81[peripheries=2,label="(instance index=102, state index=81, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-0f), at(key0-0,f2-0f), open(f1-1f)})"]
+s80[peripheries=2,label="(instance index=102, state index=80, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f2-0f), open(f1-1f), at-robot(f1-1f)})"]
+s79[peripheries=2,label="(instance index=102, state index=79, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-0f), at(key0-0,f2-0f), open(f1-1f)})"]
+s78[peripheries=2,label="(instance index=102, state index=78, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at(key0-0,f2-0f), at-robot(f2-1f), open(f1-1f)})"]
+s77[peripheries=2,label="(instance index=102, state index=77, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-0f), at(key0-0,f2-0f), open(f1-1f)})"]
+s76[peripheries=2,label="(instance index=102, state index=76, atoms={open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), holding(key0-0), at-robot(f2-0f), open(f1-1f)})"]
+s75[peripheries=2,label="(instance index=102, state index=75, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-1f), open(f1-1f), at(key0-0,f2-1f)})"]
+s74[peripheries=2,label="(instance index=102, state index=74, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-0f), at(key0-0,f2-2f)})"]
+s73[peripheries=2,label="(instance index=102, state index=73, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-0f), at(key0-0,f2-2f)})"]
+s72[peripheries=2,label="(instance index=102, state index=72, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-0f), at(key0-0,f2-2f)})"]
+s71[peripheries=2,label="(instance index=102, state index=71, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-1f), at(key0-0,f2-2f)})"]
+s70[peripheries=2,label="(instance index=102, state index=70, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-2f), at(key0-0,f2-2f)})"]
+s69[peripheries=2,label="(instance index=102, state index=69, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-2f), at(key0-0,f2-2f)})"]
+s68[peripheries=2,label="(instance index=102, state index=68, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-1f), at(key0-0,f2-2f)})"]
+s67[peripheries=2,label="(instance index=102, state index=67, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-1f), at(key0-0,f1-2f)})"]
+s66[peripheries=2,label="(instance index=102, state index=66, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f2-0f), at(key0-0,f1-2f)})"]
+s65[peripheries=2,label="(instance index=102, state index=65, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f1-0f), at(key0-0,f1-2f)})"]
+s64[peripheries=2,label="(instance index=102, state index=64, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-0f), at(key0-0,f1-2f)})"]
+s63[peripheries=2,label="(instance index=102, state index=63, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-1f), at(key0-0,f1-2f)})"]
+s62[peripheries=2,label="(instance index=102, state index=62, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at-robot(f0-2f), at(key0-0,f1-2f)})"]
+s61[peripheries=2,label="(instance index=102, state index=61, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), locked(f1-1f), at(key0-0,f1-2f), at-robot(f2-2f)})"]
+s60[peripheries=2,label="(instance index=102, state index=60, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-1f), open(f1-1f), at(key0-0,f1-2f)})"]
+s59[peripheries=2,label="(instance index=102, state index=59, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-0f), open(f1-1f), at(key0-0,f1-2f)})"]
+s58[peripheries=2,label="(instance index=102, state index=58, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-0f), open(f1-1f), at(key0-0,f1-2f)})"]
+s57[peripheries=2,label="(instance index=102, state index=57, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-0f), open(f1-1f), at(key0-0,f1-2f)})"]
+s56[peripheries=2,label="(instance index=102, state index=56, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-1f), open(f1-1f), at(key0-0,f1-2f)})"]
+s55[peripheries=2,label="(instance index=102, state index=55, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-2f), open(f1-1f), at(key0-0,f1-2f)})"]
+s54[peripheries=2,label="(instance index=102, state index=54, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), open(f1-1f), at(key0-0,f1-2f), at-robot(f1-1f)})"]
+s53[peripheries=2,label="(instance index=102, state index=53, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), open(f1-1f), at(key0-0,f1-2f), at-robot(f2-2f)})"]
+s52[peripheries=2,label="(instance index=102, state index=52, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-0f), open(f1-1f), at(key0-0,f2-2f)})"]
+s51[peripheries=2,label="(instance index=102, state index=51, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-0f), open(f1-1f), at(key0-0,f2-2f)})"]
+s50[peripheries=2,label="(instance index=102, state index=50, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-0f), open(f1-1f), at(key0-0,f2-2f)})"]
+s49[peripheries=2,label="(instance index=102, state index=49, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-1f), open(f1-1f), at(key0-0,f2-2f)})"]
+s48[peripheries=2,label="(instance index=102, state index=48, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-2f), open(f1-1f), at(key0-0,f2-2f)})"]
+s47[peripheries=2,label="(instance index=102, state index=47, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), open(f1-1f), at-robot(f1-1f), at(key0-0,f2-2f)})"]
+s46[peripheries=2,label="(instance index=102, state index=46, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-2f), open(f1-1f), at(key0-0,f2-2f)})"]
+s45[peripheries=2,label="(instance index=102, state index=45, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-1f), open(f1-1f), at(key0-0,f2-2f)})"]
+s44[peripheries=2,label="(instance index=102, state index=44, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), open(f1-1f), at-robot(f2-2f), at(key0-0,f2-2f)})"]
+s43[peripheries=2,label="(instance index=102, state index=43, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), open(f1-1f), at-robot(f2-2f), at(key0-0,f1-1f)})"]
+s42[peripheries=2,label="(instance index=102, state index=42, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-0f), open(f1-1f), at(key0-0,f1-1f)})"]
+s41[peripheries=2,label="(instance index=102, state index=41, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-0f), open(f1-1f), at(key0-0,f1-1f)})"]
+s40[peripheries=2,label="(instance index=102, state index=40, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-2f), open(f1-1f), at(key0-0,f1-1f)})"]
+s39[peripheries=2,label="(instance index=102, state index=39, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f0-1f), open(f1-1f), at(key0-0,f1-1f)})"]
+s38[peripheries=2,label="(instance index=102, state index=38, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-0f), open(f1-1f), at(key0-0,f1-1f)})"]
+s37[peripheries=2,label="(instance index=102, state index=37, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f1-2f), open(f1-1f), at(key0-0,f1-1f)})"]
+s36[peripheries=2,label="(instance index=102, state index=36, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), at-robot(f2-1f), open(f1-1f), at(key0-0,f1-1f)})"]
+s35[peripheries=2,label="(instance index=102, state index=35, atoms={arm-empty(), open(f0-0f), open(f1-0f), open(f2-0f), open(f0-1f), open(f2-1f), open(f0-2f), open(f1-2f), open(f2-2f), open(f1-1f), at-robot(f1-1f), at(key0-0,f1-1f)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{
+s0->s2
+s0->s1
+s1->s161
+s1->s0
+s2->s4
+s2->s3
+s2->s0
+s3->s158
+s3->s2
+s4->s6
+s4->s5
+s4->s7
+s4->s2
+s5->s25
+s5->s149
+s5->s109
+s5->s24
+s6->s141
+s6->s4
+s6->s19
+s7->s4
+s7->s9
+s7->s8
+s8->s135
+s8->s134
+s8->s7
+s9->s7
+s9->s12
+s9->s11
+s9->s10
+s10->s127
+s10->s9
+s10->s128
+s11->s76
+s11->s108
+s11->s109
+s11->s24
+s12->s14
+s12->s13
+s12->s9
+s13->s101
+s13->s102
+s13->s12
+s14->s15
+s14->s12
+s14->s17
+s14->s16
+s15->s94
+s15->s95
+s15->s14
+s16->s23
+s16->s76
+s16->s75
+s16->s24
+s17->s14
+s17->s19
+s17->s18
+s18->s69
+s18->s68
+s18->s17
+s19->s6
+s19->s21
+s19->s20
+s19->s17
+s20->s62
+s20->s61
+s20->s19
+s21->s23
+s21->s22
+s21->s25
+s21->s24
+s22->s55
+s22->s54
+s22->s53
+s22->s21
+s23->s21
+s23->s44
+s23->s16
+s24->s21
+s24->s16
+s24->s11
+s24->s5
+s24->s35
+s25->s21
+s25->s5
+s25->s26
+s26->s27
+s26->s28
+s26->s25
+s27->s29
+s27->s26
+s27->s34
+s28->s30
+s28->s29
+s28->s26
+s29->s31
+s29->s27
+s29->s28
+s29->s33
+s30->s31
+s30->s28
+s31->s30
+s31->s29
+s31->s32
+s32->s31
+s32->s33
+s33->s34
+s33->s29
+s33->s32
+s34->s27
+s34->s33
+s103->s102
+s103->s104
+s104->s103
+s104->s105
+s105->s106
+s105->s104
+s106->s107
+s106->s105
+s107->s101
+s107->s106
+s108->s119
+s108->s11
+s108->s121
+s108->s120
+s109->s110
+s109->s5
+s109->s11
+s110->s111
+s110->s109
+s110->s112
+s111->s118
+s111->s110
+s111->s113
+s112->s114
+s112->s110
+s112->s113
+s113->s111
+s113->s115
+s113->s117
+s113->s112
+s114->s115
+s114->s112
+s115->s114
+s115->s116
+s115->s113
+s116->s117
+s116->s115
+s117->s118
+s117->s116
+s117->s113
+s118->s111
+s118->s117
+s119->s126
+s119->s108
+s120->s126
+s120->s124
+s120->s122
+s120->s108
+s121->s108
+s121->s122
+s122->s121
+s122->s123
+s122->s120
+s123->s124
+s123->s122
+s124->s125
+s124->s123
+s124->s120
+s125->s126
+s125->s124
+s126->s119
+s126->s125
+s126->s120
+s127->s133
+s127->s10
+s128->s10
+s128->s129
+s129->s130
+s129->s128
+s130->s131
+s130->s129
+s131->s132
+s131->s130
+s132->s133
+s132->s131
+s149->s151
+s149->s150
+s149->s5
+s149->s152
+s150->s149
+s150->s157
+s150->s155
+s150->s153
+s151->s149
+s151->s157
+s152->s149
+s152->s153
+s153->s150
+s153->s154
+s153->s152
+s154->s155
+s154->s153
+s155->s150
+s155->s156
+s155->s154
+s156->s157
+s156->s155
+s157->s151
+s157->s150
+s157->s156
+s158->s159
+s158->s3
+s159->s158
+s159->s160
+s160->s159
+s160->s161
+s161->s1
+s161->s160
+s148->s142
+s148->s147
+s147->s148
+s147->s146
+s146->s147
+s146->s145
+s145->s146
+s145->s144
+s144->s143
+s144->s145
+s143->s141
+s143->s144
+s142->s141
+s142->s148
+s141->s143
+s141->s142
+s141->s6
+s140->s134
+s140->s139
+s139->s140
+s139->s138
+s138->s139
+s138->s137
+s137->s138
+s137->s136
+s136->s135
+s136->s137
+s135->s8
+s135->s136
+s134->s140
+s134->s8
+s133->s127
+s133->s132
+s102->s103
+s102->s13
+s101->s13
+s101->s107
+s100->s94
+s100->s99
+s99->s100
+s99->s98
+s98->s99
+s98->s97
+s97->s98
+s97->s96
+s96->s95
+s96->s97
+s95->s15
+s95->s96
+s94->s15
+s94->s100
+s93->s91
+s93->s90
+s92->s91
+s92->s89
+s91->s93
+s91->s92
+s91->s88
+s90->s87
+s90->s93
+s90->s88
+s89->s86
+s89->s92
+s89->s88
+s88->s75
+s88->s90
+s88->s89
+s88->s91
+s87->s75
+s87->s90
+s86->s75
+s86->s89
+s85->s78
+s85->s84
+s84->s85
+s84->s83
+s84->s80
+s83->s84
+s83->s82
+s82->s81
+s82->s83
+s82->s80
+s81->s79
+s81->s82
+s80->s78
+s80->s79
+s80->s84
+s80->s82
+s79->s81
+s79->s77
+s79->s80
+s78->s85
+s78->s77
+s78->s80
+s77->s78
+s77->s79
+s77->s76
+s76->s77
+s76->s11
+s76->s16
+s75->s87
+s75->s86
+s75->s16
+s75->s88
+s74->s68
+s74->s73
+s73->s74
+s73->s72
+s72->s71
+s72->s73
+s71->s70
+s71->s72
+s70->s71
+s70->s69
+s69->s70
+s69->s18
+s68->s74
+s68->s18
+s67->s61
+s67->s66
+s66->s67
+s66->s65
+s65->s66
+s65->s64
+s64->s63
+s64->s65
+s63->s62
+s63->s64
+s62->s63
+s62->s20
+s61->s20
+s61->s67
+s60->s54
+s60->s53
+s60->s59
+s59->s60
+s59->s58
+s58->s59
+s58->s54
+s58->s57
+s57->s58
+s57->s56
+s56->s55
+s56->s54
+s56->s57
+s55->s22
+s55->s56
+s54->s22
+s54->s60
+s54->s58
+s54->s56
+s53->s22
+s53->s60
+s52->s45
+s52->s51
+s51->s52
+s51->s47
+s51->s50
+s50->s51
+s50->s49
+s49->s47
+s49->s50
+s49->s48
+s48->s46
+s48->s49
+s47->s45
+s47->s46
+s47->s51
+s47->s49
+s46->s47
+s46->s44
+s46->s48
+s45->s52
+s45->s47
+s45->s44
+s44->s23
+s44->s46
+s44->s45
+s43->s37
+s43->s36
+s42->s38
+s42->s36
+s41->s39
+s41->s38
+s40->s39
+s40->s37
+s39->s35
+s39->s41
+s39->s40
+s38->s42
+s38->s35
+s38->s41
+s37->s35
+s37->s43
+s37->s40
+s36->s43
+s36->s42
+s36->s35
+s35->s24
+s35->s39
+s35->s38
+s35->s37
+s35->s36
+}
+}

@@ -1,0 +1,10 @@
+digraph {
+rankdir="LR"
+s0[peripheries=2,label="(instance index=38, state index=0, atoms={arm-empty(), open(f0-0f), locked(f2-0f), locked(f1-0f), at(key0-0,f2-0f), at(key0-1,f1-0f), at-robot(f0-0f)})"]
+Dangling [ label = "", style = invis ]
+{ rank = same; Dangling }
+Dangling -> s0
+{ rank = same; s0}
+{
+}
+}
