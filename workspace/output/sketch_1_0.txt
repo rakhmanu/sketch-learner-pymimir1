@@ -1,11 +1,5 @@
 (:policy
-<<<<<<< HEAD
-(:booleans (f0 "b_empty(c_primitive(at-goal,0))"))
-(:numericals )
-(:rule (:conditions (:c_b_neg f0)) (:effects (:e_b_pos f0)))
-=======
 (:booleans )
-(:numericals )
-(:rule (:conditions ) (:effects ))
->>>>>>> b7319948619247d27059bf90a2bbbfa26a4dc2e0
+(:numericals (f5 "n_count(c_bot)"))
+(:rule (:conditions (:c_n_gt f5)) (:effects (:e_n_inc f5)))
 )

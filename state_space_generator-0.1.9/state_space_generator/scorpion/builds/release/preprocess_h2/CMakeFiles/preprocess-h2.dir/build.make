@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/ulzhalgasrakhman/sketch-learner/.venv/lib/python3.12/site-packages/cmake/data/bin/cmake
+CMAKE_COMMAND = /opt/anaconda3/bin/cmake
 
 # The command to remove a file.
-RM = /Users/ulzhalgasrakhman/sketch-learner/.venv/lib/python3.12/site-packages/cmake/data/bin/cmake -E rm -f
+RM = /opt/anaconda3/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =

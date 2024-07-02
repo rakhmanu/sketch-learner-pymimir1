@@ -18,6 +18,14 @@ class Sketch:
         self.dlplan_policy = dlplan_policy
         self.width = width
 
+    def __eq__(self, other):
+        if isinstance(other, Sketch):
+            return str(self.dlplan_policy) == str(other.dlplan_policy)
+        return False
+    
+    def __hash__(self):
+        return hash((str(self.dlplan_policy), self.width))
+    
     def _verify_bounded_width(self,
                               preprocessing_data: PreprocessingData,
                               iteration_data: IterationData,
