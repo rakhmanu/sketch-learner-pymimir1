@@ -1,0 +1,5 @@
+(:policy
+(:booleans (f64 "b_empty(c_some(r_and(r_primitive(at,0,1),r_primitive(at_g,0,1)),c_some(r_inverse(r_primitive(at,0,1)),c_primitive(truck,0))))"))
+(:numericals (f1 "n_count(c_bot)") (f25 "n_count(c_primitive(empty,0))") (f44 "n_count(c_and(c_primitive(cell,0),c_all(r_primitive(adjacent,0,1),c_some(r_inverse(r_primitive(at,0,1)),c_top))))") (f27 "n_count(c_some(r_primitive(adjacent,0,1),c_some(r_inverse(r_primitive(at,0,1)),c_some(r_primitive(carrying,0,1),c_top))))") (f68 "n_concept_distance(c_primitive(truck,0),r_primitive(carrying,0,1),c_all(r_primitive(at,0,1),c_all(r_inverse(r_primitive(at,0,1)),c_primitive(empty,0))))"))
+(:rule (:conditions (:c_n_gt f1) (:c_n_eq f25) (:c_n_gt f44) (:c_n_gt f27) (:c_b_neg f64) (:c_n_gt f68)) (:effects (:e_n_dec f1) (:e_n_bot f25) (:e_n_dec f44) (:e_n_bot f27) (:e_b_neg f64) (:e_n_bot f68)))
+)

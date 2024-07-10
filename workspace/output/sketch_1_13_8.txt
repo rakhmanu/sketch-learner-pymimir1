@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f10 "n_count(c_and(c_one_of(b1),c_and(c_primitive(clear,0),c_all(r_primitive(on,0,1),c_primitive(on-table,0)))))") (f44 "n_count(c_and(c_primitive(clear,0),c_some(r_primitive(on,0,1),c_some(r_inverse(r_primitive(on_g,0,1)),c_primitive(clear,0)))))") (f11 "n_count(c_not(c_all(r_inverse(r_primitive(on,0,1)),c_some(r_inverse(r_primitive(on_g,0,1)),c_primitive(on-table,0)))))") (f0 "n_concept_distance(c_one_of(b1),r_primitive(on,0,1),c_all(r_primitive(on_g,0,1),c_some(r_primitive(on,0,1),c_top)))"))
+(:rule (:conditions (:c_n_gt f10) (:c_n_eq f44) (:c_n_gt f0)) (:effects (:e_n_dec f10) (:e_n_bot f44) (:e_n_bot f11) (:e_n_dec f0)))
+)

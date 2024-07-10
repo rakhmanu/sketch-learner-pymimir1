@@ -13,23 +13,31 @@ from .domain_data_utils import compute_domain_data
 
 from ..util import change_dir, write_file
 
-
 def create_vocabulary_info(domain: mm.Domain) -> dlplan_core.VocabularyInfo:
     vocabulary_info = dlplan_core.VocabularyInfo()
-    for predicate in domain.get_static_predicates():
+    for predicate in sorted(domain.get_static_predicates(), key=lambda x: x.get_name()):
+    #for predicate in domain.get_static_predicates():
+        print("Static predicate")
+        print(f"Predicate name: {predicate.get_name()}")
         if predicate.get_name() != "=":
             vocabulary_info.add_predicate(predicate.get_name(), len(predicate.get_parameters()), True)
             vocabulary_info.add_predicate(predicate.get_name() + "_g", len(predicate.get_parameters()), True)
-    for predicate in domain.get_fluent_predicates():
+    for predicate in sorted(domain.get_fluent_predicates(), key=lambda x: x.get_name()):
+    #for predicate in domain.get_static_predicates():
+        print("Fluent predicate")
+        print(f"Predicate name: {predicate.get_name()}")
         vocabulary_info.add_predicate(predicate.get_name(), len(predicate.get_parameters()), False)
         vocabulary_info.add_predicate(predicate.get_name() + "_g", len(predicate.get_parameters()), False)
-    for predicate in domain.get_derived_predicates():
+    for predicate in sorted(domain.get_derived_predicates(), key=lambda x: x.get_name()):
+    #for predicate in domain.get_derived_predicates():
+        print("Derived predicate")
+        print(f"Predicate name: {predicate.get_name()}")
         vocabulary_info.add_predicate(predicate.get_name(), len(predicate.get_parameters()), False)
         vocabulary_info.add_predicate(predicate.get_name() + "_g", len(predicate.get_parameters()), False)
     for obj in domain.get_constants():
         vocabulary_info.add_constant(obj.get_name())
+    #assert False
     return vocabulary_info
-
 
 def create_instance_info(
         vocabulary_info: dlplan_core.VocabularyInfo,

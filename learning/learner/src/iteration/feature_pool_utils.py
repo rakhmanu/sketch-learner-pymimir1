@@ -72,6 +72,15 @@ def compute_feature_pool(preprocessing_data: PreprocessingData,
         boolean = syntactic_element_factory.parse_boolean(boolean)
         features.append(Feature(boolean, boolean.compute_complexity() + 1 + 1))
     print("Features generated:", len(features))
+    
+    return features[:100]
+    
+    # Claim: feature pool is deterministic
+    # Checked: looks deterministic
+    
+    sorted_features = sorted(features, key=lambda x: str(x.dlplan_feature))
+    for feature in sorted_features:
+        print(feature)
 
     # Prune features that never reach 0/False
     selected_features = []
@@ -87,6 +96,8 @@ def compute_feature_pool(preprocessing_data: PreprocessingData,
             selected_features.append(feature)
     features = selected_features
     print("Features after 0/1 pruning (incomplete):", len(selected_features))
+    
+    # Checked: looks deterministic
 
     # Prune features that decrease by more than 1 on a state transition
     soft_changing_features = set()
@@ -165,4 +176,4 @@ def compute_feature_pool(preprocessing_data: PreprocessingData,
     features = list(feature_changes.values())
     print("Features after relevant changes pruning (complete):", len(features))
 
-    return features
+    return features[:10]

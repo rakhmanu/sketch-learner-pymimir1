@@ -1,0 +1,5 @@
+(:policy
+(:booleans (f94 "b_empty(c_bot)"))
+(:numericals )
+(:rule (:conditions (:c_b_neg f94)) (:effects (:e_b_neg f94)))
+)

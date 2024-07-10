@@ -1,18 +1,34 @@
 digraph {
 rankdir="LR"
-s0[label="(instance index=0, state index=0, atoms={at(block01,pos1), clear(pos2), at(robot,pos0)})"]
-s1[peripheries=2,label="(instance index=0, state index=1, atoms={at-goal(block01), at(robot,pos1), at(block01,pos2), clear(pos0)})"]
-s2[peripheries=2,label="(instance index=0, state index=2, atoms={at(robot,pos0), at-goal(block01), at(block01,pos2), clear(pos1)})"]
+s0[label="(instance index=0, state index=0, atoms={clear(b2), on(b2,b1), on-table(b1), arm-empty()})"]
+s1[label="(instance index=0, state index=1, atoms={on-table(b1), holding(b2), clear(b1)})"]
+s2[label="(instance index=0, state index=2, atoms={clear(b2), on-table(b1), arm-empty(), clear(b1), on-table(b2)})"]
+s3[label="(instance index=0, state index=3, atoms={clear(b2), on-table(b2), holding(b1)})"]
+s4[peripheries=2,label="(instance index=0, state index=4, atoms={arm-empty(), on(b1,b2), clear(b1), on-table(b2)})"]
 Dangling [ label = "", style = invis ]
 { rank = same; Dangling }
 Dangling -> s0
 { rank = same; s0}
-{ rank = same; s1,s2}
+{ rank = same; s1}
+{ rank = same; s2}
+{ rank = same; s3}
+{ rank = same; s4}
 {
 s0->s1
 }
 {
 s1->s2
+s1->s0
+}
+{
+s2->s3
 s2->s1
+}
+{
+s3->s4
+s3->s2
+}
+{
+s4->s3
 }
 }

@@ -1,6 +1,6 @@
 import os
 
-from collections import defaultdict
+from collections import defaultdict, deque
 from typing import List, Union, Dict
 from pathlib import Path
 
@@ -27,7 +27,7 @@ class ASPFactory:
         if encoding_type == EncodingType.EXPLICIT:
             add_arguments.extend(["--const", f"max_num_rules={max_num_rules}"])
 
-        self.ctl = Control(arguments=["--parallel-mode=32,split", "-n", "0"] + add_arguments)
+        self.ctl = Control(arguments=[ "--parallel-mode=32,split", "-n", "0"] + add_arguments) #"--enum-mode=cautious"
 
         # features
         self.ctl.add("boolean", ["b"], "boolean(b).")
@@ -388,6 +388,7 @@ class ASPFactory:
         with self.ctl.solve(yield_=True) as handle:
             last_model = None
             for model in handle:
+                print(model.cost)
                 last_model = model
             if last_model is not None:
                 assert last_model.optimality_proven
@@ -425,6 +426,32 @@ class ASPFactory:
         # print(f"Solutions found: {solutions}")
         for solution in solutions:
             yield solution
+            
+
+    def solve_all_opt(self):
+        solutions = deque(maxlen=5)
+        with self.ctl.solve(yield_=True) as handle:
+            solutions_found = False
+            for model in handle:
+                solutions.append((model.symbols(shown=True), ClingoExitCode.SATISFIABLE))
+                solutions_found = True
+            if not solutions_found:
+                solutions.append((None, ClingoExitCode.UNSATISFIABLE))
+            result = handle.get()
+            if result.exhausted:
+                solutions.append((None, ClingoExitCode.EXHAUSTED))
+            elif result.unknown:
+                solutions.append((None, ClingoExitCode.UNKNOWN))
+            elif result.interrupted:
+                solutions.append((None, ClingoExitCode.INTERRUPTED))
+            else:
+                solutions.append((None, ClingoExitCode.UNKNOWN))
+
+    
+        for solution in solutions:
+            yield solution
+
+
 
     def print_solve_all_output(self):
         """Prints the output of solve_all()"""
@@ -445,3 +472,4 @@ class ASPFactory:
         print("Total time:", self.ctl.statistics["summary"]["times"]["total"])
         print("CPU time:", self.ctl.statistics["summary"]["times"]["cpu"])
         print("Solve time:", self.ctl.statistics["summary"]["times"]["solve"])
+

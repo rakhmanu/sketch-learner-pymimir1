@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f3 "n_count(c_primitive(at-goal,0))"))
-(:rule (:conditions (:c_n_gt f3)) (:effects (:e_n_dec f3)))
+(:numericals (f67 "n_count(c_not(c_all(r_inverse(r_primitive(on,0,1)),c_equal(r_primitive(on,0,1),r_primitive(on_g,0,1)))))") (f2 "n_count(c_and(c_not(c_one_of(b2)),c_all(r_transitive_closure(r_primitive(on,0,1)),c_one_of(b1))))") (f82 "n_concept_distance(c_one_of(b2),r_primitive(on,0,1),c_some(r_primitive(on,0,1),c_equal(r_primitive(on,0,1),r_primitive(on_g,0,1))))"))
+(:rule (:conditions (:c_n_gt f67) (:c_n_gt f2) (:c_n_gt f82)) (:effects (:e_n_dec f2) (:e_n_bot f82)))
 )

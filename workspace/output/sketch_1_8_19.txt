@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f14 "n_concept_distance(c_one_of(b1),r_primitive(on,0,1),c_equal(r_primitive(on,0,1),r_primitive(on_g,0,1)))"))
+(:rule (:conditions (:c_n_gt f14)) (:effects (:e_n_dec f14)))
+)

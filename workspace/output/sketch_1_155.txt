@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f105 "n_count(c_primitive(empty,0))") (f39 "n_count(c_some(r_transitive_closure(r_primitive(adjacent,0,1)),c_all(r_inverse(r_primitive(at,0,1)),c_primitive(truck,0))))"))
+(:rule (:conditions (:c_n_eq f105) (:c_n_eq f39)) (:effects (:e_n_inc f105) (:e_n_dec f39)))
+)

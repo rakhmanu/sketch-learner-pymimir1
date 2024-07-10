@@ -8,10 +8,10 @@
 rule(1).
 
 % Generate feature conditions and effects
-{ c_n_eq(R, F); c_n_gt(R, F); c_n_unk(R, F) } = 1 :- rule(R), numerical(F).
-{ c_b_pos(R, F); c_b_neg(R, F); c_b_unk(R, F) } = 1 :- rule(R), boolean(F).
-{ e_n_dec(R, F); e_n_inc(R, F); e_n_unk(R, F); e_n_bot(R, F) } = 1 :- rule(R), numerical(F).
-{ e_b_pos(R, F); e_b_neg(R, F); e_b_unk(R, F); e_b_bot(R, F) } = 1 :- rule(R), boolean(F).
+{ c_n_eq(R, F); c_n_gt(R, F) } = 1 :- rule(R), numerical(F).
+{ c_b_pos(R, F); c_b_neg(R, F) } = 1 :- rule(R), boolean(F).
+{ e_n_dec(R, F); e_n_inc(R, F); e_n_bot(R, F) } = 1 :- rule(R), numerical(F).
+{ e_b_pos(R, F); e_b_neg(R, F); e_b_bot(R, F) } = 1 :- rule(R), boolean(F).
 
 
 % Define equivalence class C and rule R have same feature condition on F
@@ -19,8 +19,6 @@ c_satisfied(R, F, C) :- c_n_eq(R, F), feature_condition(C, F, "c_n_eq"), numeric
 c_satisfied(R, F, C) :- c_n_gt(R, F), feature_condition(C, F, "c_n_gt"), numerical(F), rule(R), state_pair_class(C).
 c_satisfied(R, F, C) :- c_b_pos(R, F), feature_condition(C, F, "c_b_pos"), boolean(F), rule(R), state_pair_class(C).
 c_satisfied(R, F, C) :- c_b_neg(R, F), feature_condition(C, F, "c_b_neg"), boolean(F), rule(R), state_pair_class(C).
-c_satisfied(R, F, C) :- c_n_unk(R, F), numerical(F), rule(R), state_pair_class(C).
-c_satisfied(R, F, C) :- c_b_unk(R, F), boolean(F), rule(R), state_pair_class(C).
 
 e_satisfied(R, F, C) :- e_n_dec(R, F), feature_effect(C, F, "e_n_dec"), numerical(F), rule(R), state_pair_class(C).
 e_satisfied(R, F, C) :- e_n_inc(R, F), feature_effect(C, F, "e_n_inc"), numerical(F), rule(R), state_pair_class(C).
@@ -30,12 +28,13 @@ e_satisfied(R, F, C) :- e_b_bot(R, F), feature_effect(C, F, "e_b_bot"), boolean(
 e_satisfied(R, F, C) :- e_n_bot(R, F), feature_effect(C, F, "e_n_bot"), numerical(F), rule(R), state_pair_class(C).
 e_satisfied(R, F, C) :- e_b_pos(R, F), feature_effect(C, F, "e_b_bot"), feature_condition(C, F, "c_b_pos"), boolean(F), rule(R), state_pair_class(C).
 e_satisfied(R, F, C) :- e_b_neg(R, F), feature_effect(C, F, "e_b_bot"), feature_condition(C, F, "c_b_neg"), boolean(F), rule(R), state_pair_class(C).
-e_satisfied(R, F, C) :- e_n_unk(R, F), numerical(F), rule(R), state_pair_class(C).
-e_satisfied(R, F, C) :- e_b_unk(R, F), boolean(F), rule(R), state_pair_class(C).
 
-%{ alive_selected(S) } = 1 :- alive(S), nongoal(S).
+%change
+%%%%%{alive_selected(S)} = 1 :- alive(S), nongoal(S).
+%{alive_selected(S) : alive(S), nongoal(S)} = 1.
 
 %%%%%%%%%% C2.1 %%%%%%%%%%
+%change
 %{ subgoal_distance(S, D, R) : t_distance(S, _, D), D > 0 } != 0 :- sat_cond(S, R), alive_selected(S), nongoal(S).
 { subgoal_distance(S, D, R) : t_distance(S, _, D), D > 0 } != 0 :- sat_cond(S, R), initial(S), nongoal(S).
 
@@ -47,7 +46,12 @@ e_satisfied(R, F, C) :- e_b_unk(R, F), boolean(F), rule(R), state_pair_class(C).
 :- not sat_rule(R, C), subgoal(S, T, R), contain(S, T, C).
 
 %%% Unsolvable states can be addressed with d_distance
+%change
 :- D <= D',  subgoal_distance(S, D, R), sat_rule(R, C), d_distance(S, C, D'), initial(S), unsolvable(S), nongoal(S).     
+
+%%%%%%%%%% C6.2 %%%%%%%%%%
+%change
+%:- D < D', t_distance(S, T, D), sat_pair(S, S', R), subgoal_distance(S, D', R), nongoal(S).
 
 %%%%%%%%%% C6.1 %%%%%%%%%%
 % (Optimal-width): Require solvable states S' closer than subgoal to not be assigned to any rule.
@@ -72,18 +76,14 @@ sat_cond(S, R) :- { feature(F) : not c_satisfied(R, F, C), select(F) } = 0, rule
 
 #show c_n_eq/2.
 #show c_n_gt/2.
-#show c_n_unk/2.
 
 #show e_n_dec/2.
 #show e_n_inc/2.
 #show e_n_bot/2.
-#show e_n_unk/2.
 
 #show c_b_pos/2.
 #show c_b_neg/2.
-#show c_b_unk/2.
 
 #show e_b_pos/2.
 #show e_b_neg/2.
 #show e_b_bot/2.
-#show e_b_unk/2.
