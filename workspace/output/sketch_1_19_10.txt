@@ -1,5 +1,5 @@
 (:policy
-(:booleans (f38 "b_empty(c_primitive(free,0))"))
-(:numericals (f11 "n_count(c_bot)"))
-(:rule (:conditions (:c_n_eq f11) (:c_b_pos f38)) (:effects (:e_b_neg f38)))
+(:booleans )
+(:numericals (f24 "n_concept_distance(c_primitive(truck,0),r_primitive(adjacent,0,1),c_not(c_primitive(empty,0)))"))
+(:rule (:conditions (:c_n_eq f24)) (:effects (:e_n_inc f24)))
 )

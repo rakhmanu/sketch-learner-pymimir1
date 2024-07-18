@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f25 "n_concept_distance(c_primitive(is-goal,0),r_primitive(at,0,1),c_primitive(clear,0))"))
-(:rule (:conditions (:c_n_eq f25)) (:effects (:e_n_inc f25)))
+(:numericals (f25 "n_concept_distance(c_primitive(ball,0),r_primitive(at,0,1),c_all(r_primitive(at_g,0,1),c_primitive(at-robby,0)))"))
+(:rule (:conditions (:c_n_gt f25)) (:effects (:e_n_dec f25)))
 )

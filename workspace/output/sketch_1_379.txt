@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f27 "n_concept_distance(c_primitive(package,0),r_primitive(adjacent,0,1),c_equal(r_primitive(at,0,1),r_primitive(at_g,0,1)))"))
+(:rule (:conditions (:c_n_eq f27)) (:effects (:e_n_inc f27)))
+)

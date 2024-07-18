@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f29 "n_count(c_not(c_and(c_primitive(clear,0),c_primitive(is-nongoal,0))))"))
-(:rule (:conditions (:c_n_gt f29)) (:effects (:e_n_inc f29)))
+(:numericals (f12 "n_count(r_primitive(carry,0,1))"))
+(:rule (:conditions (:c_n_eq f12)) (:effects (:e_n_bot f12)))
 )

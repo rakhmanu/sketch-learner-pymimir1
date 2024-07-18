@@ -27,8 +27,9 @@ class ASPFactory:
         if encoding_type == EncodingType.EXPLICIT:
             add_arguments.extend(["--const", f"max_num_rules={max_num_rules}"])
 
-        self.ctl = Control(arguments=[ "--parallel-mode=32,split", "-n", "0"] + add_arguments) #"--enum-mode=cautious"
-
+        self.ctl = Control(arguments=[ "--parallel-mode=32,split", "-n", "0"] + add_arguments) 
+        self.ctl.configuration.solve.opt_mode = "optN"
+        #self.ctl.configuration.solve.models = 10  
         # features
         self.ctl.add("boolean", ["b"], "boolean(b).")
         self.ctl.add("numerical", ["n"], "numerical(n).")
@@ -388,7 +389,6 @@ class ASPFactory:
         with self.ctl.solve(yield_=True) as handle:
             last_model = None
             for model in handle:
-                print(model.cost)
                 last_model = model
             if last_model is not None:
                 assert last_model.optimality_proven
@@ -429,28 +429,26 @@ class ASPFactory:
             
 
     def solve_all_opt(self):
-        solutions = deque(maxlen=5)
+        """Solves the ASP program and returns all optimal models."""
+        optimal_models = []
         with self.ctl.solve(yield_=True) as handle:
-            solutions_found = False
             for model in handle:
-                solutions.append((model.symbols(shown=True), ClingoExitCode.SATISFIABLE))
-                solutions_found = True
-            if not solutions_found:
-                solutions.append((None, ClingoExitCode.UNSATISFIABLE))
+                #print(model.cost)
+                if model.optimality_proven:
+                    print(model.symbols(shown=True))
+                    optimal_models.append(model.symbols(shown=True))
+        if optimal_models:
+            return optimal_models, ClingoExitCode.SATISFIABLE
+        else:
             result = handle.get()
             if result.exhausted:
-                solutions.append((None, ClingoExitCode.EXHAUSTED))
+                return None, ClingoExitCode.EXHAUSTED
+            elif result.unsatisfiable:
+                return None, ClingoExitCode.UNSATISFIABLE
             elif result.unknown:
-                solutions.append((None, ClingoExitCode.UNKNOWN))
+                return None, ClingoExitCode.UNKNOWN
             elif result.interrupted:
-                solutions.append((None, ClingoExitCode.INTERRUPTED))
-            else:
-                solutions.append((None, ClingoExitCode.UNKNOWN))
-
-    
-        for solution in solutions:
-            yield solution
-
+                return None, ClingoExitCode.INTERRUPTED
 
 
     def print_solve_all_output(self):

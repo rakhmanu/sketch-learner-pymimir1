@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f6 "n_count(c_and(c_one_of(b1),c_and(c_primitive(clear,0),c_not(c_primitive(on-table,0)))))") (f67 "n_count(c_not(c_all(r_inverse(r_primitive(on,0,1)),c_equal(r_primitive(on,0,1),r_primitive(on_g,0,1)))))"))
-(:rule (:conditions (:c_n_gt f6) (:c_n_gt f67)) (:effects (:e_n_dec f67)))
+(:numericals (f0 "n_count(c_bot)"))
+(:rule (:conditions (:c_n_gt f0)) (:effects (:e_n_bot f0)))
 )

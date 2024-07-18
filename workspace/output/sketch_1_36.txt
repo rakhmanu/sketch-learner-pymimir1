@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f16 "n_concept_distance(c_primitive(is-block,0),r_primitive(at,0,1),c_primitive(is-goal,0))"))
-(:rule (:conditions (:c_n_eq f16)) (:effects (:e_n_inc f16)))
+(:numericals (f77 "n_count(c_not(c_equal(r_primitive(at,0,1),r_primitive(at_g,0,1))))"))
+(:rule (:conditions (:c_n_eq f77)) (:effects (:e_n_bot f77)))
 )

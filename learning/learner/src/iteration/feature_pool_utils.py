@@ -73,8 +73,6 @@ def compute_feature_pool(preprocessing_data: PreprocessingData,
         features.append(Feature(boolean, boolean.compute_complexity() + 1 + 1))
     print("Features generated:", len(features))
     
-    return features[:100]
-    
     # Claim: feature pool is deterministic
     # Checked: looks deterministic
     
@@ -176,4 +174,4 @@ def compute_feature_pool(preprocessing_data: PreprocessingData,
     features = list(feature_changes.values())
     print("Features after relevant changes pruning (complete):", len(features))
 
-    return features[:10]
+    return features

@@ -88,6 +88,8 @@ def learn_sketch_for_problem_class(
         sketches_per_state = defaultdict(set)
         total_sketch_count = 0
         
+        
+        
         # Ensure instance_datas is not empty before iterating
         if preprocessing_data.instance_datas:
             for instance_data in preprocessing_data.instance_datas:
@@ -147,65 +149,84 @@ def learn_sketch_for_problem_class(
                     instance_data.initial_gfa_state_idxs = [gfa_state_idx]
                     asp_factory = ASPFactory(encoding_type, enable_goal_separating_features, max_num_rules)
                     facts = asp_factory.make_facts(preprocessing_data, iteration_data)
+                    mimir_ss_state = preprocessing_data.state_finder.get_mimir_ss_state(gfa_state)
+                    mapped_instance_idx = gfa_state.get_abstraction_index()
+                    mapped_instance_data: InstanceData = instance_datas[mapped_instance_idx]
+                    mapped_problem = mapped_instance_data.mimir_ss.get_pddl_parser().get_problem()
+                    mapped_factories = mapped_instance_data.mimir_ss.get_pddl_parser().get_factories()
+                    print("State:", mimir_ss_state.to_string(mapped_problem, mapped_factories))
                     logging.info(colored("Grounding Logic Program...", "blue", "on_grey"))
                     asp_factory.ground(facts)
                     logging.info(colored("..done", "blue", "on_grey"))
                     logging.info(colored("Solving Logic Program...", "blue", "on_grey"))
                     #solutions = [asp_factory.solve()]
-                    solutions = list(asp_factory.solve_all_opt())
-                    asp_factory.print_statistics()
-                    #symbols, returncode = asp_factory.solve()
-                    #valid_solutions = symbols, returncode
-                    valid_solutions = [symbols for symbols, status in solutions if symbols is not None]
-                    if len(valid_solutions) == 0:
-                        print(colored("UNSAT problem for selected instances", "red", "on_grey"))
-                        exit(ExitCode.UNSOLVABLE)
-                    elif len(valid_solutions) == 1:
-                        print(colored("ASP solving returns a unique solution", "red", "on_grey"))
-                    else:
-                        print(colored(f"ASP solving returns {len(valid_solutions)}", "red", "on_grey"))
-                    '''
-        
+                    
+                    symbolss, returncode = asp_factory.solve_all_opt()
                     if returncode in [ClingoExitCode.UNSATISFIABLE, ClingoExitCode.EXHAUSTED]:
-                        print(colored("ASP is unsatisfiable!", "red", "on_grey"))
+                        print(colored("ASP is unsatisfiable or exhausted!", "red", "on_grey"))
                         print(colored(f"No sketch of width {width} exists that solves all instances!", "red", "on_grey"))
                         exit(ExitCode.UNSOLVABLE)
                     elif returncode == ClingoExitCode.UNKNOWN:
                         print(colored("ASP solving throws unknown error!", "red", "on_grey"))
                         exit(ExitCode.UNKNOWN)
                     elif returncode == ClingoExitCode.INTERRUPTED:
-                        print(colored("ASP solving iterrupted!", "red", "on_grey"))
+                        print(colored("ASP solving interrupted!", "red", "on_grey"))
                         exit(ExitCode.INTERRUPTED)
-                    '''
-                    for idx, symbols in enumerate(valid_solutions):
-                        print(f"Solution {idx + 1}:")
+                    else:
+                        logging.info(f"Solution found with return code: {returncode}")
+                        
+                    asp_factory.print_statistics()
+                    for symbols in symbolss:
                         dlplan_policy = ExplicitDlplanPolicyFactory().make_dlplan_policy_from_answer_set(symbols, preprocessing_data, iteration_data)
                         sketch = Sketch(dlplan_policy, width)
-                        for gfa_state in gfa_states:
-                            state_idx = preprocessing_data.state_finder.get_gfa_state_idx_from_gfa_state(instance_data.idx, gfa_state)
-                            if state_idx not in sketches_per_state:
-                                sketches_per_state[state_idx] = set()
-                            if state_idx in sketch_count_per_state:
-                                sketch_count_per_state[state_idx] += 1
-                            else:
-                                sketch_count_per_state[state_idx] = 1
-                            if sketch not in sketches_per_state[gfa_state_idx] and str(sketch.dlplan_policy):
-                                if len(valid_solutions) > 1:
-                                    sketches_per_state[gfa_state_idx].add(sketch)
-                                    sketches.add(sketch)
-                                    total_sketch_count += 1
-                                    for idx, sketch in enumerate(sketches):
-                                        print(f"Sketch {idx + 1}:")
-                                        print(str(sketch.dlplan_policy))
-                                        print()
-                                    for state_id in unsolvable_states_from_solution(symbols):
-                                        unsolvable_states.add(state_id)
+                        print(str(sketch.dlplan_policy))
+                        total_sketch_count += 1
+                        
+                    exit(1)
+    
+                    #logging.debug(f"Return code: {returncode}")
+                    #logging.debug(f"Symbols: {symbols}")
+                    #symbols, returncode = asp_factory.solve()
+                    #valid_solutions = symbols, returncode
+                    #valid_solutions = [symbols for symbols, status in solutions if symbols is not None]
+                    #if len(valid_solutions) == 0:
+                    #    print(colored("UNSAT problem for selected instances", "red", "on_grey"))
+                    #    exit(ExitCode.UNSOLVABLE)
+                    #elif len(valid_solutions) == 1:
+                    #    print(colored("ASP solving returns a unique solution", "red", "on_grey"))
+                    #else:
+                    #    print(colored(f"ASP solving returns {len(valid_solutions)}", "red", "on_grey"))
+                    
+                        #dlplan_policy = ExplicitDlplanPolicyFactory().make_dlplan_policy_from_answer_set(symbols, preprocessing_data, iteration_data)
+                        #sketch = Sketch(dlplan_policy, width)
+                        #for gfa_state in gfa_states:
+                        #   state_idx = preprocessing_data.state_finder.get_gfa_state_idx_from_gfa_state(instance_data.idx, gfa_state)
+                        #    if state_idx not in sketches_per_state:
+                        #        sketches_per_state[state_idx] = set()
+                        #    if state_idx in sketch_count_per_state:
+                        #       sketch_count_per_state[state_idx] += 1
+                        #    else:
+                        #        sketch_count_per_state[state_idx] = 1
+                        #    if sketch not in sketches_per_state[gfa_state_idx] and str(sketch.dlplan_policy):
+                        #            
+                        #            sketches_per_state[gfa_state_idx].add(sketch)
+                        #            sketches.add(sketch)
+                        #            total_sketch_count += 1
+                        #            for idx, sketch in enumerate(sketches):
+                        #                print(f"Sketch {idx + 1}:")
+                        #                print(str(sketch.dlplan_policy))
+                        #                print()
+                        #            for state_id in unsolvable_states_from_solution(symbols):
+                        #                    unsolvable_states.add(state_id)
 
         else:
             print("No instance datas found in preprocessing_data. Skipping feature pool printing.")
 
     else:
         raise Exception("No implementation for the given encoding type.")
+    
+    print("Num processed states:", len(gfa_states))
+    print("Num sketch rules:", total_sketch_count)
 
     # Output the result
     with change_dir("output"):

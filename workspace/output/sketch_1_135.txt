@@ -1,5 +1,5 @@
 (:policy
-(:booleans (f48 "b_empty(c_and(c_primitive(locatable,0),c_all(r_primitive(at,0,1),c_some(r_inverse(r_primitive(at_g,0,1)),c_top))))") (f67 "b_empty(c_some(r_primitive(at,0,1),c_some(r_primitive(adjacent,0,1),c_some(r_inverse(r_primitive(at,0,1)),c_top))))") (f32 "b_empty(c_some(r_primitive(at,0,1),c_all(r_primitive(adjacent,0,1),c_some(r_inverse(r_primitive(at,0,1)),c_primitive(truck,0)))))"))
-(:numericals (f11 "n_count(c_some(r_primitive(at,0,1),c_some(r_inverse(r_primitive(at_g,0,1)),c_top)))") (f64 "n_count(c_some(r_primitive(at,0,1),c_all(r_inverse(r_primitive(at_g,0,1)),c_bot)))") (f44 "n_count(c_and(c_primitive(locatable,0),c_all(r_primitive(at,0,1),c_all(r_inverse(r_primitive(at_g,0,1)),c_bot))))") (f0 "n_count(c_some(r_primitive(at_g,0,1),c_some(r_primitive(adjacent,0,1),c_some(r_inverse(r_primitive(at,0,1)),c_top))))") (f51 "n_count(c_some(r_primitive(at,0,1),c_all(r_inverse(r_primitive(at_g,0,1)),c_equal(r_primitive(at,0,1),r_primitive(at_g,0,1)))))") (f60 "n_concept_distance(c_primitive(truck,0),r_primitive(carrying,0,1),c_all(r_primitive(at,0,1),c_all(r_inverse(r_primitive(at,0,1)),c_primitive(empty,0))))"))
-(:rule (:conditions (:c_n_gt f11) (:c_n_gt f64) (:c_b_neg f48) (:c_n_eq f44) (:c_n_eq f0) (:c_b_pos f67) (:c_b_pos f32) (:c_n_gt f51) (:c_n_eq f60)) (:effects (:e_n_bot f11) (:e_n_bot f64) (:e_n_dec f44) (:e_b_pos f48) (:e_b_bot f67) (:e_n_dec f0) (:e_b_bot f32) (:e_n_inc f51) (:e_n_dec f60)))
+(:booleans )
+(:numericals (f15 "n_concept_distance(c_primitive(truck,0),r_primitive(adjacent,0,1),c_bot)"))
+(:rule (:conditions (:c_n_eq f15)) (:effects (:e_n_dec f15)))
 )

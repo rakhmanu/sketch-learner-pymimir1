@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f8 "n_count(c_bot)"))
-(:rule (:conditions (:c_n_gt f8)) (:effects (:e_n_dec f8)))
+(:numericals (f0 "n_count(c_top)") (f8 "n_count(r_primitive(carrying,0,1))"))
+(:rule (:conditions (:c_n_eq f0) (:c_n_gt f8)) (:effects (:e_n_inc f0) (:e_n_dec f8)))
 )

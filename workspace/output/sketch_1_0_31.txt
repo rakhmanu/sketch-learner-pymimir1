@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f33 "n_count(c_some(r_primitive(adjacent,0,1),c_some(r_inverse(r_primitive(at,0,1)),c_top)))") (f35 "n_count(c_some(r_primitive(adjacent,0,1),c_some(r_inverse(r_primitive(at,0,1)),c_primitive(truck,0))))") (f36 "n_count(c_some(r_primitive(adjacent,0,1),c_some(r_inverse(r_primitive(at,0,1)),c_primitive(empty,0))))") (f85 "n_count(c_not(c_some(r_primitive(adjacent,0,1),c_some(r_inverse(r_primitive(at,0,1)),c_primitive(empty,0)))))"))
+(:rule (:conditions (:c_n_gt f33) (:c_n_gt f35) (:c_n_gt f36) (:c_n_gt f85)) (:effects (:e_n_inc f33) (:e_n_inc f35) (:e_n_inc f36) (:e_n_dec f85)))
+)

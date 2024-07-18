@@ -1,5 +1,5 @@
 (:policy
 (:booleans )
-(:numericals (f115 "n_count(c_and(c_all(r_inverse(r_primitive(at,0,1)),c_one_of(roomb)),c_primitive(room,0)))") (f103 "n_count(c_and(c_some(r_primitive(at_g,0,1),c_primitive(at-robby,0)),c_all(r_primitive(at,0,1),c_one_of(rooma))))") (f77 "n_count(c_not(c_and(c_all(r_primitive(at,0,1),c_one_of(rooma)),c_all(r_primitive(at_g,0,1),c_primitive(at-robby,0)))))"))
-(:rule (:conditions (:c_n_gt f115) (:c_n_gt f103)) (:effects (:e_n_bot f115) (:e_n_dec f103) (:e_n_inc f77)))
+(:numericals (f8 "n_count(r_primitive(carrying,0,1))"))
+(:rule (:conditions (:c_n_eq f8)) (:effects (:e_n_inc f8)))
 )

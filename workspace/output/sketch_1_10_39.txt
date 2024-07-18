@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f6 "n_count(r_primitive(adjacent,0,1))"))
+(:rule (:conditions (:c_n_eq f6)) (:effects (:e_n_bot f6)))
+)

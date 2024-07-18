@@ -1,0 +1,5 @@
+(:policy
+(:booleans )
+(:numericals (f17 "n_concept_distance(c_primitive(truck,0),r_primitive(adjacent,0,1),c_primitive(empty,0))"))
+(:rule (:conditions (:c_n_gt f17)) (:effects (:e_n_bot f17)))
+)

@@ -37,7 +37,8 @@ e_satisfied(R, F, C) :- e_b_neg(R, F), feature_effect(C, F, "e_b_bot"), feature_
 %change
 %{ subgoal_distance(S, D, R) : t_distance(S, _, D), D > 0 } != 0 :- sat_cond(S, R), alive_selected(S), nongoal(S).
 { subgoal_distance(S, D, R) : t_distance(S, _, D), D > 0 } != 0 :- sat_cond(S, R), initial(S), nongoal(S).
-
+% why does this work?
+% subgoal_distance(0,1,1).
 %%%%%%%%%% C3.1 %%%%%%%%%%
 { subgoal(S, T, R) : t_distance(S, T, D) } != 0 :- subgoal_distance(S, D, R).
 
@@ -67,10 +68,10 @@ sat_pair(S, S', R) :- sat_rule(R, C), cover(S, S', C), nongoal(S).
 %%%%%%%%%% C7.2 %%%%%%%%%%
 sat_cond(S, R) :- { feature(F) : not c_satisfied(R, F, C), select(F) } = 0, rule(R), state_pair_class(C), cover(S, _, C), nongoal(S).
 
+% python3 learning/main.py --domain_filepath learning/benchmarks/gripper/domain.pddl --problems_directory learning/benchmarks/gripper/instances_debug --width 1 --workspace workspace --additional_numericals "n_count(r_primitive(carry,0,1))" "n_count(r_diff(r_primitive(at_g,0,1), r_primitive(at,0,1)))" --disable_feature_generation
+
 
 % Display
-#show unsolvable/1.
-#show sat_rule/2.
 #show rule/1.
 #show select/1.
 
